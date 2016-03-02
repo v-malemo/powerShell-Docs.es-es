@@ -5,6 +5,9 @@
   "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9": [
     "dsc\\authoringResource.md"
   ],
+  "09fdf376a7001ef6e43d4c4a6b8d14516b616fc5": [
+    "dsc\\authoringResourceClass.md"
+  ],
   "aab3ccc2a95b5e1b2e450f38e0f81ec1c4727c30": [
     "dsc\\authoringResourceClass.md"
   ],
@@ -85,6 +88,9 @@
   ],
   "056b0c86701cfd096c863560836dc129ecefc862": [
     "dsc\\lnxScriptResource.md"
+  ],
+  "c1bddeef2a61ad2b32e067bf643df077ec65053e": [
+    "dsc\\lnxServiceResource.md"
   ],
   "3d766f5b9e2bb9284e717d5a998b1a7c291221fc": [
     "dsc\\lnxServiceResource.md"
