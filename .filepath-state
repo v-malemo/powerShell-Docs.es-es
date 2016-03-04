@@ -137,6 +137,9 @@
   "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": [
     "dsc\\pullClientConfigNames.md"
   ],
+  "0ef3dedfc2ca50e9edf86f8bb8931d778c3005c4": [
+    "dsc\\pullServer.md"
+  ],
   "81a21499e1043cdd948f59dda3a727b1820d1542": [
     "dsc\\pullServer.md"
   ],
@@ -166,6 +169,9 @@
   ],
   "4bd9461f14203fada7693f3a134ee5894ce9515d": [
     "dsc\\TOC.md"
+  ],
+  "d571a7562bd23e3bca78127732dd4fccb88fee1c": [
+    "dsc\\troubleshooting.md"
   ],
   "2886767875ee6a9882ca050e34787cfa1fb64109": [
     "dsc\\troubleshooting.md"
