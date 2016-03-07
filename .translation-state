@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "9aee11690c9278e18265f954c6808eecbb1576b5",
+  "LastProcessedCommit": "00de1b65dd618983a544e41ec79cc263c48fa6ad",
   "LastTranslatedCommit": null,
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
@@ -396,7 +396,7 @@
     },
     "d3008e3fe7da4c118c693d2b34a0b329780f8d86": {
       "FileHash": "d3008e3fe7da4c118c693d2b34a0b329780f8d86",
-      "SourceFileCommit": "9aee11690c9278e18265f954c6808eecbb1576b5",
+      "SourceFileCommit": "00de1b65dd618983a544e41ec79cc263c48fa6ad",
       "SourceFilePath": "dsc\\images\\Push.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -406,8 +406,8 @@
         "dsc\\images\\Push.png"
       ],
       "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\d3008e3fe7da4c118c693d2b34a0b329780f8d86.png",
-      "HandoffFileCommit": "864d5fb00bcbb30cc23b4f35681dae13b4f1f807",
-      "HandoffDateTime": "2016-03-04T21:12:23.3277063Z",
+      "HandoffFileCommit": "dce9d185bd5730f7080e5f356073a14bf1a44ce1",
+      "HandoffDateTime": "2016-03-07T19:11:54.8815594Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -426,7 +426,7 @@
     },
     "86d829b1fcdd41e648ed0594eaf337b3726c143c": {
       "FileHash": "86d829b1fcdd41e648ed0594eaf337b3726c143c",
-      "SourceFileCommit": "9aee11690c9278e18265f954c6808eecbb1576b5",
+      "SourceFileCommit": "00de1b65dd618983a544e41ec79cc263c48fa6ad",
       "SourceFilePath": "dsc\\images\\Pull.png",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -436,8 +436,8 @@
         "dsc\\images\\Pull.png"
       ],
       "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\86d829b1fcdd41e648ed0594eaf337b3726c143c.png",
-      "HandoffFileCommit": "864d5fb00bcbb30cc23b4f35681dae13b4f1f807",
-      "HandoffDateTime": "2016-03-04T21:12:23.3277063Z",
+      "HandoffFileCommit": "dce9d185bd5730f7080e5f356073a14bf1a44ce1",
+      "HandoffDateTime": "2016-03-07T19:11:54.8815594Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -1072,7 +1072,7 @@
     },
     "3e61149f7b05f74d662d3038233013ffdcbed1a3": {
       "FileHash": "3e61149f7b05f74d662d3038233013ffdcbed1a3",
-      "SourceFileCommit": "9aee11690c9278e18265f954c6808eecbb1576b5",
+      "SourceFileCommit": "00de1b65dd618983a544e41ec79cc263c48fa6ad",
       "SourceFilePath": "dsc\\images\\PartialConfig1.jpg",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -1082,8 +1082,8 @@
         "dsc\\images\\PartialConfig1.jpg"
       ],
       "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\3e61149f7b05f74d662d3038233013ffdcbed1a3.jpg",
-      "HandoffFileCommit": "864d5fb00bcbb30cc23b4f35681dae13b4f1f807",
-      "HandoffDateTime": "2016-03-04T21:12:23.3277063Z",
+      "HandoffFileCommit": "dce9d185bd5730f7080e5f356073a14bf1a44ce1",
+      "HandoffDateTime": "2016-03-07T19:11:54.8815594Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
@@ -1102,7 +1102,7 @@
     },
     "1ba842005c2b1ce80a3670429b3e010c7b1c1f59": {
       "FileHash": "1ba842005c2b1ce80a3670429b3e010c7b1c1f59",
-      "SourceFileCommit": "9aee11690c9278e18265f954c6808eecbb1576b5",
+      "SourceFileCommit": "00de1b65dd618983a544e41ec79cc263c48fa6ad",
       "SourceFilePath": "dsc\\images\\PartialConfigPullServer.jpg",
       "HandoffReason": 2,
       "DependencyFrom": [
@@ -1112,8 +1112,8 @@
         "dsc\\images\\PartialConfigPullServer.jpg"
       ],
       "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\1ba842005c2b1ce80a3670429b3e010c7b1c1f59.jpg",
-      "HandoffFileCommit": "864d5fb00bcbb30cc23b4f35681dae13b4f1f807",
-      "HandoffDateTime": "2016-03-04T21:12:23.3277063Z",
+      "HandoffFileCommit": "dce9d185bd5730f7080e5f356073a14bf1a44ce1",
+      "HandoffDateTime": "2016-03-07T19:11:54.8815594Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
