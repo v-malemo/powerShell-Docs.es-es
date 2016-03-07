@@ -38,6 +38,9 @@
   "5740ae503616927c717ce17ce3d1ae146a88c411": [
     "dsc\\debugResource.md"
   ],
+  "03159221013064b2c1d77211c88bb8e1c9a9fcb1": [
+    "dsc\\decisionMaker.md"
+  ],
   "c5cd83a69d1f6a936976b5201daef0ec00f16399": [
     "dsc\\decisionMaker.md"
   ],
@@ -55,6 +58,9 @@
   ],
   "ce115dd79b0793718f8e79bb465f244b7cc725b1": [
     "dsc\\fileResource.md"
+  ],
+  "2faac24e90c7925eb22d7a5d95ef6f86831284f5": [
+    "dsc\\gettingStarted.md"
   ],
   "06f6ba62b807e09c724e575317bd2f75cadb9226": [
     "dsc\\gettingStarted.md"
@@ -167,6 +173,9 @@
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
   ],
+  "27331b4f0508ef9006203e82329e7c8065d619ad": [
+    "dsc\\TOC.md"
+  ],
   "4bd9461f14203fada7693f3a134ee5894ce9515d": [
     "dsc\\TOC.md"
   ],
@@ -184,5 +193,8 @@
   ],
   "47c387c525a58a88f18e61920736a6e0e7f2098d": [
     "dsc\\windowsProcessResource.md"
+  ],
+  "291df6b35ab58b5616aebbe412362ef8cc4c2279": [
+    "dsc\\resourceAuthoringChecklist.md"
   ]
 }
