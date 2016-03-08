@@ -196,5 +196,254 @@
   ],
   "291df6b35ab58b5616aebbe412362ef8cc4c2279": [
     "dsc\\resourceAuthoringChecklist.md"
+  ],
+  "2160a4b932075c98df6806c61d263d30f650b9f4": [
+    "wmf\\audit_cms.md"
+  ],
+  "94d24bd3b67d1eceb71af4ffe704f2e03bf0806c": [
+    "wmf\\audit_overview.md"
+  ],
+  "654c0d5e83b9832524298b5c96eae094f371330f": [
+    "wmf\\audit_script.md"
+  ],
+  "61364255f33378d71724705658d9924a7730b74e": [
+    "wmf\\audit_transcript.md"
+  ],
+  "6968ca2fb27c1f300b7b5e5730e358d81fc4c400": [
+    "wmf\\class_base.md"
+  ],
+  "a70d965afdb4edd71fa5dfd42d4c0f7ae7d65f29": [
+    "wmf\\class_baseconstructor.md"
+  ],
+  "09ff4761ecdcf1d4433c4f40701cb7af3be44c8f": [
+    "wmf\\class_basemethod.md"
+  ],
+  "31b64b6845c8d6ece8628bd565662525a65353d9": [
+    "wmf\\class_interface.md"
+  ],
+  "5728269b9c4e2f64fea941460ea24b8ec9f59c85": [
+    "wmf\\class_newtype.md"
+  ],
+  "3010b1ce497d8a5e45ada003587d9e104eddd8b1": [
+    "wmf\\class_overview.md"
+  ],
+  "0660867e6e7c7a93a8ca80d76f22db7fd86f8826": [
+    "wmf\\debug_overview.md"
+  ],
+  "b1cdc60338b2c130dad7d917c8fcec543aafe467": [
+    "wmf\\dsc_authoring.md"
+  ],
+  "af92e9b7eb75d6b25d2194b9c738b9d6ae2c157f": [
+    "wmf\\dsc_classbasedresource.md"
+  ],
+  "0c31a5571d8262c81e748f1a3368361ea4e9a700": [
+    "wmf\\dsc_confighelp.md"
+  ],
+  "545041b44bf696185fb0da364873779134622b8a": [
+    "wmf\\dsc_directaccess.md"
+  ],
+  "20dee3be52962c04f04666893eed4a5ea1c27d0a": [
+    "wmf\\dsc_encryptedmof.md"
+  ],
+  "9a44a53029d37d4165bbffbdcaa79d9be76e5fac": [
+    "wmf\\images\\MOF_Encryption.jpg"
+  ],
+  "34a0df793382c9bc882bcd94f8fdd1b426814fd4": [
+    "wmf\\dsc_freqnomultiple.md"
+  ],
+  "290c205d4e88b23974b126ea8157442e6cbf740f": [
+    "wmf\\dsc_getconfigurationstatus.md"
+  ],
+  "1061cbea8e00cb3417e72977cde32e077235a477": [
+    "wmf\\dsc_identicalduplicate.md"
+  ],
+  "cde72b65d75ded4968090264dd536874b4d2ac70": [
+    "wmf\\dsc_importdscresource.md"
+  ],
+  "e6ed57c70f1b1380eb67c6998a1c9c67f3f246fc": [
+    "wmf\\images\\Import-DscResource-Modversion.jpg"
+  ],
+  "336c6bc43b482eda6524ebed0381240868261f64": [
+    "wmf\\dsc_improvements.md"
+  ],
+  "648c2106d29749858161b78fb879c514078705d1": [
+    "wmf\\dsc_lcmstate.md"
+  ],
+  "5e3adc41e37f7089d8393789464c4b1b70da7148": [
+    "wmf\\dsc_metaconfiguration.md"
+  ],
+  "c4f0e89e9c3ca1191413d4ccebf1e4109f9e8bb3": [
+    "wmf\\dsc_mixedrefreshmode.md"
+  ],
+  "34c29d88f0676e51c1b8af9d9e65b151eb8a4272": [
+    "wmf\\dsc_newresources.md"
+  ],
+  "517c1d3654cd87b2356abadabf474c76580767f4": [
+    "wmf\\dsc_nodeid.md"
+  ],
+  "c0a49b1266b01f7333cee2b39349f220c924d16d": [
+    "wmf\\dsc_partialconfig.md"
+  ],
+  "90da8345a6741a152aeb87fb3ce4706af8b5ec75": [
+    "wmf\\dsc_partialconfig_mixedmode.md"
+  ],
+  "3a7709855bdf46120e2f2115ac1635dc58c905a7": [
+    "wmf\\dsc_publishconfig.md"
+  ],
+  "5bf341e02933b3c6cb49d6dac20ded189f0d889c": [
+    "wmf\\dsc_refreshmode.md"
+  ],
+  "02a9740760bba423c617993ddcb15a2260b576db": [
+    "wmf\\dsc_removeconfigdoc.md"
+  ],
+  "3f286a0cdcff33aa396c745a661d52d07f25817d": [
+    "wmf\\dsc_reporting.md"
+  ],
+  "85b3c01a3bd6830be929734084abad14f0d3c971": [
+    "wmf\\dsc_repository.md"
+  ],
+  "68949a10a4e8b6cac5a2d596567e7c0e680db8a2": [
+    "wmf\\dsc_resourcedebugging.md"
+  ],
+  "ba1897f38317f5fe38f2d8caf0efcc57bc8bb19d": [
+    "wmf\\images\\DscResourceDebugging.jpg"
+  ],
+  "d4919d80c1b1f8509b4e581768dd6f74e9d01f0d": [
+    "wmf\\dsc_runas.md"
+  ],
+  "6ab763e1969aa55b7f85b51b7115d065830c5458": [
+    "wmf\\dsc_setdsclcm.md"
+  ],
+  "98a8a8f27661042bef27d0edceccf9a67c9153d1": [
+    "wmf\\dsc_statestatus.md"
+  ],
+  "a7c6fb818477522ebd7be025f154c1b2eea0e518": [
+    "wmf\\dsc_sxsresource.md"
+  ],
+  "71dcfe5d8a56f707ee9a05cdb07d2fda4bbcd573": [
+    "wmf\\dsc_testconfiguration.md"
+  ],
+  "64101be0217053e685f39cd6aebf4447df700c7f": [
+    "wmf\\dsc_updateconfig.md"
+  ],
+  "d24d5d5b83c758103c685a1ed010988a08eae035": [
+    "wmf\\dsc_waitfor.md"
+  ],
+  "59206d28411ca6d4591cff5b3f158f4f5b78cc6a": [
+    "wmf\\dsc_wow64.md"
+  ],
+  "40b022f369f09df35a4e8b1e675d75410b69dde9": [
+    "wmf\\feedback.md"
+  ],
+  "e2d8147c6a85b59f5289f64e068c56593acc0cfc": [
+    "wmf\\feedback_archive.md"
+  ],
+  "7cb6326481113a0f526ce8f19551ee31a2fade62": [
+    "wmf\\feedback_clipboard.md"
+  ],
+  "2e8c46c95663135229a189f4d9c07da362aec299": [
+    "wmf\\feedback_cmdlets.md"
+  ],
+  "09741289743ef276e3e94753dcce136193304c65": [
+    "wmf\\feedback_convertfromString.md"
+  ],
+  "71e9f46958b59abce912278677217cd632629439": [
+    "wmf\\feedback_convertstring.md"
+  ],
+  "ca8e183188cfb3e5dcbc6fc1bec884ebde00942c": [
+    "wmf\\feedback_fileinfo.md"
+  ],
+  "81803dcb8d5f0fac392cf13883b9240da3321f53": [
+    "wmf\\feedback_formathex.md"
+  ],
+  "c3f3f9a8b16731dd1483eb65386ba0422b04370c": [
+    "wmf\\feedback_getchilditem.md"
+  ],
+  "f2f968b1cd304009b3b29cdc793b61461e605812": [
+    "wmf\\feedback_moduleversionranges.md"
+  ],
+  "5de946e13169ba772ae445fe9d0b73d213fff397": [
+    "wmf\\feedback_newguid.md"
+  ],
+  "24969d20cd4500db4e8dc27c16cac84c0f3dc696": [
+    "wmf\\feedback_nonewline.md"
+  ],
+  "fcafa99f4a7b9cefcb98a7e159a5adf03e7ac17f": [
+    "wmf\\feedback_symbolic.md"
+  ],
+  "2741204c16027d7e8e8f785b90b9cc301880a262": [
+    "wmf\\feedback_tempfile.md"
+  ],
+  "20254315c2503d46e6160593fb822391c5db2dd4": [
+    "wmf\\informationstream_overview.md"
+  ],
+  "91d23a0045c6d7a1200caae6df64368dd8f3ecee": [
+    "wmf\\install.md"
+  ],
+  "061fb3a39191f7aaf3f5e51b12f56cac84031f49": [
+    "wmf\\jea_endpoint.md"
+  ],
+  "811596d4ad7994a12987ff172e626eac534bdf4d": [
+    "wmf\\jea_overview.md"
+  ],
+  "a91b675a4f19306481bb87dc3f3b8cb32ab07e8c": [
+    "wmf\\jea_report.md"
+  ],
+  "c87ec977d6b2cc74aae51a81ae1f9b790157ded9": [
+    "wmf\\limitation_dsc.md"
+  ],
+  "5452d087bf0f56c02679a22599b6016348cbaa47": [
+    "wmf\\limitation_overview.md"
+  ],
+  "9a9e69d384ffd92e0c26904a176f9954c5815f9a": [
+    "wmf\\networkswitch_overview.md"
+  ],
+  "8849fb46853f12318dd34781d07085419737d196": [
+    "wmf\\odata_overview.md"
+  ],
+  "75b6354fb83002602ec3d6276246cfa00ce0746a": [
+    "wmf\\oneget_cmdlets.md"
+  ],
+  "967366156ab58d16b085a97f9a08169d3bff75c2": [
+    "wmf\\oneget_overview.md"
+  ],
+  "3762cb6b3bb61282d87b271b63e33f817bbe39fa": [
+    "wmf\\productincompat.md"
+  ],
+  "4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed": [
+    "wmf\\psget_module_overview.md"
+  ],
+  "809547e4b84077de47f8e9cb8d252b37a26a35e2": [
+    "wmf\\psget_modulecmdlets.md"
+  ],
+  "f723a03aa04ea613f28d31c019b0c4d7e8af7f00": [
+    "wmf\\psget_moduledependency.md"
+  ],
+  "644781a07bed2df5464d8090155522ae7477a11e": [
+    "wmf\\psget_modulesxsinstall.md"
+  ],
+  "972f011c3c9f98b54fb5cc270281cd146eb9ac71": [
+    "wmf\\psget_psrepository.md"
+  ],
+  "0569c3ce579db17c228c3410ca6db8a668919b19": [
+    "wmf\\psget_script_overview.md"
+  ],
+  "91a4ed1e8912f77e274d64db7873ad56edbbd17b": [
+    "wmf\\psget_scriptcmdlets.md"
+  ],
+  "37ba02e8b09b56312fbcf8b031b9ef49a53e5436": [
+    "wmf\\releasenotes.md"
+  ],
+  "5645dfa6c1baace3dcaf5655b6aaf52edad7ddf6": [
+    "wmf\\requirements.md"
+  ],
+  "edc1a0383cebfbe89b18b0238a13bb28e4d25c5a": [
+    "wmf\\sil_overview.md"
+  ],
+  "0f19eb6a3f578dbf25c6208823cd4c5fae290542": [
+    "wmf\\TOC.md"
+  ],
+  "f97722883acccd0addb49cc473fc1cce5300c184": [
+    "wmf\\uninstall.md"
   ]
 }
