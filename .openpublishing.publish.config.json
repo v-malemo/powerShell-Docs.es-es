@@ -22,6 +22,6 @@
             }
         }
     ],
-    "notification_subscribers": ["alsobole@microsoft.com"]
+    "notification_subscribers": ["alsobole@microsoft.com"],
     "branches_to_filter": ["master-oldev", "live-oldev"]
 }
