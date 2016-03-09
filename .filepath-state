@@ -83,6 +83,9 @@
   "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a": [
     "dsc\\lnxFileResource.md"
   ],
+  "29971a21ce4c9a894b4cdc11149264dc83e51d15": [
+    "dsc\\lnxGettingStarted.md"
+  ],
   "80f9982f3c02f488d4ad0bba9a4eec8d266a4203": [
     "dsc\\lnxGettingStarted.md"
   ],
@@ -137,6 +140,9 @@
   "54bb78b313c4f0c721862910496c5154ed5444ef": [
     "dsc\\pullClientConfigID.md"
   ],
+  "d0beb3d04da2488302a56f714d8d8a5b9e5ac6f9": [
+    "dsc\\pullClientConfigID4.md"
+  ],
   "3714670bd9ded38e54c1f2e3f64658950c6d3f40": [
     "dsc\\pullClientConfigID4.md"
   ],
@@ -173,6 +179,9 @@
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
   ],
+  "01e28aa359257770548224cef97ec8375c5a1461": [
+    "dsc\\TOC.md"
+  ],
   "27331b4f0508ef9006203e82329e7c8065d619ad": [
     "dsc\\TOC.md"
   ],
@@ -193,6 +202,9 @@
   ],
   "47c387c525a58a88f18e61920736a6e0e7f2098d": [
     "dsc\\windowsProcessResource.md"
+  ],
+  "c21a8247aac04887b4454122eb9b42476b40a543": [
+    "dsc\\resourceAuthoringChecklist.md"
   ],
   "291df6b35ab58b5616aebbe412362ef8cc4c2279": [
     "dsc\\resourceAuthoringChecklist.md"
@@ -445,5 +457,8 @@
   ],
   "f97722883acccd0addb49cc473fc1cce5300c184": [
     "wmf\\uninstall.md"
+  ],
+  "f1dfcb2e422869686b457b9c080d3165031fafcd": [
+    "dsc\\pullServerSMB.md"
   ]
 }
