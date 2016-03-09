@@ -1,0 +1,27 @@
+{
+    "build_entry_point": "",
+    "docsets_to_publish": [
+        {
+            "docset_name": "PowerShell_PowerShell-docs_dsc",
+            "build_output_subfolder": "dsc",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": { 
+                "Conceptual": "Content"
+            } 
+        },
+        {
+            "docset_name": "PowerShell_PowerShell-docs_wmf",
+            "build_output_subfolder": "wmf",
+            "locale": "en-us",
+            "version": 0,
+            "open_to_public_contributors": "false",
+            "type_mapping": {
+                "Conceptual": "Content"
+            }
+        }
+    ],
+    "notification_subscribers": ["alsobole@microsoft.com"]
+    "branches_to_filter": ["master-oldev", "live-oldev"]
+}
