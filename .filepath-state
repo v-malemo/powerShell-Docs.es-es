@@ -35,6 +35,9 @@
   "625d4c0a9b1d0b6f23dcf1b07dd3f567699f7cd9": [
     "dsc\\configurations.md"
   ],
+  "0959c2576a82b63e814b73a95a085e5512c0726f": [
+    "dsc\\debugResource.md"
+  ],
   "5740ae503616927c717ce17ce3d1ae146a88c411": [
     "dsc\\debugResource.md"
   ],
@@ -173,6 +176,9 @@
   "b081337b68091f95498d23fecbc64701866b2cec": [
     "dsc\\scriptResource.md"
   ],
+  "eee564201a4bd5943c9101a394993b2b1ee0948a": [
+    "dsc\\secureMOF.md"
+  ],
   "14cf6c2005eb756200e7fd065b61e4120d84c02e": [
     "dsc\\secureMOF.md"
   ],
@@ -181,6 +187,9 @@
   ],
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
+  ],
+  "d5e4fab6455346dc3bcebe3d0aef628ee37f3a56": [
+    "dsc\\TOC.md"
   ],
   "01e28aa359257770548224cef97ec8375c5a1461": [
     "dsc\\TOC.md"
@@ -463,5 +472,8 @@
   ],
   "f1dfcb2e422869686b457b9c080d3165031fafcd": [
     "dsc\\pullServerSMB.md"
+  ],
+  "53ace617daf20d1375838e7021771af0e8b29193": [
+    "dsc\\runAsUser.md"
   ]
 }
