@@ -155,6 +155,9 @@
   "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": [
     "dsc\\pullClientConfigNames.md"
   ],
+  "51a5cd22cc00e59db2acc910dcfbd6e56fe55d95": [
+    "dsc\\pullServer.md"
+  ],
   "0ef3dedfc2ca50e9edf86f8bb8931d778c3005c4": [
     "dsc\\pullServer.md"
   ],
@@ -298,9 +301,6 @@
   ],
   "5e3adc41e37f7089d8393789464c4b1b70da7148": [
     "wmf\\dsc_metaconfiguration.md"
-  ],
-  "c4f0e89e9c3ca1191413d4ccebf1e4109f9e8bb3": [
-    "wmf\\dsc_mixedrefreshmode.md"
   ],
   "34c29d88f0676e51c1b8af9d9e65b151eb8a4272": [
     "wmf\\dsc_newresources.md"
@@ -466,6 +466,9 @@
   ],
   "edc1a0383cebfbe89b18b0238a13bb28e4d25c5a": [
     "wmf\\sil_overview.md"
+  ],
+  "ab0af09d1888be43952868d9a8f16902fa28c1e1": [
+    "wmf\\TOC.md"
   ],
   "0f19eb6a3f578dbf25c6208823cd4c5fae290542": [
     "wmf\\TOC.md"
