@@ -23,6 +23,9 @@
   "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9": [
     "dsc\\authoringResourceMofDesigner.md"
   ],
+  "042a29099cc4abd044b3e9fb4f3281d80f5b8b02": [
+    "dsc\\builtInResource.md"
+  ],
   "e3243caa7ec8682a4010e25a4ae0b2359c2d7866": [
     "dsc\\builtInResource.md"
   ],
@@ -152,8 +155,14 @@
   "3714670bd9ded38e54c1f2e3f64658950c6d3f40": [
     "dsc\\pullClientConfigID4.md"
   ],
+  "95b94afd8267d2b0db6b37c5858b848b202dc472": [
+    "dsc\\pullClientConfigNames.md"
+  ],
   "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": [
     "dsc\\pullClientConfigNames.md"
+  ],
+  "e5527efe7581726bdd80ca3e47b04227c0d78082": [
+    "dsc\\pullServer.md"
   ],
   "7ef25cdbad291b10234fe2fd2755c3e1d5858a86": [
     "dsc\\pullServer.md"
@@ -196,6 +205,9 @@
   ],
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
+  ],
+  "3dc3c9067740310415daef415dc0b44310aeb473": [
+    "dsc\\TOC.md"
   ],
   "d5e4fab6455346dc3bcebe3d0aef628ee37f3a56": [
     "dsc\\TOC.md"
@@ -355,6 +367,9 @@
   ],
   "64101be0217053e685f39cd6aebf4447df700c7f": [
     "wmf\\dsc_updateconfig.md"
+  ],
+  "24a680a5f41f6b6cb150226f347e90a2c5eafb25": [
+    "wmf\\dsc_waitfor.md"
   ],
   "d24d5d5b83c758103c685a1ed010988a08eae035": [
     "wmf\\dsc_waitfor.md"
