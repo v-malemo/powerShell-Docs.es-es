@@ -4,7 +4,7 @@
         {
             "docset_name": "PowerShell_PowerShell-docs_dsc",
             "build_output_subfolder": "dsc",
-            "locale": "en-us",
+            "locale": "es-es",
             "version": 0,
             "open_to_public_contributors": "false",
             "type_mapping": { 
@@ -14,7 +14,7 @@
         {
             "docset_name": "PowerShell_PowerShell-docs_wmf",
             "build_output_subfolder": "wmf",
-            "locale": "en-us",
+            "locale": "es-es",
             "version": 0,
             "open_to_public_contributors": "false",
             "type_mapping": {
