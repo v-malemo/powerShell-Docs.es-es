@@ -74,6 +74,9 @@
   "2e0a09a025bcee8fc97e417b21a51773904a0d2e": [
     "dsc\\lnxArchiveResource.md"
   ],
+  "ba98768c88f78fec890f115053d8f4a343e8417a": [
+    "dsc\\lnxBuiltInResources.md"
+  ],
   "e4d20bc0f083c463514e2044ce86679041263075": [
     "dsc\\lnxBuiltInResources.md"
   ],
@@ -137,8 +140,14 @@
   "1ba842005c2b1ce80a3670429b3e010c7b1c1f59": [
     "dsc\\images\\PartialConfigPullServer.jpg"
   ],
+  "43046f30990060dc287bbef5571e099a538c2e1f": [
+    "dsc\\pullClient.md"
+  ],
   "4cb0a0836e56ca31f9e101be81e1427493cbbcd5": [
     "dsc\\pullClient.md"
+  ],
+  "c113ad890c30be1c801fca78ec6781b2fd8e6ef8": [
+    "dsc\\pullClientConfigID.md"
   ],
   "54bb78b313c4f0c721862910496c5154ed5444ef": [
     "dsc\\pullClientConfigID.md"
@@ -148,6 +157,9 @@
   ],
   "3714670bd9ded38e54c1f2e3f64658950c6d3f40": [
     "dsc\\pullClientConfigID4.md"
+  ],
+  "f19b27aa466532d9cf5c660552eccca808139b3f": [
+    "dsc\\pullClientConfigNames.md"
   ],
   "95b94afd8267d2b0db6b37c5858b848b202dc472": [
     "dsc\\pullClientConfigNames.md"
@@ -175,6 +187,9 @@
   ],
   "44f3bb3bec83fd779c83d0326d55c88ead77cfba": [
     "dsc\\registryResource.md"
+  ],
+  "40b91da10381a075d5a91d98496061d7ce268a6e": [
+    "dsc\\reportServer.md"
   ],
   "6753e6cbb4745a5da02aa68190d815383b552e12": [
     "dsc\\reportServer.md"
