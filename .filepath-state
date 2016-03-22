@@ -119,6 +119,9 @@
   "0f4922e1df8725aad839211dbe0dfc532692f606": [
     "dsc\\logResource.md"
   ],
+  "22147ef6b4045c44d80dc1025ac989e02763a698": [
+    "dsc\\metaConfig.md"
+  ],
   "5131f7b51bde9c714fe249e14addaea8b05b80b3": [
     "dsc\\metaConfig.md"
   ],
@@ -187,6 +190,9 @@
   ],
   "44f3bb3bec83fd779c83d0326d55c88ead77cfba": [
     "dsc\\registryResource.md"
+  ],
+  "40b0aa8dee0fb9578649c0ec92a5a2cb027a137d": [
+    "dsc\\reportServer.md"
   ],
   "40b91da10381a075d5a91d98496061d7ce268a6e": [
     "dsc\\reportServer.md"
