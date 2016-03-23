@@ -127,7 +127,7 @@
  [dsc\pullClientConfigNames.md](https://github.com/PowerShell/powerShell-Docs/blob/c8f752e337737d80ccade9a50ef24973c788e03f/dsc/pullClientConfigNames.md) | OutofSyncHandedBackSuccess | [Details](#f19b27aa466532d9cf5c660552eccca808139b3f50)
  [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/21ac951a63b01a4181edb84ec80a683ea7da9478/dsc/pullServer.md) | OutofSyncHandedBackSuccess | [Details](#3a0ad4ab86a570279e8ebdec35edb9dafc69e9bf51)
  [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs/blob/4079eca1deaf33162bf90c13bcfeb2255ec26d01/dsc/reportServer.md) | OutofSyncHandedBackSuccess | [Details](#40b0aa8dee0fb9578649c0ec92a5a2cb027a137d55)
- [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/97cfb44dc3db0937a0eaae5af5113210f988aa56/dsc/secureMOF.md) | OutofSyncHandedBackSuccess | [Details](#55174e36ce3a481f953978604ce4f06d2a5eefd260)
+ [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/dsc/secureMOF.md) | OutofSyncHandedBackSuccess | [Details](#c3b61e7f85bc59833548873a73b6ce9559dcea3a60)
  [dsc\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/414c88e7b4157b9d3eeca34bf49389771312b0fa/dsc/TOC.md) | OutofSyncHandedBackSuccess | [Details](#3dc3c9067740310415daef415dc0b44310aeb47363)
  [dsc\troubleshooting.md](https://github.com/PowerShell/powerShell-Docs/blob/9aee11690c9278e18265f954c6808eecbb1576b5/dsc/troubleshooting.md) | OutofSyncHandedBackSuccess | [Details](#d571a7562bd23e3bca78127732dd4fccb88fee1c64)
 
@@ -180,17 +180,17 @@
 ## <a name='ignored-list'></a> Ignored File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [.gitignore](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/.gitignore) | Ignored | [Details](#add3bd122b0062bf95e7120598c48e5583a4547f0)
- [.localization-config](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/.localization-config) | Ignored | [Details](#220f1471203e5601aa386a75372e37b54893ecd11)
- [.openpublishing.build.ps1](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/.openpublishing.build.ps1) | Ignored | [Details](#21cd29cbfb24b46f4feb52e76e167967ec26b21b2)
- [.openpublishing.publish.config.json](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/.openpublishing.publish.config.json) | Ignored | [Details](#30e4512a2a362a497b57e3601e31a342df241b443)
- [CONTRIBUTING.md](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/CONTRIBUTING.md) | Ignored | [Details](#43d4c85c00614f9dfff4e9523a10d73e950f82194)
- [dsc\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/dsc/docfx.json) | Ignored | [Details](#c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1218)
- [README.md](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/README.md) | Ignored | [Details](#0c4c2da3f5e6d8e3c6190dc78b4c4f8a9a045f1768)
- [wmf\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/wmf/docfx.json) | Ignored | [Details](#90e6537c69b63c19d38e53440bb0982e0160013480)
+ [.gitignore](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/.gitignore) | Ignored | [Details](#add3bd122b0062bf95e7120598c48e5583a4547f0)
+ [.localization-config](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/.localization-config) | Ignored | [Details](#220f1471203e5601aa386a75372e37b54893ecd11)
+ [.openpublishing.build.ps1](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/.openpublishing.build.ps1) | Ignored | [Details](#21cd29cbfb24b46f4feb52e76e167967ec26b21b2)
+ [.openpublishing.publish.config.json](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/.openpublishing.publish.config.json) | Ignored | [Details](#30e4512a2a362a497b57e3601e31a342df241b443)
+ [CONTRIBUTING.md](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/CONTRIBUTING.md) | Ignored | [Details](#43d4c85c00614f9dfff4e9523a10d73e950f82194)
+ [dsc\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/dsc/docfx.json) | Ignored | [Details](#c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1218)
+ [README.md](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/README.md) | Ignored | [Details](#0c4c2da3f5e6d8e3c6190dc78b4c4f8a9a045f1768)
+ [wmf\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/wmf/docfx.json) | Ignored | [Details](#90e6537c69b63c19d38e53440bb0982e0160013480)
 
 ## Item Details
-##### <a name='add3bd122b0062bf95e7120598c48e5583a4547f0'></a> Source: [.gitignore](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/.gitignore)
+##### <a name='add3bd122b0062bf95e7120598c48e5583a4547f0'></a> Source: [.gitignore](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/.gitignore)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -202,7 +202,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='220f1471203e5601aa386a75372e37b54893ecd11'></a> Source: [.localization-config](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/.localization-config)
+##### <a name='220f1471203e5601aa386a75372e37b54893ecd11'></a> Source: [.localization-config](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/.localization-config)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -214,7 +214,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='21cd29cbfb24b46f4feb52e76e167967ec26b21b2'></a> Source: [.openpublishing.build.ps1](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/.openpublishing.build.ps1)
+##### <a name='21cd29cbfb24b46f4feb52e76e167967ec26b21b2'></a> Source: [.openpublishing.build.ps1](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/.openpublishing.build.ps1)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -226,7 +226,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='30e4512a2a362a497b57e3601e31a342df241b443'></a> Source: [.openpublishing.publish.config.json](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/.openpublishing.publish.config.json)
+##### <a name='30e4512a2a362a497b57e3601e31a342df241b443'></a> Source: [.openpublishing.publish.config.json](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/.openpublishing.publish.config.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -238,7 +238,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='43d4c85c00614f9dfff4e9523a10d73e950f82194'></a> Source: [CONTRIBUTING.md](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/CONTRIBUTING.md)
+##### <a name='43d4c85c00614f9dfff4e9523a10d73e950f82194'></a> Source: [CONTRIBUTING.md](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/CONTRIBUTING.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -415,7 +415,7 @@
 * Current Handback Datetime: 2016-03-22 17:36:49
 * [Back to Top](#report-top)
 
-##### <a name='c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1218'></a> Source: [dsc\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/dsc/docfx.json)
+##### <a name='c0e59ca822ca5bcf841e3a5a8f2f775cc5f8fc1218'></a> Source: [dsc\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/dsc/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -954,11 +954,11 @@
 * Handback Datetime: 2016-03-22 17:36:49
 * [Back to Top](#report-top)
 
-##### <a name='55174e36ce3a481f953978604ce4f06d2a5eefd260'></a> Source: [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/97cfb44dc3db0937a0eaae5af5113210f988aa56/dsc/secureMOF.md)
+##### <a name='c3b61e7f85bc59833548873a73b6ce9559dcea3a60'></a> Source: [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/dsc/secureMOF.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/42475778a781e7309e9dc2888fd497a677b84761/ol-handoff/PowerShell/powerShell-Docs.es-es/live/secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf)
-* Handoff Datetime: 2016-03-11 01:03:45
+* Handoff File: [secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/2ad493453078ccc059c204a0a8f0c3168b91a414/ol-handoff/PowerShell/powerShell-Docs.es-es/live/secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf)
+* Handoff Datetime: 2016-03-23 22:39:14
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
@@ -1059,7 +1059,7 @@
 * Handback Datetime: 2016-03-22 17:36:49
 * [Back to Top](#report-top)
 
-##### <a name='0c4c2da3f5e6d8e3c6190dc78b4c4f8a9a045f1768'></a> Source: [README.md](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/README.md)
+##### <a name='0c4c2da3f5e6d8e3c6190dc78b4c4f8a9a045f1768'></a> Source: [README.md](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/README.md)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
@@ -1203,7 +1203,7 @@
 * Handback Datetime: 0001-01-01 00:00:00
 * [Back to Top](#report-top)
 
-##### <a name='90e6537c69b63c19d38e53440bb0982e0160013480'></a> Source: [wmf\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/wmf/docfx.json)
+##### <a name='90e6537c69b63c19d38e53440bb0982e0160013480'></a> Source: [wmf\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/11c8cb288104c51ccaf04665a603c1905ab14a62/wmf/docfx.json)
 * Status: Ignored
 * Target File: 
 * Handoff File: 
