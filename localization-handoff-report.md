@@ -6,22 +6,19 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/21ac951a63b01a4181edb84ec80a683ea7da9478/dsc/pullServer.md) | OutofSyncHandedBackSuccess | [Details](#3a0ad4ab86a570279e8ebdec35edb9dafc69e9bf51)
+ [wmf\requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/wmf/requirements.md) | HandedOffSuccess | [Details](#02ce3d08b01e58d6d9506f90142f92cc16304e64148)
 
 ## Item Details
-##### <a name='3a0ad4ab86a570279e8ebdec35edb9dafc69e9bf51'></a> Source: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/21ac951a63b01a4181edb84ec80a683ea7da9478/dsc/pullServer.md)
-* Status: OutofSyncHandedBackSuccess
+##### <a name='02ce3d08b01e58d6d9506f90142f92cc16304e64148'></a> Source: [wmf\requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/02b9b25c505adbf49630145bc0543d6436edae0b/wmf/requirements.md)
+* Status: HandedOffSuccess
 * Target File: 
-* Handoff File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/9dd48e67ef692594bcb9917cd80e96be35201214/ol-handoff/PowerShell/powerShell-Docs.es-es/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf)
-* Handoff Datetime: 2016-03-22 23:54:07
+* Handoff File: [requirements.ef8332f358d65b1759bfd4c7336b11d1dc8c2d46.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/47ef89b67df9743778791c9cf5bb182875ccee59/ol-handoff/PowerShell/powerShell-Docs.es-es/live/requirements.ef8332f358d65b1759bfd4c7336b11d1dc8c2d46.es-es.xlf)
+* Handoff Datetime: 2016-03-23 21:11:37
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/254c489df5d24e4a08b18f6b118672e36a588ad1/dsc/pullServer.md)
-* Current Handback File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9c6fb0225c4efc9068c8053b2098e96cd53b213f/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf)
-* Current Handback Datetime: 2016-03-22 17:36:49
 * [Back to Top](#report-top)
 
 
