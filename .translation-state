@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "14457b676a0b23ba38d404a34d16b14473a5f2fe",
-  "LastTranslatedCommit": "379c8db265e227b1933d52e44bab965e519d87d8",
+  "LastTranslatedCommit": "fd67af7c03c5c687fbe04077cb23d34434c7c450",
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
       "FileHash": "81efeb79a70df604ef8c126c0ebd17b4f4711a44",
@@ -4150,14 +4150,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": null,
-      "TargetFilePath": null,
-      "HandbackFilePath": null,
-      "HandbackFileCommit": null,
-      "HandbackDateTime": "0001-01-01T00:00:00",
+      "TargetFileCommit": "fd67af7c03c5c687fbe04077cb23d34434c7c450",
+      "TargetFilePath": "wmf\\psget_script_overview.md",
+      "HandbackFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\psget_script_overview.f035cc99497d17dc73e3a61f214e40a5860fc70a.es-es.xlf",
+      "HandbackFileCommit": "4c96500f0fb2fd972032bbe826b7c925127fbfce",
+      "HandbackDateTime": "2016-03-24T20:12:28.8882028Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "UpdatedDateTime": "2016-03-24T20:12:28.8882028Z",
       "ArchiveFilePath": null,
       "ArchiveFileCommit": null,
       "ArchiveFileDateTime": "0001-01-01T00:00:00",
