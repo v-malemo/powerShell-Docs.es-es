@@ -276,14 +276,14 @@
 
 ##### <a name='09fdf376a7001ef6e43d4c4a6b8d14516b616fc57'></a> Source: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs/blob/82b2241b09d4c85cdcf124163e302264bef90085/dsc/authoringResourceClass.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/254c489df5d24e4a08b18f6b118672e36a588ad1/dsc/authoringResourceClass.md)
+* Target File: [dsc\authoringResourceClass.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/c0f8bf2f26a4e94bc7ff11a590517c8f9a0289b9/dsc/authoringResourceClass.md)
 * Handoff File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/7ce56184c7c09e02fb500ee894adb2c310d773b9/ol-handoff/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
 * Handoff Datetime: 2016-03-02 17:43:56
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9c6fb0225c4efc9068c8053b2098e96cd53b213f/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
-* Handback Datetime: 2016-03-22 17:36:49
+* Handback File: [authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4215a633dad6869d0e8c64d2d4befab5ec1646/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceClass.3603134df9ad1cad202d10769ff631a083cc3aae.es-es.xlf)
+* Handback Datetime: 2016-03-24 20:14:11
 * [Back to Top](#report-top)
 
 ##### <a name='4af3a1c0d7491552cfa1d22daa6718803e7626988'></a> Source: [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/authoringResourceComposite.md)
@@ -734,14 +734,14 @@
 
 ##### <a name='ef2664b6dd61bd55898971adf7e4a57f92be88cc43'></a> Source: [dsc\metaConfig4.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/metaConfig4.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\metaConfig4.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/254c489df5d24e4a08b18f6b118672e36a588ad1/dsc/metaConfig4.md)
+* Target File: [dsc\metaConfig4.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/c0f8bf2f26a4e94bc7ff11a590517c8f9a0289b9/dsc/metaConfig4.md)
 * Handoff File: [metaConfig4.4ec702d458e6574099cead724f0e57c3c5d262df.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/fca1de9812f324195ebf3e1523196cbeb6364b1e/ol-handoff/PowerShell/powerShell-Docs.es-es/live/metaConfig4.4ec702d458e6574099cead724f0e57c3c5d262df.es-es.xlf)
 * Handoff Datetime: 2016-02-23 03:02:55
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [metaConfig4.4ec702d458e6574099cead724f0e57c3c5d262df.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9c6fb0225c4efc9068c8053b2098e96cd53b213f/ol-handback/PowerShell/powerShell-Docs.es-es/live/metaConfig4.4ec702d458e6574099cead724f0e57c3c5d262df.es-es.xlf)
-* Handback Datetime: 2016-03-22 17:36:49
+* Handback File: [metaConfig4.4ec702d458e6574099cead724f0e57c3c5d262df.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4215a633dad6869d0e8c64d2d4befab5ec1646/ol-handback/PowerShell/powerShell-Docs.es-es/live/metaConfig4.4ec702d458e6574099cead724f0e57c3c5d262df.es-es.xlf)
+* Handback Datetime: 2016-03-24 20:14:11
 * [Back to Top](#report-top)
 
 ##### <a name='7f5f99f0f0befde13272221e376006dffbddb99444'></a> Source: [dsc\overview.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/overview.md)
@@ -820,9 +820,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\pullClientConfigID4.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/254c489df5d24e4a08b18f6b118672e36a588ad1/dsc/pullClientConfigID4.md)
-* Current Handback File: [pullClientConfigID4.3556f8028eee8a539990f2895506bcbafb14a012.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9c6fb0225c4efc9068c8053b2098e96cd53b213f/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullClientConfigID4.3556f8028eee8a539990f2895506bcbafb14a012.es-es.xlf)
-* Current Handback Datetime: 2016-03-22 17:36:49
+* Current Target File: [dsc\pullClientConfigID4.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/c0f8bf2f26a4e94bc7ff11a590517c8f9a0289b9/dsc/pullClientConfigID4.md)
+* Current Handback File: [pullClientConfigID4.3556f8028eee8a539990f2895506bcbafb14a012.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4215a633dad6869d0e8c64d2d4befab5ec1646/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullClientConfigID4.3556f8028eee8a539990f2895506bcbafb14a012.es-es.xlf)
+* Current Handback Datetime: 2016-03-24 20:14:11
 * [Back to Top](#report-top)
 
 ##### <a name='f19b27aa466532d9cf5c660552eccca808139b3f50'></a> Source: [dsc\pullClientConfigNames.md](https://github.com/PowerShell/powerShell-Docs/blob/c8f752e337737d80ccade9a50ef24973c788e03f/dsc/pullClientConfigNames.md)
@@ -881,14 +881,14 @@
 
 ##### <a name='44f3bb3bec83fd779c83d0326d55c88ead77cfba54'></a> Source: [dsc\registryResource.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/registryResource.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\registryResource.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/254c489df5d24e4a08b18f6b118672e36a588ad1/dsc/registryResource.md)
+* Target File: [dsc\registryResource.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/c0f8bf2f26a4e94bc7ff11a590517c8f9a0289b9/dsc/registryResource.md)
 * Handoff File: [registryResource.7e5e3fabff013c107bd112ac774a50c9cab7c90a.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/fca1de9812f324195ebf3e1523196cbeb6364b1e/ol-handoff/PowerShell/powerShell-Docs.es-es/live/registryResource.7e5e3fabff013c107bd112ac774a50c9cab7c90a.es-es.xlf)
 * Handoff Datetime: 2016-02-23 03:02:55
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [registryResource.7e5e3fabff013c107bd112ac774a50c9cab7c90a.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9c6fb0225c4efc9068c8053b2098e96cd53b213f/ol-handback/PowerShell/powerShell-Docs.es-es/live/registryResource.7e5e3fabff013c107bd112ac774a50c9cab7c90a.es-es.xlf)
-* Handback Datetime: 2016-03-22 17:36:49
+* Handback File: [registryResource.7e5e3fabff013c107bd112ac774a50c9cab7c90a.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4215a633dad6869d0e8c64d2d4befab5ec1646/ol-handback/PowerShell/powerShell-Docs.es-es/live/registryResource.7e5e3fabff013c107bd112ac774a50c9cab7c90a.es-es.xlf)
+* Handback Datetime: 2016-03-24 20:14:11
 * [Back to Top](#report-top)
 
 ##### <a name='40b0aa8dee0fb9578649c0ec92a5a2cb027a137d55'></a> Source: [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs/blob/4079eca1deaf33162bf90c13bcfeb2255ec26d01/dsc/reportServer.md)
@@ -901,9 +901,9 @@
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/254c489df5d24e4a08b18f6b118672e36a588ad1/dsc/reportServer.md)
-* Current Handback File: [reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9c6fb0225c4efc9068c8053b2098e96cd53b213f/ol-handback/PowerShell/powerShell-Docs.es-es/live/reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf)
-* Current Handback Datetime: 2016-03-22 17:36:49
+* Current Target File: [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/c0f8bf2f26a4e94bc7ff11a590517c8f9a0289b9/dsc/reportServer.md)
+* Current Handback File: [reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4215a633dad6869d0e8c64d2d4befab5ec1646/ol-handback/PowerShell/powerShell-Docs.es-es/live/reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf)
+* Current Handback Datetime: 2016-03-24 20:14:11
 * [Back to Top](#report-top)
 
 ##### <a name='c21a8247aac04887b4454122eb9b42476b40a54356'></a> Source: [dsc\resourceAuthoringChecklist.md](https://github.com/PowerShell/powerShell-Docs/blob/0a303e872e91ac5f8eff4f9f84a25237ab0e8fb2/dsc/resourceAuthoringChecklist.md)
