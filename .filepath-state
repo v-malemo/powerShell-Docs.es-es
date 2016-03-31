@@ -200,6 +200,9 @@
   "44f3bb3bec83fd779c83d0326d55c88ead77cfba": [
     "dsc\\registryResource.md"
   ],
+  "34ec900d1b7960e5a8180336968d2dfdbf6ef68b": [
+    "dsc\\reportServer.md"
+  ],
   "40b0aa8dee0fb9578649c0ec92a5a2cb027a137d": [
     "dsc\\reportServer.md"
   ],
@@ -214,6 +217,9 @@
   ],
   "b081337b68091f95498d23fecbc64701866b2cec": [
     "dsc\\scriptResource.md"
+  ],
+  "c44d8f0f02ca735a1d545dba99f6b1fa78b2110f": [
+    "dsc\\secureMOF.md"
   ],
   "c3b61e7f85bc59833548873a73b6ce9559dcea3a": [
     "dsc\\secureMOF.md"
@@ -385,6 +391,9 @@
   ],
   "a7c6fb818477522ebd7be025f154c1b2eea0e518": [
     "wmf\\dsc_sxsresource.md"
+  ],
+  "df6b5db79c8c165e7fb3c1570838ac7a696b5a55": [
+    "wmf\\dsc_testconfiguration.md"
   ],
   "71dcfe5d8a56f707ee9a05cdb07d2fda4bbcd573": [
     "wmf\\dsc_testconfiguration.md"

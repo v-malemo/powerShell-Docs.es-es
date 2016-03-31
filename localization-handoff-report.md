@@ -1,27 +1,59 @@
 # <a name='report-top'></a> Localization Handoff Report
 
 ## Summary
- Total Files | 1
+ Total Files | 3
 
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\partialConfigs.md](https://github.com/PowerShell/powerShell-Docs/blob/b0829d2ed24d07c337e1775463861c10b5d14cb2/dsc/partialConfigs.md) | OutofSyncHandedBackSuccess | [Details](#da7b4dad0811bf0dc4745b6482c74731448edbdd46)
+ [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs/blob/183dddd89bd4d152de12e2ca122fc0305b420cb4/dsc/reportServer.md) | OutofSyncHandedBackSuccess | [Details](#34ec900d1b7960e5a8180336968d2dfdbf6ef68b55)
+ [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/183dddd89bd4d152de12e2ca122fc0305b420cb4/dsc/secureMOF.md) | OutofSyncHandedBackSuccess | [Details](#c44d8f0f02ca735a1d545dba99f6b1fa78b2110f60)
+ [wmf\dsc_testconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/183dddd89bd4d152de12e2ca122fc0305b420cb4/wmf/dsc_testconfiguration.md) | OutofSyncHandedBackSuccess | [Details](#df6b5db79c8c165e7fb3c1570838ac7a696b5a55108)
 
 ## Item Details
-##### <a name='da7b4dad0811bf0dc4745b6482c74731448edbdd46'></a> Source: [dsc\partialConfigs.md](https://github.com/PowerShell/powerShell-Docs/blob/b0829d2ed24d07c337e1775463861c10b5d14cb2/dsc/partialConfigs.md)
+##### <a name='34ec900d1b7960e5a8180336968d2dfdbf6ef68b55'></a> Source: [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs/blob/183dddd89bd4d152de12e2ca122fc0305b420cb4/dsc/reportServer.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [partialConfigs.f483ab7fa1511b557780a02b5b807245f730c1b6.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f3e1c78da17758480fbd407578636a70ceb8735f/ol-handoff/PowerShell/powerShell-Docs.es-es/live/partialConfigs.f483ab7fa1511b557780a02b5b807245f730c1b6.es-es.xlf)
-* Handoff Datetime: 2016-03-25 20:40:05
+* Handoff File: [reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/79296297e77c74be66f626899a8d062e6ffa8a17/ol-handoff/PowerShell/powerShell-Docs.es-es/live/reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf)
+* Handoff Datetime: 2016-03-31 16:21:28
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\partialConfigs.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/2a02dd0eda357a210df05ab59da81cfe898ac5ba/dsc/partialConfigs.md)
-* Current Handback File: [partialConfigs.f483ab7fa1511b557780a02b5b807245f730c1b6.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/7328e4f695d9b15062bb43ec726284625a4d2503/ol-handback/PowerShell/powerShell-Docs.es-es/live/partialConfigs.f483ab7fa1511b557780a02b5b807245f730c1b6.es-es.xlf)
-* Current Handback Datetime: 2016-03-24 18:03:26
+* Current Target File: [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/b0901f0e7ad0a67b0c56ce060b4cb7887111cefa/dsc/reportServer.md)
+* Current Handback File: [reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/311fb731f8922cb14d0153c910487af5ce73b1b9/ol-handback/PowerShell/powerShell-Docs.es-es/live/reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf)
+* Current Handback Datetime: 2016-03-30 17:59:27
+* [Back to Top](#report-top)
+
+##### <a name='c44d8f0f02ca735a1d545dba99f6b1fa78b2110f60'></a> Source: [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/183dddd89bd4d152de12e2ca122fc0305b420cb4/dsc/secureMOF.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/79296297e77c74be66f626899a8d062e6ffa8a17/ol-handoff/PowerShell/powerShell-Docs.es-es/live/secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf)
+* Handoff Datetime: 2016-03-31 16:21:28
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/b0901f0e7ad0a67b0c56ce060b4cb7887111cefa/dsc/secureMOF.md)
+* Current Handback File: [secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/311fb731f8922cb14d0153c910487af5ce73b1b9/ol-handback/PowerShell/powerShell-Docs.es-es/live/secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf)
+* Current Handback Datetime: 2016-03-30 17:59:27
+* [Back to Top](#report-top)
+
+##### <a name='df6b5db79c8c165e7fb3c1570838ac7a696b5a55108'></a> Source: [wmf\dsc_testconfiguration.md](https://github.com/PowerShell/powerShell-Docs/blob/183dddd89bd4d152de12e2ca122fc0305b420cb4/wmf/dsc_testconfiguration.md)
+* Status: OutofSyncHandedBackSuccess
+* Target File: 
+* Handoff File: [dsc_testconfiguration.b0e5afe2c8f173ebe49c97c9ea9a2f11d81ea5fa.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/79296297e77c74be66f626899a8d062e6ffa8a17/ol-handoff/PowerShell/powerShell-Docs.es-es/live/dsc_testconfiguration.b0e5afe2c8f173ebe49c97c9ea9a2f11d81ea5fa.es-es.xlf)
+* Handoff Datetime: 2016-03-31 16:21:28
+* Handoff Reason: Include
+* Archive File: 
+* Archive Datetime: 0001-01-01 00:00:00
+* Handback File: 
+* Handback Datetime: 0001-01-01 00:00:00
+* Current Target File: [wmf\dsc_testconfiguration.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/789b060517c0ea9a44819700c032d14249a48d22/wmf/dsc_testconfiguration.md)
+* Current Handback File: [dsc_testconfiguration.b0e5afe2c8f173ebe49c97c9ea9a2f11d81ea5fa.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/46705aa6a7d40de5f3f03502296f5c60fef984d5/ol-handback/PowerShell/powerShell-Docs.es-es/live/dsc_testconfiguration.b0e5afe2c8f173ebe49c97c9ea9a2f11d81ea5fa.es-es.xlf)
+* Current Handback Datetime: 2016-03-24 17:26:33
 * [Back to Top](#report-top)
 
 

@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "b0829d2ed24d07c337e1775463861c10b5d14cb2",
+  "LastProcessedCommit": "183dddd89bd4d152de12e2ca122fc0305b420cb4",
   "LastTranslatedCommit": "280e294addda4fdbf0e068de918c1005989ec17c",
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
@@ -5236,6 +5236,93 @@
       "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\partialConfigs.f483ab7fa1511b557780a02b5b807245f730c1b6.es-es.xlf",
       "ArchiveFileCommit": "3d130fa7cbbf6cc6ffdcbe56d6a2b93bee35e36d",
       "ArchiveFileDateTime": "2016-03-29T13:11:53.2495488Z",
+      "ArchiveException": null
+    },
+    "34ec900d1b7960e5a8180336968d2dfdbf6ef68b": {
+      "FileHash": "34ec900d1b7960e5a8180336968d2dfdbf6ef68b",
+      "SourceFileCommit": "183dddd89bd4d152de12e2ca122fc0305b420cb4",
+      "SourceFilePath": "dsc\\reportServer.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "dsc\\reportServer.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf",
+      "HandoffFileCommit": "79296297e77c74be66f626899a8d062e6ffa8a17",
+      "HandoffDateTime": "2016-03-31T16:21:28.8430572Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "c44d8f0f02ca735a1d545dba99f6b1fa78b2110f": {
+      "FileHash": "c44d8f0f02ca735a1d545dba99f6b1fa78b2110f",
+      "SourceFileCommit": "183dddd89bd4d152de12e2ca122fc0305b420cb4",
+      "SourceFilePath": "dsc\\secureMOF.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "dsc\\secureMOF.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf",
+      "HandoffFileCommit": "79296297e77c74be66f626899a8d062e6ffa8a17",
+      "HandoffDateTime": "2016-03-31T16:21:28.8430572Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "df6b5db79c8c165e7fb3c1570838ac7a696b5a55": {
+      "FileHash": "df6b5db79c8c165e7fb3c1570838ac7a696b5a55",
+      "SourceFileCommit": "183dddd89bd4d152de12e2ca122fc0305b420cb4",
+      "SourceFilePath": "wmf\\dsc_testconfiguration.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "wmf\\dsc_testconfiguration.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\dsc_testconfiguration.b0e5afe2c8f173ebe49c97c9ea9a2f11d81ea5fa.es-es.xlf",
+      "HandoffFileCommit": "79296297e77c74be66f626899a8d062e6ffa8a17",
+      "HandoffDateTime": "2016-03-31T16:21:28.8430572Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
       "ArchiveException": null
     }
   }
