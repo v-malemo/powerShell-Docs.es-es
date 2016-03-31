@@ -6,22 +6,22 @@
 ## File List
  Source File | Status | Details 
  ----------- | ------ | ------- 
- [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/31a2dc0a505a2e25c284881901aa88276f2c6662/dsc/pullServer.md) | OutofSyncHandedBackSuccess | [Details](#df17a2af726925e59275f2ecabf702c105b0cdc851)
+ [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs/blob/28bbc20513f4d10baec66dc5931e8c3e35dd92a7/dsc/reportServer.md) | OutofSyncHandedBackSuccess | [Details](#500775f223a550a8edf78198a2cb5912eaff90fa55)
 
 ## Item Details
-##### <a name='df17a2af726925e59275f2ecabf702c105b0cdc851'></a> Source: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs/blob/31a2dc0a505a2e25c284881901aa88276f2c6662/dsc/pullServer.md)
+##### <a name='500775f223a550a8edf78198a2cb5912eaff90fa55'></a> Source: [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs/blob/28bbc20513f4d10baec66dc5931e8c3e35dd92a7/dsc/reportServer.md)
 * Status: OutofSyncHandedBackSuccess
 * Target File: 
-* Handoff File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c164a85a3cc81dd2cf0d91033951b47a4744235e/ol-handoff/PowerShell/powerShell-Docs.es-es/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf)
-* Handoff Datetime: 2016-03-31 20:18:33
+* Handoff File: [reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/938be0c63d7bae2220cc8424cba2399b7b2d3e03/ol-handoff/PowerShell/powerShell-Docs.es-es/live/reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf)
+* Handoff Datetime: 2016-03-31 22:18:47
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
 * Handback File: 
 * Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [dsc\pullServer.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/254c489df5d24e4a08b18f6b118672e36a588ad1/dsc/pullServer.md)
-* Current Handback File: [pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/9c6fb0225c4efc9068c8053b2098e96cd53b213f/ol-handback/PowerShell/powerShell-Docs.es-es/live/pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf)
-* Current Handback Datetime: 2016-03-22 17:36:49
+* Current Target File: [dsc\reportServer.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/b0901f0e7ad0a67b0c56ce060b4cb7887111cefa/dsc/reportServer.md)
+* Current Handback File: [reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/311fb731f8922cb14d0153c910487af5ce73b1b9/ol-handback/PowerShell/powerShell-Docs.es-es/live/reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf)
+* Current Handback Datetime: 2016-03-30 17:59:27
 * [Back to Top](#report-top)
 
 
