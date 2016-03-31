@@ -16,7 +16,7 @@
             "build_output_subfolder": "wmf",
             "locale": "es-es",
             "version": 0,
-            "open_to_public_contributors": "false",
+            "open_to_public_contributors": "true",
             "type_mapping": {
                 "Conceptual": "Content"
             }
