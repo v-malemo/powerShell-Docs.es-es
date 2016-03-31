@@ -6,7 +6,7 @@
             "build_output_subfolder": "dsc",
             "locale": "es-es",
             "version": 0,
-            "open_to_public_contributors": "true",
+            "open_to_public_contributors": "false",
             "type_mapping": { 
                 "Conceptual": "Content"
             } 
@@ -16,7 +16,7 @@
             "build_output_subfolder": "wmf",
             "locale": "es-es",
             "version": 0,
-            "open_to_public_contributors": "true",
+            "open_to_public_contributors": "false",
             "type_mapping": {
                 "Conceptual": "Content"
             }
