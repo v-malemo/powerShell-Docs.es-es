@@ -304,14 +304,14 @@
 
 ##### <a name='f64cbea29a1e9998b8ade46d69c1ef1c584bd6339'></a> Source: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/authoringResourceMOF.md)
 * Status: InSyncHandedBackSuccess
-* Target File: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/b0901f0e7ad0a67b0c56ce060b4cb7887111cefa/dsc/authoringResourceMOF.md)
+* Target File: [dsc\authoringResourceMOF.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/659f144596f6a3f2bea3f7bb83d9ce956716c4f5/dsc/authoringResourceMOF.md)
 * Handoff File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/fca1de9812f324195ebf3e1523196cbeb6364b1e/ol-handoff/PowerShell/powerShell-Docs.es-es/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf)
 * Handoff Datetime: 2016-02-23 03:02:55
 * Handoff Reason: Include
 * Archive File: 
 * Archive Datetime: 0001-01-01 00:00:00
-* Handback File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/311fb731f8922cb14d0153c910487af5ce73b1b9/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf)
-* Handback Datetime: 2016-03-30 17:59:27
+* Handback File: [authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/77de1c209a44c831aed6f6e312fbc9345de11320/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceMOF.1f503c33425780c369e78193e2f2f4e9242c401b.es-es.xlf)
+* Handback Datetime: 2016-04-04 10:22:30
 * [Back to Top](#report-top)
 
 ##### <a name='303b98d41ad471ad7e8a9821225fa8967d7cba5a10'></a> Source: [dsc\authoringResourceMofCS.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/authoringResourceMofCS.md)
