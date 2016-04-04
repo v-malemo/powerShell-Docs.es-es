@@ -63,7 +63,7 @@ configuration Sample_xDscWebService
 1. Ejecute la configuración, pase la huella digital del certificado autofirmado que creó como el parámetro **certificateThumbPrint**:
 
 ```powershell
-PS:\>$myCert = Get-ChildItem CERT: | Where-Object {$_.Subject -eq 'CN=PSDSCPullServerCert'}
+PS:\>$myCert = Get-ChildItem CERT:\LocalMachine\My | Where-Object {$_.Subject -eq 'CN=PSDSCPullServerCert'}
 PS:\>Sample_xDSCService -certificateThumbprint $myCert.Thumbprint 
 ```
 
@@ -74,8 +74,8 @@ Para permitir que los nodos cliente se registren con el servidor de forma que pu
 ## Colocación de configuraciones y recursos
 Cuando se complete la instalación del servidor de extracción, habrá una nueva carpeta en `$env:PROGRAMFILES\WindowsPowerShell` denominada "DscService". En esa carpeta, hay dos carpetas denominadas "Modules" y "Configuration". En la carpeta "Modules", coloque todos los recursos que sean necesarios para las configuraciones que los nodos extraerán de este servidor. En la carpeta "Configuration", coloque los archivos MOF de configuración de las configuraciones que los nodos vayan a extraer. Los nombres de los archivos MOF dependen del tipo de cliente de extracción. En los temas siguientes se describe en detalle cómo configurar los clientes de extracción:
 
-* [Configuración de un cliente de extracción de DSC mediante un id. de configuración](pullClientConfigID.md)
-* [Configuración de un cliente de extracción de DSC mediante nombres de configuración](pullClientConfigNames.md)
+* [Configuración de un cliente de incorporación de cambios de DSC mediante un id. de configuración](pullClientConfigID.md)
+* [Configuración de un cliente de incorporación de cambios de DSC mediante nombres de configuración](pullClientConfigNames.md)
 * [Configuraciones parciales](partialConfigs.md)
 
 ## Creación de la suma de comprobación MOF
@@ -88,5 +88,9 @@ El archivo de suma de comprobación debe estar en el mismo directorio que el arc
 ## Vea también
 * [Información general sobre la configuración de estado deseado de Windows PowerShell](overview.md)
 * [Establecer configuraciones](enactingConfigurations.md)
-* [Recuperar información del nodo desde el servidor de extracción de DSC](retrieveNodeInfo.md)
-<!--HONumber=Feb16_HO4-->
+* [Recuperar información del nodo desde el servidor de incorporación de cambios de DSC](retrieveNodeInfo.md)
+
+
+<!--HONumber=Mar16_HO1-->
+
+

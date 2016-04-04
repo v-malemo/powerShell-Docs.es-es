@@ -10,9 +10,9 @@ Las [**configuraciones**](https://msdn.microsoft.com/en-us/powershell/dsc/config
 Las configuraciones pueden presentarse de diversas formas. La manera más fácil de crear una nueva configuración es crear un archivo .ps1 (script de PowerShell). Para hacerlo, abra el editor que prefiera. PowerShell ISE es una buena opción, ya que entiende DSC de forma nativa. Guarde lo siguiente como un archivo PS1:
 
 ```powershell
-configuration myFirstConfiguration
+configuration MyFirstConfiguration
 {
-    import-dscresource -name WindowsFeature
+    Import-DscResource -Name WindowsFeature
 
     Node localhost
     {
@@ -50,11 +50,15 @@ Cuando se ejecuta la configuración, crea una carpeta con el nombre de la config
 
 Para establecer la configuración:
 ```powershell
-Start-DscConfiguration -path ./myFirstConfiguration
+Start-DscConfiguration -Path ./myFirstConfiguration
 ```
-Esto crea un trabajo de PowerShell que llega a los nodos de la configuración y los configura. Para ver la salida del trabajo, use -wait. 
+Esto crea un trabajo de PowerShell que llega a los nodos de la configuración y los configura. Para ver la salida del trabajo, use -Wait. 
 ```powershell
-Start-DscConfiguration -path ./myFirstConfiguration -wait
+Start-DscConfiguration -Path ./myFirstConfiguration -Wait
 ```
 
-<!--HONumber=Feb16_HO4-->
+
+
+<!--HONumber=Mar16_HO1-->
+
+
