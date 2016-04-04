@@ -47,9 +47,6 @@
   "03159221013064b2c1d77211c88bb8e1c9a9fcb1": [
     "dsc\\decisionMaker.md"
   ],
-  "c5cd83a69d1f6a936976b5201daef0ec00f16399": [
-    "dsc\\decisionMaker.md"
-  ],
   "aac18f752e981409c8c432dcb06b7bb862149cdd": [
     "dsc\\enactingConfigurations.md"
   ],
@@ -66,9 +63,6 @@
     "dsc\\fileResource.md"
   ],
   "2faac24e90c7925eb22d7a5d95ef6f86831284f5": [
-    "dsc\\gettingStarted.md"
-  ],
-  "06f6ba62b807e09c724e575317bd2f75cadb9226": [
     "dsc\\gettingStarted.md"
   ],
   "bc098355d65bff2203a212f2387be6f79fbb63e8": [
@@ -194,9 +188,6 @@
   "0ef3dedfc2ca50e9edf86f8bb8931d778c3005c4": [
     "dsc\\pullServer.md"
   ],
-  "81a21499e1043cdd948f59dda3a727b1820d1542": [
-    "dsc\\pullServer.md"
-  ],
   "fc1456c57ade6862957e54ee53f18f189785848a": [
     "dsc\\queryServerNodes.md"
   ],
@@ -258,9 +249,6 @@
     "dsc\\TOC.md"
   ],
   "d571a7562bd23e3bca78127732dd4fccb88fee1c": [
-    "dsc\\troubleshooting.md"
-  ],
-  "2886767875ee6a9882ca050e34787cfa1fb64109": [
     "dsc\\troubleshooting.md"
   ],
   "e4b793025b00cb3137eddc0e7ec437f03abdf3c4": [
