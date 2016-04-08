@@ -86,6 +86,9 @@
   "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a": [
     "dsc\\lnxFileResource.md"
   ],
+  "8b473eae7f12242e9995613ec747c5d80ebacd2c": [
+    "dsc\\lnxGettingStarted.md"
+  ],
   "4e6495b5c237c43240fc6cc30c3d435c1b8e0cbf": [
     "dsc\\lnxGettingStarted.md"
   ],
@@ -170,6 +173,9 @@
   "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": [
     "dsc\\pullClientConfigNames.md"
   ],
+  "8c0bb5d67466770a9d62eaf07d487488bea8a41f": [
+    "dsc\\pullServer.md"
+  ],
   "df17a2af726925e59275f2ecabf702c105b0cdc8": [
     "dsc\\pullServer.md"
   ],
@@ -238,6 +244,9 @@
   ],
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
+  ],
+  "89efe08e7624b5c509e45670c0866eab9554dfa3": [
+    "dsc\\TOC.md"
   ],
   "6a65e1ac34595c1f0207785b63b7760ece43172c": [
     "dsc\\TOC.md"
@@ -535,6 +544,9 @@
   ],
   "d9f53a805041164f5070845c0fd216b63d17ae58": [
     "dsc\\images\\CredentialEncryptionDiagram1.png"
+  ],
+  "f617844fdfc22c15e23687a911cfe75876abc43e": [
+    "dsc\\singleInstance.md"
   ],
   "adda311ae522a0b165380a2f277c30a03a06a03e": [
     "dsc\\singleInstance.md"
@@ -1000,5 +1012,8 @@
   ],
   "87e19c3d66bfebd8dbc3ceb470abdd5c0cd8b379": [
     "scripting\\Topic\\Working-with-Software-Installations.md"
+  ],
+  "4105e15b76b182f9c085aef0c380df4982cb72f8": [
+    "dsc\\whitepapers.md"
   ]
 }
