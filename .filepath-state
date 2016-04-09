@@ -221,8 +221,14 @@
   "df54abe3d92ffaff2998e9fb3157b42cf83143c2": [
     "dsc\\resources.md"
   ],
+  "4a1909ab56b9f8d3a97086696e344e91c5dd5fe7": [
+    "dsc\\scriptResource.md"
+  ],
   "b081337b68091f95498d23fecbc64701866b2cec": [
     "dsc\\scriptResource.md"
+  ],
+  "0a945660ded4a9a1f0e247d0128f531fb98df02b": [
+    "dsc\\secureMOF.md"
   ],
   "c44d8f0f02ca735a1d545dba99f6b1fa78b2110f": [
     "dsc\\secureMOF.md"
@@ -551,6 +557,9 @@
   "adda311ae522a0b165380a2f277c30a03a06a03e": [
     "dsc\\singleInstance.md"
   ],
+  "afc2d955f33af3a23bc2cfa6e45b0f3f5a5872a5": [
+    "scripting\\TOC.md"
+  ],
   "c8b6a9fa51defc2841bec0a60f7bce26abf95313": [
     "scripting\\TOC.md"
   ],
@@ -797,6 +806,9 @@
   "41d53276e911d6db3c9adc28c60d804949864ca4": [
     "scripting\\Topic\\About-Windows-PowerShell.md"
   ],
+  "3adeeb6425a3a1a06ce01316c8410899ba2172f3": [
+    "scripting\\Topic\\Accessibility-in-Windows-PowerShell-ISE.md"
+  ],
   "d775fd7799abd69ef23b555e83013ceeb6fbb8e9": [
     "scripting\\Topic\\Accessibility-in-Windows-PowerShell-ISE.md"
   ],
@@ -821,14 +833,23 @@
   "57fe10bb30a32b26de84ec293d6de284dffe76ee": [
     "scripting\\Topic\\Creating-a-Graphical-Date-Picker.md"
   ],
+  "a24ff797e905db5105e43883b2943b33065109d3": [
+    "scripting\\Topic\\Exploring-the-Windows-PowerShell-ISE.md"
+  ],
   "2f406602b27ec860c61693b8c996594618219531": [
     "scripting\\Topic\\Exploring-the-Windows-PowerShell-ISE.md"
+  ],
+  "ae0c582fddb9907e52cc2f182f1b8d7ee06dc098": [
+    "scripting\\Topic\\Getting-Detailed-Help-Information.md"
   ],
   "87e95918325a71271a06f6c4c329d538017e89fc": [
     "scripting\\Topic\\Getting-Detailed-Help-Information.md"
   ],
   "2021f5b0e8a50a720c8334011848b1d8826bca6c": [
     "scripting\\Topic\\Getting-Information-About-Commands.md"
+  ],
+  "f1b2260b3303741224a3f88877d1f5671d9be0f5": [
+    "scripting\\Topic\\Getting-Ready-to-Use-Windows-PowerShell.md"
   ],
   "6f9fb4bff9a7f823ca70196e208f75e92ddb3dd6": [
     "scripting\\Topic\\Getting-Ready-to-Use-Windows-PowerShell.md"
@@ -839,14 +860,26 @@
   "f18124f607453f53867b91c48309fa1153bb3670": [
     "scripting\\Topic\\Getting-WMI-Objects--Get-WmiObject-.md"
   ],
+  "1b5cd1d95ae70ea2308d1707b056a3f37f11435f": [
+    "scripting\\Topic\\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md"
+  ],
   "735538c8f0815239131f3f73be770692fb33938c": [
     "scripting\\Topic\\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md"
+  ],
+  "641d94404b4d0addb5bfc139f1f154c822e7f605": [
+    "scripting\\Topic\\How-to-Debug-Scripts-in-Windows-PowerShell-ISE.md"
   ],
   "8375b818eefb8ea1bc3173bc9cd9866a1881312c": [
     "scripting\\Topic\\How-to-Debug-Scripts-in-Windows-PowerShell-ISE.md"
   ],
+  "1ced53ee566c0ef82ea7fa246b464e7a7c464077": [
+    "scripting\\Topic\\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md"
+  ],
   "ff31562ab62b39dfdd59aac7fe0bc610b7c898ed": [
     "scripting\\Topic\\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md"
+  ],
+  "4c2ad42cfce41094e9149cb3f06b932eb8542ca6": [
+    "scripting\\Topic\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md"
   ],
   "090066735a8eeff1e66669a876c964e7a9973593": [
     "scripting\\Topic\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md"
@@ -854,11 +887,20 @@
   "ae84dd06fe3cef20e2199c2412ac2dbef7d4be4a": [
     "scripting\\Topic\\How-to-Use-the-Console-Pane-in-the-Windows-PowerShell-ISE.md"
   ],
+  "39991114d99e7d331062068236aef75e24f69bb2": [
+    "scripting\\Topic\\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md"
+  ],
   "bc0ccd3406c09d2b1dee455602908b64b495e49b": [
     "scripting\\Topic\\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md"
   ],
+  "e472e6a59e58cf11f8fe8ca3d0561d05ef83af4d": [
+    "scripting\\Topic\\Installing-the-Windows-PowerShell-2.0-Engine.md"
+  ],
   "aa9b5bac66a322204eb03e0c02d4126bb6a06b12": [
     "scripting\\Topic\\Installing-the-Windows-PowerShell-2.0-Engine.md"
+  ],
+  "bd4de58b3859affb0ea198e36740d0d6776139a9": [
+    "scripting\\Topic\\Installing-Windows-PowerShell.md"
   ],
   "faabe56d4c0a283389f869d66c079c7b6e739190": [
     "scripting\\Topic\\Installing-Windows-PowerShell.md"
@@ -875,8 +917,14 @@
   "0d4281f5356636d9e51f19304b75d0db690d1c9a": [
     "scripting\\Topic\\Managing-Current-Location.md"
   ],
+  "719e3da3a26f2e3f6b049fec30d543f7bccf8d34": [
+    "scripting\\Topic\\Managing-Processes-with-Process-Cmdlets.md"
+  ],
   "d3c0a8b3499f566e491c4bf72feea97ccd15a250": [
     "scripting\\Topic\\Managing-Processes-with-Process-Cmdlets.md"
+  ],
+  "9224a773138287fde588b0434e54fcc1738784cc": [
+    "scripting\\Topic\\Managing-Services.md"
   ],
   "d3bcb6a46570b6c06b490575dd84ea2644654cb5": [
     "scripting\\Topic\\Managing-Services.md"
@@ -896,6 +944,9 @@
   "c6b2a6c78009707c4f649acc47466576ec23aef9": [
     "scripting\\Topic\\Performing-Networking-Tasks.md"
   ],
+  "68dbcf56179e41fa3f8bb79e58a18c1588a44e1e": [
+    "scripting\\Topic\\PowerShell.exe-Command-Line-Help.md"
+  ],
   "58864e55ba0516ff556dd7afe5b55d86987e2f2a": [
     "scripting\\Topic\\PowerShell.exe-Command-Line-Help.md"
   ],
@@ -907,6 +958,9 @@
   ],
   "6ae3e0440a17d83681aff7c3a8d33f25a4d83a63": [
     "scripting\\Topic\\Repeating-a-Task-for-Multiple-Objects--ForEach-Object-.md"
+  ],
+  "6529d7299c9d3706a324d392a5e7b9926b6ea99e": [
+    "scripting\\Topic\\Running-Remote-Commands.md"
   ],
   "db5bfe5627665af6940fe055f4eb29b9b7833ef9": [
     "scripting\\Topic\\Running-Remote-Commands.md"
@@ -922,6 +976,9 @@
   ],
   "bca16de7e23e437695424238853da7378256cc0e": [
     "scripting\\Topic\\Starting-the-32-Bit-Version-of-Windows-PowerShell.md"
+  ],
+  "b15700eeb9f448c60adf6d5aab1d0d5bde17af38": [
+    "scripting\\Topic\\Starting-the-Windows-PowerShell-2.0-Engine.md"
   ],
   "5837bea23fb631a27ff71619684953e1fb84b3ce": [
     "scripting\\Topic\\Starting-the-Windows-PowerShell-2.0-Engine.md"
@@ -950,11 +1007,17 @@
   "61677fdf3e268c5a18370290690383d05a262076": [
     "scripting\\Topic\\Using-Tab-Expansion.md"
   ],
+  "158d56fa9915a4952a9dd22920733c4377dd5281": [
+    "scripting\\Topic\\Using-the-Windows-PowerShell-ISE.md"
+  ],
   "82222297a0c85990ef98eea7d8cd3236332da4d8": [
     "scripting\\Topic\\Using-the-Windows-PowerShell-ISE.md"
   ],
   "670f3b9f1d61e8ddcf00bf9c2670f770392e429c": [
     "scripting\\Topic\\Using-Variables-to-Store-Objects.md"
+  ],
+  "cf6509ed9574aebc7fba01133c1c271549e0e703": [
+    "scripting\\Topic\\Using-Windows-PowerShell.md"
   ],
   "c34888b1d76d47f8db3f08f862f18012f2a05849": [
     "scripting\\Topic\\Using-Windows-PowerShell.md"
@@ -965,8 +1028,14 @@
   "07792854317519ea46e36871d9371347a0f6fa41": [
     "scripting\\Topic\\Viewing-Object-Structure--Get-Member-.md"
   ],
+  "c1ff24d963d9ef6772e455024f2b28f0a3ecfef0": [
+    "scripting\\Topic\\What-s-New-in-the-Windows-PowerShell-ISE.md"
+  ],
   "8b84ca9e61016cbdf2ac483f99f56d410ccdb467": [
     "scripting\\Topic\\What-s-New-in-the-Windows-PowerShell-ISE.md"
+  ],
+  "ecfbfdf517c86a3acb4a0a40d5534e31bac68a9f": [
+    "scripting\\Topic\\What-s-New-in-Windows-PowerShell.md"
   ],
   "7e11690102f4f5d692df8bdc140172d8ccdd279f": [
     "scripting\\Topic\\What-s-New-in-Windows-PowerShell.md"
@@ -977,11 +1046,17 @@
   "4979690d7c71031eae35bca42b9c14399d99b9cf": [
     "scripting\\Topic\\Windows-PowerShell-Glossary.md"
   ],
+  "f3c5c7e1dd5961dd05122990816278facba748e6": [
+    "scripting\\Topic\\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md"
+  ],
   "4a74c53e42a29a730c89643cb2f1c1beeb30a1a7": [
     "scripting\\Topic\\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md"
   ],
   "c8ca306b81ac8fd51c52fd02c2deffca424fa555": [
     "scripting\\Topic\\Windows-PowerShell-Navigation.md"
+  ],
+  "1bd74f72cebef148e5021dedc7e0e71fafd1489d": [
+    "scripting\\Topic\\Windows-PowerShell-System-Requirements.md"
   ],
   "4aee4cafad22bf7a01439ae3eb64ed527883bb8d": [
     "scripting\\Topic\\Windows-PowerShell-System-Requirements.md"
@@ -993,7 +1068,7 @@
     "scripting\\Topic\\Windows-PowerShell-User-s-Guide.md"
   ],
   "fcdacb648a9fb5feb9f09f9f7219ed220ea24ccb": [
-    "scripting\\Topic\\Working-With-Files,-Folders-and-Registry-Keys.md"
+    "scripting\\Topic\\Working-With-Files-Folders-and-Registry-Keys.md"
   ],
   "292a8f74bf07cc177e34d9b7eea3db7ff69f8135": [
     "scripting\\Topic\\Working-with-Files-and-Folders.md"
