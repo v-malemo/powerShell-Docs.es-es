@@ -23,6 +23,9 @@
   "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9": [
     "dsc\\authoringResourceMofDesigner.md"
   ],
+  "3e887680203d836b4161a1e54b6bc60bb20dc6c8": [
+    "dsc\\builtInResource.md"
+  ],
   "042a29099cc4abd044b3e9fb4f3281d80f5b8b02": [
     "dsc\\builtInResource.md"
   ],
@@ -34,6 +37,9 @@
   ],
   "0ed581ed07a81f654304c888733aa4429de146a3": [
     "dsc\\configDataCredentials.md"
+  ],
+  "7ba63baa71ba7b9da21445a2f7c2bef7dadcf2e9": [
+    "dsc\\configurations.md"
   ],
   "625d4c0a9b1d0b6f23dcf1b07dd3f567699f7cd9": [
     "dsc\\configurations.md"
@@ -127,6 +133,9 @@
   ],
   "ef2664b6dd61bd55898971adf7e4a57f92be88cc": [
     "dsc\\metaConfig4.md"
+  ],
+  "06423071b30da53145f9f1ecb5b9f2e3d1314671": [
+    "dsc\\overview.md"
   ],
   "7f5f99f0f0befde13272221e376006dffbddb994": [
     "dsc\\overview.md"
@@ -226,6 +235,9 @@
   ],
   "b081337b68091f95498d23fecbc64701866b2cec": [
     "dsc\\scriptResource.md"
+  ],
+  "8f583b35bb37575e097300d04e8f6decbf83bb31": [
+    "dsc\\secureMOF.md"
   ],
   "0a945660ded4a9a1f0e247d0128f531fb98df02b": [
     "dsc\\secureMOF.md"
