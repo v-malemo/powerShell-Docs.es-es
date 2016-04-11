@@ -38,6 +38,9 @@
   "0ed581ed07a81f654304c888733aa4429de146a3": [
     "dsc\\configDataCredentials.md"
   ],
+  "ab74c4e76b998f694982786942879dc02deeb777": [
+    "dsc\\configurations.md"
+  ],
   "7ba63baa71ba7b9da21445a2f7c2bef7dadcf2e9": [
     "dsc\\configurations.md"
   ],
@@ -143,6 +146,9 @@
   "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": [
     "dsc\\packageResource.md"
   ],
+  "675e0efb2e9853bb2c3c03735779c940faca2414": [
+    "dsc\\partialConfigs.md"
+  ],
   "da7b4dad0811bf0dc4745b6482c74731448edbdd": [
     "dsc\\partialConfigs.md"
   ],
@@ -235,6 +241,9 @@
   ],
   "b081337b68091f95498d23fecbc64701866b2cec": [
     "dsc\\scriptResource.md"
+  ],
+  "f978e0a4da1e0dcd96d34d44abcd86cf5cfe960b": [
+    "dsc\\secureMOF.md"
   ],
   "8f583b35bb37575e097300d04e8f6decbf83bb31": [
     "dsc\\secureMOF.md"
