@@ -272,6 +272,9 @@
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
   ],
+  "014c667f1caa9ef44fa644f05af1e756a827f50f": [
+    "dsc\\TOC.md"
+  ],
   "89efe08e7624b5c509e45670c0866eab9554dfa3": [
     "dsc\\TOC.md"
   ],
@@ -1111,5 +1114,65 @@
   ],
   "4105e15b76b182f9c085aef0c380df4982cb72f8": [
     "dsc\\whitepapers.md"
+  ],
+  "12e17503c55845ecaa154bd4c8c6b108bb3293c9": [
+    "dsc\\msft-dsclocalconfigurationmanager.md"
+  ],
+  "deb5fb9243d3b1d61e60991f70479e252b780243": [
+    "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
+  ],
+  "f343d09519af33d6b913f46d15b464e926015237": [
+    "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
+  ],
+  "ddc78784632f3453b5f229b4169d9512acb6afdd": [
+    "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
+  ],
+  "ec36bc9e6a824a78701c565c7f7f41f92c074f2d": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
+  ],
+  "cc94a826a3638e2d2335827ebfb8b29ed7323e9b": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationresultoutput.md"
+  ],
+  "3f339f86399ee71efe0448a2868a90b9f3f6c162": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationstatus.md"
+  ],
+  "fd6910883780fdad369666639552ee757f15c8ad": [
+    "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
+  ],
+  "a02d3db536982941df7e108e799858894cd7dee8": [
+    "dsc\\msft-dsclocalconfigurationmanager-performrequiredconfigurationchecks.md"
+  ],
+  "8e827d304f29972a5f95eb9bddd45c0dd5361e0c": [
+    "dsc\\msft-dsclocalconfigurationmanager-removeconfiguration.md"
+  ],
+  "b749f5185449ad1136154bdb356dd91a99b95ebc": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourceget.md"
+  ],
+  "2f75ef02d1f1c74d0d4a7e58183c8e46a50705b1": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourceset.md"
+  ],
+  "3af32e8969a5a79d74cd984fd0e9adadd49774e6": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourcetest.md"
+  ],
+  "86ee23532b5d8a35449210a228b67944fa2b3bad": [
+    "dsc\\msft-dsclocalconfigurationmanager-rollback.md"
+  ],
+  "9eec689972c158c4fb8a951c301dbcb7f4db7c21": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfiguration.md"
+  ],
+  "5d96d9c69da9d06cf9d2d317160b41fbfd23e552": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapply.md"
+  ],
+  "df43d735ca3cd834216c9774ec0e02594cc1dcef": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapplyasync.md"
+  ],
+  "7c7707acdb166718fff7de83539245212d6a8a82": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendmetaconfigurationapply.md"
+  ],
+  "28904d9987bfa3fe57dc6a929eb3fd7965372104": [
+    "dsc\\msft-dsclocalconfigurationmanager-stopconfiguration.md"
+  ],
+  "ffdabc57d75d80ed6a250f53237d2bd5c6bc99fb": [
+    "dsc\\msft-dsclocalconfigurationmanager-testconfiguration.md"
   ]
 }
