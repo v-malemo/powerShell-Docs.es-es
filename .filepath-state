@@ -146,6 +146,9 @@
   "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": [
     "dsc\\packageResource.md"
   ],
+  "826fa37544f408a817e0cdea1557c2b00f3a6e51": [
+    "dsc\\partialConfigs.md"
+  ],
   "675e0efb2e9853bb2c3c03735779c940faca2414": [
     "dsc\\partialConfigs.md"
   ],
@@ -178,6 +181,9 @@
   ],
   "3714670bd9ded38e54c1f2e3f64658950c6d3f40": [
     "dsc\\pullClientConfigID4.md"
+  ],
+  "aa586b7e1cd14692ed4731f0da3cc4227abc6f06": [
+    "dsc\\pullClientConfigNames.md"
   ],
   "f19b27aa466532d9cf5c660552eccca808139b3f": [
     "dsc\\pullClientConfigNames.md"
@@ -241,6 +247,9 @@
   ],
   "b081337b68091f95498d23fecbc64701866b2cec": [
     "dsc\\scriptResource.md"
+  ],
+  "28230bc884a61491eedc5e803b8b73fa7370b627": [
+    "dsc\\secureMOF.md"
   ],
   "f978e0a4da1e0dcd96d34d44abcd86cf5cfe960b": [
     "dsc\\secureMOF.md"
