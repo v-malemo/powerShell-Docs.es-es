@@ -74,6 +74,9 @@
   "2faac24e90c7925eb22d7a5d95ef6f86831284f5": [
     "dsc\\gettingStarted.md"
   ],
+  "9037bb481d63eddc838ab96bbde205cb1a6ff161": [
+    "dsc\\groupResource.md"
+  ],
   "bc098355d65bff2203a212f2387be6f79fbb63e8": [
     "dsc\\groupResource.md"
   ],
@@ -247,6 +250,9 @@
   ],
   "b081337b68091f95498d23fecbc64701866b2cec": [
     "dsc\\scriptResource.md"
+  ],
+  "a91df114d8313e435db416ff6cda69c2126e3399": [
+    "dsc\\secureMOF.md"
   ],
   "28230bc884a61491eedc5e803b8b73fa7370b627": [
     "dsc\\secureMOF.md"
@@ -464,6 +470,9 @@
   "e2d8147c6a85b59f5289f64e068c56593acc0cfc": [
     "wmf\\feedback_archive.md"
   ],
+  "51e7169b4b8a80bc5df81e4336171eb9cb2ab8e4": [
+    "wmf\\feedback_clipboard.md"
+  ],
   "7cb6326481113a0f526ce8f19551ee31a2fade62": [
     "wmf\\feedback_clipboard.md"
   ],
@@ -475,6 +484,9 @@
   ],
   "71e9f46958b59abce912278677217cd632629439": [
     "wmf\\feedback_convertstring.md"
+  ],
+  "aa0991efc9ca39cc0aae39516d4b6cac03c4501a": [
+    "wmf\\feedback_fileinfo.md"
   ],
   "ca8e183188cfb3e5dcbc6fc1bec884ebde00942c": [
     "wmf\\feedback_fileinfo.md"
