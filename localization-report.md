@@ -7,10 +7,10 @@
 [ Handoff Failed Files ](#handoff-failed-list)| 0
 [ Handoff Success Files ](#handoff-success-list)| 45
 [ Archive Failed Files ](#archive-failed-list)| 0
-[ Archive Success Files ](#archive-success-list)| 137
+[ Archive Success Files ](#archive-success-list)| 134
 [ Handback Failed Files ](#handback-failed-list)| 0
 [ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 26
-[ In Sync Handback Files ](#insync-handback-success-list)| 116
+[ In Sync Handback Files ](#insync-handback-success-list)| 119
 [ Ignored Files ](#ignored-list)| 9
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -124,9 +124,6 @@
  [scripting\Token\win7_server_secondref.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win7_server_secondref.md) | ArchivedSuccess | [Details](#402065bc55a9ab0d65c464cf0f29bd75c40dfb7a143)
  [scripting\Token\win7_server_secondref_md.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win7_server_secondref_md.md) | ArchivedSuccess | [Details](#4cbb5695d57f7e07523eab7e4db7a7c8f05a0bcc144)
  [scripting\Token\win8_client_1.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_1.md) | ArchivedSuccess | [Details](#ab18f38c0a685b618ec3ca4d32795fefdb6717c9145)
- [scripting\Token\win8_client_1_md.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_1_md.md) | ArchivedSuccess | [Details](#54b0789edc06c2f0735e554d0b6c010b32e896f7146)
- [scripting\Token\win8_client_2.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_2.md) | ArchivedSuccess | [Details](#111fdd363b01584ec5959bc0f9e745201fa2b947147)
- [scripting\Token\win8_client_2_md.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_2_md.md) | ArchivedSuccess | [Details](#6517856f8c3a3fda3ae28305a05d127f0e1bdb97148)
  [scripting\Token\win8_server_1.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_server_1.md) | ArchivedSuccess | [Details](#c6a1c70d4bdc9367af817b843e529a7f9d2d3d33149)
  [scripting\Token\win8_server_1_md.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_server_1_md.md) | ArchivedSuccess | [Details](#25d07b17db2fd45050cf796606dd93b3a2b819ac150)
  [scripting\Token\win8_server_2.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_server_2.md) | ArchivedSuccess | [Details](#0a1bed55d2b1fd0a78b7196e1b37e4b7f118cc0f151)
@@ -282,6 +279,9 @@
  [dsc\userResource.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/userResource.md) | InSyncHandedBackSuccess | [Details](#e4b793025b00cb3137eddc0e7ec437f03abdf3c486)
  [dsc\windowsfeatureResource.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/windowsfeatureResource.md) | InSyncHandedBackSuccess | [Details](#1484f03d1d80b73e3131095e3363b246929a0a3588)
  [dsc\windowsProcessResource.md](https://github.com/PowerShell/powerShell-Docs/blob/dcacf14d13cc0c3e4bb3b6602ad3ab6b3141471f/dsc/windowsProcessResource.md) | InSyncHandedBackSuccess | [Details](#47c387c525a58a88f18e61920736a6e0e7f2098d89)
+ [scripting\Token\win8_client_1_md.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_1_md.md) | InSyncHandedBackSuccess | [Details](#54b0789edc06c2f0735e554d0b6c010b32e896f7146)
+ [scripting\Token\win8_client_2.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_2.md) | InSyncHandedBackSuccess | [Details](#111fdd363b01584ec5959bc0f9e745201fa2b947147)
+ [scripting\Token\win8_client_2_md.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_2_md.md) | InSyncHandedBackSuccess | [Details](#6517856f8c3a3fda3ae28305a05d127f0e1bdb97148)
  [wmf\audit_cms.md](https://github.com/PowerShell/powerShell-Docs/blob/743c597c721d4abe67d657eaabd03ecc5cf19690/wmf/audit_cms.md) | InSyncHandedBackSuccess | [Details](#2160a4b932075c98df6806c61d263d30f650b9f4250)
  [wmf\audit_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/743c597c721d4abe67d657eaabd03ecc5cf19690/wmf/audit_overview.md) | InSyncHandedBackSuccess | [Details](#94d24bd3b67d1eceb71af4ffe704f2e03bf0806c251)
  [wmf\audit_script.md](https://github.com/PowerShell/powerShell-Docs/blob/743c597c721d4abe67d657eaabd03ecc5cf19690/wmf/audit_script.md) | InSyncHandedBackSuccess | [Details](#654c0d5e83b9832524298b5c96eae094f371330f252)
@@ -2191,39 +2191,39 @@
 * [Back to Top](#report-top)
 
 ##### <a name='54b0789edc06c2f0735e554d0b6c010b32e896f7146'></a> Source: [scripting\Token\win8_client_1_md.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_1_md.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\Token\win8_client_1_md.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/b642705c8e0f8eb1ac13fa4c1ac1c33861c1b40a/scripting/Token/win8_client_1_md.md)
 * Handoff File: [win8_client_1_md.e9fc220d2246ec2a37ebe6c093604008bf9ad2de.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6e820c58aaebccb9f773f5cd63fd4610b4d0842e/ol-handoff/PowerShell/powerShell-Docs.es-es/live/win8_client_1_md.e9fc220d2246ec2a37ebe6c093604008bf9ad2de.es-es.xlf)
 * Handoff Datetime: 2016-04-05 17:33:36
 * Handoff Reason: Include
 * Archive File: [win8_client_1_md.e9fc220d2246ec2a37ebe6c093604008bf9ad2de.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f1ad66af48d33a0757ed77e3bbdb5e37b10a46c8/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/win8_client_1_md.e9fc220d2246ec2a37ebe6c093604008bf9ad2de.es-es.xlf)
 * Archive Datetime: 2016-04-15 00:39:37
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [win8_client_1_md.e9fc220d2246ec2a37ebe6c093604008bf9ad2de.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/639d4a739f85ef4ce412ec001b18965365f6434d/ol-handback/PowerShell/powerShell-Docs.es-es/live/win8_client_1_md.e9fc220d2246ec2a37ebe6c093604008bf9ad2de.es-es.xlf)
+* Handback Datetime: 2016-04-19 01:37:16
 * [Back to Top](#report-top)
 
 ##### <a name='111fdd363b01584ec5959bc0f9e745201fa2b947147'></a> Source: [scripting\Token\win8_client_2.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_2.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\Token\win8_client_2.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/b642705c8e0f8eb1ac13fa4c1ac1c33861c1b40a/scripting/Token/win8_client_2.md)
 * Handoff File: [win8_client_2.f1a99c6b3e0ae4d0222f6ff4a94c9494d49f5ab1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6e820c58aaebccb9f773f5cd63fd4610b4d0842e/ol-handoff/PowerShell/powerShell-Docs.es-es/live/win8_client_2.f1a99c6b3e0ae4d0222f6ff4a94c9494d49f5ab1.es-es.xlf)
 * Handoff Datetime: 2016-04-05 17:33:36
 * Handoff Reason: Include
 * Archive File: [win8_client_2.f1a99c6b3e0ae4d0222f6ff4a94c9494d49f5ab1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f1ad66af48d33a0757ed77e3bbdb5e37b10a46c8/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/win8_client_2.f1a99c6b3e0ae4d0222f6ff4a94c9494d49f5ab1.es-es.xlf)
 * Archive Datetime: 2016-04-15 00:39:37
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [win8_client_2.f1a99c6b3e0ae4d0222f6ff4a94c9494d49f5ab1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/639d4a739f85ef4ce412ec001b18965365f6434d/ol-handback/PowerShell/powerShell-Docs.es-es/live/win8_client_2.f1a99c6b3e0ae4d0222f6ff4a94c9494d49f5ab1.es-es.xlf)
+* Handback Datetime: 2016-04-19 01:37:16
 * [Back to Top](#report-top)
 
 ##### <a name='6517856f8c3a3fda3ae28305a05d127f0e1bdb97148'></a> Source: [scripting\Token\win8_client_2_md.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_client_2_md.md)
-* Status: ArchivedSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\Token\win8_client_2_md.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/b642705c8e0f8eb1ac13fa4c1ac1c33861c1b40a/scripting/Token/win8_client_2_md.md)
 * Handoff File: [win8_client_2_md.914d9232c8394bedd18618c661095853cdc59969.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/6e820c58aaebccb9f773f5cd63fd4610b4d0842e/ol-handoff/PowerShell/powerShell-Docs.es-es/live/win8_client_2_md.914d9232c8394bedd18618c661095853cdc59969.es-es.xlf)
 * Handoff Datetime: 2016-04-05 17:33:36
 * Handoff Reason: Include
 * Archive File: [win8_client_2_md.914d9232c8394bedd18618c661095853cdc59969.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/f1ad66af48d33a0757ed77e3bbdb5e37b10a46c8/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/win8_client_2_md.914d9232c8394bedd18618c661095853cdc59969.es-es.xlf)
 * Archive Datetime: 2016-04-15 00:39:37
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
+* Handback File: [win8_client_2_md.914d9232c8394bedd18618c661095853cdc59969.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/639d4a739f85ef4ce412ec001b18965365f6434d/ol-handback/PowerShell/powerShell-Docs.es-es/live/win8_client_2_md.914d9232c8394bedd18618c661095853cdc59969.es-es.xlf)
+* Handback Datetime: 2016-04-19 01:37:16
 * [Back to Top](#report-top)
 
 ##### <a name='c6a1c70d4bdc9367af817b843e529a7f9d2d3d33149'></a> Source: [scripting\Token\win8_server_1.md](https://github.com/PowerShell/powerShell-Docs/blob/7221b5bd5ba90da32836d8c4e2bddb18c8f02ba6/scripting/Token/win8_server_1.md)
