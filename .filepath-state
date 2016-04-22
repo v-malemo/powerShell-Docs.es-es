@@ -287,6 +287,9 @@
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
   ],
+  "a024ce25ae444d455376238675da9fac5f90cf92": [
+    "dsc\\TOC.md"
+  ],
   "014c667f1caa9ef44fa644f05af1e756a827f50f": [
     "dsc\\TOC.md"
   ],
@@ -367,6 +370,9 @@
   ],
   "0c31a5571d8262c81e748f1a3368361ea4e9a700": [
     "wmf\\dsc_confighelp.md"
+  ],
+  "dff9d6cfd92efac3f7a5f68b4ebe37719dbce111": [
+    "wmf\\dsc_directaccess.md"
   ],
   "545041b44bf696185fb0da364873779134622b8a": [
     "wmf\\dsc_directaccess.md"
@@ -604,6 +610,9 @@
   ],
   "adda311ae522a0b165380a2f277c30a03a06a03e": [
     "dsc\\singleInstance.md"
+  ],
+  "e7ce731839077fd9ccf726c3ff317b5d70554634": [
+    "scripting\\TOC.md"
   ],
   "afc2d955f33af3a23bc2cfa6e45b0f3f5a5872a5": [
     "scripting\\TOC.md"
@@ -1198,5 +1207,17 @@
   ],
   "ffdabc57d75d80ed6a250f53237d2bd5c6bc99fb": [
     "dsc\\msft-dsclocalconfigurationmanager-testconfiguration.md"
+  ],
+  "f6b6006e9d1ad8aef62523accf73e5f2dba36898": [
+    "dsc\\crossNodeDependencies.md"
+  ],
+  "156f2a3b3107cfb7501be1a8ddd918f70bcbd254": [
+    "dsc\\directCallResource.md"
+  ],
+  "a770b81f2fa2457b15e7711b74d0df87637b05e0": [
+    "dsc\\sxsResource.md"
+  ],
+  "909d0012f1c0e6b7f02bfcc7269b59317bdc3869": [
+    "scripting\\Topic\\WinRMSecurity.md"
   ]
 }
