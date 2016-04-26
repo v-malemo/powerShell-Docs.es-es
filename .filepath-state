@@ -602,9 +602,6 @@
   "53ace617daf20d1375838e7021771af0e8b29193": [
     "dsc\\runAsUser.md"
   ],
-  "d9f53a805041164f5070845c0fd216b63d17ae58": [
-    "dsc\\images\\CredentialEncryptionDiagram1.png"
-  ],
   "f617844fdfc22c15e23687a911cfe75876abc43e": [
     "dsc\\singleInstance.md"
   ],
@@ -1216,6 +1213,9 @@
   ],
   "a770b81f2fa2457b15e7711b74d0df87637b05e0": [
     "dsc\\sxsResource.md"
+  ],
+  "00e5a37e5fbe4532a00ead52c14a61558361c719": [
+    "scripting\\Topic\\WinRMSecurity.md"
   ],
   "909d0012f1c0e6b7f02bfcc7269b59317bdc3869": [
     "scripting\\Topic\\WinRMSecurity.md"
