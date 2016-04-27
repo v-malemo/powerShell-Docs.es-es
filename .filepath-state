@@ -287,6 +287,9 @@
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
   ],
+  "bbe92fa020f2c0db430d13112d346778e44b5905": [
+    "dsc\\TOC.md"
+  ],
   "a024ce25ae444d455376238675da9fac5f90cf92": [
     "dsc\\TOC.md"
   ],
@@ -1219,5 +1222,8 @@
   ],
   "909d0012f1c0e6b7f02bfcc7269b59317bdc3869": [
     "scripting\\Topic\\WinRMSecurity.md"
+  ],
+  "ee9548a75d6eef498109c42007ef6c9d91b7c1ba": [
+    "dsc\\nanoDsc.md"
   ]
 }
