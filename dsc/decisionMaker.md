@@ -6,7 +6,7 @@ En este documento se describen los beneficios de negocio del uso de la configura
 
 La configuración de estado deseado (DSC) de Windows PowerShell ofrece una plataforma de administración de configuración integrada en Windows que se basa en estándares abiertos. DSC es lo suficientemente flexible como para funcionar de forma confiable y coherente en cada una de las etapas del ciclo de vida de implementación (desarrollo, prueba, preproducción, producción), así como durante el escalado horizontal. 
 
-DSC se centra en la idea de "[configuraciones](https://msdn.microsoft.com/en-us/powershell/dsc/configurations)", que son documentos fáciles de leer que describen un entorno compuesto por equipos ("nodos") con características específicas. Estas características pueden ser tan sencillas como garantizar que una característica concreta de Windows está habilitada, o tan complejas como la implementación de SharePoint. 
+DSC se centra en la idea de "<ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/configurations)">configuraciones</ctype="x-NOTFOUND">", que son documentos fáciles de leer que describen un entorno compuesto por equipos ("nodos") con características específicas. Estas características pueden ser tan sencillas como garantizar que una característica concreta de Windows está habilitada, o tan complejas como la implementación de SharePoint. 
 
 DSC también tiene supervisión y generación de informes integradas. Si un sistema ya no es conforme, DSC puede generar una alerta y actuar para corregir el sistema. 
 
@@ -16,24 +16,24 @@ Las configuraciones están diseñadas para que se puedan leer, almacenar y actua
 
 La creación de configuraciones implica que se capturen los pasos de implementación complejos como un "origen único de verdad" en una ubicación única. Esto hace que las implementaciones repetidas de un conjunto concreto de máquinas sean mucho menos propensas a errores. A su vez, esto hace que las implementaciones sean más rápidas y confiables. Esto permite un tiempo de entrega rápido en las implementaciones complejas.
 
-Las configuraciones también pueden compartirse a través de la [Galería de PowerShell](https://powershellgallery.com). Esto significa que puede que ya existan escenarios comunes y procedimientos recomendados para el trabajo que necesita.
+Las configuraciones también pueden compartirse a través de la <ctype="x-NOTFOUND" mdpre="[" mdpost="](https://powershellgallery.com)">Galería de PowerShell</ctype="x-NOTFOUND">. Esto significa que puede que ya existan escenarios comunes y procedimientos recomendados para el trabajo que necesita.
 
 
 ## Configuración de estado deseado y DevOps ##
 
-[DevOps](http://blogs.technet.com/b/ashleymcglone/archive/2015/11/20/devops-for-n00bs-ie-windows-people.aspx) es una combinación de personas, tecnologías y referencias culturales que permiten una implementación e iteración rápidas. DSC se diseñó con DevOps en mente. Que una sola configuración defina un entorno significa que los desarrolladores pueden codificar sus requisitos en una configuración, incorporar esa configuración en el control de código fuente, y los equipos de operaciones pueden implementar fácilmente el código sin tener que realizar procesos manuales propensos a errores. 
+<ctype="x-NOTFOUND" mdpre="[" mdpost="](http://blogs.technet.com/b/ashleymcglone/archive/2015/11/20/devops-for-n00bs-ie-windows-people.aspx)">DevOps</ctype="x-NOTFOUND"> es una combinación de personas, tecnologías y referencias culturales que permiten una implementación e iteración rápidas. DSC se diseñó con DevOps en mente. Que una sola configuración defina un entorno significa que los desarrolladores pueden codificar sus requisitos en una configuración, incorporar esa configuración en el control de código fuente, y los equipos de operaciones pueden implementar fácilmente el código sin tener que realizar procesos manuales propensos a errores. 
 
-Las configuraciones también están [controladas por datos](https://msdn.microsoft.com/en-us/powershell/dsc/configdata), lo que facilita que los equipos de operaciones identifiquen y cambien los entornos sin intervención del programador. 
+Las configuraciones también están <ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/configdata)">controladas por datos</ctype="x-NOTFOUND">, lo que facilita que los equipos de operaciones identifiquen y cambien los entornos sin intervención del desarrollador. 
 
 ## Configuración de estado deseado local y remota ##
 
-DSC se puede utilizar para administrar implementaciones locales y remotas. Para las soluciones locales, la configuración de estado deseado tiene un [servidor de extracción](https://msdn.microsoft.com/en-us/powershell/dsc/pullserver) que puede utilizarse para centralizar la administración de máquinas e informar sobre su estado. Para las soluciones de nube, la configuración de estado deseado se puede utilizar siempre que se pueda usar Windows. También hay ofertas específicas de Azure basadas en la configuración de estado deseado, como [Automatización de Azure](https://azure.microsoft.com/en-us/documentation/services/automation/), que centraliza la creación de informes de la configuración de estado deseado. 
+DSC se puede utilizar para administrar implementaciones locales y remotas. Para las soluciones locales, la configuración de estado deseado tiene un <ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/pullserver)">servidor de incorporación de cambios</ctype="x-NOTFOUND"> que puede utilizarse para centralizar la administración de máquinas e informar sobre su estado. Para las soluciones de nube, la configuración de estado deseado se puede utilizar siempre que se pueda usar Windows. También hay ofertas específicas de Azure basadas en la configuración de estado deseado, como <ctype="x-NOTFOUND" mdpre="[" mdpost="](https://azure.microsoft.com/en-us/documentation/services/automation/)">Automatización de Azure</ctype="x-NOTFOUND">, que centraliza la creación de informes de la configuración de estado deseado. 
 
 ## DSC y la compatibilidad ##
 
-Aunque DSC se introdujo en Windows Server 2012 R2, está disponible para los sistemas operativos inferiores mediante el paquete Windows Management Framework (WMF). Puede encontrar más información sobre WMF en la [página principal de PowerShell](https://msdn.microsoft.com/en-us/powershell/). 
+Aunque DSC se introdujo en Windows Server 2012 R2, está disponible para los sistemas operativos inferiores mediante el paquete Windows Management Framework (WMF). Puede encontrar más información sobre WMF en la <ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/)">página principal de PowerShell</ctype="x-NOTFOUND">. 
 
-DSC también se puede usar para administrar Linux. Para más información, consulte [Introducción a DSC para Linux](https://msdn.microsoft.com/en-us/powershell/dsc/lnxgettingstarted).
+DSC también se puede usar para administrar Linux. Para más información, consulte <ctype="x-NOTFOUND" mdpre="[" mdpost="](https://msdn.microsoft.com/en-us/powershell/dsc/lnxgettingstarted)">Introducción a DSC para Linux</ctype="x-NOTFOUND">.
 
 <!--HONumber=Mar16_HO1-->
 

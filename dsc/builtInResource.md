@@ -2,7 +2,7 @@
 
 > Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
 
-La configuración de estado deseado (DSC) de Windows PowerShell incluye un conjunto de recursos de configuración integrados. En la tabla siguiente se ofrece una lista ordenada alfabéticamente con estos recursos y vínculos a temas que los describen en detalle. Si necesita crear recursos adicionales, consulte [Crear recursos de configuración de estado deseado de Windows PowerShell personalizados](authoringResource.md).
+La configuración de estado deseado (DSC) de Windows PowerShell incluye un conjunto de recursos de configuración integrados. En la tabla siguiente se ofrece una lista ordenada alfabéticamente con estos recursos y vínculos a temas que los describen en detalle. Si necesita crear recursos adicionales, consulte <ctype="x-NOTFOUND" mdpre="[" mdpost="](authoringResource.md)">Crear recursos de configuración de estado deseado de Windows PowerShell personalizados</ctype="x-NOTFOUND">.
 
 * [Recurso Archive](archiveResource.md)
 * [Recurso Environment](environmentResource.md)
@@ -16,4 +16,8 @@ La configuración de estado deseado (DSC) de Windows PowerShell incluye un conju
 * [Recurso User](userResource.md)
 * [Recurso WindowsFeature](windowsFeatureResource.md)
 * [Recurso WindowsProcess](windowsProcessResource.md)
-<!--HONumber=Feb16_HO4-->
+
+
+<!--HONumber=Mar16_HO3-->
+
+
