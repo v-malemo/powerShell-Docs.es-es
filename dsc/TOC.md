@@ -4,6 +4,7 @@
 ## [Establecer configuraciones](enactingConfigurations.md)
 ## [Datos de configuración](configData.md)
 ### [Opciones de credenciales en los datos de configuración](configDataCredentials.md)
+### [DSC de ejecución con las credenciales de usuario](runAsUser.md)
 ## [Proteger el archivo MOF de configuración](secureMOF.md)
 ## [Configuraciones parciales](partialConfigs.md)
 # [Recursos](resources.md)
@@ -26,6 +27,7 @@
 ### [Recursos personalizados basados en clases](authoringResourceClass.md)
 ### [Recursos compuestos](authoringResourceComposite.md)
 ### [Depuración de recursos de DSC](debugResource.md)
+### [Escribir un recurso de DSC de instancia única (procedimiento recomendado)](singleInstance.md)
 ### [Lista de comprobación de creación de recursos](resourceAuthoringChecklist.md)
 
 # [Configuración del administrador de configuración local (LCM)](metaConfig.md)
@@ -33,6 +35,7 @@
 
 # El modelo de extracción de DSC
 ## [Configuración de un servidor de extracción web](pullServer.md)
+## [Configuración de un servidor de incorporación de cambios SMB de DSC](pullServerSMB.md)
 ## [Configuración de un cliente de extracción](pullClient.md)
 ### [Configuración de un cliente de extracción mediante nombres de configuración](pullClientConfigNames.md)
 ### [Configuración de un cliente de extracción mediante id. de configuración](pullClientConfigID.md)
@@ -53,4 +56,8 @@
 ### [Recurso nxService](lnxServiceResource.md)
 ### [Recurso nxSshAuthorizedKeys](lnxSshAuthorizedKeysResource.md)
 ### [Recurso nxUser](lnxUserResource.md)
-<!--HONumber=Mar16_HO1-->
+
+
+<!--HONumber=Apr16_HO1-->
+
+
