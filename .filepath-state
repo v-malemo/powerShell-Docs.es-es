@@ -194,21 +194,6 @@
   "df17a2af726925e59275f2ecabf702c105b0cdc8": [
     "dsc\\pullServer.md"
   ],
-  "3a0ad4ab86a570279e8ebdec35edb9dafc69e9bf": [
-    "dsc\\pullServer.md"
-  ],
-  "e5527efe7581726bdd80ca3e47b04227c0d78082": [
-    "dsc\\pullServer.md"
-  ],
-  "7ef25cdbad291b10234fe2fd2755c3e1d5858a86": [
-    "dsc\\pullServer.md"
-  ],
-  "51a5cd22cc00e59db2acc910dcfbd6e56fe55d95": [
-    "dsc\\pullServer.md"
-  ],
-  "0ef3dedfc2ca50e9edf86f8bb8931d778c3005c4": [
-    "dsc\\pullServer.md"
-  ],
   "fc1456c57ade6862957e54ee53f18f189785848a": [
     "dsc\\queryServerNodes.md"
   ],
@@ -216,21 +201,6 @@
     "dsc\\registryResource.md"
   ],
   "e8e890b02530d6abf3e6fecf18f6779e81c84eec": [
-    "dsc\\reportServer.md"
-  ],
-  "500775f223a550a8edf78198a2cb5912eaff90fa": [
-    "dsc\\reportServer.md"
-  ],
-  "34ec900d1b7960e5a8180336968d2dfdbf6ef68b": [
-    "dsc\\reportServer.md"
-  ],
-  "40b0aa8dee0fb9578649c0ec92a5a2cb027a137d": [
-    "dsc\\reportServer.md"
-  ],
-  "40b91da10381a075d5a91d98496061d7ce268a6e": [
-    "dsc\\reportServer.md"
-  ],
-  "6753e6cbb4745a5da02aa68190d815383b552e12": [
     "dsc\\reportServer.md"
   ],
   "df54abe3d92ffaff2998e9fb3157b42cf83143c2": [
@@ -260,18 +230,6 @@
   "c44d8f0f02ca735a1d545dba99f6b1fa78b2110f": [
     "dsc\\secureMOF.md"
   ],
-  "c3b61e7f85bc59833548873a73b6ce9559dcea3a": [
-    "dsc\\secureMOF.md"
-  ],
-  "55174e36ce3a481f953978604ce4f06d2a5eefd2": [
-    "dsc\\secureMOF.md"
-  ],
-  "eee564201a4bd5943c9101a394993b2b1ee0948a": [
-    "dsc\\secureMOF.md"
-  ],
-  "14cf6c2005eb756200e7fd065b61e4120d84c02e": [
-    "dsc\\secureMOF.md"
-  ],
   "2290a81a8dbc82b7881d2b6006d70a90578f9a56": [
     "dsc\\secureServer.md"
   ],
@@ -291,18 +249,6 @@
     "dsc\\TOC.md"
   ],
   "6a65e1ac34595c1f0207785b63b7760ece43172c": [
-    "dsc\\TOC.md"
-  ],
-  "3dc3c9067740310415daef415dc0b44310aeb473": [
-    "dsc\\TOC.md"
-  ],
-  "d5e4fab6455346dc3bcebe3d0aef628ee37f3a56": [
-    "dsc\\TOC.md"
-  ],
-  "01e28aa359257770548224cef97ec8375c5a1461": [
-    "dsc\\TOC.md"
-  ],
-  "27331b4f0508ef9006203e82329e7c8065d619ad": [
     "dsc\\TOC.md"
   ],
   "d571a7562bd23e3bca78127732dd4fccb88fee1c": [
@@ -447,9 +393,6 @@
     "wmf\\dsc_sxsresource.md"
   ],
   "df6b5db79c8c165e7fb3c1570838ac7a696b5a55": [
-    "wmf\\dsc_testconfiguration.md"
-  ],
-  "71dcfe5d8a56f707ee9a05cdb07d2fda4bbcd573": [
     "wmf\\dsc_testconfiguration.md"
   ],
   "64101be0217053e685f39cd6aebf4447df700c7f": [
