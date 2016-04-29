@@ -302,6 +302,9 @@
   "31b64b6845c8d6ece8628bd565662525a65353d9": [
     "wmf\\class_interface.md"
   ],
+  "b91e3bbb40b2b5eddd1e43be568773c850a9b8e0": [
+    "wmf\\class_newtype.md"
+  ],
   "5728269b9c4e2f64fea941460ea24b8ec9f59c85": [
     "wmf\\class_newtype.md"
   ],
@@ -313,6 +316,9 @@
   ],
   "b1cdc60338b2c130dad7d917c8fcec543aafe467": [
     "wmf\\dsc_authoring.md"
+  ],
+  "7e25c8195c153a2fda21fac320c2750d51678b6a": [
+    "wmf\\dsc_classbasedresource.md"
   ],
   "af92e9b7eb75d6b25d2194b9c738b9d6ae2c157f": [
     "wmf\\dsc_classbasedresource.md"
