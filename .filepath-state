@@ -236,6 +236,9 @@
   "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
   ],
+  "8a1b3001e3db183d6cef1f7f7bdcb9c685268fac": [
+    "dsc\\TOC.md"
+  ],
   "bbe92fa020f2c0db430d13112d346778e44b5905": [
     "dsc\\TOC.md"
   ],
@@ -1151,7 +1154,13 @@
   "909d0012f1c0e6b7f02bfcc7269b59317bdc3869": [
     "scripting\\Topic\\WinRMSecurity.md"
   ],
+  "36eb67cfb8a17de40d1e826807f0386c5eb488f4": [
+    "dsc\\nanoDsc.md"
+  ],
   "ee9548a75d6eef498109c42007ef6c9d91b7c1ba": [
     "dsc\\nanoDsc.md"
+  ],
+  "918f7ebd3f6973cb17db4bdada7babf5dc716c3c": [
+    "dsc\\configHelp.md"
   ]
 }
