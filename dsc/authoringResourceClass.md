@@ -21,25 +21,6 @@ $env: psmodulepath (folder)
            MyDscResource.psd1 
 ```
 
-### Módulos anidados
-
-Como alternativa, puede dividir los recursos de varios archivos `.psm1` e incluirlos como módulos anidados.
-Es razonable, cuando tiene una gran cantidad de recursos y colocarlos en un archivo resultaría difícil de administrar.
-
-```
-$env: psmodulepath (folder)
-    |- MyDscResource (folder)
-        |- MyDscResourceA.psm1
-           MyDscResourceB.psm1 
-           MyDscResource.psd1 
-```
-
-Puede colocar una clase en cada archivo, o varias de ellas. 
-Puede ser útil para agrupar los recursos por subárea dentro de un módulo anidado.
-Desde el punto de vista del usuario, no hay ninguna diferencia en el uso.
-Todos los recursos se mostrarán en el módulo `MyDscResource`.
-Considere estos módulos anidados como detalles de implementación y úselos para su comodidad.
-
 ## Crear la clase
 
 Utilice la palabra clave class para crear una clase de PowerShell. Para especificar que una clase es un recurso de DSC, use el atributo **DscResource()**. El nombre de la clase es el nombre del recurso de DSC.
@@ -423,7 +404,7 @@ class FileResource
 
 ## Crear un manifiesto
 
-Para que un recurso basado en clases esté disponible para el motor de DSC, debe incluir una instrucción **DscResourcesToExport** en el archivo de manifiesto que indica el módulo que se exporten los recursos. 
+Para que un recurso basado en clases esté disponible para el motor de DSC, debe incluir una instrucción **DscResourcesToExport** en el archivo de manifiesto que indique al módulo que se exporten los recursos. El manifiesto tiene este aspecto:
 
 ```powershell
 @{
@@ -431,45 +412,7 @@ Para que un recurso basado en clases esté disponible para el motor de DSC, debe
 # Script module or binary module file associated with this manifest.
 RootModule = 'MyDscResource.psm1'
 
-DscResourcesToExport = @('FileResource')
-
-# Version number of this module.
-ModuleVersion = '1.0'
-
-# ID used to uniquely identify this module
-GUID = '81624038-5e71-40f8-8905-b1a87afe22d7'
-
-# Author of this module
-Author = 'Microsoft Corporation'
-
-# Company or vendor of this module
-CompanyName = 'Microsoft Corporation'
-
-# Copyright statement for this module
-Copyright = '(c) 2014 Microsoft. All rights reserved.'
-
-# Description of the functionality provided by this module
-# Description = ''
-
-# Minimum version of the Windows PowerShell engine required by this module
-PowerShellVersion = '5.0'
-
-# Name of the Windows PowerShell host required by this module
-# PowerShellHostName = ''
-} 
-```
-
-Si utiliza **módulos anidados** para dividir los recursos en varios archivos, debe colocar la lista de módulos anidados en la clave `NestedModules`.
-
-```powershell
-@{
-
-# Don't specify RootModule
-
-# Script module or binary module file associated with this manifest.
-NestedModules = @('MyDscResourceA.psm1', 'MyDscResourceB.psm1')
-
-DscResourcesToExport = @('MyDscResourceA', 'MyDscResourceB')
+DscResourcesToExport = 'FileResource'
 
 # Version number of this module.
 ModuleVersion = '1.0'
@@ -519,4 +462,8 @@ Start-DscConfiguration -Wait -Force Test
 ## Consulte también
 ### Conceptos
 [Crear recursos de configuración de estado deseado de Windows PowerShell personalizados](authoringResource.md)
-<!--HONumber=Mar16_HO1-->
+
+
+<!--HONumber=Mar16_HO4-->
+
+

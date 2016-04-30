@@ -1,7 +1,7 @@
 # Lista de comprobación de creación de recursos
-
+Esta lista de comprobación es una lista de procedimientos recomendados al crear un nuevo recurso de DSC.
 ## El módulo de recursos contiene los archivos .psd1 y schema.mof para cada recurso 
-Lo primero que debe hacer es comprobar que el recurso tiene la estructura correcta y contiene todos los archivos necesarios. Cada módulo de recursos debe contener un archivo. psd1 y todos los recursos no compuestos deben tener el archivo schema.mof. **Get-DscResource** no enumerará los recursos que no incluyan esquema y los usuarios no podrán usar intellisense al escribir código en esos módulos en ISE. 
+Lo primero que debe hacer es comprobar que el recurso tenga la estructura correcta y contenga todos los archivos necesarios. Cada módulo de recursos debe contener un archivo. psd1 y todos los recursos no compuestos deben tener el archivo schema.mof. **Get-DscResource** no enumerará los recursos que no incluyan esquema y los usuarios no podrán usar Intellisense al escribir código en esos módulos en ISE. 
 La estructura de directorios de ejemplo del recurso xRemoteFile, que forma parte del módulo de recursos xPSDesiredStateConfiguration, podría tener el aspecto siguiente:
 
 
@@ -112,13 +112,13 @@ Este es un ejemplo más concreto de uso del recurso Registry:
 
 Get-TargetResource debe devolver los detalles del estado actual del recurso. Asegúrese de que probarlo mediante una llamada a Get-DscConfiguration después de aplicar la configuración y de comprobar que el resultado refleja correctamente el estado actual de la máquina. Es importante probarlo por separado, ya que los problemas de esta área no aparecerán al llamar a Start-DscConfiguration.
 
-## Se comprobó el recurso mediante una llamada directamente a las funciones **Get/Set/Test-TargetResource** ##
+## Se comprobó el recurso mediante una llamada directamente a las funciones **Get/Set/Test-TargetResource**. ##
 
 Asegúrese de probar las funciones **Get/Set/Test-TargetResource** implementadas en el recurso. Para ello, llámelas directamente y compruebe que funcionan según lo esperado.
 
-## El recurso se comprobó de un extremo a otro mediante **Start-DscConfiguration** ##
+## El recurso se comprobó de un extremo a otro mediante **Start-DscConfiguration**. ##
 
-Es importante llamar directamente a las funciones **Get/Set/Test-TargetResource** para probarlas, pero no todos los problemas se detectarán de esta forma. Debe centrar una parte importante de las pruebas en el uso de **Start-DscConfiguration** o el servidor de extracción. De hecho, así es como los usuarios usarán el recurso, por lo que no subestime la importancia de este tipo de pruebas. 
+Es importante llamar directamente a las funciones **Get/Set/Test-TargetResource** para probarlas, pero no todos los problemas se detectarán de esta forma. Debe centrar una parte importante de las pruebas en el uso de **Start-DscConfiguration** o el servidor de incorporación de cambios. De hecho, así es como los usuarios usarán el recurso, por lo que no subestime la importancia de este tipo de pruebas. 
 Posibles tipos de problemas:
 -   Es posible que Credential/Session se comporten de manera diferente porque el agente DSC se ejecuta como un servicio.  Asegúrese de probar todas las características aquí de un extremo a otro.
 -   Compruebe que los mensajes de error que muestra el recurso tienen sentido. Por ejemplo, los errores que produce **Start-DscConfiguration** pueden ser diferentes de los que se muestran al llamar a la función **Set-TargetResource** directamente.
@@ -201,7 +201,7 @@ Asegúrese de comprobar los errores en los escenarios de un extremo a otro (medi
 ## Los mensajes de registro son fáciles de entender e informativos (incluidos los registros –verbose, –debug y ETW) ##
 Asegúrese de que los registros que emite el recurso son fáciles de comprender y proporcionan valor al usuario. Los recursos deben generar toda la información que pueda resultar útil para el usuario, pero un mayor número de registros no siempre es mejor. Debe evitar la redundancia y la salida de datos que no proporcionen valor adicional: evite que nadie deba consultar cientos de entradas de registro para encontrar lo que busca. Por supuesto, la ausencia de registros tampoco es una solución aceptable para este problema. 
 
-Al realizar pruebas, también debe analizar los registros detallado y de depuración (ejecutando **Start-DscConfiguration** con los modificadores –verbose y –debug, respectivamente), así como los registros ETW. Para ver los registros ETW de DSC, vaya al Visor de eventos y abra la carpeta siguiente: Aplicaciones y servicios - Microsoft - Windows - Configuración de estado deseado.  De forma predeterminada, será Canal operativo, pero asegúrese de habilitar Canal analítico y Canal de depuración (debe hacerlo antes de ejecutar la configuración). 
+Al realizar pruebas, también debe analizar los registros detallados y de depuración (ejecutando **Start-DscConfiguration** con los modificadores –verbose y –debug, respectivamente), así como los registros ETW. Para ver los registros ETW de DSC, vaya al Visor de eventos y abra la carpeta siguiente: Aplicaciones y servicios - Microsoft - Windows - Configuración de estado deseado.  De forma predeterminada, será Canal operativo, pero asegúrese de habilitar Canal analítico y Canal de depuración (debe hacerlo antes de ejecutar la configuración). 
 Para habilitar los canales analítico o de depuración, puede ejecutar el script siguiente:
 ```powershell
 $statusEnabled = $true
@@ -315,4 +315,8 @@ VERBOSE: Operation 'Invoke CimMethod' complete.
 
 Esto concluye nuestra lista de comprobación. Tenga en cuenta que esta lista no es exhaustiva, pero abarca muchos problemas importantes que detectamos durante las fases de diseño, desarrollo y prueba de recursos de DSC. Disponer de una lista de comprobación ayuda a garantizar que no olvidamos ninguno de esos aspectos y, de hecho, la usamos en Microsoft cuando desarrollamos recursos de DSC. 
 Si desarrolló directrices y procedimientos recomendados que usa para escribir y probar recursos de DSC, compártalos.
-<!--HONumber=Mar16_HO1-->
+
+
+<!--HONumber=Mar16_HO2-->
+
+
