@@ -8,9 +8,6 @@
   "aab3ccc2a95b5e1b2e450f38e0f81ec1c4727c30": [
     "dsc\\authoringResourceClass.md"
   ],
-  "09fdf376a7001ef6e43d4c4a6b8d14516b616fc5": [
-    "dsc\\authoringResourceClass.md"
-  ],
   "4af3a1c0d7491552cfa1d22daa6718803e762698": [
     "dsc\\authoringResourceComposite.md"
   ],
@@ -45,9 +42,6 @@
     "dsc\\configurations.md"
   ],
   "0959c2576a82b63e814b73a95a085e5512c0726f": [
-    "dsc\\debugResource.md"
-  ],
-  "5740ae503616927c717ce17ce3d1ae146a88c411": [
     "dsc\\debugResource.md"
   ],
   "03159221013064b2c1d77211c88bb8e1c9a9fcb1": [
@@ -98,12 +92,6 @@
   "4e6495b5c237c43240fc6cc30c3d435c1b8e0cbf": [
     "dsc\\lnxGettingStarted.md"
   ],
-  "29971a21ce4c9a894b4cdc11149264dc83e51d15": [
-    "dsc\\lnxGettingStarted.md"
-  ],
-  "80f9982f3c02f488d4ad0bba9a4eec8d266a4203": [
-    "dsc\\lnxGettingStarted.md"
-  ],
   "9bda555be3a52c574eccfa66b114883e2f543c70": [
     "dsc\\lnxGroupResource.md"
   ],
@@ -128,9 +116,6 @@
   "22147ef6b4045c44d80dc1025ac989e02763a698": [
     "dsc\\metaConfig.md"
   ],
-  "5131f7b51bde9c714fe249e14addaea8b05b80b3": [
-    "dsc\\metaConfig.md"
-  ],
   "ef2664b6dd61bd55898971adf7e4a57f92be88cc": [
     "dsc\\metaConfig4.md"
   ],
@@ -152,9 +137,6 @@
   "da7b4dad0811bf0dc4745b6482c74731448edbdd": [
     "dsc\\partialConfigs.md"
   ],
-  "3f1843e8a1335617c562084ce69fc82ae7c2c694": [
-    "dsc\\partialConfigs.md"
-  ],
   "3e61149f7b05f74d662d3038233013ffdcbed1a3": [
     "dsc\\images\\PartialConfig1.jpg"
   ],
@@ -167,25 +149,13 @@
   "c113ad890c30be1c801fca78ec6781b2fd8e6ef8": [
     "dsc\\pullClientConfigID.md"
   ],
-  "54bb78b313c4f0c721862910496c5154ed5444ef": [
-    "dsc\\pullClientConfigID.md"
-  ],
   "d0beb3d04da2488302a56f714d8d8a5b9e5ac6f9": [
-    "dsc\\pullClientConfigID4.md"
-  ],
-  "3714670bd9ded38e54c1f2e3f64658950c6d3f40": [
     "dsc\\pullClientConfigID4.md"
   ],
   "aa586b7e1cd14692ed4731f0da3cc4227abc6f06": [
     "dsc\\pullClientConfigNames.md"
   ],
   "f19b27aa466532d9cf5c660552eccca808139b3f": [
-    "dsc\\pullClientConfigNames.md"
-  ],
-  "95b94afd8267d2b0db6b37c5858b848b202dc472": [
-    "dsc\\pullClientConfigNames.md"
-  ],
-  "42c9a0b9ad1f9073bb9c927e68baa7e9d7b77d95": [
     "dsc\\pullClientConfigNames.md"
   ],
   "8c0bb5d67466770a9d62eaf07d487488bea8a41f": [
@@ -273,9 +243,6 @@
     "dsc\\windowsProcessResource.md"
   ],
   "c21a8247aac04887b4454122eb9b42476b40a543": [
-    "dsc\\resourceAuthoringChecklist.md"
-  ],
-  "291df6b35ab58b5616aebbe412362ef8cc4c2279": [
     "dsc\\resourceAuthoringChecklist.md"
   ],
   "2160a4b932075c98df6806c61d263d30f650b9f4": [
