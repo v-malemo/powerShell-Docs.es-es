@@ -50,12 +50,6 @@
   "aac18f752e981409c8c432dcb06b7bb862149cdd": [
     "dsc\\enactingConfigurations.md"
   ],
-  "d3008e3fe7da4c118c693d2b34a0b329780f8d86": [
-    "dsc\\images\\Push.png"
-  ],
-  "86d829b1fcdd41e648ed0594eaf337b3726c143c": [
-    "dsc\\images\\Pull.png"
-  ],
   "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c": [
     "dsc\\environmentResource.md"
   ],
@@ -137,12 +131,6 @@
   "da7b4dad0811bf0dc4745b6482c74731448edbdd": [
     "dsc\\partialConfigs.md"
   ],
-  "3e61149f7b05f74d662d3038233013ffdcbed1a3": [
-    "dsc\\images\\PartialConfig1.jpg"
-  ],
-  "1ba842005c2b1ce80a3670429b3e010c7b1c1f59": [
-    "dsc\\images\\PartialConfigPullServer.jpg"
-  ],
   "43046f30990060dc287bbef5571e099a538c2e1f": [
     "dsc\\pullClient.md"
   ],
@@ -157,6 +145,9 @@
   ],
   "f19b27aa466532d9cf5c660552eccca808139b3f": [
     "dsc\\pullClientConfigNames.md"
+  ],
+  "4327f7428aa839fd7bb1788b203d72c838814aa9": [
+    "dsc\\pullServer.md"
   ],
   "8c0bb5d67466770a9d62eaf07d487488bea8a41f": [
     "dsc\\pullServer.md"
@@ -302,9 +293,6 @@
   "20dee3be52962c04f04666893eed4a5ea1c27d0a": [
     "wmf\\dsc_encryptedmof.md"
   ],
-  "9a44a53029d37d4165bbffbdcaa79d9be76e5fac": [
-    "wmf\\images\\MOF_Encryption.jpg"
-  ],
   "34a0df793382c9bc882bcd94f8fdd1b426814fd4": [
     "wmf\\dsc_freqnomultiple.md"
   ],
@@ -316,9 +304,6 @@
   ],
   "cde72b65d75ded4968090264dd536874b4d2ac70": [
     "wmf\\dsc_importdscresource.md"
-  ],
-  "e6ed57c70f1b1380eb67c6998a1c9c67f3f246fc": [
-    "wmf\\images\\Import-DscResource-Modversion.jpg"
   ],
   "336c6bc43b482eda6524ebed0381240868261f64": [
     "wmf\\dsc_improvements.md"
@@ -358,9 +343,6 @@
   ],
   "68949a10a4e8b6cac5a2d596567e7c0e680db8a2": [
     "wmf\\dsc_resourcedebugging.md"
-  ],
-  "ba1897f38317f5fe38f2d8caf0efcc57bc8bb19d": [
-    "wmf\\images\\DscResourceDebugging.jpg"
   ],
   "d4919d80c1b1f8509b4e581768dd6f74e9d01f0d": [
     "wmf\\dsc_runas.md"
@@ -451,6 +433,9 @@
   ],
   "c87ec977d6b2cc74aae51a81ae1f9b790157ded9": [
     "wmf\\limitation_dsc.md"
+  ],
+  "c0c0b63ad6fcbfecbd130e1f5a736ab65f301627": [
+    "wmf\\limitation_overview.md"
   ],
   "5452d087bf0f56c02679a22599b6016348cbaa47": [
     "wmf\\limitation_overview.md"
