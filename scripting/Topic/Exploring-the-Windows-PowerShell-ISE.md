@@ -14,7 +14,7 @@ Puede usar el [!INCLUDE[ise_1](../Token/ise_1_md.md)] para crear, ejecutar y dep
 > A partir de [!INCLUDE[ise_2](../Token/ise_2_md.md)] 3.0, los paneles de comandos y de consola están combinados en un único panel de consola.
 
 ## Barra de menús
-La barra de menús contiene los menús **Archivo**, **Edición**, **Ver**, **Herramientas**, **Depurar**, **Complementos** y **Ayuda**. Los botones de los menús permiten realizar tareas relacionadas con la escritura y ejecución de scripts y la ejecución de comandos en [!INCLUDE[ise_2](../Token/ise_2_md.md)]. Además, se puede colocar un [menú Complementos](assetId:///412dd662-417a-4661-ada2-558802d0f6d2#submenus) en la barra de menús mediante la ejecución de scripts que usan el [modelo de objetos de scripting de Windows PowerShell ISE](assetId:///1737ddb7-c20d-4e6b-a0d3-68cc2650f2a1).
+La barra de menús contiene los menús **Archivo**, **Edición**, **Ver**, **Herramientas**, **Depurar**, **Complementos** y **Ayuda**. Los botones de los menús permiten realizar tareas relacionadas con la escritura y ejecución de scripts y la ejecución de comandos en [!INCLUDE[ise_2](../Token/ise_2_md.md)]. Además, se puede colocar un [menú Complementos](https://technet.microsoft.com/en-us/library/412dd662-417a-4661-ada2-558802d0f6d2#submenus) en la barra de menús mediante la ejecución de scripts que usan el [modelo de objetos de scripting de Windows PowerShell ISE](https://technet.microsoft.com/en-us/library/1737ddb7-c20d-4e6b-a0d3-68cc2650f2a1).
 
 > [!NOTE]
 > En [!INCLUDE[ise_2](../Token/ise_2_md.md)] 2.0, los menús **Herramientas** y **Complementos** no estaban presentes.
@@ -73,6 +73,6 @@ La ayuda de [!INCLUDE[ise_2](../Token/ise_2_md.md)] está disponible en la bibli
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=Apr16_HO2-->
 
 

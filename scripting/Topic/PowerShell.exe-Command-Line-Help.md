@@ -72,7 +72,7 @@ No carga el perfil de Windows PowerShell.
 Determina cómo se formatea la salida de Windows PowerShell. Los valores válidos son "Text" (cadenas de texto) o "XML" (formato CLIXML serializado).
 
 ### -PSConsoleFile <FilePath>
-Carga el archivo de consola de Windows PowerShell especificado. Escriba la ruta de acceso y el nombre del archivo de consola. Para crear un archivo de consola, use el cmdlet [Export-Console](assetId:///4bab1c02-9e61-4aaf-9957-11d1934ef4ef) en Windows PowerShell.
+Carga el archivo de consola de Windows PowerShell especificado. Escriba la ruta de acceso y el nombre del archivo de consola. Para crear un archivo de consola, use el cmdlet [Export-Console](https://technet.microsoft.com/en-us/library/4bab1c02-9e61-4aaf-9957-11d1934ef4ef) en Windows PowerShell.
 
 ### -Sta
 Inicia Windows PowerShell con un contenedor uniproceso. En [!INCLUDE[psversion3](../Token/psversion3_md.md)], el valor predeterminado es el contenedor uniproceso (STA). En [!INCLUDE[psversion2](../Token/psversion2_md.md)], el valor predeterminado es el contenedor multiproceso (MTA).
@@ -82,7 +82,7 @@ Inicia la versión especificada de Windows PowerShell. La versión que especifiq
 
 Si [!INCLUDE[psversion3](../Token/psversion3_md.md)] no está instalado, el único valor válido es "2.0". Otros valores se omiten.
 
-Para más información, consulte "Instalación de Windows PowerShell" en [Introducción a Windows PowerShell [antiguo MSDN]](assetId:///69555d95-b481-43e1-86e7-b46d68b3e2dd).
+Para más información, consulte "Instalación de Windows PowerShell" en [Introducción a Windows PowerShell [antiguo MSDN]](https://technet.microsoft.com/en-us/library/69555d95-b481-43e1-86e7-b46d68b3e2dd).
 
 ### -WindowStyle <Window style>
 Establece el estilo de ventana de la sesión. Los valores válidos son Normal, Minimizada, Maximizada y Oculta.
@@ -130,6 +130,6 @@ powershell.exe -encodedCommand $encodedCommand
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=Apr16_HO2-->
 
 

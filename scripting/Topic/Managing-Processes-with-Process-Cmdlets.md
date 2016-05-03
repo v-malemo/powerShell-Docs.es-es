@@ -165,15 +165,15 @@ Handles  NPM(K)    PM(K)      WS(K) VM(M)   CPU(s)     Id ProcessName
 Windows PowerShell también incluye cmdlets para iniciar (o reiniciar) y depurar un proceso, así como para esperar a que un proceso se complete antes de ejecutar un comando. Para obtener información acerca de estos cmdlets, vea el tema de ayuda de cada cmdlet.
 
 ## Consulte también
-[Get-Process [m2]](assetId:///27a05dbd-4b69-48a3-8d55-b295f6225f15)
-[Stop-Process [m2]](assetId:///12454238-9881-457a-bde4-fb6cd124deec)
-[Start-Process](assetId:///41a7e43c-9bb3-4dc2-8b0c-f6c32962e72c)
-[Wait-Process](assetId:///9222af7a-789d-4a09-aa90-09d7c256c799)
-[Debug-Process](assetId:///eea1dace-3913-4dbd-b659-5a94a610eee1)
-[Invoke-Command](assetId:///22fd98ba-1874-492e-95a5-c069467b8462)
+[Get-Process [m2]](https://technet.microsoft.com/en-us/library/27a05dbd-4b69-48a3-8d55-b295f6225f15)
+[Stop-Process [m2]](https://technet.microsoft.com/en-us/library/12454238-9881-457a-bde4-fb6cd124deec)
+[Start-Process](https://technet.microsoft.com/en-us/library/41a7e43c-9bb3-4dc2-8b0c-f6c32962e72c)
+[Wait-Process](https://technet.microsoft.com/en-us/library/9222af7a-789d-4a09-aa90-09d7c256c799)
+[Debug-Process](https://technet.microsoft.com/en-us/library/eea1dace-3913-4dbd-b659-5a94a610eee1)
+[Invoke-Command](https://technet.microsoft.com/en-us/library/22fd98ba-1874-492e-95a5-c069467b8462)
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=Apr16_HO2-->
 
 

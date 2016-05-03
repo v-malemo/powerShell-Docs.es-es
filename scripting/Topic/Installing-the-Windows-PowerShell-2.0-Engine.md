@@ -74,11 +74,11 @@ El paquete [!INCLUDE[ps_wmf_3.0](../Token/ps_wmf_3.0_md.md)] que instala [!INCLU
 ## Consulte también
 [Requisitos del sistema de Windows PowerShell](../Topic/Windows-PowerShell-System-Requirements.md)
 [Instalar Windows PowerShell](../Topic/Installing-Windows-PowerShell.md)
-[Iniciar Windows PowerShell [ps]](assetId:///8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)
+[Iniciar Windows PowerShell [ps]](https://technet.microsoft.com/en-us/library/8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)
 [Iniciar el motor de Windows PowerShell 2.0](../Topic/Starting-the-Windows-PowerShell-2.0-Engine.md)
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=Apr16_HO2-->
 
 
