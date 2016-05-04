@@ -20,7 +20,7 @@ En este tema se describe cómo crear, editar, ejecutar y guardar scripts en el p
 Puede abrir y editar archivos de [!INCLUDE[wps_1](../Token/wps_1_md.md)] en el panel de scripts. Los tipos de archivo de interés específicos de [!INCLUDE[wps_1](../Token/wps_1_md.md)] son los archivos de script (.ps1), los archivos de datos de script (.psd1) y los archivos de módulo de script (.psm1). Estos tipos de archivo presentan color de sintaxis en el editor de panel de scripts. Otros tipos de archivo comunes que puede abrir en el panel de scripts son los archivos de configuración (.ps1xml), los archivos XML y los archivos de texto.
 
 > [!NOTE]
-> La directiva de ejecución de [!INCLUDE[wps_2](../Token/wps_2_md.md)] determina si puede ejecutar scripts y cargar archivos de configuración y perfiles de Windows PowerShell. La directiva de ejecución predeterminada, Restricted, impide que se ejecuten todos los scripts y que se carguen perfiles. Para cambiar la directiva de ejecución a fin de permitir cargar y usar perfiles, consulte [Set-ExecutionPolicy[PSITPro5_Security]](assetId:///5690a0e1-495b-4e63-8280-65ead7bf01ab) y [about_Signing [v4]](assetId:///fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d).
+> La directiva de ejecución de [!INCLUDE[wps_2](../Token/wps_2_md.md)] determina si puede ejecutar scripts y cargar archivos de configuración y perfiles de Windows PowerShell. La directiva de ejecución predeterminada, Restricted, impide que se ejecuten todos los scripts y que se carguen perfiles. Para cambiar la directiva de ejecución a fin de permitir cargar y usar perfiles, consulte [Set-ExecutionPolicy[PSITPro5_Security]](https://technet.microsoft.com/en-us/library/5690a0e1-495b-4e63-8280-65ead7bf01ab) y [about_Signing [v4]](https://technet.microsoft.com/en-us/library/fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d).
 
 ### Para crear un nuevo archivo de script
 En la barra de herramientas, haga clic en **Nuevo**, o bien, en el menú **Archivo**, haga clic en **Nuevo**. El archivo creado aparece en una nueva pestaña de archivo en la ficha actual de PowerShell. Recuerde que las pestañas de PowerShell solo están visibles cuando hay más de una. De forma predeterminada, se crea un archivo de tipo script (.ps1), pero se puede guardar con un nombre y una extensión diferentes. Se pueden crear varios archivos de script en la misma pestaña de PowerShell.
@@ -118,7 +118,7 @@ Presione **CTRL+S** o haga clic en el icono **Guardar** de la barra de herramien
 4.  Haga clic en **Guardar**.
 
 ### Para guardar un script en la codificación ASCII
-De forma predeterminada, [!INCLUDE[ise_2](../Token/ise_2_md.md)] guarda los nuevos archivos de script (.ps1), los archivos de datos de script (.psd1) y los archivos de módulo de script (.psm1) como Unicode (BigEndianUnicode) de forma predeterminada. Para guardar un script en otra codificación, como ASCII (ANSI), use los métodos **Save** o **SaveAs** en el objeto [$psISE.CurrentFile](assetId:///bc3300e4-9c17-4f00-a621-c8867126e3b3#CurrentFile).
+De forma predeterminada, [!INCLUDE[ise_2](../Token/ise_2_md.md)] guarda los nuevos archivos de script (.ps1), los archivos de datos de script (.psd1) y los archivos de módulo de script (.psm1) como Unicode (BigEndianUnicode) de forma predeterminada. Para guardar un script en otra codificación, como ASCII (ANSI), use los métodos **Save** o **SaveAs** en el objeto [$psISE.CurrentFile](https://technet.microsoft.com/en-us/library/bc3300e4-9c17-4f00-a621-c8867126e3b3#CurrentFile).
 
 El siguiente comando guarda un nuevo script como MyScript.ps1 con la codificación ASCII.
 
@@ -147,6 +147,6 @@ $psise.CurrentFile.encoding
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=Apr16_HO2-->
 
 

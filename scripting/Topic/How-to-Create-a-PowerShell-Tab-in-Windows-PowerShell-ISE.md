@@ -13,7 +13,7 @@ Las pestañas de [!INCLUDE[ise_1](../Token/ise_1_md.md)] permiten crear y usar v
 > [!NOTE]
 > Las variables, las funciones y los alias que se crean en una pestaña no se mantienen en otra. Son sesiones diferentes de Windows PowerShell.
 
-Use los pasos siguientes para abrir o cerrar una pestaña en [!INCLUDE[wps_2](../Token/wps_2_md.md)]. Para cambiar el nombre de una pestaña, establezca la propiedad [DisplayName](assetId:///a9b58556-951b-4f48-b3ae-b351b7564360#Displayname) en el objeto de scripting Pestaña de [!INCLUDE[wps_2](../Token/wps_2_md.md)].
+Use los pasos siguientes para abrir o cerrar una pestaña en [!INCLUDE[wps_2](../Token/wps_2_md.md)]. Para cambiar el nombre de una pestaña, establezca la propiedad [DisplayName](https://technet.microsoft.com/en-us/library/a9b58556-951b-4f48-b3ae-b351b7564360#Displayname) en el objeto de scripting Pestaña de [!INCLUDE[wps_2](../Token/wps_2_md.md)].
 
 ## Para crear y usar una nueva pestaña de PowerShell
 En el menú **Archivo**, haga clic en **Nueva pestaña de PowerShell**. La nueva pestaña de PowerShell se abre siempre como la ventana activa. Las pestañas de PowerShell se numeran de forma incremental en el orden en que se abren. Cada pestaña está asociada a su propia ventana de la consola de Windows PowerShell. Puede tener hasta 32 pestañas de PowerShell con su propia sesión abierta a la vez (este valor se limita a 8 en [!INCLUDE[ise_2](../Token/ise_2_md.md)] 2.0).
@@ -32,7 +32,7 @@ Para cerrar una pestaña, puede usar cualquiera de las técnicas siguientes:
 
 -   En el menú **Archivo**, haga clic en **Cerrar pestaña de PowerShell**, o bien haga clic en el botón Cerrar (**X**) en una pestaña activa para cerrarla.
 
-Si tiene archivos sin guardar abiertos en la pestaña de PowerShell que está cerrando, se le pedirá que los guarde o los descarte. Para obtener más información acerca de cómo guardar un script, consulte [Cómo guardar un script](assetId:///162f594d-efd3-4234-9960-45e56e6eadc8).
+Si tiene archivos sin guardar abiertos en la pestaña de PowerShell que está cerrando, se le pedirá que los guarde o los descarte. Para obtener más información acerca de cómo guardar un script, consulte [Cómo guardar un script](https://technet.microsoft.com/en-us/library/162f594d-efd3-4234-9960-45e56e6eadc8).
 
 ## Consulte también
 [Usar Windows PowerShell ISE](../Topic/Using-the-Windows-PowerShell-ISE.md)
@@ -40,6 +40,6 @@ Si tiene archivos sin guardar abiertos en la pestaña de PowerShell que está ce
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=Apr16_HO2-->
 
 

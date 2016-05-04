@@ -22,11 +22,11 @@ En el panel de comandos o el panel de scripts, escriba un cmdlet seguido por un 
 Por ejemplo, escriba `get-process -` y, a continuación, presione TAB varias veces para mostrar cada uno de los parámetros del cmdlet de uno en uno.
 
 ## Consulte también
-[Utilizar ISE de Windows PowerShell](assetId:///777ea82b-dd73-4269-b61a-69a17e6ff16f)
-[Cómo crear una pestaña de PowerShell](assetId:///c57fc210-19c8-47b1-9171-26a2144c907c)
+[Utilizar ISE de Windows PowerShell](https://technet.microsoft.com/en-us/library/777ea82b-dd73-4269-b61a-69a17e6ff16f)
+[Cómo crear una pestaña de PowerShell](https://technet.microsoft.com/en-us/library/c57fc210-19c8-47b1-9171-26a2144c907c)
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=Apr16_HO2-->
 
 

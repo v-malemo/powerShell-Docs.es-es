@@ -20,7 +20,7 @@ Estas son algunas de las características que se agregaron al ISE en las version
 
 **Fragmentos de código** son secciones de código breves que puede insertar fácilmente en los scripts que escribe. Una colección de fragmentos de código útiles se incluye en el cuadro y puede agregar más mediante el cmdlet **New-Snippet**.
 
-Se pueden crear **herramientas de complemento** que agreguen características al ISE mediante la escritura de código que interactúe con el [modelo de objetos de scripting de Windows PowerShell ISE](assetId:///69b047d0-da79-413e-b948-8e45d05d1f85). Estas herramientas pueden mostrar controles en un panel con fichas o funcionar de manera invisible en segundo plano. El complemento **Comandos** es un buen ejemplo. Se incluye con la versión 3.0 y posteriores, que muestra una lista de los comandos disponibles y su ayuda.
+Se pueden crear **herramientas de complemento** que agreguen características al ISE mediante la escritura de código que interactúe con el [modelo de objetos de scripting de Windows PowerShell ISE](https://technet.microsoft.com/en-us/library/dd819478.aspx). Estas herramientas pueden mostrar controles en un panel con fichas o funcionar de manera invisible en segundo plano. El complemento **Comandos** es un buen ejemplo. Se incluye con la versión 3.0 y posteriores, que muestra una lista de los comandos disponibles y su ayuda.
 
 **Administrador de reinicio y Autoguardar** permite guardar automáticamente los scripts cada dos minutos para ayudar a evitar la pérdida del trabajo en caso de un bloqueo o reinicio inesperado.
 
@@ -62,6 +62,6 @@ El ISE está disponible en cualquier equipo que puede ejecutar Windows PowerShel
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=Apr16_HO2-->
 
 
