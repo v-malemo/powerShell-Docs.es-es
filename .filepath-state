@@ -809,9 +809,6 @@
   "1b5cd1d95ae70ea2308d1707b056a3f37f11435f": [
     "scripting\\Topic\\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md"
   ],
-  "735538c8f0815239131f3f73be770692fb33938c": [
-    "scripting\\Topic\\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md"
-  ],
   "641d94404b4d0addb5bfc139f1f154c822e7f605": [
     "scripting\\Topic\\How-to-Debug-Scripts-in-Windows-PowerShell-ISE.md"
   ],
@@ -821,16 +818,10 @@
   "4c2ad42cfce41094e9149cb3f06b932eb8542ca6": [
     "scripting\\Topic\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md"
   ],
-  "090066735a8eeff1e66669a876c964e7a9973593": [
-    "scripting\\Topic\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md"
-  ],
   "ae84dd06fe3cef20e2199c2412ac2dbef7d4be4a": [
     "scripting\\Topic\\How-to-Use-the-Console-Pane-in-the-Windows-PowerShell-ISE.md"
   ],
   "39991114d99e7d331062068236aef75e24f69bb2": [
-    "scripting\\Topic\\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md"
-  ],
-  "bc0ccd3406c09d2b1dee455602908b64b495e49b": [
     "scripting\\Topic\\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md"
   ],
   "e472e6a59e58cf11f8fe8ca3d0561d05ef83af4d": [
@@ -963,9 +954,6 @@
     "scripting\\Topic\\Windows-PowerShell-Glossary.md"
   ],
   "f3c5c7e1dd5961dd05122990816278facba748e6": [
-    "scripting\\Topic\\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md"
-  ],
-  "4a74c53e42a29a730c89643cb2f1c1beeb30a1a7": [
     "scripting\\Topic\\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md"
   ],
   "c8ca306b81ac8fd51c52fd02c2deffca424fa555": [
