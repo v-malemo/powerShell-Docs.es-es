@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "946772f8ecc312a15d3cb53310f449dbab7467a1",
+  "LastProcessedCommit": "b2985f817e7e01736753091393d3ce9aaca4339a",
   "LastTranslatedCommit": "34993355eaceedd4c0847b4cd733891602b6c6a6",
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
@@ -12886,6 +12886,35 @@
       "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\limitation_dsc.3684c81bb088cba98089dffdb1a1e56e1c098335.es-es.xlf",
       "HandoffFileCommit": "60698eec21dd777934aad68571bdcb88cca6e0a2",
       "HandoffDateTime": "2016-05-05T21:20:03.4445671Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "35cdbfab22a0fa00480012fed0a2cf32ffa11f8d": {
+      "FileHash": "35cdbfab22a0fa00480012fed0a2cf32ffa11f8d",
+      "SourceFileCommit": "ac27b0155177a013965fbf9c761fc712daf16af2",
+      "SourceFilePath": "wmf\\limitation_overview.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "wmf\\limitation_overview.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\limitation_overview.6cc9c8c028f5912636637d836aed7db0614de522.es-es.xlf",
+      "HandoffFileCommit": "a53beb740dd32e647f27585b609d4f1c5428c9dc",
+      "HandoffDateTime": "2016-05-06T13:50:15.1168655Z",
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
