@@ -25,7 +25,7 @@ En la tabla siguiente se describen las dependencias de paquetes necesarios para 
 
 ## Instalación de DSC para Linux
 
-Debe instalar [Open Management Infrastructure (OMI)](https://collaboration.opengroup.org/omi/) antes de instalar DSC para Linux.
+Debe instalar la [infraestructura de administración abierta (OMI)](https://collaboration.opengroup.org/omi/) antes de instalar DSC para Linux.
 
 ### Instalación de la OMI
 
@@ -62,7 +62,7 @@ Se utiliza la palabra clave de Windows PowerShell Configuration a fin de crear u
 
 1. Importe el módulo nx. El módulo de Windows PowerShell nx contiene el esquema para los recursos integrados de DSC para Linux y debe instalarse en el equipo local e importarse en la configuración.
 
-    -Para instalar el módulo nx, copie el directorio del módulo nx a `%UserProfile%\Documents\WindowsPowerShell\Modules\` o `C:\windows\system32\WindowsPowerShell\v1.0\Modules`. El módulo nx se incluye en la DSC para paquetes de instalación de Linux (MSI). Para importar el módulo nx en la configuración, utilice el comando __Import-DSCResource__.
+    -Para instalar el módulo nx, copie el directorio del módulo nx a `$env:USERPROFILE\Documents\WindowsPowerShell\Modules\` o `$PSHOME\Modules`. El módulo nx se incluye en la DSC para paquetes de instalación de Linux (MSI). Para importar el módulo nx en la configuración, utilice el comando __Import-DSCResource__.
     
 ```powershell
 Configuration ExampleConfiguration{
@@ -76,7 +76,7 @@ Configuration ExampleConfiguration{
 ```powershell
 Configuration ExampleConfiguration{
    
-    Import-DSCResource -Module nx
+    Import-DscResource -Module nx
  
     Node  "linuxhost.contoso.com"{
     nxFile ExampleFile {
@@ -114,15 +114,15 @@ $Sess=New-CimSession -Credential:$credential -ComputerName:$Node -Port:5986 -Aut
 * En el modo "Push", la credencial de usuario debe ser el usuario raíz del equipo Linux.
 * Solo se admiten conexiones SSL/TLS de DSC para Linux, el cmdlet New-CimSession debe utilizarse con el parámetro -UseSSL establecido en $true.
 * El certificado SSL que utiliza OMI (para DSC) se especifica en el archivo `/opt/omi/etc/omiserver.conf` con las propiedades pemfile y keyfile.
-Si este certificado no es de confianza para el equipo de Windows en el que se está ejecutando el cmdlet [New-CimSession](https://technet.microsoft.com/en-us/library/jj590760.aspx), puede elegir ignorar la validación de certificados con las opciones de CIMSession `-SkipCACheck:$true -SkipCNCheck:$true -SkipRevocationCheck:$true`
+Si este certificado no es de confianza para el equipo de Windows en el que se está ejecutando el cmdlet [New-CimSession](https://technet.microsoft.com/en-us/library/jj590760.aspx), puede elegir omitir la validación de certificados con las opciones de CIMSession `-SkipCACheck:$true -SkipCNCheck:$true -SkipRevocationCheck:$true`
 
 Ejecute el comando siguiente para insertar la configuración DSC en el nodo de Linux.
 
-`Start-DSCConfiguration -Path:"C:\temp" -cimsession:$sess -wait -verbose`
+`Start-DscConfiguration -Path:"C:\temp" -CimSession:$Sess -Wait -Verbose`
 
 ### Distribuir la configuración con un servidor de extracción
 
-Las configuraciones se pueden distribuir a un equipo Linux con un servidor de extracción, igual que con equipos Windows. Para obtener instrucciones sobre el uso de un servidor de incorporación de cambios, consulte [Servidores de incorporación de cambios de la configuración de estado deseado de Windows PowerShell](pullServer.md). Para obtener información adicional y conocer las limitaciones relativas al uso de equipos Linux con un servidor de extracción, consulte las notas de la versión de la configuración de estado deseado para Linux.
+Las configuraciones se pueden distribuir a un equipo Linux con un servidor de extracción, igual que con equipos Windows. Para obtener instrucciones sobre el uso de un servidor de extracción, consulte [Servidores de extracción de la configuración de estado deseado de Windows PowerShell](pullServer.md). Para obtener información adicional y conocer las limitaciones relativas al uso de equipos Linux con un servidor de extracción, consulte las notas de la versión de la configuración de estado deseado para Linux.
 
 ### Trabajar con configuraciones de forma local
 
@@ -173,6 +173,6 @@ Los siguientes archivos de registro son mensajes generados para DSC para Linux.
 |dsc.log|/opt/omi/var/log/|Mensajes relacionados con el funcionamiento del administrador de configuración local (LCM) y las operaciones de recursos de DSC.|
 
 
-<!--HONumber=Mar16_HO2-->
+<!--HONumber=Apr16_HO2-->
 
 
