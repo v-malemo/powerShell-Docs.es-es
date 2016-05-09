@@ -263,9 +263,6 @@
   "b91e3bbb40b2b5eddd1e43be568773c850a9b8e0": [
     "wmf\\class_newtype.md"
   ],
-  "5728269b9c4e2f64fea941460ea24b8ec9f59c85": [
-    "wmf\\class_newtype.md"
-  ],
   "3010b1ce497d8a5e45ada003587d9e104eddd8b1": [
     "wmf\\class_overview.md"
   ],
@@ -276,9 +273,6 @@
     "wmf\\dsc_authoring.md"
   ],
   "7e25c8195c153a2fda21fac320c2750d51678b6a": [
-    "wmf\\dsc_classbasedresource.md"
-  ],
-  "af92e9b7eb75d6b25d2194b9c738b9d6ae2c157f": [
     "wmf\\dsc_classbasedresource.md"
   ],
   "0c31a5571d8262c81e748f1a3368361ea4e9a700": [
@@ -504,9 +498,6 @@
     "dsc\\pullServerSMB.md"
   ],
   "0560274d9f9c8efaddf790dd784ddd936fe90e5d": [
-    "dsc\\runAsUser.md"
-  ],
-  "53ace617daf20d1375838e7021771af0e8b29193": [
     "dsc\\runAsUser.md"
   ],
   "f617844fdfc22c15e23687a911cfe75876abc43e": [
