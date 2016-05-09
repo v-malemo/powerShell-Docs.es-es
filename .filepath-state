@@ -29,9 +29,6 @@
   "3e887680203d836b4161a1e54b6bc60bb20dc6c8": [
     "dsc\\builtInResource.md"
   ],
-  "042a29099cc4abd044b3e9fb4f3281d80f5b8b02": [
-    "dsc\\builtInResource.md"
-  ],
   "291278563679354d4a21858157c0679914131dd3": [
     "dsc\\configData.md"
   ],
@@ -39,12 +36,6 @@
     "dsc\\configDataCredentials.md"
   ],
   "ab74c4e76b998f694982786942879dc02deeb777": [
-    "dsc\\configurations.md"
-  ],
-  "7ba63baa71ba7b9da21445a2f7c2bef7dadcf2e9": [
-    "dsc\\configurations.md"
-  ],
-  "625d4c0a9b1d0b6f23dcf1b07dd3f567699f7cd9": [
     "dsc\\configurations.md"
   ],
   "0959c2576a82b63e814b73a95a085e5512c0726f": [
@@ -68,9 +59,6 @@
   "9037bb481d63eddc838ab96bbde205cb1a6ff161": [
     "dsc\\groupResource.md"
   ],
-  "bc098355d65bff2203a212f2387be6f79fbb63e8": [
-    "dsc\\groupResource.md"
-  ],
   "2e0a09a025bcee8fc97e417b21a51773904a0d2e": [
     "dsc\\lnxArchiveResource.md"
   ],
@@ -87,9 +75,6 @@
     "dsc\\lnxFileResource.md"
   ],
   "8b473eae7f12242e9995613ec747c5d80ebacd2c": [
-    "dsc\\lnxGettingStarted.md"
-  ],
-  "4e6495b5c237c43240fc6cc30c3d435c1b8e0cbf": [
     "dsc\\lnxGettingStarted.md"
   ],
   "9bda555be3a52c574eccfa66b114883e2f543c70": [
@@ -122,19 +107,10 @@
   "06423071b30da53145f9f1ecb5b9f2e3d1314671": [
     "dsc\\overview.md"
   ],
-  "7f5f99f0f0befde13272221e376006dffbddb994": [
-    "dsc\\overview.md"
-  ],
   "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": [
     "dsc\\packageResource.md"
   ],
   "826fa37544f408a817e0cdea1557c2b00f3a6e51": [
-    "dsc\\partialConfigs.md"
-  ],
-  "675e0efb2e9853bb2c3c03735779c940faca2414": [
-    "dsc\\partialConfigs.md"
-  ],
-  "da7b4dad0811bf0dc4745b6482c74731448edbdd": [
     "dsc\\partialConfigs.md"
   ],
   "43046f30990060dc287bbef5571e099a538c2e1f": [
@@ -179,28 +155,10 @@
   "4a1909ab56b9f8d3a97086696e344e91c5dd5fe7": [
     "dsc\\scriptResource.md"
   ],
-  "b081337b68091f95498d23fecbc64701866b2cec": [
-    "dsc\\scriptResource.md"
-  ],
   "29d9a48f9f256911029673b69484e1f4ec5f05d1": [
     "dsc\\secureMOF.md"
   ],
   "a91df114d8313e435db416ff6cda69c2126e3399": [
-    "dsc\\secureMOF.md"
-  ],
-  "28230bc884a61491eedc5e803b8b73fa7370b627": [
-    "dsc\\secureMOF.md"
-  ],
-  "f978e0a4da1e0dcd96d34d44abcd86cf5cfe960b": [
-    "dsc\\secureMOF.md"
-  ],
-  "8f583b35bb37575e097300d04e8f6decbf83bb31": [
-    "dsc\\secureMOF.md"
-  ],
-  "0a945660ded4a9a1f0e247d0128f531fb98df02b": [
-    "dsc\\secureMOF.md"
-  ],
-  "c44d8f0f02ca735a1d545dba99f6b1fa78b2110f": [
     "dsc\\secureMOF.md"
   ],
   "2290a81a8dbc82b7881d2b6006d70a90578f9a56": [
@@ -216,18 +174,6 @@
     "dsc\\TOC.md"
   ],
   "bbe92fa020f2c0db430d13112d346778e44b5905": [
-    "dsc\\TOC.md"
-  ],
-  "a024ce25ae444d455376238675da9fac5f90cf92": [
-    "dsc\\TOC.md"
-  ],
-  "014c667f1caa9ef44fa644f05af1e756a827f50f": [
-    "dsc\\TOC.md"
-  ],
-  "89efe08e7624b5c509e45670c0866eab9554dfa3": [
-    "dsc\\TOC.md"
-  ],
-  "6a65e1ac34595c1f0207785b63b7760ece43172c": [
     "dsc\\TOC.md"
   ],
   "d571a7562bd23e3bca78127732dd4fccb88fee1c": [
@@ -395,9 +341,6 @@
   "aa0991efc9ca39cc0aae39516d4b6cac03c4501a": [
     "wmf\\feedback_fileinfo.md"
   ],
-  "ca8e183188cfb3e5dcbc6fc1bec884ebde00942c": [
-    "wmf\\feedback_fileinfo.md"
-  ],
   "81803dcb8d5f0fac392cf13883b9240da3321f53": [
     "wmf\\feedback_formathex.md"
   ],
@@ -464,9 +407,6 @@
   "7cf46669ea41d4e9929d162df31f646e12a5a06a": [
     "wmf\\productincompat.md"
   ],
-  "3762cb6b3bb61282d87b271b63e33f817bbe39fa": [
-    "wmf\\productincompat.md"
-  ],
   "4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed": [
     "wmf\\psget_module_overview.md"
   ],
@@ -512,19 +452,10 @@
   "f617844fdfc22c15e23687a911cfe75876abc43e": [
     "dsc\\singleInstance.md"
   ],
-  "adda311ae522a0b165380a2f277c30a03a06a03e": [
-    "dsc\\singleInstance.md"
-  ],
   "0de7828832edd3e4c1d073dc62c3866e10c13e88": [
     "scripting\\TOC.md"
   ],
   "e7ce731839077fd9ccf726c3ff317b5d70554634": [
-    "scripting\\TOC.md"
-  ],
-  "afc2d955f33af3a23bc2cfa6e45b0f3f5a5872a5": [
-    "scripting\\TOC.md"
-  ],
-  "c8b6a9fa51defc2841bec0a60f7bce26abf95313": [
     "scripting\\TOC.md"
   ],
   "41d53276e911d6db3c9adc28c60d804949864ca4": [
