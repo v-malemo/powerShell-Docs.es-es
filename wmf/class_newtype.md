@@ -103,7 +103,7 @@ $c = [MyClass]::new(@(42,43,44), "Hello")
 
 En esta versión, New-Object no funciona con las clases definidas en Windows PowerShell. En esta versión, el nombre del tipo solo es visible léxicamente, lo que significa que no está visible fuera del módulo o el script que define la clase. Las funciones pueden devolver instancias de una clase definida en Windows PowerShell, y las instancias funcionan bien fuera del módulo o el script.
 
-`Get-Member -Static` enumera los constructores, para que pueda ver las sobrecargas como cualquier otro método. El rendimiento de esta sintaxis también es considerablemente más rápido que el de New-Object.
+`Get-Member -Static` enumera los constructores para que pueda ver las sobrecargas como cualquier otro método. El rendimiento de esta sintaxis también es considerablemente más rápido que el de New-Object.
 
 El método seudoestático denominado **new** funciona con los tipos .NET, como se muestra en el ejemplo siguiente.
 
@@ -124,7 +124,7 @@ hashtable new(int capacity, float loadFactor)
 
 ## Métodos
 
-Un método de clase de Windows PowerShell se implementa como un bloque de script que tiene solo un bloque final. Todos los métodos son públicos. A continuación, se ofrece un ejemplo de definición de un método denominado **DoSomething**.
+Un método de clase de Windows PowerShell se implementa como un bloque de script que tiene solo un bloque final. Todos los métodos son públicos. A continuación, se ofrece un ejemplo de definición de un método denominado **DoSomething**..
 
 ```powershell
 class MyClass
@@ -168,7 +168,7 @@ El tipo de valor devuelto es un contrato; el valor devuelto se convierte en el t
 
 ## Atributos
 
-Se agregaron cuatro nuevos atributos, **DscResource**, **DscResourceKey**, **DscResourceMandatory** y **DscResourceOut**.
+Se han agregado dos atributos nuevos: **DscResource** y **DscProperty**.
 
 ## Ámbito léxico de las variables
 
@@ -324,4 +324,8 @@ function Style
 # and then returns the resulting type.
 #
 function Html ([HTML] $doc) { return $doc }
-```<!--HONumber=Mar16_HO2-->
+```
+
+<!--HONumber=Apr16_HO5-->
+
+

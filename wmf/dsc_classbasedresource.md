@@ -60,7 +60,7 @@ NOTE: This property is required because [DscProperty(Mandatory)] is set.
 [string] $SourcePath
 
 <#
-This property reports the file's creation timestamp.
+This property reports the file creation timestamp.
 
 [DscProperty(NotConfigurable)] attribute indicates the property is not configurable in a DSC configuration. Properties marked this way are populated by the Get() method to report additional details about the resource when it is present.
 #>
@@ -212,13 +212,13 @@ class FileResource : BaseFileResource
     [bool] $IsReadOnly
 
     <#
-    This property reports the file's LastAccessTime timestamp.
+    This property reports the file LastAccessTime timestamp.
     #>
     [DscProperty(NotConfigurable)]
     [Nullable[datetime]] $LastAccessTime
 
     <#
-    This property reports the file's LastWriteTime timestamp.
+    This property reports the file LastWriteTime timestamp.
     #>
     [DscProperty(NotConfigurable)]
     [Nullable[datetime]] $LastWriteTime
@@ -288,7 +288,7 @@ DscResourcesToExport = @('BaseFileResource','FileResource')
 }
 ```
 
-Cree una carpeta **MyDscResource** en `$env:SystemDrive\Program Files\WindowsPowerShell\Modules` para implementar el nuevo proveedor de recursos de DSC.
+Para implementar el nuevo proveedor de recursos de DS, cree una carpeta **MyDscResource** en `$env:SystemDrive\Program Files\WindowsPowerShell\Modules`.
 No es necesario crear una subcarpeta DSCResource.
 Copie los archivos del manifiesto de módulo y el módulo (**MyDscResource.psm1** y **MyDscResource.psd1**) en la carpeta **MyDscResource**.
 
@@ -333,4 +333,8 @@ En esta versión, se describen los problemas conocidos con los recursos de DSC b
 
 * Get-DscConfiguration puede devolver valores vacíos (null) o errores si la función Get() de un recurso de DSC basado en clases devuelve un tipo complejo.
 * Los recursos compuestos no se pueden escribir como un recurso basado en clases.
-<!--HONumber=Mar16_HO2-->
+
+
+<!--HONumber=Apr16_HO5-->
+
+
