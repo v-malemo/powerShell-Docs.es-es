@@ -1,5 +1,0 @@
-<Token xmlns:xlink="http://www.w3.org/1999/xlink">.NET Framework 2.0</Token>
-
-<!--HONumber=Apr16_HO1-->
-
-
