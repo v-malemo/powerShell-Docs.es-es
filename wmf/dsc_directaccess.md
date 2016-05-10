@@ -1,7 +1,7 @@
 # Acceso directo a los métodos de recursos de DSC
 
 
-El cmdlet `Invoke-DscResource` se agregó para permitir el acceso directo a los recursos de DSC y a los métodos existentes (Get, Set o Test). Los pueden usar terceros que quieran sacar partido de los recursos de DSC. Este cmdlet suele usarse en combinación con `refreshMode = ‘Disabled’`, pero se puede usar independientemente de la opción establecida en refreshMode. A continuación se muestran algunos ejemplos de cómo usar el nuevo cmdlet:
+El cmdlet `Invoke-DscResource` se agregó para permitir el acceso directo a los recursos de DSC y a sus métodos existentes (Get, Set o Test). Los pueden usar terceros que quieran sacar partido de los recursos de DSC. Este cmdlet suele usarse en combinación con `refreshMode = ‘Disabled’`, pero se puede usar independientemente de la opción establecida en refreshMode. A continuación se muestran algunos ejemplos de cómo usar el nuevo cmdlet:
 
 ## Asegurarse de que un archivo está presente
 
@@ -29,4 +29,8 @@ $result = Invoke-DscResource -Name File -Method Get -Property @{
                             Contents='This file is create by Invoke-DscResource'} -Verbose
 $result.ItemValue | fl
 ```
-<!--HONumber=Mar16_HO2-->
+
+
+<!--HONumber=Apr16_HO4-->
+
+

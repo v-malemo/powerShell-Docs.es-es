@@ -168,6 +168,6 @@ En los temas siguientes se describe en detalle cómo configurar los clientes de 
 * [Uso de un servidor de informes de DSC](reportServer.md)
 
 
-<!--HONumber=Mar16_HO5-->
+<!--HONumber=Apr16_HO2-->
 
 
