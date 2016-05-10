@@ -446,6 +446,9 @@
   "e7ce731839077fd9ccf726c3ff317b5d70554634": [
     "scripting\\TOC.md"
   ],
+  "71091e76e3f3953ed767ece6f4e098ac53798e4d": [
+    "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md"
+  ],
   "41d53276e911d6db3c9adc28c60d804949864ca4": [
     "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md"
   ],
@@ -910,6 +913,9 @@
   ],
   "9dc8d1c3fec315608c1cc1772d01d898cada2087": [
     "scripting\\setup\\Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md"
+  ],
+  "c87643a766a4030af10935ad1d3f5ec51009f7fa": [
+    "scripting\\setup\\Windows-PowerShell-System-Requirements.md"
   ],
   "8c5092005bf812d3fb5aadd02caed97d7074ccdc": [
     "scripting\\setup\\Windows-PowerShell-System-Requirements.md"

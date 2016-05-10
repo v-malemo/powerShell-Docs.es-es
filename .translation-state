@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "42bd878d233dfa23f8a4f7bf41fdd83067074577",
+  "LastProcessedCommit": "27126e485767aeb5f93cca84551ca05b89cbc743",
   "LastTranslatedCommit": "e840d0ce49ea5641540f808edd6a8cf9acf76b5f",
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
@@ -15670,6 +15670,64 @@
       "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\Windows-PowerShell-Glossary.77221263d6ea0c1622b940853c173bf68bf4ee7c.es-es.xlf",
       "ArchiveFileCommit": "750f9536046cbb9794a1f1100968388635c974fe",
       "ArchiveFileDateTime": "2016-05-10T13:19:41.0983452Z",
+      "ArchiveException": null
+    },
+    "71091e76e3f3953ed767ece6f4e098ac53798e4d": {
+      "FileHash": "71091e76e3f3953ed767ece6f4e098ac53798e4d",
+      "SourceFileCommit": "641acbd044886a9cc21274e586da59b14c7f5c99",
+      "SourceFilePath": "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\About-Windows-PowerShell.9cb66c3513a43593501f97fde1913b752049ba24.es-es.xlf",
+      "HandoffFileCommit": "859a032f3d5b7fd1fa5a9c04c4bb59681be8b8ed",
+      "HandoffDateTime": "2016-05-10T18:53:59.5823122Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "c87643a766a4030af10935ad1d3f5ec51009f7fa": {
+      "FileHash": "c87643a766a4030af10935ad1d3f5ec51009f7fa",
+      "SourceFileCommit": "50c12356ea83d621fe0a663f7d499ff3ddf7a968",
+      "SourceFilePath": "scripting\\setup\\Windows-PowerShell-System-Requirements.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "scripting\\setup\\Windows-PowerShell-System-Requirements.md"
+      ],
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf",
+      "HandoffFileCommit": "859a032f3d5b7fd1fa5a9c04c4bb59681be8b8ed",
+      "HandoffDateTime": "2016-05-10T18:53:59.5823122Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
       "ArchiveException": null
     }
   }
