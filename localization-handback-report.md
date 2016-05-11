@@ -1,11 +1,26 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\getting-started\Getting-Started-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/0c24c85fca26ea153187ea3b591aa711908f6695/scripting/getting-started/Getting-Started-with-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#db1b81c10382adfb0a76674ac0882c6665ca457e211)
 
 ## Item Details
+##### <a name='db1b81c10382adfb0a76674ac0882c6665ca457e211'></a> Source: [scripting\getting-started\Getting-Started-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/0c24c85fca26ea153187ea3b591aa711908f6695/scripting/getting-started/Getting-Started-with-Windows-PowerShell.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\Getting-Started-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/2a2a23218577f78c2ea8d1ab932b669cfa01b2a5/scripting/getting-started/Getting-Started-with-Windows-PowerShell.md)
+* Handoff File: [Getting-Started-with-Windows-PowerShell.a63e6424e1216675a9fb5a347b8bffe414db98cb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/0447da02d5aad32477c6c0ea29c2ee0c204fa104/ol-handoff/PowerShell/powerShell-Docs.es-es/live/Getting-Started-with-Windows-PowerShell.a63e6424e1216675a9fb5a347b8bffe414db98cb.es-es.xlf)
+* Handoff Datetime: 2016-05-09 17:26:59
+* Handoff Reason: Include
+* Archive File: [Getting-Started-with-Windows-PowerShell.a63e6424e1216675a9fb5a347b8bffe414db98cb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/750f9536046cbb9794a1f1100968388635c974fe/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/Getting-Started-with-Windows-PowerShell.a63e6424e1216675a9fb5a347b8bffe414db98cb.es-es.xlf)
+* Archive Datetime: 2016-05-10 13:19:41
+* Handback File: [Getting-Started-with-Windows-PowerShell.a63e6424e1216675a9fb5a347b8bffe414db98cb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/344836e5a149eebb2efa84bc169e9371dbed6222/ol-handback/PowerShell/powerShell-Docs.es-es/live/Getting-Started-with-Windows-PowerShell.a63e6424e1216675a9fb5a347b8bffe414db98cb.es-es.xlf)
+* Handback Datetime: 2016-05-11 10:04:58
+* [Back to Top](#report-top)
+
 
 ## Error Details
 
