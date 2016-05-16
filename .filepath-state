@@ -38,6 +38,9 @@
   "0ed581ed07a81f654304c888733aa4429de146a3": [
     "dsc\\configDataCredentials.md"
   ],
+  "cb7b9bd24977b769b90f231ebe0ca6e400089be9": [
+    "dsc\\configurations.md"
+  ],
   "ab74c4e76b998f694982786942879dc02deeb777": [
     "dsc\\configurations.md"
   ],
@@ -49,6 +52,9 @@
   ],
   "03159221013064b2c1d77211c88bb8e1c9a9fcb1": [
     "dsc\\decisionMaker.md"
+  ],
+  "c18aa5ab724e442ee686aa36d7956e8240b15bf8": [
+    "dsc\\enactingConfigurations.md"
   ],
   "bceea9977034437ee2e3271771a1e04048045997": [
     "dsc\\enactingConfigurations.md"
@@ -115,6 +121,9 @@
   ],
   "ef2664b6dd61bd55898971adf7e4a57f92be88cc": [
     "dsc\\metaConfig4.md"
+  ],
+  "ffe1fbed2c7fd7fc90d2ed53dde5a9c60cc18605": [
+    "dsc\\overview.md"
   ],
   "06423071b30da53145f9f1ecb5b9f2e3d1314671": [
     "dsc\\overview.md"
@@ -797,6 +806,9 @@
   "a770b81f2fa2457b15e7711b74d0df87637b05e0": [
     "dsc\\sxsResource.md"
   ],
+  "e1827e102a9b35ea214f89395f7ff3c5e0a58506": [
+    "scripting\\setup\\WinRMSecurity.md"
+  ],
   "12dd8c9a446902eb1162c6bd8d33621f015d34af": [
     "scripting\\setup\\WinRMSecurity.md"
   ],
@@ -1348,5 +1360,8 @@
   ],
   "17ff65a686c4d386f7a1a4cb5947d7e24627c745": [
     "scripting\\Windows-PowerShell-Glossary.md"
+  ],
+  "207792452c563ec6cca5c17fbcd122372442d8ac": [
+    "scripting\\topic\\WinRMSecurity.md"
   ]
 }
