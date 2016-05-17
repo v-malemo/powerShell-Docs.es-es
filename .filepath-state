@@ -239,9 +239,6 @@
   "801a0491746c17061d14d6d4938e7182650f6ff3": [
     "dsc\\scriptResource.md"
   ],
-  "4a1909ab56b9f8d3a97086696e344e91c5dd5fe7": [
-    "dsc\\scriptResource.md"
-  ],
   "792135742e34239f6866945e300b9277289e2062": [
     "dsc\\secureMOF.md"
   ],
@@ -258,15 +255,6 @@
     "dsc\\serviceResource.md"
   ],
   "2ec3eca1fb7ce214b2b860ad763da69210f4ca37": [
-    "dsc\\TOC.md"
-  ],
-  "436d1bfab335c2333333be2fa4ba0330c2a6ffb1": [
-    "dsc\\TOC.md"
-  ],
-  "8a1b3001e3db183d6cef1f7f7bdcb9c685268fac": [
-    "dsc\\TOC.md"
-  ],
-  "bbe92fa020f2c0db430d13112d346778e44b5905": [
     "dsc\\TOC.md"
   ],
   "95e75bd95552a9bcfa41adee74ef5ceacb3ea33b": [
@@ -695,9 +683,6 @@
   "411923bac650f0f4a11808a86acaca1de7e1c076": [
     "scripting\\getting-started\\cookbooks\\Using-Format-Commands-to-Change-Output-View.md"
   ],
-  "889615eb40617d7016cb1bb73ba630d57f22a8cb": [
-    "scripting\\getting-started\\cookbooks\\Using-Format-Commands-to-Change-Output-View.md"
-  ],
   "50ebc8a737b50aba5a5af49716b59905da74669a": [
     "scripting\\getting-started\\cookbooks\\Using-Static-Classes-and-Methods.md"
   ],
@@ -720,9 +705,6 @@
     "scripting\\getting-started\\cookbooks\\Viewing-Object-Structure--Get-Member-.md"
   ],
   "8d4a801c534075db568cb38eb51cb11db40cce15": [
-    "scripting\\getting-started\\fundamental\\Windows-PowerShell-Basics.md"
-  ],
-  "070a3d10d24d1cc7f251dd1f7efe1531922650fd": [
     "scripting\\getting-started\\fundamental\\Windows-PowerShell-Basics.md"
   ],
   "c2d203fee4e1595498c666d4060e7a1060b2aa4d": [
