@@ -1,12 +1,15 @@
 ---
-title: Usar comandos de formato para cambiar la vista de salida
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 63515a06-a6f7-4175-a45e-a0537f4f6d05
+title:  Usar comandos de formato para cambiar la vista de salida
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  63515a06-a6f7-4175-a45e-a0537f4f6d05
 ---
+
 # Usar comandos de formato para cambiar la vista de salida
 Windows PowerShell tiene un conjunto de cmdlets que permite controlar las propiedades que se muestran para determinados objetos. Los nombres de todos los cmdlets empiezan con el verbo **Format**. Permiten seleccionar una o más propiedades para mostrar.
 
@@ -212,6 +215,6 @@ powershell 2656 C:\Program Files\Windows PowerShell\v1.0\powershell.exe
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

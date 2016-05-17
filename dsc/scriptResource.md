@@ -1,3 +1,14 @@
+---
+title:   Recurso de DSC Script
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Recurso de DSC Script
 
  
@@ -80,6 +91,6 @@ Este recurso está escribiendo la versión de la configuración en un archivo de
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO3-->
 
 
