@@ -2,9 +2,6 @@
   "1d4d2d9106ef76d6628f93cf86234807dbb121ed": [
     "dsc\\archiveResource.md"
   ],
-  "81efeb79a70df604ef8c126c0ebd17b4f4711a44": [
-    "dsc\\archiveResource.md"
-  ],
   "5b43723f7b14eb4bca06d0430b5981c3663c5801": [
     "dsc\\authoringResource.md"
   ],
@@ -12,9 +9,6 @@
     "dsc\\authoringResource.md"
   ],
   "553ef07e42a4c41e5f0dc9e80c54f828d9c625c3": [
-    "dsc\\authoringResourceClass.md"
-  ],
-  "aab3ccc2a95b5e1b2e450f38e0f81ec1c4727c30": [
     "dsc\\authoringResourceClass.md"
   ],
   "9f14d23cf19e14113b5ae433e6025802487b55fb": [
@@ -44,19 +38,10 @@
   "be2141330dda803a22fdce6d65a1e379adf14fed": [
     "dsc\\authoringResourceMofDesigner.md"
   ],
-  "a95d0b59a90cbae44ec8d68bdaf59a1e318736d9": [
-    "dsc\\authoringResourceMofDesigner.md"
-  ],
   "ea312b4e773cd8b0eceeca123e616957728eb1c6": [
     "dsc\\builtInResource.md"
   ],
-  "3e887680203d836b4161a1e54b6bc60bb20dc6c8": [
-    "dsc\\builtInResource.md"
-  ],
   "036c8fff9af66b677fb6750699f1bf9e679de517": [
-    "dsc\\configData.md"
-  ],
-  "291278563679354d4a21858157c0679914131dd3": [
     "dsc\\configData.md"
   ],
   "a750fb208e73ce2ebffb2fa86a55c825169d8ad8": [
@@ -89,9 +74,6 @@
   "2d2b142dc862f7655f28aa34e1fd91f63bd6286e": [
     "dsc\\decisionMaker.md"
   ],
-  "03159221013064b2c1d77211c88bb8e1c9a9fcb1": [
-    "dsc\\decisionMaker.md"
-  ],
   "4c802002c6a03a27d02221dd713677911a77c30b": [
     "dsc\\enactingConfigurations.md"
   ],
@@ -107,9 +89,6 @@
   "20a7711604033b5ff1484dbb526df2642a9a1738": [
     "dsc\\environmentResource.md"
   ],
-  "f4ce18cb2680c7d9347a1887c282c3e4707a2c8c": [
-    "dsc\\environmentResource.md"
-  ],
   "535b25125a0c56feb10147f1872bdfdf3e3ef33a": [
     "dsc\\fileResource.md"
   ],
@@ -117,9 +96,6 @@
     "dsc\\fileResource.md"
   ],
   "c5ee7f7e7678b60700edb1ab1b66139791ea67c6": [
-    "dsc\\gettingStarted.md"
-  ],
-  "2faac24e90c7925eb22d7a5d95ef6f86831284f5": [
     "dsc\\gettingStarted.md"
   ],
   "2f74b671ffb5935343e9ac2610126931b1f6ec67": [
@@ -134,9 +110,6 @@
   "2edbc1d11dfc7c84369430688a8b0d773277e864": [
     "dsc\\lnxArchiveResource.md"
   ],
-  "2e0a09a025bcee8fc97e417b21a51773904a0d2e": [
-    "dsc\\lnxArchiveResource.md"
-  ],
   "6b001c12885022006003ef3ffe91b7aede07bd17": [
     "dsc\\lnxBuiltInResources.md"
   ],
@@ -146,13 +119,7 @@
   "0a7ab24ff278defd7fc0a80f1dbd45bfa0e16427": [
     "dsc\\lnxEnvironmentResource.md"
   ],
-  "ef0812e4b382b5efb6e6f42d8671fab3ab663a4b": [
-    "dsc\\lnxEnvironmentResource.md"
-  ],
   "9196129e79272d8bee717ef8a5d42fb590760a0f": [
-    "dsc\\lnxFileLineResource.md"
-  ],
-  "0b7aa5b03a19ff1afa79f5ae96f24d034531e4b8": [
     "dsc\\lnxFileLineResource.md"
   ],
   "2ba44df5dd6c91371cbbfe95d48184a4ff4a7738": [
@@ -170,43 +137,22 @@
   "2139e4462c0568c30b118ef6cb3ceef1717b52e6": [
     "dsc\\lnxGroupResource.md"
   ],
-  "9bda555be3a52c574eccfa66b114883e2f543c70": [
-    "dsc\\lnxGroupResource.md"
-  ],
   "31867cc7af96a3d8d527f5906d77bed5206940b4": [
-    "dsc\\lnxPackageResource.md"
-  ],
-  "37c34dfa85386e8d190a5cfd459c3a6885cca838": [
     "dsc\\lnxPackageResource.md"
   ],
   "4c575bbf0e0553e19e56bcc6edd605e36586cb94": [
     "dsc\\lnxScriptResource.md"
   ],
-  "056b0c86701cfd096c863560836dc129ecefc862": [
-    "dsc\\lnxScriptResource.md"
-  ],
   "3835495705297616a41329bcfdaad42b464115d8": [
-    "dsc\\lnxServiceResource.md"
-  ],
-  "c1bddeef2a61ad2b32e067bf643df077ec65053e": [
     "dsc\\lnxServiceResource.md"
   ],
   "edc906b4e9c925320c4ed00c5ab295189066ccb9": [
     "dsc\\lnxSshAuthorizedKeysResource.md"
   ],
-  "6b36c9b34b8f76cbae8443058dbd949e47dbc0b2": [
-    "dsc\\lnxSshAuthorizedKeysResource.md"
-  ],
   "7813185313845b74e2a37dfa4ec6bb109f32f0eb": [
     "dsc\\lnxUserResource.md"
   ],
-  "31eea97ab4912ca241557cddbf59929e085ebe80": [
-    "dsc\\lnxUserResource.md"
-  ],
   "97ffa20191016584fc2fba459c457787365d11ee": [
-    "dsc\\logResource.md"
-  ],
-  "0f4922e1df8725aad839211dbe0dfc532692f606": [
     "dsc\\logResource.md"
   ],
   "b699b737e0be2bc485a36644c40b4087dac28414": [
@@ -216,9 +162,6 @@
     "dsc\\metaConfig.md"
   ],
   "25195166f4d9dd668427d6bb5d748ef61273cdee": [
-    "dsc\\metaConfig4.md"
-  ],
-  "ef2664b6dd61bd55898971adf7e4a57f92be88cc": [
     "dsc\\metaConfig4.md"
   ],
   "1a796658eb30bdf5c37ea3677f94767260a34b45": [
@@ -233,9 +176,6 @@
   "bcaf82cbafe67cc309765e16b3c9cd6eff0a982a": [
     "dsc\\packageResource.md"
   ],
-  "9c9f1da0b560c44c9760583c4193bdf4eaee09f7": [
-    "dsc\\packageResource.md"
-  ],
   "77448cde004f357cfd64dd84337205197d904615": [
     "dsc\\partialConfigs.md"
   ],
@@ -243,9 +183,6 @@
     "dsc\\partialConfigs.md"
   ],
   "95f49fecdf13a54049caf27345d2a48c98b8f09b": [
-    "dsc\\pullClient.md"
-  ],
-  "43046f30990060dc287bbef5571e099a538c2e1f": [
     "dsc\\pullClient.md"
   ],
   "f6569220fbafdba49bac9ac9dca3e6036a7aad08": [
@@ -284,13 +221,7 @@
   "02bb8458796d60991a05a8250f3bf8f3261ffce1": [
     "dsc\\queryServerNodes.md"
   ],
-  "fc1456c57ade6862957e54ee53f18f189785848a": [
-    "dsc\\queryServerNodes.md"
-  ],
   "15e346ecd630a1256477d375bc1373f376e76f64": [
-    "dsc\\registryResource.md"
-  ],
-  "44f3bb3bec83fd779c83d0326d55c88ead77cfba": [
     "dsc\\registryResource.md"
   ],
   "086626b02afed0288472bdec4b95e409b47d35d5": [
@@ -323,13 +254,7 @@
   "94944d7bd265aa788b77359ad44721f79870bfa0": [
     "dsc\\secureServer.md"
   ],
-  "2290a81a8dbc82b7881d2b6006d70a90578f9a56": [
-    "dsc\\secureServer.md"
-  ],
   "ce8d6c1c9e8005c5c4792ae0fa4c5030bb9a92ed": [
-    "dsc\\serviceResource.md"
-  ],
-  "ca609ad6055d8053e43e482ed2e57b3db41c3549": [
     "dsc\\serviceResource.md"
   ],
   "2ec3eca1fb7ce214b2b860ad763da69210f4ca37": [
@@ -353,19 +278,10 @@
   "5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c": [
     "dsc\\userResource.md"
   ],
-  "e4b793025b00cb3137eddc0e7ec437f03abdf3c4": [
-    "dsc\\userResource.md"
-  ],
   "522dbea958a60f76e98abe32e11e6491ea6d457c": [
     "dsc\\windowsfeatureResource.md"
   ],
-  "1484f03d1d80b73e3131095e3363b246929a0a35": [
-    "dsc\\windowsfeatureResource.md"
-  ],
   "d7bd873cde4a4bda12490d69acdd5e2b0ba8cdec": [
-    "dsc\\windowsProcessResource.md"
-  ],
-  "47c387c525a58a88f18e61920736a6e0e7f2098d": [
     "dsc\\windowsProcessResource.md"
   ],
   "bd6af2cbf746e71aa59f509eae14664e647a1b05": [
@@ -668,13 +584,7 @@
   "13b1fd65b9dddf2570e7ab9c5420c0a6d18ce35e": [
     "scripting\\getting-started\\cookbooks\\Changing-Computer-State.md"
   ],
-  "1e8e62ebabf3d1d50f62118cee16ac65f5b14f86": [
-    "scripting\\getting-started\\cookbooks\\Changing-Computer-State.md"
-  ],
   "d45fbf8a7ddaf7c1176dc09386f96b4f0c0da8f6": [
-    "scripting\\getting-started\\cookbooks\\Collecting-Information-About-Computers.md"
-  ],
-  "95fdc3d38d6b2bf5ea45017fe5c44eac7b489a30": [
     "scripting\\getting-started\\cookbooks\\Collecting-Information-About-Computers.md"
   ],
   "e986e85a5d7416d8deaec06c0784263ee09fc9ff": [
@@ -698,9 +608,6 @@
   "a19601bd785ab91f5d8175acd081113e87a62a57": [
     "scripting\\getting-started\\fundamental\\Getting-Information-About-Commands.md"
   ],
-  "2021f5b0e8a50a720c8334011848b1d8826bca6c": [
-    "scripting\\getting-started\\fundamental\\Getting-Information-About-Commands.md"
-  ],
   "2e6f58860c7aebcf60d8df562f009fce0db3c955": [
     "scripting\\getting-started\\cookbooks\\Getting-WMI-Objects--Get-WmiObject-.md"
   ],
@@ -708,9 +615,6 @@
     "scripting\\getting-started\\cookbooks\\Getting-WMI-Objects--Get-WmiObject-.md"
   ],
   "bc504fbde14d0ba743accf644ee5114810afb609": [
-    "scripting\\getting-started\\fundamental\\Learning-Windows-PowerShell-Names.md"
-  ],
-  "1b19e1d4e36e86cb0048e9303277b968a341fa19": [
     "scripting\\getting-started\\fundamental\\Learning-Windows-PowerShell-Names.md"
   ],
   "104d2d1a9a36033387a11ec8678efe921bc5cd5e": [
@@ -738,9 +642,6 @@
     "scripting\\getting-started\\cookbooks\\Multiple-selection-List-Boxes.md"
   ],
   "56aa32d40d8e5e61f5328d5a373ca5a1bd7ca6e3": [
-    "scripting\\getting-started\\fundamental\\Object-Pipeline.md"
-  ],
-  "070b5cf38aa7780454e0d8ef5d8aeee018d69f72": [
     "scripting\\getting-started\\fundamental\\Object-Pipeline.md"
   ],
   "6d878b89a4cd49948cb465525e74e92db819c192": [
@@ -776,9 +677,6 @@
   "72d0c66e8fe1c87561af89821e16032f25c3b1b5": [
     "scripting\\getting-started\\cookbooks\\Sorting-Objects.md"
   ],
-  "3a8408656ec59f58154bfca1b4bca6ea45547ac6": [
-    "scripting\\getting-started\\cookbooks\\Sorting-Objects.md"
-  ],
   "db5f410c8f84949c969f21ed59ac48a4e31e91fd": [
     "scripting\\getting-started\\fundamental\\Understanding-Important-Windows-PowerShell-Concepts.md"
   ],
@@ -786,9 +684,6 @@
     "scripting\\getting-started\\fundamental\\Understanding-Important-Windows-PowerShell-Concepts.md"
   ],
   "233ec6fafbf1e770190601750be3bdcef2337b7f": [
-    "scripting\\getting-started\\fundamental\\Understanding-the-Windows-PowerShell-Pipeline.md"
-  ],
-  "d72b78f5bc9928874b3c34871a104ea4304b52e9": [
     "scripting\\getting-started\\fundamental\\Understanding-the-Windows-PowerShell-Pipeline.md"
   ],
   "2cbc7e5481ecfb21b2f6088191e2e34cf2631992": [
@@ -812,19 +707,10 @@
   "644dbbb51e98efda9735f0ff23489e936f6b28a2": [
     "scripting\\core-powershell\\console\\Using-Tab-Expansion.md"
   ],
-  "61677fdf3e268c5a18370290690383d05a262076": [
-    "scripting\\core-powershell\\console\\Using-Tab-Expansion.md"
-  ],
   "c3bcf9dc6f70383e971d9c1ae75ec78860111de9": [
     "scripting\\getting-started\\fundamental\\Using-Variables-to-Store-Objects.md"
   ],
-  "670f3b9f1d61e8ddcf00bf9c2670f770392e429c": [
-    "scripting\\getting-started\\fundamental\\Using-Variables-to-Store-Objects.md"
-  ],
   "f6d5477c32f8f254ab7280945847509588002e83": [
-    "scripting\\getting-started\\fundamental\\Using-Windows-PowerShell-for-Administration.md"
-  ],
-  "0058e4840a0caa394278975765832ad26f25d3a5": [
     "scripting\\getting-started\\fundamental\\Using-Windows-PowerShell-for-Administration.md"
   ],
   "8cd074bc4314aeb8d50fa31d74d9a1b2d2a37469": [
@@ -848,19 +734,10 @@
   "c9bc3460e25063347de3c594ef5ce437b0f8961d": [
     "scripting\\getting-started\\cookbooks\\Working-with-Files-and-Folders.md"
   ],
-  "292a8f74bf07cc177e34d9b7eea3db7ff69f8135": [
-    "scripting\\getting-started\\cookbooks\\Working-with-Files-and-Folders.md"
-  ],
   "a25734261fdcf657d0b97b1f037580f89b04881d": [
     "scripting\\getting-started\\cookbooks\\Working-with-Objects.md"
   ],
-  "f8dccb30d67fe6e6e9a7465a2bc89a8f7abd289b": [
-    "scripting\\getting-started\\cookbooks\\Working-with-Objects.md"
-  ],
   "27d3d11b71b95cd79817449cf8bdb1a0a26936bd": [
-    "scripting\\getting-started\\cookbooks\\Working-with-Printers.md"
-  ],
-  "2fade94d2b1ed85581e9e0f193ed5dc70379b42d": [
     "scripting\\getting-started\\cookbooks\\Working-with-Printers.md"
   ],
   "d7fb731bc2527e324271bc75f00112a67a1147e3": [
@@ -872,9 +749,6 @@
   "b979750580ea5c7171569f8982d6aeca883c33ab": [
     "scripting\\getting-started\\cookbooks\\Working-with-Registry-Keys.md"
   ],
-  "23fac6bfaed34ee45e12e630b8e9adbce471b5b3": [
-    "scripting\\getting-started\\cookbooks\\Working-with-Registry-Keys.md"
-  ],
   "9f60be9bebe9dfaa98f495c8e9a9c0d8c2fa5cc2": [
     "scripting\\getting-started\\cookbooks\\Working-with-Software-Installations.md"
   ],
@@ -882,9 +756,6 @@
     "scripting\\getting-started\\cookbooks\\Working-with-Software-Installations.md"
   ],
   "434ebc17f2bc7b7ee868788e87dc5b34cef61529": [
-    "dsc\\whitepapers.md"
-  ],
-  "4105e15b76b182f9c085aef0c380df4982cb72f8": [
     "dsc\\whitepapers.md"
   ],
   "1c514b101f708f11f095e1c95e12d7eff403e3bb": [
@@ -912,9 +783,6 @@
     "scripting\\core-powershell\\Running-Remote-Commands.md"
   ],
   "6be9940608483a3fdb31216b69845e4751006167": [
-    "dsc\\msft-dsclocalconfigurationmanager.md"
-  ],
-  "12e17503c55845ecaa154bd4c8c6b108bb3293c9": [
     "dsc\\msft-dsclocalconfigurationmanager.md"
   ],
   "7a40dd0eac55352c504a76c2ea7aaafabcf07721": [
@@ -1539,9 +1407,6 @@
     "scripting\\getting-started\\Getting-Ready-to-Use-Windows-PowerShell.md"
   ],
   "bee671bf537a100bd8ad407f34ccd5fe63c7f9a8": [
-    "scripting\\getting-started\\Getting-Started-with-Windows-PowerShell.md"
-  ],
-  "db1b81c10382adfb0a76674ac0882c6665ca457e": [
     "scripting\\getting-started\\Getting-Started-with-Windows-PowerShell.md"
   ],
   "05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2": [
