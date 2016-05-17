@@ -1,12 +1,15 @@
 ---
-title: Cambiar el estado del equipo
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 8093268b-27f8-4a49-8871-142c5cc33f01
+title:  Cambiar el estado del equipo
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  8093268b-27f8-4a49-8871-142c5cc33f01
 ---
+
 # Cambiar el estado del equipo
 Para restablecer un equipo en Windows PowerShell, use una herramienta de línea de comandos estándar o una clase WMI. Aunque use Windows PowerShell solo para ejecutar la herramienta, aprender a cambiar el estado de energía de un equipo en Windows PowerShell le mostrará algunos de los detalles importantes sobre el uso de herramientas externas en Windows PowerShell.
 
@@ -59,6 +62,6 @@ Para reiniciar el sistema operativo, use el método Win32Shutdown con la marca *
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

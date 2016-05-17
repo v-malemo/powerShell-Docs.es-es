@@ -1,3 +1,14 @@
+---
+title:   Escribir un recurso de DSC personalizado con clases de PowerShell
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Escribir un recurso de DSC personalizado con clases de PowerShell
 
 > Se aplica a: Windows PowerShell 5.0
@@ -464,6 +475,7 @@ Start-DscConfiguration -Wait -Force Test
 [Crear recursos de configuración de estado deseado de Windows PowerShell personalizados](authoringResource.md)
 
 
-<!--HONumber=Mar16_HO4-->
+
+<!--HONumber=May16_HO3-->
 
 

@@ -1,3 +1,14 @@
+---
+title:   Notas del producto
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Notas del producto
 
 Las siguientes notas del producto se han publicado para proporcionar información adicional sobre temas relacionados con la configuración de estado deseado de PowerShell.
@@ -7,6 +18,8 @@ Existen ventajas a obtener cuando los patrones y prácticas de las técnicas de 
 
 **[Descarga de PDF](http://aka.ms/thereleasepipelinemodelpdf)**
 
-<!--HONumber=Apr16_HO2-->
+
+
+<!--HONumber=May16_HO3-->
 
 

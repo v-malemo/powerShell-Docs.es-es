@@ -1,3 +1,14 @@
+---
+title:   Recurso nxUser de DSC para Linux
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Recurso nxUser de DSC para Linux
 
 El recurso **nxUser** de la configuración de estado deseado (DSC) de PowerShell ofrece un mecanismo para administrar usuarios locales en un nodo de Linux.
@@ -61,4 +72,9 @@ nxGroup GroupExample{
 }
 }
 ```
-<!--HONumber=Feb16_HO4-->
+
+
+
+<!--HONumber=May16_HO3-->
+
+

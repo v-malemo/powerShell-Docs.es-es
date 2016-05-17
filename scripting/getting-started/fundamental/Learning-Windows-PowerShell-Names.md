@@ -1,12 +1,15 @@
 ---
-title: Aprendizaje de los nombres de Windows PowerShell
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: b4d0fd22-8298-4ee6-82ae-9b6f2907c986
+title:  Aprendizaje de los nombres de Windows PowerShell
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  b4d0fd22-8298-4ee6-82ae-9b6f2907c986
 ---
+
 # Aprendizaje de los nombres de Windows PowerShell
 El aprendizaje de nombres de comandos y parámetros de comando supone una inversión de tiempo considerable con la mayoría de las interfaces de línea de comandos. El problema es que hay muy pocos patrones, por lo que es la única manera de aprender consiste en memorizar cada comando y cada parámetro que necesite usar de forma regular.
 
@@ -92,6 +95,6 @@ Por ejemplo, las instrucciones recomiendan denominar un parámetro que haga refe
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

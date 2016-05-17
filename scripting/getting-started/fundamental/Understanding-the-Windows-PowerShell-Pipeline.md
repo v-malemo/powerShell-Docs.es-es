@@ -1,12 +1,15 @@
 ---
-title: Descripción de la canalización de Windows PowerShell
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 6be50926-7943-4ef7-9499-4490d72a63fb
+title:  Descripción de la canalización de Windows PowerShell
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  6be50926-7943-4ef7-9499-4490d72a63fb
 ---
+
 # Descripción de la canalización de Windows PowerShell
 La canalización funciona prácticamente en cualquier lugar en Windows PowerShell. Aunque se ve texto en la pantalla, Windows PowerShell no canaliza texto entre los comandos. En su lugar, canaliza objetos.
 
@@ -62,6 +65,6 @@ En lo que queda de este capítulo explicaremos cómo puede detectar la estructur
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

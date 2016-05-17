@@ -1,12 +1,15 @@
 ---
-title: Introducción a Windows PowerShell
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: b0e2ad92-875f-421d-b612-f624e644aa69
+title:  Introducción a Windows PowerShell
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  b0e2ad92-875f-421d-b612-f624e644aa69
 ---
+
 # Introducción a Windows PowerShell
 Windows PowerShell es un nuevo shell de línea de comandos de Windows diseñado especialmente para los administradores del sistema. Windows PowerShell incluye un aviso interactivo y un entorno de scripting que puede usarse de forma independiente o conjunta.
 

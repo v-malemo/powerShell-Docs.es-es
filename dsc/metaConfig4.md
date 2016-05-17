@@ -1,3 +1,14 @@
+---
+title:   Administrador de configuración local (LCM) de la configuración de estado deseado de Windows PowerShell 4.0
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Administrador de configuración local (LCM) de la configuración de estado deseado de Windows PowerShell 4.0
 
 >Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
@@ -61,4 +72,10 @@ Set-DscLocalConfigurationManager -Path "c:\users\public\dsc"
 
 > **Nota**: Para el parámetro **Path** debe especificar la misma ruta de acceso que especificó para el parámetro **OutputPath** cuando invocó la configuración del ejemplo anterior.
 
-Para ver la configuración actual del administrador de configuración local, puede utilizar el cmdlet **Get-DscLocalConfigurationManager**. Si invoca este cmdlet sin parámetros, de forma predeterminada obtendrá la configuración del administrador de configuración local del nodo en el que se ejecuta. Para especificar otro nodo, use el parámetro **CimSession** con este cmdlet.<!--HONumber=Feb16_HO4-->
+Para ver la configuración actual del administrador de configuración local, puede utilizar el cmdlet **Get-DscLocalConfigurationManager**. Si invoca este cmdlet sin parámetros, de forma predeterminada obtendrá la configuración del administrador de configuración local del nodo en el que se ejecuta. Para especificar otro nodo, use el parámetro **CimSession** con este cmdlet.
+
+
+
+<!--HONumber=May16_HO3-->
+
+

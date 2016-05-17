@@ -1,3 +1,14 @@
+---
+title:   Uso de la herramienta Diseñador de recursos
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Uso de la herramienta Diseñador de recursos
 
 > Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
@@ -171,4 +182,9 @@ La herramienta Diseñador de recursos expone un cmdlet más que puede utilizarse
 
 #### Otros recursos
 [Módulo xDscResourceDesigner](https://powershellgallery.com/packages/xDscResourceDesigner)
-<!--HONumber=Feb16_HO4-->
+
+
+
+<!--HONumber=May16_HO3-->
+
+

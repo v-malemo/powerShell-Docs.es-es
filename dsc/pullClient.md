@@ -1,3 +1,14 @@
+---
+title:   Configuración de un cliente de extracción de DSC
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Configuración de un cliente de extracción de DSC
 
 > Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
@@ -10,9 +21,10 @@ En los temas siguientes se explica cómo configurar los clientes de extracción:
 * [Configuración de un cliente de extracción mediante nombres de configuración](pullClientConfigNames.md)
 * [Configuración de un cliente de extracción mediante id. de configuración](pullClientConfigID.md)
 
-> <ctype="x-NOTFOUND" mdpre="**" mdpost="**">Nota</ctype="x-NOTFOUND">: Estos temas se aplican a PowerShell 5.0. Para configurar un cliente de incorporación de cambios en PowerShell 4.0, consulte <ctype="x-NOTFOUND" mdpre="[" mdpost="](pullClientConfigID4.md)">Configuración de un cliente de incorporación de cambios con el id. de configuración de PowerShell 4.0</ctype="x-NOTFOUND">.
+> **Nota**: Estos temas se aplican a de PowerShell 5.0. Para configurar un cliente de extracción en PowerShell 4.0, consulte [Configuración de un cliente de extracción con el id. de configuración de PowerShell 4.0](pullClientConfigID4.md).
 
 
-<!--HONumber=Mar16_HO4-->
+
+<!--HONumber=May16_HO3-->
 
 

@@ -1,12 +1,15 @@
 ---
-title: Trabajar con claves del Registro
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 91bfaecd-8684-48b4-ad86-065dfe6dc90a
+title:  Trabajar con claves del Registro
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  91bfaecd-8684-48b4-ad86-065dfe6dc90a
 ---
+
 # Trabajar con claves del Registro
 Dado que las claves del Registro son elementos en unidades de Windows PowerShell, trabajar con ellas es muy similar a trabajar con archivos y carpetas. Una diferencia fundamental es que todos los elementos en una unidad de Windows PowerShell basada en el Registro es un contenedor, como una carpeta en una unidad del sistema de archivos. Sin embargo, las entradas del Registro y sus valores asociados son propiedades de los elementos, no elementos distintos.
 
@@ -117,6 +120,6 @@ Remove-Item -Path HKCU:\CurrentVersion\* -Recurse
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

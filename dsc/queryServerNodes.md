@@ -1,3 +1,14 @@
+---
+title:   Función de DSC para consultar información de un nodo de un servidor de extracción.
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Función de DSC para consultar información de un nodo de un servidor de extracción.
 
 ```powershell
@@ -36,4 +47,9 @@ $json = QueryNodeInformation –Uri http://localhost:7070/PSDSCComplianceServer.
 
 $json.value | Format-Table TargetName, ConfigurationId, ServerChecksum, NodeCompliant, LastComplianceTime, StatusCode
 ```
-<!--HONumber=Feb16_HO4-->
+
+
+
+<!--HONumber=May16_HO3-->
+
+
