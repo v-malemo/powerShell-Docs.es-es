@@ -740,8 +740,14 @@
   "6529d7299c9d3706a324d392a5e7b9926b6ea99e": [
     "scripting\\core-powershell\\Running-Remote-Commands.md"
   ],
+  "7fe92c1266593dd98ab6933fb408558effda5ccb": [
+    "dsc\\msft-dsclocalconfigurationmanager.md"
+  ],
   "6be9940608483a3fdb31216b69845e4751006167": [
     "dsc\\msft-dsclocalconfigurationmanager.md"
+  ],
+  "6f9c6a8851732574ac72bc4f3a3db1a73fbbecf2": [
+    "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
   ],
   "7a40dd0eac55352c504a76c2ea7aaafabcf07721": [
     "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
@@ -749,17 +755,26 @@
   "deb5fb9243d3b1d61e60991f70479e252b780243": [
     "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
   ],
+  "97ad8a5711d469a80a7a61056d71b7e2b69cfd27": [
+    "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
+  ],
   "231933c8622c1e4442634af8812fa588817bcf7c": [
     "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
   ],
   "f343d09519af33d6b913f46d15b464e926015237": [
     "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
   ],
+  "f74e9941180c00a1aae1bd1d7b48fa4de0c8790d": [
+    "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
+  ],
   "2ccfde4fd3ef3baf5d74b36c32d208ad85e6f3fc": [
     "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
   ],
   "ddc78784632f3453b5f229b4169d9512acb6afdd": [
     "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
+  ],
+  "19d4790f22491e0bb11de1e315d1ee3b07929d55": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
   ],
   "930783086a20c22a9c9d22ae2072b25b9c299199": [
     "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
@@ -784,6 +799,9 @@
   ],
   "3f339f86399ee71efe0448a2868a90b9f3f6c162": [
     "dsc\\msft-dsclocalconfigurationmanager-getconfigurationstatus.md"
+  ],
+  "4662bfed62fce47be7d42a083ad5a7be801e6ff1": [
+    "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
   ],
   "d2a330c688517950c2810bf2bfa208ac669af282": [
     "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
