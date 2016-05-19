@@ -2,9 +2,9 @@
 
 > Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
 
-Normalmente, un recurso personalizado de configuración de estado deseado (DSC) de Windows PowerShell se implementa en un script de PowerShell. Sin embargo, también puede implementar la funcionalidad de un recurso de DSC personalizado mediante la escritura de cmdlets en C#. Para ver una introducción sobre la escritura de cmdlets en C#, consulte [Escribir un cmdlet de Windows PowerShell](https://technet.microsoft.com/en-us/library/dd878294.aspx).
+Normalmente, un recurso personalizado de configuración de estado deseado (DSC) de Windows PowerShell se implementa en un script de PowerShell. Sin embargo, también puede implementar la funcionalidad de un recurso de DSC personalizado mediante la escritura de cmdlets en C#. Para ver una introducción sobre cómo escribir cmdlets en C#, consulte [Escribir un cmdlet de Windows PowerShell](https://technet.microsoft.com/en-us/library/dd878294.aspx)..
 
-Además de implementar el recurso en C# como cmdlets, el proceso de creación del esquema MOF, la creación de la estructura de carpetas, la importación y la utilización del recurso personalizado de DSC son idénticos a cómo se describen en [Escribir un recurso de DSC personalizado con MOF](authoringResourceMOF.md).
+Además de implementar el recurso en C# como cmdlets, el proceso de creación del esquema MOF, la creación de la estructura de carpetas y la importación y el uso del recurso personalizado de DSC son idénticos a cómo se describen en [Escribir un recurso de DSC personalizado con MOF](authoringResourceMOF.md)..
 
 ## Escribir un recurso basado en cmdlets
 En este ejemplo, se implementará un recurso simple que administra un archivo de texto y su contenido.
@@ -29,9 +29,9 @@ class MSFT_XDemoFile : OMI_BaseResource
 1. Abra Visual Studio.
 1. Cree un proyecto de C# y proporcione el nombre.
 1. Seleccione **Biblioteca de clases** en las plantillas de proyecto disponibles.
-1. Haga clic en **Aceptar**.
+1. Haga clic en **Aceptar**..
 1. Agregue al proyecto una referencia de ensamblado a System.Automation.Management.dll.
-1. Cambie el nombre del ensamblado para que coincida con el nombre del recurso. En este caso, el ensamblado debe tener como nombre **MSFT_XDemoFile**.
+1. Cambie el nombre del ensamblado para que coincida con el nombre del recurso. En este caso, el ensamblado debe tener como nombre **MSFT_XDemoFile**..
 
 ### Escribir el código del cmdlet
 
@@ -150,6 +150,7 @@ El archivo dll compilado debe guardarse en una estructura de archivos similar a 
 ```
 $env: psmodulepath (folder)
     |- MyDscResources (folder)
+        |- MyDscResources.psd1 (file, required)     
         |- DSCResources (folder)
             |- MSFT_XDemoFile (folder)
                 |- MSFT_XDemoFile.psd1 (file, optional)
@@ -161,4 +162,9 @@ $env: psmodulepath (folder)
 #### Conceptos
 [Escribir un recurso de DSC personalizado con MOF](authoringResourceMOF.md)
 #### Otros recursos
-[Escribir un cmdlet de Windows PowerShell](https://msdn.microsoft.com/en-us/library/dd878294.aspx)<!--HONumber=Feb16_HO4-->
+[Escribir un cmdlet de Windows PowerShell](https://msdn.microsoft.com/en-us/library/dd878294.aspx)
+
+
+<!--HONumber=May16_HO2-->
+
+

@@ -10,10 +10,10 @@ El esquema define las propiedades del recurso que se pueden configurar mediante 
 
 ### Estructura de carpetas de un recurso MOF
 
-Para implementar un recurso de DSC personalizado con un esquema MOF, cree la siguiente estructura de carpetas. El esquema MOF se define en el archivo Demo_IISWebsite.schema.mof y el script del recurso se define en Demo_IISWebsite.ps1. Opcionalmente, puede crear un archivo de manifiesto del módulo (psd1).
+Para implementar un recurso de DSC personalizado con un esquema MOF, cree la siguiente estructura de carpetas. El esquema MOF se define en el archivo Demo_IISWebsite.schema.mof y el script del recurso se define en Demo_IISWebsite.psm1. Opcionalmente, puede crear un archivo de manifiesto del módulo (psd1).
 
 ```
-$env: psmodulepath (folder)
+$env:PSModulePath (folder)
     |- MyDscResources (folder)
         |- DSCResources (folder)
             |- Demo_IISWebsite (folder)
@@ -26,7 +26,7 @@ Tenga en cuenta que es necesario crear una carpeta denominada DSCResources en la
 
 ### Contenido del archivo MOF
 
-A continuación se muestra un ejemplo de un archivo MOF que se puede utilizar para un recurso de sitio web personalizado. Para seguir este ejemplo, guarde este esquema en un archivo y asigne como nombre del archivo *Demo_IISWebsite.schema.mof*.
+A continuación se muestra un ejemplo de un archivo MOF que se puede utilizar para un recurso de sitio web personalizado. Para seguir este ejemplo, guarde este esquema en un archivo y asigne como nombre del archivo *Demo_IISWebsite.schema.mof*..
 
 ```
 [ClassVersion("1.0.0"), FriendlyName("Website")] 
@@ -46,17 +46,17 @@ class Demo_IISWebsite : OMI_BaseResource
 Tenga en cuenta lo siguiente sobre el código anterior:
 
 * `FriendlyName` define el nombre que se puede utilizar para hacer referencia a este recurso personalizado en los scripts de configuración DSC. En este ejemplo, `Website` equivale al nombre descriptivo `Archive` para el recurso integrado Archive.
-* La clase que defina para el recurso personalizado debe derivarse de `OMI_BaseResource`.
-* El calificador de tipo, `[Key]`, en una propiedad indica que esta propiedad identificará de forma única la instancia del recurso. Una propiedad `[Key]` también es necesaria.
+* La clase que defina para el recurso personalizado debe derivarse de . `OMI_BaseResource`.
+* El calificador de tipo, `[Key]`, en una propiedad indica que esta propiedad identificará de forma única la instancia del recurso. Se necesita al menos una propiedad `[Key]`.
 * El calificador `[Required]` indica que la propiedad es obligatoria (debe especificarse un valor en cualquier script de configuración que use este recurso).
 * El calificador `[write]` indica que esta propiedad es opcional cuando se utiliza el recurso personalizado en un script de configuración. El calificador `[read]` indica que una propiedad no se puede establecer mediante una configuración y es solo con fines informativos.
-* `Values` restringe los valores que se pueden asignar a la propiedad a la lista de valores definidos en `ValueMap`. Para más información, consulte [Calificadores Value y ValueMap](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx).
-* Se recomienda incluir una propiedad denominada `Ensure` en el recurso como una forma de mantener un estilo coherente con los recursos integrados de DSC.
+* `Values` restringe los valores que se pueden asignar a la propiedad a la lista de valores definidos en `ValueMap`. Para más información, consulte [ValueMap and Value Qualifiers](https://msdn.microsoft.com/library/windows/desktop/aa393965.aspx) (Calificadores Value y ValueMap)..
+* Se recomienda incluir una propiedad denominada `Ensure` con los valores `Present` y `Absent` en el recurso como una forma de mantener un estilo coherente con los recursos integrados de DSC.
 * Asigne el nombre del archivo de esquema para el recurso personalizado de la siguiente forma: `classname.schema.mof`, donde `classname` es el identificador que sigue a la palabra clave `class` en la definición del esquema.
 
 ### Escribir el script del recurso
 
-El script del recurso implementa la lógica del recurso. En este módulo, debe incluir tres funciones llamadas **Get-TargetResource**, **Set-TargetResource** y **Test-TargetResource**. Las tres funciones deben tomar un conjunto de parámetros que sea idéntico al conjunto de propiedades definidas en el esquema MOF que creó para el recurso. En este documento, este conjunto de propiedades se conoce como "propiedades del recurso". Almacene estas tres funciones en un archivo denominado <ResourceName>.psm1. En el ejemplo siguiente, las funciones se almacenan en un archivo denominado Demo_IISWebsite.psm1.
+El script del recurso implementa la lógica del recurso. En este módulo, debe incluir tres funciones llamadas **Get-TargetResource**, **Set-TargetResource** y **Test-TargetResource**. Las tres funciones deben tomar un conjunto de parámetros que sea idéntico al conjunto de propiedades definidas en el esquema MOF que creó para el recurso. En este documento, este conjunto de propiedades se conoce como "propiedades del recurso". Almacene estas tres funciones en un archivo llamado <ResourceName>.psm1. En el ejemplo siguiente, las funciones se almacenan en un archivo denominado Demo_IISWebsite.psm1.
 
 > **Nota**: Cuando se ejecuta el mismo script de configuración en el recurso más de una vez, no se deberían obtener errores y el recurso debería permanecer en el mismo estado que si se hubiera ejecutado el script una vez. Para lograrlo, asegúrese de que las funciones **Get-TargetResource** y **Test-TargetResource** no modifiquen el recurso y de que la invocación de la función **Set-TargetResource** más de una vez en una secuencia con los mismos valores de los parámetros sea siempre equivalente a invocarla una vez.
 
@@ -154,7 +154,7 @@ function Set-TargetResource
 }
 ```
 
-Por último, la función **Test-TargetResource** debe tomar el mismo parámetro establecido que **Get-TargetResource** y **Set-TargetResource**. En la implementación de **Test-TargetResource**, compruebe el estado de la instancia del recurso que se especifica en los parámetros clave. Si el estado real de la instancia del recurso no coincide con los valores especificados en el conjunto de parámetros, devuelva **$false**. De lo contrario, devuelva **$true**.
+Por último, la función **Test-TargetResource** debe tomar el mismo parámetro establecido que **Get-TargetResource** y **Set-TargetResource**. En la implementación de **Test-TargetResource**, compruebe el estado de la instancia del recurso que se especifica en los parámetros clave. Si el estado real de la instancia del recurso no coincide con los valores especificados en el conjunto de parámetros, devuelva **$false**. De lo contrario, devuelva **$true**..
 
 El código siguiente implementa la función **Test-TargetResource**.
 
@@ -207,7 +207,7 @@ $result
 
 ### Crear el manifiesto del módulo
 
-Por último, utilice el cmdlet **New-ModuleManifest** para definir un archivo <ResourceName>.psd1 para el módulo de recursos personalizados. Al invocar este cmdlet, haga referencia al archivo del módulo de script (.psm1) que se describe en la sección anterior. Incluya **Get-TargetResource**, **Set-TargetResource** y **Test-TargetResource** en la lista de funciones que se deben exportar. A continuación se muestra un archivo de manifiesto de ejemplo.
+Por último, utilice el cmdlet **New-ModuleManifest** para definir un <ResourceName>archivo. psd1 para el módulo de recursos personalizado. Al invocar este cmdlet, haga referencia al archivo del módulo de script (.psm1) que se describe en la sección anterior. Incluya **Get-TargetResource**, **Set-TargetResource** y **Test-TargetResource** en la lista de funciones que se deben exportar. A continuación se muestra un archivo de manifiesto de ejemplo.
 
 ```powershell
 # Module manifest for module 'Demo.IIS.Website'
@@ -261,6 +261,7 @@ FunctionsToExport = @("Get-TargetResource", "Set-TargetResource", "Test-TargetRe
 }
 ```
 
-<!--HONumber=Feb16_HO4-->
+
+<!--HONumber=May16_HO2-->
 
 
