@@ -23,16 +23,10 @@
   "d40f9f30e4d01e5eb41c3f7bdb492d6ce38106ed": [
     "dsc\\authoringResourceMOF.md"
   ],
-  "f64cbea29a1e9998b8ade46d69c1ef1c584bd633": [
-    "dsc\\authoringResourceMOF.md"
-  ],
   "91d35f9209f8ac3132c3715795661c33e376dfff": [
     "dsc\\authoringResourceMofCS.md"
   ],
   "c9dbaed88eb4aec3c745686b466b04a04b708979": [
-    "dsc\\authoringResourceMofCS.md"
-  ],
-  "303b98d41ad471ad7e8a9821225fa8967d7cba5a": [
     "dsc\\authoringResourceMofCS.md"
   ],
   "be2141330dda803a22fdce6d65a1e379adf14fed": [
@@ -191,9 +185,6 @@
   "f53571fddcce612b5e12398766b82e5ede98e046": [
     "dsc\\pullClientConfigID.md"
   ],
-  "c113ad890c30be1c801fca78ec6781b2fd8e6ef8": [
-    "dsc\\pullClientConfigID.md"
-  ],
   "730f2f26e2811996e79cf0073a4ef65cad390687": [
     "dsc\\pullClientConfigID4.md"
   ],
@@ -213,9 +204,6 @@
     "dsc\\pullServer.md"
   ],
   "4327f7428aa839fd7bb1788b203d72c838814aa9": [
-    "dsc\\pullServer.md"
-  ],
-  "8c0bb5d67466770a9d62eaf07d487488bea8a41f": [
     "dsc\\pullServer.md"
   ],
   "02bb8458796d60991a05a8250f3bf8f3261ffce1": [
@@ -461,16 +449,7 @@
   "fe1c40cbfd2c76f45d170b82d8a099e860b15db8": [
     "wmf\\limitation_dsc.md"
   ],
-  "c87ec977d6b2cc74aae51a81ae1f9b790157ded9": [
-    "wmf\\limitation_dsc.md"
-  ],
   "35cdbfab22a0fa00480012fed0a2cf32ffa11f8d": [
-    "wmf\\limitation_overview.md"
-  ],
-  "c0c0b63ad6fcbfecbd130e1f5a736ab65f301627": [
-    "wmf\\limitation_overview.md"
-  ],
-  "5452d087bf0f56c02679a22599b6016348cbaa47": [
     "wmf\\limitation_overview.md"
   ],
   "9a9e69d384ffd92e0c26904a176f9954c5815f9a": [
@@ -543,9 +522,6 @@
     "dsc\\singleInstance.md"
   ],
   "0de7828832edd3e4c1d073dc62c3866e10c13e88": [
-    "scripting\\TOC.md"
-  ],
-  "e7ce731839077fd9ccf726c3ff317b5d70554634": [
     "scripting\\TOC.md"
   ],
   "b990fb5c6855aaffeb241e9596c333014050e059": [
