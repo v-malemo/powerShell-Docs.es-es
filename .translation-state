@@ -23538,9 +23538,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\msft-dsclocalconfigurationmanager.a79fe5e4edd04227feb5da9e41daad2c0b306f84.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "6f9c6a8851732574ac72bc4f3a3db1a73fbbecf2": {
@@ -23568,9 +23568,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\msft-dsclocalconfigurationmanager-applyconfiguration.8a8c7cf9f83c8fe20cc7240603987f13bf76ac94.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "97ad8a5711d469a80a7a61056d71b7e2b69cfd27": {
@@ -23598,9 +23598,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.9c5587dc91662800483c6063f100aa74b2fc1881.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "f74e9941180c00a1aae1bd1d7b48fa4de0c8790d": {
@@ -23628,9 +23628,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.56f0b880660ab81bf574c91fac5c3489b478d217.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "19d4790f22491e0bb11de1e315d1ee3b07929d55": {
@@ -23658,9 +23658,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\msft-dsclocalconfigurationmanager-getconfiguration.6595ca00c942ab3e3e62fb2c001bc28d2324a33d.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "4662bfed62fce47be7d42a083ad5a7be801e6ff1": {
@@ -23688,9 +23688,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\msft-dsclocalconfigurationmanager-getmetaconfiguration.56421b2916eff5832f34238a84bacda6cb4d6679.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "446c9036989c47c03664d978a1dea4e0234ada8d": {
@@ -23718,9 +23718,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\groupResource.d19d416269795c92566b62c36b9782062dcea43e.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "1ecef855e4bfc0ee0e5109fd0ecfb9ca395854d5": {
@@ -23748,9 +23748,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\metaConfig.915dba9ed66671e4a41c35a16d5248bb4c94e3d6.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "6a5acd3ead098b79c6a85c7dcf618190b526ccb3": {
@@ -23808,9 +23808,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\What-s-New-in-Windows-PowerShell-50.c86af26f5e83de3e47d3ac33f24919d8e93982d7.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "85d81ef4f82ef10c0f838601a9adb79d2fba65e7": {
@@ -23838,9 +23838,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\partialConfigs.f483ab7fa1511b557780a02b5b807245f730c1b6.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "cad255b9c3c919b10769cf7bd658dc344d3d29a7": {
@@ -23898,9 +23898,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\TOC.60497266061c38453b3db893ec675eb65584af89.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     },
     "8020d52c0ce9638d26137f8568690c8e65a77878": {
@@ -23928,9 +23928,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\productincompat.62bb00299c0283b5297001553476a745e28a49cb.es-es.xlf",
+      "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
+      "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
       "ArchiveException": null
     }
   }
