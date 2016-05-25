@@ -5,16 +5,10 @@
   "5b43723f7b14eb4bca06d0430b5981c3663c5801": [
     "dsc\\authoringResource.md"
   ],
-  "fde661d2dc3c7c099c34134f4e665ba02cc3ceb9": [
-    "dsc\\authoringResource.md"
-  ],
   "553ef07e42a4c41e5f0dc9e80c54f828d9c625c3": [
     "dsc\\authoringResourceClass.md"
   ],
   "9f14d23cf19e14113b5ae433e6025802487b55fb": [
-    "dsc\\authoringResourceComposite.md"
-  ],
-  "4af3a1c0d7491552cfa1d22daa6718803e762698": [
     "dsc\\authoringResourceComposite.md"
   ],
   "4d685e518acd3a18f4872417b645dbe66f758421": [
@@ -41,28 +35,10 @@
   "a750fb208e73ce2ebffb2fa86a55c825169d8ad8": [
     "dsc\\configDataCredentials.md"
   ],
-  "d3a3bf5957a8efcf5aa8582b5e4cc7bedf5c6d4b": [
-    "dsc\\configDataCredentials.md"
-  ],
-  "0ed581ed07a81f654304c888733aa4429de146a3": [
-    "dsc\\configDataCredentials.md"
-  ],
   "29676d0bf51adf9176753d0056efe76687a40600": [
     "dsc\\configurations.md"
   ],
-  "cb7b9bd24977b769b90f231ebe0ca6e400089be9": [
-    "dsc\\configurations.md"
-  ],
-  "ab74c4e76b998f694982786942879dc02deeb777": [
-    "dsc\\configurations.md"
-  ],
   "f5290e085c8949f6b3cdf23f3244a7142da6248d": [
-    "dsc\\debugResource.md"
-  ],
-  "0e09fbcabf3ae7a4c695b328dff8ab5a903f8cda": [
-    "dsc\\debugResource.md"
-  ],
-  "0959c2576a82b63e814b73a95a085e5512c0726f": [
     "dsc\\debugResource.md"
   ],
   "2d2b142dc862f7655f28aa34e1fd91f63bd6286e": [
@@ -71,22 +47,10 @@
   "4c802002c6a03a27d02221dd713677911a77c30b": [
     "dsc\\enactingConfigurations.md"
   ],
-  "c18aa5ab724e442ee686aa36d7956e8240b15bf8": [
-    "dsc\\enactingConfigurations.md"
-  ],
-  "bceea9977034437ee2e3271771a1e04048045997": [
-    "dsc\\enactingConfigurations.md"
-  ],
-  "aac18f752e981409c8c432dcb06b7bb862149cdd": [
-    "dsc\\enactingConfigurations.md"
-  ],
   "20a7711604033b5ff1484dbb526df2642a9a1738": [
     "dsc\\environmentResource.md"
   ],
   "535b25125a0c56feb10147f1872bdfdf3e3ef33a": [
-    "dsc\\fileResource.md"
-  ],
-  "ce115dd79b0793718f8e79bb465f244b7cc725b1": [
     "dsc\\fileResource.md"
   ],
   "c5ee7f7e7678b60700edb1ab1b66139791ea67c6": [
@@ -98,19 +62,10 @@
   "2f74b671ffb5935343e9ac2610126931b1f6ec67": [
     "dsc\\groupResource.md"
   ],
-  "aed9c87d7b8b52fff92c8efcea8a2ac950f3950d": [
-    "dsc\\groupResource.md"
-  ],
-  "9037bb481d63eddc838ab96bbde205cb1a6ff161": [
-    "dsc\\groupResource.md"
-  ],
   "2edbc1d11dfc7c84369430688a8b0d773277e864": [
     "dsc\\lnxArchiveResource.md"
   ],
   "6b001c12885022006003ef3ffe91b7aede07bd17": [
-    "dsc\\lnxBuiltInResources.md"
-  ],
-  "ba98768c88f78fec890f115053d8f4a343e8417a": [
     "dsc\\lnxBuiltInResources.md"
   ],
   "0a7ab24ff278defd7fc0a80f1dbd45bfa0e16427": [
@@ -122,13 +77,7 @@
   "2ba44df5dd6c91371cbbfe95d48184a4ff4a7738": [
     "dsc\\lnxFileResource.md"
   ],
-  "8be1ad92f73cb8ddb2ced42d6471c90a67807b7a": [
-    "dsc\\lnxFileResource.md"
-  ],
   "c05b48d2c903e59f8b65c4c8c289d2dd5c23c3f9": [
-    "dsc\\lnxGettingStarted.md"
-  ],
-  "8b473eae7f12242e9995613ec747c5d80ebacd2c": [
     "dsc\\lnxGettingStarted.md"
   ],
   "2139e4462c0568c30b118ef6cb3ceef1717b52e6": [
@@ -158,19 +107,10 @@
   "b699b737e0be2bc485a36644c40b4087dac28414": [
     "dsc\\metaConfig.md"
   ],
-  "22147ef6b4045c44d80dc1025ac989e02763a698": [
-    "dsc\\metaConfig.md"
-  ],
   "25195166f4d9dd668427d6bb5d748ef61273cdee": [
     "dsc\\metaConfig4.md"
   ],
   "1a796658eb30bdf5c37ea3677f94767260a34b45": [
-    "dsc\\overview.md"
-  ],
-  "ffe1fbed2c7fd7fc90d2ed53dde5a9c60cc18605": [
-    "dsc\\overview.md"
-  ],
-  "06423071b30da53145f9f1ecb5b9f2e3d1314671": [
     "dsc\\overview.md"
   ],
   "bcaf82cbafe67cc309765e16b3c9cd6eff0a982a": [
@@ -185,9 +125,6 @@
   "77448cde004f357cfd64dd84337205197d904615": [
     "dsc\\partialConfigs.md"
   ],
-  "826fa37544f408a817e0cdea1557c2b00f3a6e51": [
-    "dsc\\partialConfigs.md"
-  ],
   "95f49fecdf13a54049caf27345d2a48c98b8f09b": [
     "dsc\\pullClient.md"
   ],
@@ -200,16 +137,7 @@
   "730f2f26e2811996e79cf0073a4ef65cad390687": [
     "dsc\\pullClientConfigID4.md"
   ],
-  "93ba8bc08a2e8e4e9f589460b54df56e3b4634a6": [
-    "dsc\\pullClientConfigID4.md"
-  ],
-  "d0beb3d04da2488302a56f714d8d8a5b9e5ac6f9": [
-    "dsc\\pullClientConfigID4.md"
-  ],
   "32ff157c7c8366cf0c9847dec4815d2d4b9cc5fa": [
-    "dsc\\pullClientConfigNames.md"
-  ],
-  "aa586b7e1cd14692ed4731f0da3cc4227abc6f06": [
     "dsc\\pullClientConfigNames.md"
   ],
   "ec569fbde815fc286e1d5b2368c937585948ce06": [
@@ -227,25 +155,13 @@
   "086626b02afed0288472bdec4b95e409b47d35d5": [
     "dsc\\reportServer.md"
   ],
-  "e8e890b02530d6abf3e6fecf18f6779e81c84eec": [
-    "dsc\\reportServer.md"
-  ],
   "0a27a40b995393c41f0496a5f7fa3f56fbd865dd": [
-    "dsc\\resources.md"
-  ],
-  "df54abe3d92ffaff2998e9fb3157b42cf83143c2": [
     "dsc\\resources.md"
   ],
   "801a0491746c17061d14d6d4938e7182650f6ff3": [
     "dsc\\scriptResource.md"
   ],
   "792135742e34239f6866945e300b9277289e2062": [
-    "dsc\\secureMOF.md"
-  ],
-  "29d9a48f9f256911029673b69484e1f4ec5f05d1": [
-    "dsc\\secureMOF.md"
-  ],
-  "a91df114d8313e435db416ff6cda69c2126e3399": [
     "dsc\\secureMOF.md"
   ],
   "94944d7bd265aa788b77359ad44721f79870bfa0": [
@@ -260,9 +176,6 @@
   "95e75bd95552a9bcfa41adee74ef5ceacb3ea33b": [
     "dsc\\troubleshooting.md"
   ],
-  "d571a7562bd23e3bca78127732dd4fccb88fee1c": [
-    "dsc\\troubleshooting.md"
-  ],
   "5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c": [
     "dsc\\userResource.md"
   ],
@@ -273,9 +186,6 @@
     "dsc\\windowsProcessResource.md"
   ],
   "bd6af2cbf746e71aa59f509eae14664e647a1b05": [
-    "dsc\\resourceAuthoringChecklist.md"
-  ],
-  "c21a8247aac04887b4454122eb9b42476b40a543": [
     "dsc\\resourceAuthoringChecklist.md"
   ],
   "2160a4b932075c98df6806c61d263d30f650b9f4": [
@@ -527,19 +437,10 @@
   "35ac9b38086b12fb48844c56a488854f63529e21": [
     "dsc\\pullServerSMB.md"
   ],
-  "f1dfcb2e422869686b457b9c080d3165031fafcd": [
-    "dsc\\pullServerSMB.md"
-  ],
   "dbe2c1ca2fb7dd65b49876f3bee6752ec9a24d6b": [
     "dsc\\runAsUser.md"
   ],
-  "0560274d9f9c8efaddf790dd784ddd936fe90e5d": [
-    "dsc\\runAsUser.md"
-  ],
   "4b1e8a6d3fb4feca426a9d7861c40d194e612c22": [
-    "dsc\\singleInstance.md"
-  ],
-  "f617844fdfc22c15e23687a911cfe75876abc43e": [
     "dsc\\singleInstance.md"
   ],
   "0de7828832edd3e4c1d073dc62c3866e10c13e88": [
@@ -548,22 +449,10 @@
   "b990fb5c6855aaffeb241e9596c333014050e059": [
     "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md"
   ],
-  "71091e76e3f3953ed767ece6f4e098ac53798e4d": [
-    "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md"
-  ],
-  "41d53276e911d6db3c9adc28c60d804949864ca4": [
-    "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md"
-  ],
   "38a6cb1b0402825b307652e6747ea65baafd1d8b": [
     "scripting\\getting-started\\cookbooks\\Appendix-1---Compatibility-Aliases.md"
   ],
-  "bdcc1376acf8fda3d68cc85d4c28d4a8fcc0b6f5": [
-    "scripting\\getting-started\\cookbooks\\Appendix-1---Compatibility-Aliases.md"
-  ],
   "24e9b67cf51b99156db3f0bdfb446996b9d3df76": [
-    "scripting\\getting-started\\cookbooks\\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md"
-  ],
-  "a30fcb49f83cb29ce659afeb59ec8813e86fc829": [
     "scripting\\getting-started\\cookbooks\\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md"
   ],
   "13b1fd65b9dddf2570e7ab9c5420c0a6d18ce35e": [
@@ -575,19 +464,10 @@
   "e986e85a5d7416d8deaec06c0784263ee09fc9ff": [
     "scripting\\getting-started\\cookbooks\\Creating-.NET-and-COM-Objects--New-Object-.md"
   ],
-  "609d39f35215ec8142792c4e133996626be8cfc9": [
-    "scripting\\getting-started\\cookbooks\\Creating-.NET-and-COM-Objects--New-Object-.md"
-  ],
   "628062cfadcadcec3311dcb8bfdd6bd3b9a9e567": [
     "scripting\\getting-started\\cookbooks\\Creating-a-Custom-Input-Box.md"
   ],
-  "c71ccacd9b51b4da9999a909b9e27ed4255c941c": [
-    "scripting\\getting-started\\cookbooks\\Creating-a-Custom-Input-Box.md"
-  ],
   "f359254900dce0ef0a28af3e16b8ef4095e85309": [
-    "scripting\\getting-started\\cookbooks\\Creating-a-Graphical-Date-Picker.md"
-  ],
-  "57fe10bb30a32b26de84ec293d6de284dffe76ee": [
     "scripting\\getting-started\\cookbooks\\Creating-a-Graphical-Date-Picker.md"
   ],
   "a19601bd785ab91f5d8175acd081113e87a62a57": [
@@ -596,34 +476,19 @@
   "2e6f58860c7aebcf60d8df562f009fce0db3c955": [
     "scripting\\getting-started\\cookbooks\\Getting-WMI-Objects--Get-WmiObject-.md"
   ],
-  "f18124f607453f53867b91c48309fa1153bb3670": [
-    "scripting\\getting-started\\cookbooks\\Getting-WMI-Objects--Get-WmiObject-.md"
-  ],
   "bc504fbde14d0ba743accf644ee5114810afb609": [
     "scripting\\getting-started\\fundamental\\Learning-Windows-PowerShell-Names.md"
   ],
   "104d2d1a9a36033387a11ec8678efe921bc5cd5e": [
     "scripting\\getting-started\\cookbooks\\Managing-Current-Location.md"
   ],
-  "0d4281f5356636d9e51f19304b75d0db690d1c9a": [
-    "scripting\\getting-started\\cookbooks\\Managing-Current-Location.md"
-  ],
   "23d4f8d23170c4992092a2070baaedf4375be0d8": [
-    "scripting\\getting-started\\cookbooks\\Managing-Windows-PowerShell-Drives.md"
-  ],
-  "c011664d54cab7be6d70e2d8f90da1bc98a03a80": [
     "scripting\\getting-started\\cookbooks\\Managing-Windows-PowerShell-Drives.md"
   ],
   "b7e752a1615da4540106ec32754f873c5d7aa5d9": [
     "scripting\\getting-started\\cookbooks\\Manipulating-Items-Directly.md"
   ],
-  "2cf67e6137b9aafa2c4b6a860a428f5366267f54": [
-    "scripting\\getting-started\\cookbooks\\Manipulating-Items-Directly.md"
-  ],
   "84030be8564e10ce33e15c21f41bda79ea8fad7d": [
-    "scripting\\getting-started\\cookbooks\\Multiple-selection-List-Boxes.md"
-  ],
-  "5cb14585c77c156b39e18c310049ce0eb20ac5d3": [
     "scripting\\getting-started\\cookbooks\\Multiple-selection-List-Boxes.md"
   ],
   "56aa32d40d8e5e61f5328d5a373ca5a1bd7ca6e3": [
@@ -632,31 +497,16 @@
   "6d878b89a4cd49948cb465525e74e92db819c192": [
     "scripting\\getting-started\\cookbooks\\Performing-Networking-Tasks.md"
   ],
-  "c6b2a6c78009707c4f649acc47466576ec23aef9": [
-    "scripting\\getting-started\\cookbooks\\Performing-Networking-Tasks.md"
-  ],
   "955d00f61a8222ff83797fbc923357c6d85cad7a": [
-    "scripting\\getting-started\\cookbooks\\Redirecting-Data-with-Out---Cmdlets.md"
-  ],
-  "52b3f2d1a390b9194506ccc04698d8b39621a3c1": [
     "scripting\\getting-started\\cookbooks\\Redirecting-Data-with-Out---Cmdlets.md"
   ],
   "0c5e2b60d96a6c64aedfa9522cbdc0ce5d4aa6b0": [
     "scripting\\getting-started\\cookbooks\\Removing-Objects-from-the-Pipeline--Where-Object-.md"
   ],
-  "ba19c46bed78498fb708014228488ab7dedc10dc": [
-    "scripting\\getting-started\\cookbooks\\Removing-Objects-from-the-Pipeline--Where-Object-.md"
-  ],
   "8a8ebbaecde15efa15aa7a23a4c31db5e808d454": [
     "scripting\\getting-started\\cookbooks\\Repeating-a-Task-for-Multiple-Objects--ForEach-Object-.md"
   ],
-  "6ae3e0440a17d83681aff7c3a8d33f25a4d83a63": [
-    "scripting\\getting-started\\cookbooks\\Repeating-a-Task-for-Multiple-Objects--ForEach-Object-.md"
-  ],
   "c5ec8b902096f85e4d5f5575587434f2adf7c6a1": [
-    "scripting\\getting-started\\cookbooks\\Selecting-Parts-of-Objects--Select-Object-.md"
-  ],
-  "bebe759f2a18dbf06b7b298403548cdcc5d139a4": [
     "scripting\\getting-started\\cookbooks\\Selecting-Parts-of-Objects--Select-Object-.md"
   ],
   "72d0c66e8fe1c87561af89821e16032f25c3b1b5": [
@@ -665,25 +515,16 @@
   "db5f410c8f84949c969f21ed59ac48a4e31e91fd": [
     "scripting\\getting-started\\fundamental\\Understanding-Important-Windows-PowerShell-Concepts.md"
   ],
-  "b34db3f79c3148bf0f32970c3b7d7e3ba252ae66": [
-    "scripting\\getting-started\\fundamental\\Understanding-Important-Windows-PowerShell-Concepts.md"
-  ],
   "233ec6fafbf1e770190601750be3bdcef2337b7f": [
     "scripting\\getting-started\\fundamental\\Understanding-the-Windows-PowerShell-Pipeline.md"
   ],
   "2cbc7e5481ecfb21b2f6088191e2e34cf2631992": [
     "scripting\\getting-started\\fundamental\\Using-Familiar-Command-Names.md"
   ],
-  "3385c1c66918dc2056dd67c38268f28126c13011": [
-    "scripting\\getting-started\\fundamental\\Using-Familiar-Command-Names.md"
-  ],
   "411923bac650f0f4a11808a86acaca1de7e1c076": [
     "scripting\\getting-started\\cookbooks\\Using-Format-Commands-to-Change-Output-View.md"
   ],
   "50ebc8a737b50aba5a5af49716b59905da74669a": [
-    "scripting\\getting-started\\cookbooks\\Using-Static-Classes-and-Methods.md"
-  ],
-  "f78915fc7d2828bfe1789a37127835f21f4d2a7e": [
     "scripting\\getting-started\\cookbooks\\Using-Static-Classes-and-Methods.md"
   ],
   "644dbbb51e98efda9735f0ff23489e936f6b28a2": [
@@ -698,16 +539,10 @@
   "8cd074bc4314aeb8d50fa31d74d9a1b2d2a37469": [
     "scripting\\getting-started\\cookbooks\\Viewing-Object-Structure--Get-Member-.md"
   ],
-  "07792854317519ea46e36871d9371347a0f6fa41": [
-    "scripting\\getting-started\\cookbooks\\Viewing-Object-Structure--Get-Member-.md"
-  ],
   "8d4a801c534075db568cb38eb51cb11db40cce15": [
     "scripting\\getting-started\\fundamental\\Windows-PowerShell-Basics.md"
   ],
   "c2d203fee4e1595498c666d4060e7a1060b2aa4d": [
-    "scripting\\getting-started\\cookbooks\\Working-With-Files-Folders-and-Registry-Keys.md"
-  ],
-  "fcdacb648a9fb5feb9f09f9f7219ed220ea24ccb": [
     "scripting\\getting-started\\cookbooks\\Working-With-Files-Folders-and-Registry-Keys.md"
   ],
   "c9bc3460e25063347de3c594ef5ce437b0f8961d": [
@@ -722,16 +557,10 @@
   "d7fb731bc2527e324271bc75f00112a67a1147e3": [
     "scripting\\getting-started\\cookbooks\\Working-with-Registry-Entries.md"
   ],
-  "e238e191b3e95a7bf4adf7e1d9fec3307aa1886a": [
-    "scripting\\getting-started\\cookbooks\\Working-with-Registry-Entries.md"
-  ],
   "b979750580ea5c7171569f8982d6aeca883c33ab": [
     "scripting\\getting-started\\cookbooks\\Working-with-Registry-Keys.md"
   ],
   "9f60be9bebe9dfaa98f495c8e9a9c0d8c2fa5cc2": [
-    "scripting\\getting-started\\cookbooks\\Working-with-Software-Installations.md"
-  ],
-  "87e19c3d66bfebd8dbc3ceb470abdd5c0cd8b379": [
     "scripting\\getting-started\\cookbooks\\Working-with-Software-Installations.md"
   ],
   "434ebc17f2bc7b7ee868788e87dc5b34cef61529": [
@@ -740,25 +569,13 @@
   "1c514b101f708f11f095e1c95e12d7eff403e3bb": [
     "scripting\\getting-started\\fundamental\\Getting-Detailed-Help-Information.md"
   ],
-  "ae0c582fddb9907e52cc2f182f1b8d7ee06dc098": [
-    "scripting\\getting-started\\fundamental\\Getting-Detailed-Help-Information.md"
-  ],
   "6857cf5e73252f646e563fa12a8252b4bdc2e1e5": [
-    "scripting\\getting-started\\cookbooks\\Managing-Processes-with-Process-Cmdlets.md"
-  ],
-  "719e3da3a26f2e3f6b049fec30d543f7bccf8d34": [
     "scripting\\getting-started\\cookbooks\\Managing-Processes-with-Process-Cmdlets.md"
   ],
   "a9d6ece1df3b66090b2abf9d85019fee4db946b5": [
     "scripting\\getting-started\\cookbooks\\Managing-Services.md"
   ],
-  "9224a773138287fde588b0434e54fcc1738784cc": [
-    "scripting\\getting-started\\cookbooks\\Managing-Services.md"
-  ],
   "b68341b6e94bb02882dad27a4acb1627b197674c": [
-    "scripting\\core-powershell\\Running-Remote-Commands.md"
-  ],
-  "6529d7299c9d3706a324d392a5e7b9926b6ea99e": [
     "scripting\\core-powershell\\Running-Remote-Commands.md"
   ],
   "7fe92c1266593dd98ab6933fb408558effda5ccb": [
@@ -773,16 +590,10 @@
   "7a40dd0eac55352c504a76c2ea7aaafabcf07721": [
     "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
   ],
-  "deb5fb9243d3b1d61e60991f70479e252b780243": [
-    "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
-  ],
   "97ad8a5711d469a80a7a61056d71b7e2b69cfd27": [
     "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
   ],
   "231933c8622c1e4442634af8812fa588817bcf7c": [
-    "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
-  ],
-  "f343d09519af33d6b913f46d15b464e926015237": [
     "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
   ],
   "f74e9941180c00a1aae1bd1d7b48fa4de0c8790d": [
@@ -791,34 +602,16 @@
   "2ccfde4fd3ef3baf5d74b36c32d208ad85e6f3fc": [
     "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
   ],
-  "ddc78784632f3453b5f229b4169d9512acb6afdd": [
-    "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
-  ],
   "19d4790f22491e0bb11de1e315d1ee3b07929d55": [
     "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
   ],
   "930783086a20c22a9c9d22ae2072b25b9c299199": [
     "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
   ],
-  "ec36bc9e6a824a78701c565c7f7f41f92c074f2d": [
-    "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
-  ],
   "8f13964dfbbe1cd827c58232a35d1cbacddeed1b": [
     "dsc\\msft-dsclocalconfigurationmanager-getconfigurationresultoutput.md"
   ],
-  "1f9feef155af048e8e5ed3e2fe6d496bd4bb463d": [
-    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationresultoutput.md"
-  ],
-  "cc94a826a3638e2d2335827ebfb8b29ed7323e9b": [
-    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationresultoutput.md"
-  ],
   "b430e98c7ec287c0efcf2c2e2736253797242904": [
-    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationstatus.md"
-  ],
-  "10f720c882bec62915921e6028a92b61e67f4daf": [
-    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationstatus.md"
-  ],
-  "3f339f86399ee71efe0448a2868a90b9f3f6c162": [
     "dsc\\msft-dsclocalconfigurationmanager-getconfigurationstatus.md"
   ],
   "4662bfed62fce47be7d42a083ad5a7be801e6ff1": [
@@ -827,160 +620,58 @@
   "d2a330c688517950c2810bf2bfa208ac669af282": [
     "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
   ],
-  "fd6910883780fdad369666639552ee757f15c8ad": [
-    "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
-  ],
   "f9eb975845f6ccabcac80e2591fd987f80f81331": [
-    "dsc\\msft-dsclocalconfigurationmanager-performrequiredconfigurationchecks.md"
-  ],
-  "bd0bcfc2a53c52042285b99e5885127264977822": [
-    "dsc\\msft-dsclocalconfigurationmanager-performrequiredconfigurationchecks.md"
-  ],
-  "a02d3db536982941df7e108e799858894cd7dee8": [
     "dsc\\msft-dsclocalconfigurationmanager-performrequiredconfigurationchecks.md"
   ],
   "4f3d74949d98e3ab3f5136303e229c23ed903c5d": [
     "dsc\\msft-dsclocalconfigurationmanager-removeconfiguration.md"
   ],
-  "ca6d6225760c188d9904f477384514db867fce17": [
-    "dsc\\msft-dsclocalconfigurationmanager-removeconfiguration.md"
-  ],
-  "8e827d304f29972a5f95eb9bddd45c0dd5361e0c": [
-    "dsc\\msft-dsclocalconfigurationmanager-removeconfiguration.md"
-  ],
   "1666b85402f17230090f7290c8cb400dd9fbf0a6": [
-    "dsc\\msft-dsclocalconfigurationmanager-resourceget.md"
-  ],
-  "ffb8b6423cdbaca5a611a232d287b9f5bcbb9303": [
-    "dsc\\msft-dsclocalconfigurationmanager-resourceget.md"
-  ],
-  "b749f5185449ad1136154bdb356dd91a99b95ebc": [
     "dsc\\msft-dsclocalconfigurationmanager-resourceget.md"
   ],
   "cbc499f293aad941d40fcb720ef53e832c3b1ea8": [
     "dsc\\msft-dsclocalconfigurationmanager-resourceset.md"
   ],
-  "890e1a9ba13d54459040f0a17fa0d0fceb15f21e": [
-    "dsc\\msft-dsclocalconfigurationmanager-resourceset.md"
-  ],
-  "2f75ef02d1f1c74d0d4a7e58183c8e46a50705b1": [
-    "dsc\\msft-dsclocalconfigurationmanager-resourceset.md"
-  ],
   "4129c83dd0b72159cbf1d47c037b9d462ca45f0e": [
-    "dsc\\msft-dsclocalconfigurationmanager-resourcetest.md"
-  ],
-  "f225da2131a33788d8d69b66df57d31fd3739965": [
-    "dsc\\msft-dsclocalconfigurationmanager-resourcetest.md"
-  ],
-  "3af32e8969a5a79d74cd984fd0e9adadd49774e6": [
     "dsc\\msft-dsclocalconfigurationmanager-resourcetest.md"
   ],
   "771a9c7b50aba26f89dbf6b24eb3df67bafeac0a": [
     "dsc\\msft-dsclocalconfigurationmanager-rollback.md"
   ],
-  "c0b6b739362812c146f001f031bccfdf1c156ba3": [
-    "dsc\\msft-dsclocalconfigurationmanager-rollback.md"
-  ],
-  "86ee23532b5d8a35449210a228b67944fa2b3bad": [
-    "dsc\\msft-dsclocalconfigurationmanager-rollback.md"
-  ],
   "95b141472d9428cee71b6970fc1f496704211c0b": [
-    "dsc\\msft-dsclocalconfigurationmanager-sendconfiguration.md"
-  ],
-  "c476caa7cd0161dd9689696d3925caf9b8888cf4": [
-    "dsc\\msft-dsclocalconfigurationmanager-sendconfiguration.md"
-  ],
-  "9eec689972c158c4fb8a951c301dbcb7f4db7c21": [
     "dsc\\msft-dsclocalconfigurationmanager-sendconfiguration.md"
   ],
   "701063dfa37fe4ba8b014cadadd10339b7fd1bf7": [
     "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapply.md"
   ],
-  "176db1c3a9b571056286659479a79dee7a8add4b": [
-    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapply.md"
-  ],
-  "5d96d9c69da9d06cf9d2d317160b41fbfd23e552": [
-    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapply.md"
-  ],
   "41177f2eb2bbcf2dddaf232141fb483efaaeeea5": [
-    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapplyasync.md"
-  ],
-  "a4422df37fd3a3a763e73d9a624df714149df37e": [
-    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapplyasync.md"
-  ],
-  "df43d735ca3cd834216c9774ec0e02594cc1dcef": [
     "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapplyasync.md"
   ],
   "a81b41f66883b3cf0931905d24c8ff92ef55b6c7": [
     "dsc\\msft-dsclocalconfigurationmanager-sendmetaconfigurationapply.md"
   ],
-  "62017a40d1b2276b1651b3c4b00bccf7c2900cae": [
-    "dsc\\msft-dsclocalconfigurationmanager-sendmetaconfigurationapply.md"
-  ],
-  "7c7707acdb166718fff7de83539245212d6a8a82": [
-    "dsc\\msft-dsclocalconfigurationmanager-sendmetaconfigurationapply.md"
-  ],
   "9721486cca6f94d6b156c6ee1992eced6652c123": [
-    "dsc\\msft-dsclocalconfigurationmanager-stopconfiguration.md"
-  ],
-  "8e5014eece8583b6977b8dec48e4ebc2ec02ed28": [
-    "dsc\\msft-dsclocalconfigurationmanager-stopconfiguration.md"
-  ],
-  "28904d9987bfa3fe57dc6a929eb3fd7965372104": [
     "dsc\\msft-dsclocalconfigurationmanager-stopconfiguration.md"
   ],
   "0777467d37e2f5588f9c0ef368148e3bea963a5b": [
     "dsc\\msft-dsclocalconfigurationmanager-testconfiguration.md"
   ],
-  "a479d1f8cf860bcc0eebf485d3e159e88629a9df": [
-    "dsc\\msft-dsclocalconfigurationmanager-testconfiguration.md"
-  ],
-  "ffdabc57d75d80ed6a250f53237d2bd5c6bc99fb": [
-    "dsc\\msft-dsclocalconfigurationmanager-testconfiguration.md"
-  ],
   "12ec3c770e592b1c1f43a9150eaaa1964f427363": [
-    "dsc\\crossNodeDependencies.md"
-  ],
-  "f6b6006e9d1ad8aef62523accf73e5f2dba36898": [
     "dsc\\crossNodeDependencies.md"
   ],
   "1fe624c2532e44ed675762f3c141934fb4f0b60d": [
     "dsc\\directCallResource.md"
   ],
-  "850bac012a449274cbc238174dcfa27bee3ca12f": [
-    "dsc\\directCallResource.md"
-  ],
-  "156f2a3b3107cfb7501be1a8ddd918f70bcbd254": [
-    "dsc\\directCallResource.md"
-  ],
   "e8d591c59eb1052184fd8e828780612d6ca32d93": [
-    "dsc\\sxsResource.md"
-  ],
-  "a770b81f2fa2457b15e7711b74d0df87637b05e0": [
     "dsc\\sxsResource.md"
   ],
   "e1827e102a9b35ea214f89395f7ff3c5e0a58506": [
     "scripting\\setup\\WinRMSecurity.md"
   ],
-  "12dd8c9a446902eb1162c6bd8d33621f015d34af": [
-    "scripting\\setup\\WinRMSecurity.md"
-  ],
-  "00e5a37e5fbe4532a00ead52c14a61558361c719": [
-    "scripting\\setup\\WinRMSecurity.md"
-  ],
   "962941ba946a67256baf141bd195361c94a68f90": [
     "dsc\\nanoDsc.md"
   ],
-  "36eb67cfb8a17de40d1e826807f0386c5eb488f4": [
-    "dsc\\nanoDsc.md"
-  ],
-  "ee9548a75d6eef498109c42007ef6c9d91b7c1ba": [
-    "dsc\\nanoDsc.md"
-  ],
   "725945ae906c66c09d0399e37bf781cdb627a1f2": [
-    "dsc\\configHelp.md"
-  ],
-  "918f7ebd3f6973cb17db4bdada7babf5dc716c3c": [
     "dsc\\configHelp.md"
   ],
   "a53a9457712973b4ff43c226b247214d24406592": [
@@ -1122,9 +813,6 @@
     "scripting\\core-powershell\\ise\\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md"
   ],
   "07f7fb6b4e5d94de31551566ca8faff263817383": [
-    "scripting\\core-powershell\\ise\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md"
-  ],
-  "fa466633669f314c9c28b391d29ff5ea9ca58e55": [
     "scripting\\core-powershell\\ise\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md"
   ],
   "29e73b1bfd8efea2b53299c52bf65117f7c535f5": [
