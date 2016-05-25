@@ -20,7 +20,7 @@ Los temas incluyen:
 
 -   [Iniciar el motor de Windows PowerShell 2.0](Starting-the-Windows-PowerShell-2.0-Engine.md)
 
-## Consulte también
+## Véase también
 [Requisitos del sistema de Windows PowerShell](Windows-PowerShell-System-Requirements.md)
 [Instalar Windows PowerShell](Installing-Windows-PowerShell.md)
 
