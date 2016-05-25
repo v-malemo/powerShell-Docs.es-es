@@ -1,3 +1,14 @@
+---
+title:   Opciones de credenciales en los datos de configuración
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Opciones de credenciales en los datos de configuración
 >Se aplica a: Windows PowerShell 5.0
 
@@ -15,7 +26,7 @@ Los recursos de configuración DSC se ejecutan como `Local System` de forma pred
 Sin embargo, algunos recursos necesitan una credencial, por ejemplo cuando el recurso `Package` necesita instalar software en una cuenta de usuario concreta.
 
 Los recursos anteriores utilizaban un nombre de propiedad `Credential` codificado de forma rígida para controlar esto.
-WMF 5.0 agregó una propiedad `PsDscRunAsCredential` automática para todos los recursos.
+WMF 5.0 agregó una propiedad `PsDscRunAsCredential` automática para todos los recursos. Para obtener más información sobre cómo usar `PsDscRunAsCredential`, vea [DSC de ejecución con las credenciales de usuario](runAsUser.md).
 Los recursos más recientes y los recursos personalizados pueden utilizar esta propiedad automática en lugar de crear su propia propiedad para las credenciales.
 
 *Tenga en cuenta que el diseño de algunos recursos implica que se van a usar varias credenciales para un motivo concreto y tendrán sus propias propiedades de credencial.*
@@ -150,7 +161,7 @@ $cred = Get-Credential -UserName contoso\genericuser -Message "Password please"
 DomainCredentialExample -DomainCredential $cred -ConfigurationData $cd
 ```
 
-*Tenga en cuenta que `NodeName` no puede ser igual a asterisco, es obligatorio un nombre de nodo específico.*
+*Tenga en cuenta que `NodeName` no puede ser igual a asterisco; es obligatorio un nombre de nodo específico.*
 
 **Microsoft aconseja evitar las contraseñas de texto sin formato por sus riesgos de seguridad considerables.**
 
@@ -161,7 +172,7 @@ Si se utiliza una cuenta local, se elimina la posible exposición de credenciale
 
 **Cuando se usan credenciales con recursos de DSC, siempre que sea posible es preferible usar una cuenta local en lugar de una cuenta de dominio.**
 
-Si hay un carácter '\' o '@' en la propiedad `Username` de la credencial, DSC lo tratará como una cuenta de dominio.
+Si hay un carácter '\'' o '@' en la propiedad `Username` de la credencial, DSC lo tratará como una cuenta de dominio.
 Existen excepciones para "localhost", "127.0.0.1" y "::1" en la parte del dominio del nombre de usuario.
 
 ## PSDscAllowDomainUser
@@ -183,4 +194,9 @@ $cd = @{
 ```
 
 Ahora, el script de configuración generará el archivo MOF sin errores ni advertencias.
-<!--HONumber=Feb16_HO4-->
+
+
+
+<!--HONumber=May16_HO3-->
+
+

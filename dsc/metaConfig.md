@@ -1,3 +1,14 @@
+---
+title:   Configuración del administrador de configuración local
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Configuración del administrador de configuración local
 
 > Se aplica a: Windows PowerShell 5.0
@@ -138,15 +149,15 @@ Para definir una configuración parcial, cree un bloque **PartialConfiguration**
 ## Consulte también 
 
 ### Conceptos
-Introducción a la configuración de estado deseado de Windows PowerShell 
-[Configuración de un servidor de incorporación de cambios de DSC](pullServer.md) 
-[Administrador de configuración local de la configuración de estado deseado de Windows PowerShell 4.0](metaConfig4.md) 
+Introducción a la configuración de estado deseado de Windows PowerShell [Configuración de un servidor de extracción de DSC](pullServer.md) 
+[Administrador de configuración local de configuración de estado deseado de Windows PowerShell 4.0](metaConfig4.md) 
 
 ### Otros recursos
 [Set-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621.aspx) 
-[Configuración de un cliente de incorporación de cambios con nombres de configuración](pullClientConfigNames.md) 
+[Configuración de un cliente de extracción mediante nombres de configuración](pullClientConfigNames.md) 
 
 
-<!--HONumber=Mar16_HO4-->
+
+<!--HONumber=May16_HO3-->
 
 

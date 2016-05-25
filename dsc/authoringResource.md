@@ -1,3 +1,14 @@
+---
+title:   Crear recursos de configuración de estado deseado de Windows PowerShell personalizados
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Crear recursos de configuración de estado deseado de Windows PowerShell personalizados
 
 > Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
@@ -12,4 +23,10 @@ Un recurso de DSC es un módulo de Windows PowerShell. El módulo contiene el es
 * [Implementación de un recurso de DSC en C#](authoringResourceMofCS.md) 
 * [Escribir un recurso de DSC personalizado con clases de PowerShell](authoringResourceClass.md) 
 * [Recursos compuestos: uso de una configuración DSC como un recurso](authoringResourceComposite.md) 
-* [Uso de la herramienta Diseñador de recursos](authoringResourceMofDesigner.md) <!--HONumber=Feb16_HO4-->
+* [Uso de la herramienta Diseñador de recursos](authoringResourceMofDesigner.md) 
+
+
+
+<!--HONumber=May16_HO3-->
+
+

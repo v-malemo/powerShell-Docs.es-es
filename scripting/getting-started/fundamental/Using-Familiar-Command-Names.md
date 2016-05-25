@@ -1,12 +1,15 @@
 ---
-title: Usar nombres de comando conocidos
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 021e2424-c64e-4fa5-aa98-aa6405758d5d
+title:  Usar nombres de comando conocidos
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  021e2424-c64e-4fa5-aa98-aa6405758d5d
 ---
+
 # Usar nombres de comando conocidos
 Mediante un mecanismo denominado *alias*, Windows PowerShell permite a los usuarios hacer referencia a los comandos con nombres alternativos. El aliasing permite a los usuarios con experiencia en otros shells reutilizar los nombres de comandos comunes que ya conocen para realizar operaciones similares en Windows PowerShell. Aunque no trataremos en detalle los alias de Windows PowerShell, puede usarlos para empezar a trabajar con Windows PowerShell.
 
@@ -59,13 +62,11 @@ Set-Alias -Name gcm -Value Get-Command
 
 Internamente, Windows PowerShell usa estos comandos durante el inicio, pero estos alias no se pueden cambiar. Si intenta ejecutar realmente uno de estos comandos, obtendrá un error que indicará que no se puede modificar el alias. Por ejemplo:
 
-<pre>PS> Set-Alias -Name gi -Value Get-Item
-Set-Alias : Alias is not writeable because alias gi is read-only or constant and cannot be written to.
-At line:1 char:10
-+ Set-Alias  <<<< -Name gi -Value Get-Item</pre>
+<pre>PS> Set-Alias -Name gi -Value Get-Item Set-Alias : No se puede escribir en el alias gi porque es de solo lectura o constante y no se puede escribir en él.
+En línea:1 carácter:10 + Set-Alias  <<<< -Name gi -Value Get-Item</pre>
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

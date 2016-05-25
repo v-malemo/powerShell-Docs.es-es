@@ -1,12 +1,15 @@
 ---
-title: Obtener objetos de WMI (Get-WmiObject)
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: f0ddfc7d-6b5e-4832-82de-2283597ea70d
+title:  Obtener objetos de WMI (Get-WmiObject) 
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  f0ddfc7d-6b5e-4832-82de-2283597ea70d
 ---
+
 # Obtener objetos de WMI (Get-WmiObject)
 
 ## Obtener objetos de WMI (Get-WmiObject)
@@ -114,8 +117,7 @@ TotalVirtualMemorySize TotalVisibleMem FreePhysicalMem FreeVirtualMemo FreeSpace
         2097024          785904          305808         2056724         1558232
 ```
 
-> [!NOTE]
-> Los caracteres comodín funcionan con los nombres de propiedad de **Format-Table**, por lo que el elemento final de la canalización se puede reducir a **Format-Table -Property TotalV&#42;,Free&#42;**
+> [!NOTE] Los caracteres comodín funcionan con los nombres de propiedad de **Format\-Table**, por lo que el elemento final de la canalización se puede reducir a **Format\-Table \-Property TotalV\&#42;,Free\&#42;**
 
 Los datos de la memoria podrían ser más legibles si se formatean como una lista escribiendo:
 
@@ -131,6 +133,6 @@ FreeSpaceInPagingFiles : 1556644
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

@@ -1,25 +1,29 @@
+---
+title:   Uso de un servidor de informes de DSC
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Uso de un servidor de informes de DSC
 
 > Se aplica a: Windows PowerShell 5.0
 
 >**Nota:** El servidor de informes que se describe en este tema no está disponible en PowerShell 4.0.
 
-El administrador de configuración local (LCM) de un nodo se puede configurar para enviar informes sobre su estado de configuración a un servidor de extracción, que puede consultarse posteriormente para recuperar los datos. Cada vez que el nodo comprueba y aplica
-una configuración, envía un informe al servidor de informes. Estos informes se almacenan en una base de datos en el servidor y se pueden recuperar mediante una llamada al servicio web de informes. Cada informe contiene
-información como qué configuraciones se aplicaron y lo hicieron correctamente, los recursos usados, los errores que se produjeron y las horas de inicio y finalización.
+El administrador de configuración local (LCM) de un nodo se puede configurar para enviar informes sobre su estado de configuración a un servidor de extracción, que puede consultarse posteriormente para recuperar los datos. Cada vez que el nodo comprueba y aplica una configuración, envía un informe al servidor de informes. Estos informes se almacenan en una base de datos en el servidor y se pueden recuperar mediante una llamada al servicio web de informes. Cada informe contiene información como qué configuraciones se han aplicado y si lo han hecho correctamente, los recursos usados, los errores que se han producido y las horas de inicio y finalización.
 
 ## Configuración de un nodo para enviar informes
 
-Puede indicar a un nodo que envíe informes a un servidor mediante un bloque **ReportServerWeb** en la configuración del LCM del nodo (para obtener información sobre cómo configurar el LCM,
-consulte [Configuración del administrador de configuración local](metaConfig.md)). El servidor al que el nodo envía los informes debe estar configurado como un servidor de extracción web (no puede enviar informes
-a un recurso compartido SMB). Para obtener información sobre la configuración de un servidor de extracción, consulte [Configuración de un servidor de extracción web de DSC](pullServer.md). El servidor de informes puede ser el mismo servicio desde el que
-el nodo extrae configuraciones y obtiene recursos, o puede ser un servicio diferente.
+Puede indicar a un nodo que envíe informes a un servidor mediante un bloque **ReportServerWeb** en la configuración del LCM del nodo (para más información sobre cómo configurar el LCM, vea [Configuración del administrador de configuración local](metaConfig.md)). El servidor al que el nodo envía los informes debe estar configurado como un servidor de extracción web (no puede enviar informes a un recurso compartido SMB). Para obtener información sobre la configuración de un servidor de extracción, consulte [Configuración de un servidor de extracción web de DSC](pullServer.md). El servidor de informes puede ser el mismo servicio desde el que el nodo extrae configuraciones y obtiene recursos, o puede ser un servicio diferente.
  
-En el bloque **ReportServerWeb**, debe especificar la dirección URL del servicio de extracción
-y una clave de registro que sea conocida para el servidor.
+En el bloque **ReportServerWeb**, debe especificar la dirección URL del servicio de extracción y una clave de registro que sea conocida para el servidor.
  
-La configuración siguiente configura un nodo para que extraiga configuraciones de un servicio y envíe informes
-a un servicio en un servidor diferente. 
+La configuración siguiente configura un nodo para que extraiga configuraciones de un servicio y envíe informes a un servicio en un servidor diferente. 
  
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -88,11 +92,7 @@ PullClientConfig
 
 ## Obtener datos de informes
 
-Los informes enviados al servidor de extracción se introducen en una base de datos del servidor. Los informes están disponibles a través de llamadas al servicio web. Para recuperar los informes para un nodo específico, 
-envíe una solicitud HTTP al servicio web de informes de la forma siguiente:
-`http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports` 
-donde `MyNodeAgentId` es el valor AgentId del nodo para el que desea obtener informes. Puede obtener el valor de AgentId de un nodo mediante una llamada a [Get-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx)
-en ese nodo.
+Los informes enviados al servidor de extracción se introducen en una base de datos del servidor. Los informes están disponibles a través de llamadas al servicio web. Para recuperar los informes para un nodo específico, envíe una solicitud HTTP al servicio web de informes de la forma siguiente: `http://CONTOSO-REPORT:8080/PSDSCReportServer.svc/Nodes(AgentID = MyNodeAgentId)/Reports` donde `MyNodeAgentId` es el valor AgentId del nodo para el que desea obtener informes. Puede obtener el valor de AgentId de un nodo mediante una llamada a [Get-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx) en ese nodo.
 
 Los informes se devuelven como una matriz de objetos JSON.
 
@@ -160,8 +160,7 @@ $reportsByStartTime = $reports | Sort-Object -Property StartTime -Descending
 $reportMostRecent = $reportsByStartTime[0]
 ```
 
-Observe que la propiedad **StatusData** es un objeto con varias propiedades. En esto consisten en gran medida los datos de informes. Echemos un vistazo a los campos individuales de la
-propiedad **StatusData** del informe más reciente:
+Observe que la propiedad **StatusData** es un objeto con varias propiedades. En esto consisten en gran medida los datos de informes. Echemos un vistazo a los campos individuales de la propiedad **StatusData** del informe más reciente:
 
 ```powershell
 $statusData = $reportMostRecent.StatusData | ConvertFrom-Json
@@ -199,8 +198,7 @@ Locale                     : en-US
 Mode                       : Pull
 ```
 
-Entre otras cosas, muestra que la configuración más reciente llamó a dos recursos y que uno de ellos estaba en el estado deseado, pero el otro no. Puede obtener
-una salida más legible solo de la propiedad **ResourcesNotInDesiredState**:
+Entre otras cosas, muestra que la configuración más reciente llamó a dos recursos y que uno de ellos estaba en el estado deseado, pero el otro no. Puede obtener una salida más legible solo de la propiedad **ResourcesNotInDesiredState**:
 
 ```powershell
 $statusData.ResourcesInDesiredState
@@ -218,8 +216,7 @@ ConfigurationName : Sample_ArchiveFirewall
 InDesiredState    : True
 ```
 
-Tenga en cuenta que estos ejemplos están diseñados para ofrecerle una idea de lo que puede hacer con los datos del informe. Para obtener una introducción sobre cómo trabajar con JSON en PowerShell, consulte
-[Playing with JSON and PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/) (Experimentos con JSON y PowerShell).
+Tenga en cuenta que estos ejemplos están diseñados para ofrecerle una idea de lo que puede hacer con los datos del informe. Para obtener una introducción sobre cómo trabajar con JSON en PowerShell, vea [Playing with JSON and PowerShell](https://blogs.technet.microsoft.com/heyscriptingguy/2015/10/08/playing-with-json-and-powershell/) (Experimentos con JSON y PowerShell).
 
 ## Consulte también
 - [Configuración del administrador de configuración local](metaConfig.md)
@@ -227,6 +224,7 @@ Tenga en cuenta que estos ejemplos están diseñados para ofrecerle una idea de 
 - [Configuración de un cliente de extracción mediante nombres de configuración](pullClientConfigNames.md)
 
 
-<!--HONumber=Apr16_HO1-->
+
+<!--HONumber=May16_HO3-->
 
 

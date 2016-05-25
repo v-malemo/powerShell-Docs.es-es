@@ -1,3 +1,14 @@
+---
+title:   Recurso nxFile de DSC para Linux
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Recurso nxFile de DSC para Linux
 
 El recurso **nxFile** de la configuración de estado deseado (DSC) de PowerShell ofrece un mecanismo para administrar archivos y directorios en un nodo de Linux.
@@ -147,4 +158,8 @@ nxFile FileExample
 }
 ```
 
-<!--HONumber=Feb16_HO4-->
+
+
+<!--HONumber=May16_HO3-->
+
+

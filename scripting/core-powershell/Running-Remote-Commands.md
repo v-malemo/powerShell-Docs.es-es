@@ -1,12 +1,15 @@
 ---
-title: Ejecutar comandos remotos
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: d6938b56-7dc8-44ba-b4d4-cd7b169fd74d
+title:  Ejecutar comandos remotos
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  d6938b56-7dc8-44ba-b4d4-cd7b169fd74d
 ---
+
 # Ejecutar comandos remotos
 Puede ejecutar comandos en un equipo o en cientos de ellos usando un solo comando de Windows PowerShell. Windows PowerShell admite la informática remota a través de varias tecnologías, como WS-Management, RPC y WMI.
 
@@ -46,8 +49,7 @@ La comunicación remota de Windows PowerShell, que usa el protocolo WS-Manageme
 
 Para usar la comunicación remota de Windows PowerShell, el equipo remoto debe estar configurado para la administración remota. Para más información y ver instrucciones, consulte [About Remote Requirements](https://technet.microsoft.com/en-us/library/dd315349.aspx) (Acerca de los requisitos remotos).
 
-Después de configurar la comunicación remota de Windows PowerShell, tendrá a su disposición un gran número de estrategias de comunicación remota. En lo que resta de este documento se mencionan solo algunas de ellas. Para obtener más información, consulte [About Remote](https://technet.microsoft.com/en-us/library/dd347744.aspx) (Acerca del acceso remoto) y 
-[About Remote FAQ](https://technet.microsoft.com/en-us/library/dd347744.aspx) (Acerca de las Preguntas más frecuentes sobre el acceso remoto).
+Después de configurar la comunicación remota de Windows PowerShell, tendrá a su disposición un gran número de estrategias de comunicación remota. En lo que resta de este documento se mencionan solo algunas de ellas. Para más información, vea [About Remote](https://technet.microsoft.com/en-us/library/dd347744.aspx) (Acerca del acceso remoto) y [About Remote FAQ](https://technet.microsoft.com/en-us/library/dd347744.aspx) (Preguntas más frecuentes sobre el acceso remoto).
 
 ### Iniciar una sesión interactiva
 Para iniciar una sesión interactiva con un único equipo remoto, use el cmdlet [Enter-PSSession](https://technet.microsoft.com/en-us/library/dd315384.aspx). Por ejemplo, para iniciar una sesión interactiva con el equipo remoto Server01, escriba:
@@ -64,8 +66,7 @@ Para finalizar la sesión interactiva, escriba:
 exit-pssession
 ```
 
-Para más información sobre los cmdlets Enter\-PSSession y Exit\-PSSession, consulte [Enter-PSSession](https://technet.microsoft.com/en-us/library/dd315384.aspx) 
-y [Exit-PSSession](https://technet.microsoft.com/en-us/library/dd315322.aspx).
+Para más información sobre los cmdlets Enter-PSSession y Exit-PSSession, consulte [Enter-PSSession](https://technet.microsoft.com/en-us/library/dd315384.aspx) y [Exit-PSSession](https://technet.microsoft.com/en-us/library/dd315322.aspx).
 
 ### Ejecutar un comando remoto
 Para ejecutar cualquier comando en uno o varios equipos remotos, use el cmdlet [Invoke-Command](https://technet.microsoft.com/en-us/library/dd347578.aspx).
@@ -124,8 +125,7 @@ invoke-command -session $s {$h | where {$_.installedby -ne "NTAUTHORITY\SYSTEM"
 La administración remota de Windows PowerShell empieza aquí. Con los cmdlets que se instalan con Windows PowerShell puede, entre otras muchas cosas, establecer y configurar sesiones remotas desde extremos tanto locales como remotos, crear sesiones personalizadas y restringidas, dejar que los usuarios importen comandos desde una sesión remota que se ejecutan implícitamente en la sesión remota o configurar la seguridad de una sesión remota.
 
 Para facilitar la configuración remota, Windows PowerShell incluye un proveedor WSMan. La unidad WSMAN: que este proveedor crea permite desplazarse por una jerarquía de valores de configuración en el equipo local y en los equipos remotos.
- Para obtener más información acerca del proveedor de WSMan, consulte [WSMan Provider](https://technet.microsoft.com/en-us/library/dd819476.aspx) (Proveedor de WSMan) y
-  [About WS-Management Cmdlets](https://technet.microsoft.com/en-us/library/dd819481.aspx) (Acerca de los cmdlets de WS-Management), o escriba "get\-help wsman" en la consola de Windows PowerShell.
+ Para obtener más información sobre el proveedor WSMan, vea el tema sobre el [proveedor WSMan](https://technet.microsoft.com/en-us/library/dd819476.aspx) y el tema   [About WS-Management Cmdlets](https://technet.microsoft.com/en-us/library/dd819481.aspx) (Acerca de los cmdlets de WS-Management). También puede escribir "get\-help wsman" en la consola de Windows PowerShell.
 
 Para obtener más información, consulte:
 - [Acerca de las Preguntas más frecuentes sobre el acceso remoto](https://technet.microsoft.com/en-us/library/dd315359.aspx)
@@ -149,6 +149,6 @@ Para obtener ayuda con los errores de comunicación remota, consulte [about_Remo
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO2-->
 
 

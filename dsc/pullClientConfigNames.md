@@ -1,3 +1,14 @@
+---
+title:   Configuración de un cliente de extracción mediante nombres de configuración
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Configuración de un cliente de extracción mediante nombres de configuración
 
 > Se aplica a: Windows PowerShell 5.0
@@ -44,10 +55,7 @@ Para aplicar la configuración, llame al cmdlet **Set-DscLocalConfigurationManag
 
 ## Servidores de informes y recursos
 
-Si solo especifica un bloque **ConfigurationRepositoryWeb** o **ConfigurationRepositoryShare** en su configuración del LCM (como en el ejemplo anterior), el cliente de incorporación de cambios extraerá 
-recursos del servidor especificado, pero no le enviará informes. Puede utilizar un solo servidor de incorporación de cambios para configuraciones, recursos e informes, pero debe crear un 
-bloque **ReportRepositoryWeb** para configurar los informes. En el ejemplo siguiente se muestra una metaconfiguration que configura un cliente para que extraiga configuraciones y recursos, y envíe informes de datos, a un único
-servidor de incorporación de cambios.
+Si solo especifica un bloque **ConfigurationRepositoryWeb** o **ConfigurationRepositoryShare** en la configuración del LCM (como en el ejemplo anterior), el cliente de extracción extraerá recursos del servidor especificado, pero no le enviará informes. Puede usar un solo servidor de extracción para configuraciones, recursos e informes, pero debe crear un bloque **ReportRepositoryWeb** para configurar los informes. En el siguiente ejemplo se muestra una metaconfiguración que configura un cliente para que envíe informes de datos y extraiga configuraciones y recursos a un único servidor de extracción.
 
 ```powershell
 [DSCLocalConfigurationManager()]
@@ -80,8 +88,7 @@ PullClientConfigID
 ```
 
 
-También puede especificar servidores de incorporación de cambios diferentes para los recursos y los informes. Para especificar un servidor de recursos, use un bloque **ResourceRepositoryWeb** (para un servidor de incorporación de cambios web) o un 
-bloque **ResourceRepositoryShare** (para un servidor de incorporación de cambios SMB).
+También puede especificar servidores de incorporación de cambios diferentes para los recursos y los informes. Para especificar un servidor de recursos, utilice un bloque **ResourceRepositoryWeb** (para un servidor de extracción web) o un bloque **ResourceRepositoryShare** (para un servidor de extracción SMB).
 Para especificar un servidor de informes, utilice un bloque **ReportRepositoryWeb**. Un servidor de informes no puede ser un servidor SMB.
 La metaconfiguración siguiente configura un cliente de extracción para que obtenga sus configuraciones de **CONTOSO-PullSrv** y sus recursos de **CONTOSO-ResourceSrv**, y para que envíe los informes a **CONTOSO-ReportSrv**:
 
@@ -126,6 +133,7 @@ PullClientConfigID
 * [Configuración de un servidor de extracción web de DSC](pullServer.md)
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=May16_HO3-->
 
 

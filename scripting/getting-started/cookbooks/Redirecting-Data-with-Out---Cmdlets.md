@@ -1,12 +1,15 @@
 ---
-title: Redirigir datos con cmdlets Out-*
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 2a4acd33-041d-43a5-a3e9-9608a4c52b0c
+title:  Redirigir datos con cmdlets Out
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  2a4acd33-041d-43a5-a3e9-9608a4c52b0c
 ---
+
 # Redirigir datos con cmdlets Out-*
 Windows PowerShell ofrece varios cmdlets que permiten controlar la salida de datos directamente. Estos cmdlets comparten dos características importantes.
 
@@ -61,8 +64,7 @@ Name    : explorer
 
 Esto se aplica a todos los cmdlets **Out**. Un cmdlet **Out** siempre debe aparecer al final de la canalización.
 
-> [!NOTE]
-> Todos los cmdlets **Out** representan la salida como texto, con el formato vigente para la ventana de consola, incluidos los límites de longitud de línea.
+> [!NOTE] Todos los cmdlets **Out** representan la salida como texto, con el formato vigente para la ventana de consola, incluidos los límites de longitud de línea.
 
 #### Paginar la salida de la consola (Out-Host)
 De forma predeterminada, Windows PowerShell envía datos a la ventana host, que es exactamente lo que hace el cmdlet Out-Host. El uso principal del cmdlet Out-Host es paginar datos como se explicó anteriormente. Por ejemplo, el siguiente comando usa Out-Host para paginar la salida del comando Get-Command:
@@ -153,6 +155,6 @@ El cmdlet **Out-File** resulta especialmente útil cuando desea guardar la salid
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

@@ -1,3 +1,14 @@
+---
+title:   Lista de comprobación de creación de recursos
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Lista de comprobación de creación de recursos
 Esta lista de comprobación es una lista de procedimientos recomendados al crear un nuevo recurso de DSC.
 ## El módulo de recursos contiene los archivos .psd1 y schema.mof para cada recurso 
@@ -33,8 +44,7 @@ Asegúrese de que:
 - La propiedad [read] no puede coexistir con las propiedades [required], [key] o [write].
 
 
-- Si se especifican varios calificadores excepto [read], [key] tiene prioridad.
-Si [write] y [required] están especificados, tiene prioridad [required].
+- Si se especifican varios calificadores excepto [read], [key] tiene prioridad. Si [write] y [required] están especificados, tiene prioridad [required].
 -   ValueMap esté especificado cuando sea necesario.
 
 Ejemplo:
@@ -44,7 +54,7 @@ Ejemplo:
 
 -   El nombre descriptivo esté especificado y cumpla con las convenciones de nomenclatura de DSC.
 
-Ejemplo: 
+Ejemplo:
 ```[ClassVersion("1.0.0.0"), FriendlyName("xRemoteFile")]```
 
 -   Cada campo tenga una descripción válida.
@@ -83,8 +93,7 @@ If ($error.count –ne 0) {
     Throw “Module was not imported correctly. Errors returned: $error”
 }
 ```
-4   El recurso es idempotente en el caso positivo 
-Una de las características fundamentales de cada recurso de DSC debe ser la idempotencia. Significa que podemos aplicar una configuración de DSC que contenga ese recurso varias veces sin cambiar el resultado más allá de la aplicación inicial. Por ejemplo, si creamos una configuración que contenga el recurso File siguiente:
+4   El recurso es idempotente en el caso positivo. Una de las características fundamentales de cada recurso de DSC debe ser la idempotencia. Significa que podemos aplicar una configuración de DSC que contenga ese recurso varias veces sin cambiar el resultado más allá de la aplicación inicial. Por ejemplo, si creamos una configuración que contenga el recurso File siguiente:
 ```powershell
 File file {
     DestinationPath = "C:\test\test.txt"
@@ -101,8 +110,7 @@ La modificación de usuario es otro escenario común que vale la pena probar. Ay
 2.  Ejecute la configuración con su recurso.
 3.  Compruebe que **Test-DscConfiguration** devuelve true.
 4.  Modifique el recurso a un estado distinto del deseado.
-5.  Compruebe que **Test-DscConfiguration** devuelve false.
-Este es un ejemplo más concreto de uso del recurso Registry:
+5.  Compruebe que **Test-DscConfiguration** devuelva false. Este es un ejemplo más concreto de uso del recurso Registry:
 1.  Comience con la clave del Registro que no está en el estado deseado.
 2.  Ejecute **Start-DscConfiguration** con una configuración para colocarla en el estado deseado y compruebe si pasa.
 3.  Ejecute **Test-DscConfiguration** y compruebe que devuelve true.
@@ -195,8 +203,7 @@ Los mensajes de error correctos deben:
 -   Fáciles de entender: usar lenguaje natural, sin códigos de error ilegibles.
 -   Precisos: describir el problema con exactitud.
 -   Constructivos: aconsejar cómo corregir el problema.
--   Educados: no culpar al usuario ni hacerle sentir estúpido.
-Asegúrese de comprobar los errores en los escenarios de un extremo a otro (mediante **Start-DscConfiguration**), ya que pueden diferir de los devueltos al ejecutar las funciones de recursos directamente. 
+-   Educados: no culpar al usuario ni hacerle sentir estúpido. Asegúrese de comprobar los errores en los escenarios de un extremo a otro (mediante **Start-DscConfiguration**), ya que pueden diferir de los devueltos al ejecutar las funciones de recursos directamente. 
 
 ## Los mensajes de registro son fáciles de entender e informativos (incluidos los registros –verbose, –debug y ETW) ##
 Asegúrese de que los registros que emite el recurso son fáciles de comprender y proporcionan valor al usuario. Los recursos deben generar toda la información que pueda resultar útil para el usuario, pero un mayor número de registros no siempre es mejor. Debe evitar la redundancia y la salida de datos que no proporcionen valor adicional: evite que nadie deba consultar cientos de entradas de registro para encontrar lo que busca. Por supuesto, la ausencia de registros tampoco es una solución aceptable para este problema. 
@@ -256,9 +263,7 @@ Para xRemoteFile, ResourceTests.ps1 podría ser tan simple como:
 Test-xDscResource ..\DSCResources\MSFT_xRemoteFile
 Test-xDscSchema ..\DSCResources\MSFT_xRemoteFile\MSFT_xRemoteFile.schema.mof 
 ```
-**Procedimiento recomendado: la carpeta de recursos contiene el script del Diseñador de recursos para generar el esquema**
-Cada recurso debe contener un script del Diseñador de recursos que genere un esquema MOF del recurso. Este archivo debe colocarse en <ResourceName>\ResourceDesignerScripts y denominarse Generate<ResourceName>Schema.ps1
-Para el recursos XRemoteFile, este archivo se denominaría GenerateXRemoteFileSchema.ps1 y contendría:
+**Procedimiento recomendado: la carpeta de recursos contiene el script del Diseñador de recursos para generar el esquema** Cada recurso debe contener un script del Diseñador de recursos que genere un esquema MOF del recurso. Este archivo debe colocarse en <ResourceName>\ResourceDesignerScripts y denominarse Generate<ResourceName>Schema.ps1 Para el recurso XRemoteFile, este archivo se denominaría GenerateXRemoteFileSchema.ps1 y contendría:
 ```powershell 
 $DestinationPath = New-xDscResourceProperty -Name DestinationPath -Type String -Attribute Key -Description 'Path under which downloaded or copied file should be accessible after operation.'
 $Uri = New-xDscResourceProperty -Name Uri -Type String -Attribute Required -Description 'Uri of a file which should be copied or downloaded. This parameter supports HTTP and HTTPS values.'
@@ -270,8 +275,7 @@ $CertificateThumbprint = New-xDscResourceProperty -Name CertificateThumbprint -T
 
 New-xDscResource -Name MSFT_xRemoteFile -Property @($DestinationPath, $Uri, $Headers, $UserAgent, $Ensure, $Credential, $CertificateThumbprint) -ModuleName xPSDesiredStateConfiguration2 -FriendlyName xRemoteFile 
 ```
-22  Procedimiento recomendado: el recurso admite -whatif
-Si el recurso realiza operaciones "peligrosas", se recomienda implementar la funcionalidad -whatif. Después de hacerlo, asegúrese de que la salida whatif describe correctamente las operaciones que se realizarían si se ejecutara el comando sin el modificador whatif.
+22  Procedimiento recomendado: el recurso admite -whatif. Si el recurso realiza operaciones "peligrosas", se recomienda implementar la funcionalidad -whatif. Después de hacerlo, asegúrese de que la salida whatif describe correctamente las operaciones que se realizarían si se ejecutara el comando sin el modificador whatif.
 Asimismo, compruebe que las operaciones no se ejecutan (no se realiza ningún cambio en el estado del nodo) cuando el modificador –whatif está presente. 
 Por ejemplo, supongamos que está probando el recurso File. A continuación se muestra una configuración sencilla que crea el archivo "test.txt" con contenido "test":
 ```powershell
@@ -317,6 +321,7 @@ Esto concluye nuestra lista de comprobación. Tenga en cuenta que esta lista no 
 Si desarrolló directrices y procedimientos recomendados que usa para escribir y probar recursos de DSC, compártalos.
 
 
-<!--HONumber=Mar16_HO2-->
+
+<!--HONumber=May16_HO3-->
 
 

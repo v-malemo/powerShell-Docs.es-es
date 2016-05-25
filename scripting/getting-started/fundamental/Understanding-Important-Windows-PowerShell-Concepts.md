@@ -1,12 +1,15 @@
 ---
-title: Descripción de los conceptos importantes de Windows PowerShell
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 3e601e38-4520-4578-a48d-b6779f1d35ee
+title:  Descripción de los conceptos importantes de Windows PowerShell
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  3e601e38-4520-4578-a48d-b6779f1d35ee
 ---
+
 # Descripción de los conceptos importantes de Windows PowerShell
 El diseño de Windows PowerShell integra los conceptos de numerosos entornos diferentes. Varios de ellos son familiares para las personas con experiencia en shells o entornos de programación específicos, pero muy pocas los conocen todos. Observar algunos de estos conceptos nos proporcionará una práctica introducción del shell.
 
@@ -28,7 +31,7 @@ Dada la naturaleza especial de los comandos internos de Windows PowerShell, nos 
 ### Windows PowerShell controla la entrada y la presentación de la consola
 Cuando se escribe un comando, Windows PowerShell siempre procesa la entrada directamente de línea de comandos directamente. Windows PowerShell también formatea la salida que se ve en la pantalla. Esto es importante, ya que reduce el trabajo necesario de cada cmdlet y garantiza que siempre se hagan las cosas igual independientemente del cmdlet que se use. Un ejemplo de cómo simplifica el trabajo para los usuarios y los desarrolladores de herramientas es la Ayuda de la línea de comandos.
 
-Las herramientas de línea de comandos tradicionales tienen sus propios esquemas para solicitar y mostrar la Ayuda. Algunas herramientas de línea de comandos usan **/?** para desencadenar la presentación de la Ayuda; otros usan **-?**, **/H** o incluso **//**. Algunas mostrarán la Ayuda en una ventana de interfaz gráfica de usuario, en lugar de hacerlo en la pantalla de la consola. Algunas herramientas complejas, como los instaladores de actualizaciones de la aplicación, desempaquetan los archivos internos antes de mostrar su Ayuda. Si usa un parámetro equivocado, la herramienta podría omitir la entrada y empezar a realizar una tarea automáticamente.
+Las herramientas de línea de comandos tradicionales tienen sus propios esquemas para solicitar y mostrar la Ayuda. Algunas herramientas de línea de comandos usan **/?** para desencadenar la presentación de la Ayuda; otras usan **\-?**, **\/H** o incluso **\/\/**. Algunas mostrarán la Ayuda en una ventana de interfaz gráfica de usuario, en lugar de hacerlo en la pantalla de la consola. Algunas herramientas complejas, como los instaladores de actualizaciones de la aplicación, desempaquetan los archivos internos antes de mostrar su Ayuda. Si usa un parámetro equivocado, la herramienta podría omitir la entrada y empezar a realizar una tarea automáticamente.
 
 Cuando escribe un comando en Windows PowerShell, todo lo que escribe se analiza automáticamente y se preprocesa mediante Windows PowerShell. Si usa el parámetro **-?** con un cmdlet de Windows PowerShell, siempre significa "mostrarme la Ayuda de este comando". Los desarrolladores de cmdlets no tienen que analizar el comando; solo necesitan proporcionar el texto de la Ayuda.
 
@@ -44,6 +47,6 @@ Si no es un programador de C#, esta similitud no es importante. Sin embargo, si 
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

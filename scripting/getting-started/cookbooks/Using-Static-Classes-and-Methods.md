@@ -1,12 +1,15 @@
 ---
-title: Usar métodos y clases estáticas
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 418ad766-afa6-4b8c-9a44-471889af7fd9
+title:  Usar métodos y clases estáticas
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  418ad766-afa6-4b8c-9a44-471889af7fd9
 ---
+
 # Usar métodos y clases estáticas
 No todas las clases de .NET Framework se pueden crear mediante **New-Object**. Por ejemplo, si intenta crear un objeto **System.Environment** o **System.Math** con **New-Object**, obtendrá los siguientes mensajes de error:
 
@@ -113,8 +116,7 @@ False
 ### Operaciones matemáticas con System.Math
 La clase estática System.Math es útil para realizar algunas operaciones matemáticas. Los miembros importantes de **System.Math** son principalmente métodos, que podemos mostrar mediante **Get-Member**.
 
-> [!NOTE]
-> System.Math tiene varios métodos con el mismo nombre, pero se distinguen por el tipo de sus parámetros.
+> [!NOTE] System.Math tiene varios métodos con el mismo nombre, pero se distinguen por el tipo de sus parámetros.
 
 Escriba el siguiente comando para enumerar los métodos de la clase **System.Math**.
 
@@ -182,6 +184,6 @@ PS> [System.Math]::Truncate(-9.3)
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

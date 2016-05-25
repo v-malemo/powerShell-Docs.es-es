@@ -1,3 +1,8 @@
+---
+título: Recursos compuestos: uso de una configuración DSC como un recurso ms.date: 16-05-2016 palabras clave: powershell, descripción de DSC:  
+ms.topic: autor del artículo: eslesar administrador: dongill ms.prod: powershell
+---
+
 # Recursos compuestos: uso de una configuración DSC como un recurso
 
 > Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
@@ -181,4 +186,9 @@ configuration RenameVM
 ### Conceptos
 * [Escribir un recurso de DSC personalizado con MOF](authoringResourceMOF.md)
 * [Introducción a la configuración de estado deseado de Windows PowerShell](overview.md)
-<!--HONumber=Feb16_HO4-->
+
+
+
+<!--HONumber=May16_HO3-->
+
+

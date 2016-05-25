@@ -1,12 +1,15 @@
 ---
-title: Manipular elementos directamente
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 8cbd4867-917d-41ea-9ff0-b8e765509735
+title:  Manipular elementos directamente
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  8cbd4867-917d-41ea-9ff0-b8e765509735
 ---
+
 # Manipular elementos directamente
 Los elementos que se ven en las unidades de Windows PowerShell (como los archivos y carpetas en las unidades del sistema de archivos y las claves del Registro en las unidades de Registro de Windows PowerShell) se denominan *elementos* en Windows PowerShell. Los cmdlets que funcionan con los elementos contienen el término **Item** en sus nombres.
 
@@ -86,7 +89,7 @@ SKC  VC Name                           Property
   3   0 OptionalComponents             {}
 ```
 
-Aunque posiblemente sea conveniente tratar las entradas del Registro como elementos, no se puede especificar una ruta de acceso a una entrada del Registro de una manera que garantice que sea única. La notación de ruta de acceso no distingue entre la subclave del Registro **Run** y la entrada del Registro **(Default)** en la subclave **Run**. Es más, dado que los nombres de las entradas del Registro pueden contener el carácter de barra diagonal inversa (**\**), si las entradas de Registro fueran elementos, no podría usar la notación de ruta de acceso para distinguir una entrada del Registro llamada **Windows\CurrentVersion\Run** de la subclave que se encuentra en esa ruta de acceso.
+Aunque posiblemente sea conveniente tratar las entradas del Registro como elementos, no se puede especificar una ruta de acceso a una entrada del Registro de una manera que garantice que sea única. La notación de ruta de acceso no distingue entre la subclave del Registro **Run** y la entrada del Registro **(Default)** en la subclave **Run**. Es más, dado que los nombres de las entradas del Registro pueden contener el carácter de barra diagonal inversa (**\\**), si las entradas de Registro fueran elementos, no podría usar la notación de ruta de acceso para distinguir una entrada del Registro llamada **Windows\\CurrentVersion\\Run** de la subclave que se encuentra en esa ruta de acceso.
 
 ### Cambiar el nombre de los elementos existentes (Rename-Item)
 Para cambiar el nombre de un archivo o una carpeta, use el cmdlet **Rename-Item**. El siguiente comando cambia el nombre del archivo **file1.txt** a **fileOne.txt**.
@@ -197,6 +200,6 @@ Si el tipo de archivo .ini está asociado con el Bloc de notas, se abrirá en e
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

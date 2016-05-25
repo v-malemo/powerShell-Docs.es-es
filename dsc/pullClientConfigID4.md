@@ -1,3 +1,14 @@
+---
+title:   Configuración de un cliente de extracción mediante un id. de configuración en PowerShell 4.0
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Configuración de un cliente de extracción mediante un id. de configuración en PowerShell 4.0
 
 >Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
@@ -15,7 +26,7 @@ Configuration SimpleMetaConfigurationForPull
         RefreshMode = "PULL";
         DownloadManagerName = "WebDownloadManager";
         RebootNodeIfNeeded = $true;
-        RefreshFrequencyMins = 15;
+        RefreshFrequencyMins = 30;
         ConfigurationModeFrequencyMins = 30; 
         ConfigurationMode = "ApplyAndAutoCorrect";
         DownloadManagerCustomData = @{ServerUrl = "http://PullServer:8080/PSDSCPullServer/PSDSCPullServer.svc"; AllowUnsecureConnection = “TRUE”}
@@ -39,8 +50,7 @@ El script establece la propiedad **ConfigurationID** del LCM en un GUID que se h
 ## Incorporación de cambios de un servidor SMB
 
 Si el servidor de incorporación de cambios está configurado como un recurso compartido de archivos SMB, en lugar de un servicio web, especifique **DscFileDownloadManager** en lugar de **WebDownLoadManager**.
-**DscFileDownloadManager** toma una propiedad **SourcePath** en lugar de **ServerUrl**. El script siguiente configura el LCM para que extraiga configuraciones de un recurso compartido SMB denominado
-"SmbDscShare" en un servidor denominado "CONTOSO-SERVER":
+**DscFileDownloadManager** toma una propiedad **SourcePath** en lugar de **ServerUrl**. El script siguiente configura el LCM para que extraiga configuraciones de un recurso compartido SMB denominado "SmbDscShare" en un servidor denominado "CONTOSO-SERVER":
 
 ```powershell
 Configuration SimpleMetaConfigurationForPull 
@@ -51,7 +61,7 @@ Configuration SimpleMetaConfigurationForPull
         RefreshMode = "PULL";
         DownloadManagerName = "DscFileDownloadManager";
         RebootNodeIfNeeded = $true;
-        RefreshFrequencyMins = 15;
+        RefreshFrequencyMins = 30;
         ConfigurationModeFrequencyMins = 30; 
         ConfigurationMode = "ApplyAndAutoCorrect";
         DownloadManagerCustomData = @{ServerUrl = "\\CONTOSO-SERVER\SmbDscShare"}
@@ -65,6 +75,8 @@ SimpleMetaConfigurationForPull -Output "."
 - [Configuración de un servidor de extracción web de DSC](pullServer.md)
 - [Configuración de un servidor de incorporación de cambios SMB de DSC](pullServerSMB.md)
 
-<!--HONumber=Mar16_HO2-->
+
+
+<!--HONumber=May16_HO3-->
 
 

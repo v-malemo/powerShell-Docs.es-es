@@ -1,26 +1,30 @@
+---
+title:   Proteger el archivo MOF
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Proteger el archivo MOF
 
 >Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
 
-DSC indica a los nodos de destino la configuración que deben tener mediante el envío de un archivo MOF con dicha información para cada nodo, donde el administrador de configuración local (LCM) implementa la configuración deseada 
-. Como este archivo contiene los detalles de la configuración, es importante que esté protegido. Para ello, puede establecer el LCM para comprobar las credenciales de 
-un usuario. En este tema se describe cómo transmitir esas credenciales de forma segura al nodo de destino mediante su cifrado con certificados.
+DSC indica a los nodos de destino la configuración que deben tener mediante el envío de un archivo MOF con esa información a cada nodo, donde el administrador de configuración local (LCM) implementa la configuración deseada. Como este archivo contiene los detalles de la configuración, es importante que esté protegido. Para ello, puede establecer el LCM para comprobar las credenciales de un usuario. En este tema se describe cómo transmitir esas credenciales de forma segura al nodo de destino mediante su cifrado con certificados.
 
->**Nota:** En este tema se describen los certificados usados para el cifrado. Para el cifrado, un certificado autofirmado es suficiente, porque la clave privada se mantiene siempre secreta y el cifrado no implica la confianza del documento. Los certificados autofirmados
->*no* deben usarse con fines de autenticación. Debe usar un certificado de una entidad de certificación de confianza (CA) para fines de autenticación.
+>**Nota:** En este tema se describen los certificados usados para el cifrado. Para el cifrado, un certificado autofirmado es suficiente, porque la clave privada se mantiene siempre secreta y el cifrado no implica la confianza del documento. Los certificados autofirmados *no* deben usarse con fines de autenticación. Debe usar un certificado de una entidad de certificación de confianza (CA) para fines de autenticación.
 
 ## Requisitos previos
 
 Para cifrar correctamente las credenciales utilizadas para proteger una configuración DSC, asegúrese de que disponer de lo siguiente:
 
-* **Algún medio de emisión y distribución de certificados**. En este tema y en sus ejemplos se supone que usa la entidad de certificación de Active Directory. Para obtener más información general acerca de 
-los Servicios de certificados de Active Directory, consulte [Información general de Servicios de certificados de Active Directory](https://technet.microsoft.com/library/hh831740.aspx) y 
-[Servicios de certificados de Active Directory en Windows Server 2008](https://technet.microsoft.com/windowsserver/dd448615.aspx).
+* **Algún medio de emisión y distribución de certificados**. En este tema y en sus ejemplos se supone que usa la entidad de certificación de Active Directory. Para obtener información más en profundidad sobre los Servicios de certificados de Active Directory, vea [Información general de Servicios de certificados de Active Directory](https://technet.microsoft.com/library/hh831740.aspx) y [Servicios de certificados de Active Directory](https://technet.microsoft.com/windowsserver/dd448615.aspx).
 * **Acceso administrativo a los nodos de destino**.
-* **Cada uno de los nodos de destino tiene un certificado de cifrado guardado en su almacén personal**. En Windows PowerShell, la ruta de acceso al almacén es Cert:\LocalMachine\My. En los ejemplos de este tema se usa la 
-plantilla de "autenticación de estación de trabajo", que puede encontrar (junto con otras plantillas de certificado) en las [Plantillas de certificado predeterminadas](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx).
-* Si va a ejecutar esta configuración en un equipo distinto al nodo de destino, **exporte la clave pública del certificado** y luego impórtela en el equipo desde el que se va a ejecutar 
-la configuración. Asegúrese de que solo se exporte la clave **public**; mantenga la clave privada segura.
+* **Cada uno de los nodos de destino tiene un certificado de cifrado guardado en su almacén personal**. En Windows PowerShell, la ruta de acceso al almacén es Cert:\LocalMachine\My. En los ejemplos de este tema se usa la plantilla de "autenticación de estación de trabajo", que puede encontrar (junto con otras plantillas de certificado) en las [Plantillas de certificado predeterminadas](https://technet.microsoft.com/library/cc740061(v=WS.10).aspx).
+* Si va a ejecutar esta configuración en un equipo distinto al nodo de destino, **exporte la clave pública del certificado** y luego impórtela en el equipo desde el que se va a ejecutar la configuración. Asegúrese de que solo se exporte la clave **public**; mantenga la clave privada segura.
 
 ## Proceso general
 
@@ -44,9 +48,7 @@ Este certificado de clave pública tiene requisitos específicos que debe usar p
  3. La clave privada del certificado está disponible en el nodo de destino.
  4. El **proveedor** del certificado debe ser "Proveedor de servicios criptográficos de Microsoft RSA SChannel".
  
->**Procedimiento recomendado:** Aunque puede usar un certificado que contenga un uso de clave 'Digital Signature' o uno de los EKU de autenticación, lo que permitirá que la clave de cifrado 
->se use de forma inadecuada más fácilmente y sea vulnerable a ataques. Por lo tanto, le recomendamos que utilice un certificado creado específicamente con el fin de proteger las credenciales de DSC que omita estos EKU y 
->usos de clave.
+>**Procedimiento recomendado:** aunque puede usar un certificado que contenga un uso de clave de "Firma digital" o uno de los EKU de autenticación, esto permitirá que la clave de cifrado se use más fácilmente de forma inadecuada y sea vulnerable a ataques. Por lo tanto, le recomendamos que utilice un certificado creado específicamente con el fin de proteger las credenciales de DSC que omita estos EKU y usos de clave.
   
 Cualquier certificado existente en el _nodo de destino_ que cumpla estos criterios puede usarse para proteger las credenciales de DSC.
 
@@ -62,8 +64,7 @@ Se recomienda el método 1 porque la clave privada que se usa para descifrar las
 
 ### Creación del certificado en el nodo de destino
 
-La clave privada debe mantenerse secreta, ya que se usa para descifrar el MOF en el **nodo de destino**
-La forma más sencilla de hacerlo es crear el certificado de clave privada en el **nodo de destino** y el **certificado de clave pública** se puede copiar en el equipo que se usa para crear la configuración de DSC en un archivo MOF.
+La clave privada debe mantenerse secreta, ya que se usa para descifrar el MOF en el **nodo de destino**. La forma más sencilla de hacerlo es crear el certificado de clave privada en el **nodo de destino** y copiar el **certificado de clave pública** en el equipo que se usa para crear la configuración de DSC en un archivo MOF.
 En el ejemplo siguiente:
  1. crea un certificado en el **nodo de destino**.
  2. exporta el certificado de clave pública al **nodo de destino**.
@@ -192,12 +193,6 @@ $mypwd = ConvertTo-SecureString -String "YOUR_PFX_PASSWD" -Force -AsPlainText
 Import-PfxCertificate -FilePath "$env:temp\DscPrivateKey.pfx" -CertStoreLocation Cert:\LocalMachine\Root -Password $mypwd > $null
 ```
 
-Nota: si el nodo de destino es un _Nano Server_, debe usar la aplicación CertOC.exe para importar el certificado de clave privado porque el cmdlet ```Import-PfxCertificate``` no está disponible.
-```powershell
-# Import to the root store so that it is trusted
-certoc.exe -ImportPFX -p YOUR_PFX_PASSWD Root c:\temp\DscPrivateKey.pfx
-```
-
 ## Datos de configuración
 
 El bloque de datos de configuración define los nodos de destino en los que operará, si se cifrarán las credenciales o no, los medios de cifrado y otra información. Para más información sobre el bloque de datos de configuración, consulte [Separación de los datos de entorno y configuración](configData.md).
@@ -308,7 +303,7 @@ configuration CredentialEncryptionExample
 
 En este punto, puede ejecutar la configuración, lo que dará como resultado dos archivos:
 
- * Un archivo *.meta.mof que configura el administrador de configuración local para que descifre las credenciales mediante el certificado que está almacenado en el almacén de la máquina local y se identifique mediante su huella digital. [`Set-DscLocalConfigurationManager`](https://technet.microsoft.com/en-us/library/dn521621.aspx) se aplica al archivo *.meta.mof.
+ * Un archivo *.meta.mof que configura el administrador de configuración local para descifrar las credenciales mediante el certificado que está almacenado en el almacén de la máquina local y que se identifica a través de su huella digital. [`Set-DscLocalConfigurationManager`](https://technet.microsoft.com/en-us/library/dn521621.aspx) se aplica al archivo *.meta.mof.
  * Un archivo MOF que aplica realmente la configuración. Start-DscConfiguration aplica la configuración.
 
 Estos comandos llevará a cabo esos pasos:
@@ -448,6 +443,7 @@ Start-CredentialEncryptionExample
 ```
 
 
-<!--HONumber=Apr16_HO3-->
+
+<!--HONumber=May16_HO3-->
 
 

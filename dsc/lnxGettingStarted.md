@@ -1,3 +1,14 @@
+---
+title:   Introducción a la configuración de estado deseado (DSC) para Linux
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Introducción a la configuración de estado deseado (DSC) para Linux
 
 En este tema se ofrece una introducción al uso de la configuración de estado deseado (DSC) de PowerShell para Linux. Para obtener información general sobre DSC, consulte [Introducción a la configuración de estado deseado de Windows PowerShell](overview.md).
@@ -114,7 +125,7 @@ $Sess=New-CimSession -Credential:$credential -ComputerName:$Node -Port:5986 -Aut
 * En el modo "Push", la credencial de usuario debe ser el usuario raíz del equipo Linux.
 * Solo se admiten conexiones SSL/TLS de DSC para Linux, el cmdlet New-CimSession debe utilizarse con el parámetro -UseSSL establecido en $true.
 * El certificado SSL que utiliza OMI (para DSC) se especifica en el archivo `/opt/omi/etc/omiserver.conf` con las propiedades pemfile y keyfile.
-Si este certificado no es de confianza para el equipo de Windows en el que se está ejecutando el cmdlet [New-CimSession](https://technet.microsoft.com/en-us/library/jj590760.aspx), puede elegir omitir la validación de certificados con las opciones de CIMSession `-SkipCACheck:$true -SkipCNCheck:$true -SkipRevocationCheck:$true`
+Si este certificado no es de confianza para el equipo de Windows en el que se está ejecutando el cmdlet [New-CimSession](https://technet.microsoft.com/en-us/library/jj590760.aspx), puede elegir omitir la validación de certificados con las opciones de CIMSession: `-SkipCACheck:$true -SkipCNCheck:$true -SkipRevocationCheck:$true`
 
 Ejecute el comando siguiente para insertar la configuración DSC en el nodo de Linux.
 
@@ -173,6 +184,7 @@ Los siguientes archivos de registro son mensajes generados para DSC para Linux.
 |dsc.log|/opt/omi/var/log/|Mensajes relacionados con el funcionamiento del administrador de configuración local (LCM) y las operaciones de recursos de DSC.|
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=May16_HO3-->
 
 

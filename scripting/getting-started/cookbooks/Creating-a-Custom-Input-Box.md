@@ -1,12 +1,15 @@
 ---
-title: Crear un cuadro de entrada personalizado
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 0b12e56c-299f-40ee-afbf-d30d23ed2565
+title:  Crear un cuadro de entrada personalizado
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  0b12e56c-299f-40ee-afbf-d30d23ed2565
 ---
+
 # Crear un cuadro de entrada personalizado
 Cree un script de un cuadro de entrada gráfico personalizado usando las características de creación de formularios de Microsoft .NET Framework de Windows PowerShell 3.0 (y versiones posteriores).
 
@@ -153,12 +156,12 @@ if ($result -eq [System.Windows.Forms.DialogResult]::OK)
 ```
 
 ## Consulte también
-[Hey Scripting Guy: Why don’t these PowerShell GUI examples work? (Hey Scripting Guy: ¿Por qué estos ejemplos de GUI de PowerShell no funcionan?)](http://go.microsoft.com/fwlink/?LinkId=506644)
+[Hey Scripting Guy: Why don’t these PowerShell GUI examples work? (Hey Scripting Guy: ¿Por qué no funcionan estos ejemplos de GUI de PowerShell?)](http://go.microsoft.com/fwlink/?LinkId=506644)
 [GitHub: Dave Wyatt's WinFormsExampleUpdates (GitHub: WinFormsExampleUpdates de Dave Wyatt)](https://github.com/dlwyatt/WinFormsExampleUpdates)
-[Windows PowerShell Tip of the Week: Creating a Custom Input Box (Sugerencia de la semana de Windows PowerShell: Crear un cuadro de cuadro de entrada personalizado)](http://technet.microsoft.com/library/ff730941.aspx)
+[Windows PowerShell Tip of the Week: Creating a Custom Input Box (Sugerencia de la semana de Windows PowerShell: Crear un cuadro de entrada personalizado)](http://technet.microsoft.com/library/ff730941.aspx)
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

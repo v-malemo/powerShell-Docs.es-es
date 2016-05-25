@@ -1,3 +1,14 @@
+---
+title:   DSC de ejecución con las credenciales de usuario 
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # DSC de ejecución con las credenciales de usuario 
 
 > Se aplica a: Windows PowerShell 5.0
@@ -7,14 +18,12 @@ De forma predeterminada, DSC ejecuta cada recurso como la cuenta del sistema.
 A veces, es necesaria la ejecución como usuario, por ejemplo, al instalar paquetes MSI en un contexto de usuario específico, al configurar claves de registro de un usuario, al acceder a un directorio local específico de usuario o al acceder a un recurso compartido de red.
 
 Cada recurso de DSC tiene una propiedad **PsDscRunAsCredential** que se puede establecer en cualquier credencial de usuario (un objeto [PSCredential](https://msdn.microsoft.com/en-us/library/ms572524(v=VS.85).aspx)).
-La credencial puede codificarse de forma rígida como el valor de la propiedad de la configuración o puede establecer el valor en [Get-Credential](https://technet.microsoft.com/en-us/library/hh849815.aspx),
-que solicitará al usuario una credencial cuando se compile la configuración (para obtener información acerca de la compilación de configuraciones, consulte [Configuraciones](configurations.md).
+La credencial puede codificarse de forma rígida como el valor de la propiedad de la configuración, o bien puede establecer el valor en [Get-Credential](https://technet.microsoft.com/en-us/library/hh849815.aspx), que solicitará al usuario una credencial cuando se compile la configuración (para más información sobre la compilación de configuraciones, vea [Configuraciones](configurations.md)).
 
 >**Nota:** La propiedad **PsDscRunAsCredential** no está disponible en PowerShell 4.0.
 
 En el ejemplo siguiente, **Get-Credential** se usa para solicitar credenciales al usuario. 
-El recurso [Registry](registryResource.md) se usa para cambiar la clave del registro que especifica el color de fondo
-de la ventana de símbolo del sistema de Windows.
+El recurso [Registry](registryResource.md) se usa para cambiar la clave del Registro que especifica el color de fondo de la ventana del símbolo del sistema de Windows.
 
 ```powershell
 Configuration ChangeCmdBackGroundColor    
@@ -51,10 +60,10 @@ $configData = @{
 ChangeCmdBackGroundColor -ConfigurationData $configData
 ```
 >**Nota:** En este ejemplo se supone que tiene un certificado válido en `C:\publicKeys\targetNode.cer` y que la huella digital del certificado es el valor mostrado.
->Para obtener información acerca del cifrado de credenciales en archivos MOF de configuración de DSC, consulte [Proteger el archivo MOF](secureMOF.md).
+>Para obtener más información sobre el cifrado de credenciales en archivos MOF de configuración de DSC, vea [Proteger el archivo MOF](secureMOF.md).
 
 
 
-<!--HONumber=Apr16_HO5-->
+<!--HONumber=May16_HO3-->
 
 

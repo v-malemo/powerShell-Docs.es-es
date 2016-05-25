@@ -1,12 +1,15 @@
 ---
-title: Quitar objetos de la canalización (Where-Object)
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 01df8b22-2d22-4e2c-a18d-c004cd3cc284
+title:  Quitar objetos de la canalización (Where-Object) 
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  01df8b22-2d22-4e2c-a18d-c004cd3cc284
 ---
+
 # Quitar objetos de la canalización (Where-Object)
 En Windows PowerShell, se suelen generar y pasar más objetos de los deseados a una canalización. Puede especificar las propiedades de los objetos concretos que quiere que se muestren mediante los cmdlets **Format**, pero esto no ayuda a resolver el problema de eliminación de objetos completos de la presentación. Es posible que quiera filtrar objetos antes del final de una canalización, para poder realizar acciones solo en un subconjunto de los objetos generados inicialmente.
 
@@ -15,8 +18,7 @@ Windows PowerShell incluye cmdlet **Where-Object** que permite probar cada objet
 ### Realizar pruebas simples con Where-Object
 El valor de **FilterScript** es un *bloque de script*, es decir, uno o más comandos de Windows PowerShell entre llaves ({}), que se evalúa como true o false. Estos bloques de script pueden ser muy simples, pero su creación requiere el conocimiento de otro concepto de Windows PowerShell: los operadores de comparación. Un operador de comparación compara los elementos que aparecen en cada uno de sus lados. Los operadores de comparación comienzan con un carácter '-' seguido de un nombre. Los operadores de comparación básicos funcionan en casi todos los tipos de objeto. Es posible que los operadores de comparación más avanzados solo funcionen en texto o matrices.
 
-> [!NOTE]
-> De forma predeterminada, al trabajar con texto, los operadores de comparación de Windows PowerShell no distinguen mayúsculas de minúsculas.
+> [!NOTE] De manera predeterminada, al trabajar con texto, los operadores de comparación de Windows PowerShell no distinguen mayúsculas de minúsculas.
 
 Debido a consideraciones de análisis, los símbolos como <, > y = no se usan como operadores de comparación. En su lugar, los operadores de comparación están formados por letras. Los operadores lógicos básicos se muestran en la tabla siguiente.
 
@@ -102,6 +104,6 @@ Los operadores lógicos estándar se muestran en la tabla siguiente.
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

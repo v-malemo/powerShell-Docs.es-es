@@ -1,12 +1,15 @@
 ---
-title: Apéndice 2: Crear de un acceso directo de PowerShell personalizado
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 5d4fd421-5d43-4ec7-86fd-acfe887b066e
+title:  Apéndice 2 Crear un acceso directo de PowerShell personalizado
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  5d4fd421-5d43-4ec7-86fd-acfe887b066e
 ---
+
 # Apéndice 2: Crear de un acceso directo de PowerShell personalizado
 El siguiente procedimiento describe cómo crear un acceso directo a Windows PowerShell que tenga varias opciones prácticas personalizadas.
 
@@ -38,6 +41,6 @@ El siguiente procedimiento describe cómo crear un acceso directo a Windows Powe
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

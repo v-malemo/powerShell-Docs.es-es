@@ -1,12 +1,15 @@
 ---
-title: Cómo usar la finalización con tabulación en el panel de scripts y en el panel de consola
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 3b752c3c-0bd0-4eca-a2d3-2d5a37fd9d84
+title:  Cómo usar la finalización con tabulación en el panel de scripts y en el panel de consola
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  3b752c3c-0bd0-4eca-a2d3-2d5a37fd9d84
 ---
+
 # Cómo usar la finalización con tabulación en el panel de scripts y en el panel de consola
 La finalización con tabulación proporciona ayuda automática al escribir en el panel de scripts o el panel de comandos. Para aprovechar esta característica, siga estos pasos:
 
@@ -22,8 +25,9 @@ En el panel de comandos o el panel de scripts, escriba un cmdlet seguido por un 
 Por ejemplo, escriba `get-process -` y, a continuación, presione TAB varias veces para mostrar cada uno de los parámetros del cmdlet de uno en uno.
 
 ## Consulte también
-[Utilizar ISE de Windows PowerShell](using-the-windows-powershell-ise.md)
-[Cómo crear una pestaña de PowerShell](How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md)
+[Using Windows PowerShell ISE (Usar Windows PowerShell ISE)](using-the-windows-powershell-ise.md)
+[How to Create a PowerShell Tab (Cómo crear una pestaña de PowerShell)](How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md)
+
 
 
 <!--HONumber=May16_HO2-->

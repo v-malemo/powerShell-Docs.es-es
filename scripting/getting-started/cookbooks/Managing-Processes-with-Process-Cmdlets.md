@@ -1,12 +1,15 @@
 ---
-title: Administración de procesos con cmdlets de proceso
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 5038f612-d149-4698-8bbb-999986959e31
+title:  Administración de procesos con cmdlets de proceso
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  5038f612-d149-4698-8bbb-999986959e31
 ---
+
 # Administración de procesos con cmdlets de proceso
 Puede usar los cmdlets Process en Windows PowerShell para administrar procesos locales y remotos en Windows PowerShell.
 
@@ -174,6 +177,6 @@ Windows PowerShell también incluye cmdlets para iniciar (o reiniciar) y depurar
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO2-->
 
 

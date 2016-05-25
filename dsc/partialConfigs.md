@@ -1,3 +1,14 @@
+---
+title:   Configuraciones parciales de la configuración de estado deseado de PowerShell
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Configuraciones parciales de la configuración de estado deseado de PowerShell
 
 >Se aplica a: Windows PowerShell 5.0
@@ -146,10 +157,11 @@ Debería asignar el nombre y localizar los documentos de configuración como se 
 ##Consulte también 
 
 **Conceptos**
-[Servidores de incorporación de cambios de la configuración de estado deseado de Windows PowerShell](pullServer.md) 
+[Servidores de extracción de la configuración de estado deseado de Windows PowerShell](pullServer.md) 
 [Configuración del administrador de configuración local de Windows](https://technet.microsoft.com/en-us/library/mt421188.aspx) 
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=May16_HO3-->
 
 

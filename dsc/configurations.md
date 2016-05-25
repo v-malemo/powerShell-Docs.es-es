@@ -1,3 +1,14 @@
+---
+title:   Configuraciones DSC
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Configuraciones DSC
 
 >Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
@@ -37,9 +48,9 @@ Dentro de un bloque **Configuration**, puede hacer todo lo que se puede realizar
 Configuration MyDscConfiguration {
 
     param(
-        [string[]]$computerName="localhost"
+        [string[]]$ComputerName="localhost"
     )
-    Node $computerName {
+    Node $ComputerName {
         WindowsFeature MyFeatureInstance {
             Ensure = "Present"
             Name =  "RSAT"
@@ -52,7 +63,7 @@ Configuration MyDscConfiguration {
 }
 ```
 
-En este ejemplo, especifique el nombre del nodo, pasando como parámetro $computerName cuando [compile la configuración](# Compiling the configuration). El nombre se establece como el valor predeterminado "localhost".
+En este ejemplo, especifique el nombre del nodo, pasando como parámetro $ComputerName cuando [compile la configuración](# Compiling the configuration). El nombre se establece como el valor predeterminado "localhost".
 
 ## Compilación de la configuración
 Antes de que se pueda establecer una configuración, debe compilarla en un documento MOF. Para ello, llame a la configuración, como lo haría con una función de PowerShell.
@@ -80,7 +91,7 @@ Si la configuración toma un parámetro, como en el segundo ejemplo, se debe pro
 
 ```powershell
 PS C:\users\default\Documents\DSC Configurations> . .\MyDscConfiguration.ps1
-PS C:\users\default\Documents\DSC Configurations> MyDscConfiguration -computerName 'MyTestNode'
+PS C:\users\default\Documents\DSC Configurations> MyDscConfiguration -ComputerName 'MyTestNode'
     Directory: C:\users\default\Documents\DSC Configurations\MyDscConfiguration
 Mode                LastWriteTime         Length Name                                                                                              
 ----                -------------         ------ ----                                                                                         
@@ -121,6 +132,7 @@ Cuando estos módulos se hayan colocado en `$env:PSModulePath` y [Get-DscResourc
 * [Configuración del administrador de configuración local](metaConfig.md)
 
 
-<!--HONumber=Apr16_HO2-->
+
+<!--HONumber=May16_HO3-->
 
 

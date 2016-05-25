@@ -1,12 +1,15 @@
 ---
-title: Trabajar con instalaciones de software
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 51a12fe9-95f6-4ffc-81a5-4fa72a5bada9
+title:  Trabajar con instalaciones de software
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  51a12fe9-95f6-4ffc-81a5-4fa72a5bada9
 ---
+
 # Trabajar con instalaciones de software
 Puede usar la clase WMI **Win32_Product** para acceder a las aplicaciones diseñadas para usar Windows Installer, si bien no todas las aplicaciones de hoy en día usan Windows Installer. Dado que Windows Installer proporciona la gama más amplia de técnicas estándar para trabajar con aplicaciones instalables, nos centraremos principalmente en esas aplicaciones. Por lo general, las aplicaciones que usan otras rutinas de instalación no se administrarán con Windows Installer. Las técnicas concretas para trabajar con esas aplicaciones dependerán del instalador de software y de las decisiones tomadas por el desarrollador de la aplicación.
 
@@ -137,8 +140,7 @@ SKC  VC Name                           Property
 ### Instalación de aplicaciones
 Puede usar la clase **Win32_Product** para instalar paquetes de Windows Installer, tanto de forma local como remota.
 
-> [!NOTE]
-> En Windows Vista, Windows Server 2008 y versiones posteriores de Windows, hay que iniciar Windows PowerShell con la opción "Ejecutar como administrador" para instalar una aplicación.
+> [!NOTE] En Windows Vista, Windows Server 2008 y versiones posteriores de Windows, hay que iniciar Windows PowerShell con la opción "Ejecutar como administrador" para instalar una aplicación.
 
 En las instalaciones remotas, use una ruta de red de convención de nomenclatura Universal (UNC) para especificar la ruta de acceso al paquete .msi, ya que el subsistema WMI no entiende las rutas de acceso de Windows PowerShell. Por ejemplo, para instalar el paquete NewPackage.msi ubicado en el recurso compartido de red \\AppServ\dsp en el equipo remoto PC01, escriba el siguiente comando en el símbolo del sistema de Windows PowerShell:
 
@@ -178,6 +180,6 @@ Para actualizar una aplicación, es necesario conocer su nombre y la ruta de acc
 
 
 
-<!--HONumber=Apr16_HO1-->
+<!--HONumber=May16_HO2-->
 
 

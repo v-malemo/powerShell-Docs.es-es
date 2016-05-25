@@ -1,9 +1,12 @@
 ---
-DCS.appliesToProduct: 'WindowsServer\_Dev'
-Description: 'Establece la configuración del Administrador de configuración local que se usa para controlar el agente de configuración.'
-MS-HAID: 'cimwin32a.MSFT_DSCLocalConfigurationManager\_sendmetaconfigurationapply'
-MSHAttr: 'PreferredLib:/library'
-title: 'Método SendMetaConfigurationApply de la clase MSFT_DSCLocalConfigurationManager'
+title: Método SendMetaConfigurationApply de la clase MSFT_DSCLocalConfigurationManager 
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
 ---
 
 # Método SendMetaConfigurationApply de la clase MSFT_DSCLocalConfigurationManager
@@ -59,6 +62,6 @@ Se trata de un método estático.
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO3-->
 
 

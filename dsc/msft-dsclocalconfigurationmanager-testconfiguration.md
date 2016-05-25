@@ -1,10 +1,14 @@
 ---
-DCS.appliesToProduct: 'WindowsServer\_Dev'
-Description: 'Envía el documento de configuración al nodo administrado y la prueba frente a la configuración actual.'
-MS-HAID: 'cimwin32a.MSFT_DSCLocalConfigurationManager\_testconfiguration'
-MSHAttr: 'PreferredLib:/library'
-title: 'Método TestConfiguration de la clase MSFT_DSCLocalConfigurationManager'
+title:  Método TestConfiguration de la clase MSFT_DSCLocalConfigurationManager
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
 ---
+
 
 # Método TestConfiguration de la clase MSFT_DSCLocalConfigurationManager
 
@@ -67,6 +71,6 @@ Se trata de un método estático.
 
 
 
-<!--HONumber=Apr16_HO2-->
+<!--HONumber=May16_HO3-->
 
 

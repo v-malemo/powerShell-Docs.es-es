@@ -1,10 +1,19 @@
+---
+title:   Escribir ayuda para configuraciones de DSC
+ms.date:  2016-05-16
+keywords:  powershell,DSC
+description:  
+ms.topic:  article
+author:  eslesar
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Escribir ayuda para configuraciones de DSC
 
 >Se aplica a: Windows PowerShell 5.0
 
-Puede usar la ayuda basada en comentarios en configuraciones de DSC. Los usuarios pueden acceder a la ayuda mediante una llamada a la función de la configuración con `-?`, o mediante el 
-cmdlet [Get-Help](https://technet.microsoft.com/en-us/library/hh849696.aspx). Para obtener más información acerca de la ayuda basada en comentarios de PowerShell, consulte 
-[about_Comment_Based_Help](https://technet.microsoft.com/en-us/library/hh847834.aspx).
+Puede usar la ayuda basada en comentarios en configuraciones de DSC. Los usuarios pueden acceder a la ayuda mediante una llamada a la función de la configuración con `-?`, o mediante el cmdlet [Get-Help](https://technet.microsoft.com/en-us/library/hh849696.aspx). Para obtener más información sobre la ayuda basada en comentarios de PowerShell, vea [about_Comment_Based_Help](https://technet.microsoft.com/en-us/library/hh847834.aspx).
 
 En el ejemplo siguiente se muestra un script que contiene dos configuraciones y ayuda basada en comentarios para cada configuración:
 
@@ -52,8 +61,7 @@ configuration HelpSample1
 
 ## Ver la ayuda de configuración
 
-Para ver la ayuda de una configuración, use el cmdlet **Get-Help** con el nombre de la función o escriba el nombre de la función seguido de `-?`. A continuación se muestra el resultado
-de la función anterior cuando se pasa a **Get-Help**:
+Para ver la ayuda de una configuración, use el cmdlet **Get-Help** con el nombre de la función o escriba el nombre de la función seguido de `-?`. A continuación, se muestra el resultado de la función anterior cuando se pasa a **Get-Help**:
 
 ```powershell
 PS C:\> Get-Help HelpSample1
@@ -85,6 +93,8 @@ REMARKS
 ## Consulte también
 * [Configuraciones DSC](configurations.md)
 
-<!--HONumber=Apr16_HO5-->
+
+
+<!--HONumber=May16_HO3-->
 
 
