@@ -59,9 +59,6 @@
   "446c9036989c47c03664d978a1dea4e0234ada8d": [
     "dsc\\groupResource.md"
   ],
-  "2f74b671ffb5935343e9ac2610126931b1f6ec67": [
-    "dsc\\groupResource.md"
-  ],
   "2edbc1d11dfc7c84369430688a8b0d773277e864": [
     "dsc\\lnxArchiveResource.md"
   ],
@@ -104,9 +101,6 @@
   "1ecef855e4bfc0ee0e5109fd0ecfb9ca395854d5": [
     "dsc\\metaConfig.md"
   ],
-  "b699b737e0be2bc485a36644c40b4087dac28414": [
-    "dsc\\metaConfig.md"
-  ],
   "25195166f4d9dd668427d6bb5d748ef61273cdee": [
     "dsc\\metaConfig4.md"
   ],
@@ -117,12 +111,6 @@
     "dsc\\packageResource.md"
   ],
   "85d81ef4f82ef10c0f838601a9adb79d2fba65e7": [
-    "dsc\\partialConfigs.md"
-  ],
-  "6a5acd3ead098b79c6a85c7dcf618190b526ccb3": [
-    "dsc\\partialConfigs.md"
-  ],
-  "77448cde004f357cfd64dd84337205197d904615": [
     "dsc\\partialConfigs.md"
   ],
   "95f49fecdf13a54049caf27345d2a48c98b8f09b": [
@@ -392,12 +380,6 @@
   "8020d52c0ce9638d26137f8568690c8e65a77878": [
     "wmf\\productincompat.md"
   ],
-  "cad255b9c3c919b10769cf7bd658dc344d3d29a7": [
-    "wmf\\productincompat.md"
-  ],
-  "7cf46669ea41d4e9929d162df31f646e12a5a06a": [
-    "wmf\\productincompat.md"
-  ],
   "4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed": [
     "wmf\\psget_module_overview.md"
   ],
@@ -429,9 +411,6 @@
     "wmf\\sil_overview.md"
   ],
   "af8aee96244140094066b8e2df65fdb525a94811": [
-    "wmf\\TOC.md"
-  ],
-  "ab0af09d1888be43952868d9a8f16902fa28c1e1": [
     "wmf\\TOC.md"
   ],
   "f97722883acccd0addb49cc473fc1cce5300c184": [
@@ -587,31 +566,16 @@
   "7fe92c1266593dd98ab6933fb408558effda5ccb": [
     "dsc\\msft-dsclocalconfigurationmanager.md"
   ],
-  "6be9940608483a3fdb31216b69845e4751006167": [
-    "dsc\\msft-dsclocalconfigurationmanager.md"
-  ],
   "6f9c6a8851732574ac72bc4f3a3db1a73fbbecf2": [
-    "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
-  ],
-  "7a40dd0eac55352c504a76c2ea7aaafabcf07721": [
     "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
   ],
   "97ad8a5711d469a80a7a61056d71b7e2b69cfd27": [
     "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
   ],
-  "231933c8622c1e4442634af8812fa588817bcf7c": [
-    "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
-  ],
   "f74e9941180c00a1aae1bd1d7b48fa4de0c8790d": [
     "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
   ],
-  "2ccfde4fd3ef3baf5d74b36c32d208ad85e6f3fc": [
-    "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
-  ],
   "19d4790f22491e0bb11de1e315d1ee3b07929d55": [
-    "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
-  ],
-  "930783086a20c22a9c9d22ae2072b25b9c299199": [
     "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
   ],
   "8f13964dfbbe1cd827c58232a35d1cbacddeed1b": [
@@ -621,9 +585,6 @@
     "dsc\\msft-dsclocalconfigurationmanager-getconfigurationstatus.md"
   ],
   "4662bfed62fce47be7d42a083ad5a7be801e6ff1": [
-    "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
-  ],
-  "d2a330c688517950c2810bf2bfa208ac669af282": [
     "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
   ],
   "f9eb975845f6ccabcac80e2591fd987f80f81331": [
