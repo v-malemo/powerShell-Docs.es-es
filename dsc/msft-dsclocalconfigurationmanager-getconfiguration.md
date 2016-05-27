@@ -1,5 +1,5 @@
 ---
-title:  
+title:  Método GetConfiguration de la clase MSFT_DSCLocalConfigurationManager
 ms.date:  2016-05-16
 keywords:  powershell,DSC
 description:  
@@ -7,11 +7,6 @@ ms.topic:  article
 author:  eslesar
 manager:  dongill
 ms.prod:  powershell
----
-
----
-DCS.appliesToProduct: 'WindowsServer\_Dev' Descripción: "Envía el documento de configuración al nodo administrado y usa al agente de configuración para aplicar la configuración mediante el método Get".
-MS-HAID: 'cimwin32a.MSFT_DSCLocalConfigurationManager\_getconfiguration' MSHAttr: 'PreferredLib:/library' title: 'Método GetConfiguration de la clase MSFT_DSCLocalConfigurationManager'
 ---
 
 # Método GetConfiguration de la clase MSFT_DSCLocalConfigurationManager

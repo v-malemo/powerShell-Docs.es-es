@@ -1,5 +1,5 @@
 ---
-title:  
+title: Método ApplyConfiguration de la clase MSFT_DSCLocalConfigurationManager 
 ms.date:  2016-05-16
 keywords:  powershell,DSC
 description:  
