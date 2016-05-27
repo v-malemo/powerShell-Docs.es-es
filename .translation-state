@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "a89797d5f94f60ad65e2c9d4095358af176aab7f",
+  "LastProcessedCommit": "a520e457c8e50656536b345b6d7ff9623b4ed584",
   "LastTranslatedCommit": "c495207867dee06c7f2bf8d6e955508ad0d5082c",
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
@@ -23931,6 +23931,66 @@
       "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\productincompat.62bb00299c0283b5297001553476a745e28a49cb.es-es.xlf",
       "ArchiveFileCommit": "69c36244d40479822b8a8a95f1b32791d3f3b142",
       "ArchiveFileDateTime": "2016-05-24T13:17:41.9395707Z",
+      "ArchiveException": null
+    },
+    "d541f37723d77cf0b52012bae143dc7d64efd65d": {
+      "FileHash": "d541f37723d77cf0b52012bae143dc7d64efd65d",
+      "SourceFileCommit": "59793e1701740dc783439cf1408c6efabd53cbcf",
+      "SourceFilePath": "dsc\\reportServer.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "dsc\\reportServer.md"
+      ],
+      "HasMetadata": true,
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf",
+      "HandoffFileCommit": "64ec88d8787739f720e73b33d33209b84377ee44",
+      "HandoffDateTime": "2016-05-27T16:24:57.2070309Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveException": null
+    },
+    "75d41569b18e61342809eebcc76b7899ec6363fa": {
+      "FileHash": "75d41569b18e61342809eebcc76b7899ec6363fa",
+      "SourceFileCommit": "593f0c2ca72e00f19c395c1dae31798d5a5f652d",
+      "SourceFilePath": "scripting\\core-powershell\\Running-Remote-Commands.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "scripting\\core-powershell\\Running-Remote-Commands.md"
+      ],
+      "HasMetadata": true,
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\Running-Remote-Commands.625cb4f9a4da4433a285f1820cb5aa2ba4546438.es-es.xlf",
+      "HandoffFileCommit": "64ec88d8787739f720e73b33d33209b84377ee44",
+      "HandoffDateTime": "2016-05-27T16:24:57.2070309Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
       "ArchiveException": null
     }
   }

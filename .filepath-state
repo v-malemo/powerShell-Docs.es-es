@@ -1,9 +1,1116 @@
 {
+  "1d4d2d9106ef76d6628f93cf86234807dbb121ed": [
+    "dsc\\archiveResource.md"
+  ],
+  "5b43723f7b14eb4bca06d0430b5981c3663c5801": [
+    "dsc\\authoringResource.md"
+  ],
+  "553ef07e42a4c41e5f0dc9e80c54f828d9c625c3": [
+    "dsc\\authoringResourceClass.md"
+  ],
+  "9f14d23cf19e14113b5ae433e6025802487b55fb": [
+    "dsc\\authoringResourceComposite.md"
+  ],
+  "4d685e518acd3a18f4872417b645dbe66f758421": [
+    "dsc\\authoringResourceMOF.md"
+  ],
+  "d40f9f30e4d01e5eb41c3f7bdb492d6ce38106ed": [
+    "dsc\\authoringResourceMOF.md"
+  ],
+  "91d35f9209f8ac3132c3715795661c33e376dfff": [
+    "dsc\\authoringResourceMofCS.md"
+  ],
+  "c9dbaed88eb4aec3c745686b466b04a04b708979": [
+    "dsc\\authoringResourceMofCS.md"
+  ],
+  "be2141330dda803a22fdce6d65a1e379adf14fed": [
+    "dsc\\authoringResourceMofDesigner.md"
+  ],
+  "ea312b4e773cd8b0eceeca123e616957728eb1c6": [
+    "dsc\\builtInResource.md"
+  ],
+  "036c8fff9af66b677fb6750699f1bf9e679de517": [
+    "dsc\\configData.md"
+  ],
+  "a750fb208e73ce2ebffb2fa86a55c825169d8ad8": [
+    "dsc\\configDataCredentials.md"
+  ],
+  "29676d0bf51adf9176753d0056efe76687a40600": [
+    "dsc\\configurations.md"
+  ],
+  "f5290e085c8949f6b3cdf23f3244a7142da6248d": [
+    "dsc\\debugResource.md"
+  ],
+  "2d2b142dc862f7655f28aa34e1fd91f63bd6286e": [
+    "dsc\\decisionMaker.md"
+  ],
+  "4c802002c6a03a27d02221dd713677911a77c30b": [
+    "dsc\\enactingConfigurations.md"
+  ],
+  "20a7711604033b5ff1484dbb526df2642a9a1738": [
+    "dsc\\environmentResource.md"
+  ],
+  "535b25125a0c56feb10147f1872bdfdf3e3ef33a": [
+    "dsc\\fileResource.md"
+  ],
+  "c5ee7f7e7678b60700edb1ab1b66139791ea67c6": [
+    "dsc\\gettingStarted.md"
+  ],
+  "446c9036989c47c03664d978a1dea4e0234ada8d": [
+    "dsc\\groupResource.md"
+  ],
+  "2f74b671ffb5935343e9ac2610126931b1f6ec67": [
+    "dsc\\groupResource.md"
+  ],
+  "2edbc1d11dfc7c84369430688a8b0d773277e864": [
+    "dsc\\lnxArchiveResource.md"
+  ],
+  "6b001c12885022006003ef3ffe91b7aede07bd17": [
+    "dsc\\lnxBuiltInResources.md"
+  ],
+  "0a7ab24ff278defd7fc0a80f1dbd45bfa0e16427": [
+    "dsc\\lnxEnvironmentResource.md"
+  ],
+  "9196129e79272d8bee717ef8a5d42fb590760a0f": [
+    "dsc\\lnxFileLineResource.md"
+  ],
+  "2ba44df5dd6c91371cbbfe95d48184a4ff4a7738": [
+    "dsc\\lnxFileResource.md"
+  ],
+  "c05b48d2c903e59f8b65c4c8c289d2dd5c23c3f9": [
+    "dsc\\lnxGettingStarted.md"
+  ],
+  "2139e4462c0568c30b118ef6cb3ceef1717b52e6": [
+    "dsc\\lnxGroupResource.md"
+  ],
+  "31867cc7af96a3d8d527f5906d77bed5206940b4": [
+    "dsc\\lnxPackageResource.md"
+  ],
+  "4c575bbf0e0553e19e56bcc6edd605e36586cb94": [
+    "dsc\\lnxScriptResource.md"
+  ],
+  "3835495705297616a41329bcfdaad42b464115d8": [
+    "dsc\\lnxServiceResource.md"
+  ],
+  "edc906b4e9c925320c4ed00c5ab295189066ccb9": [
+    "dsc\\lnxSshAuthorizedKeysResource.md"
+  ],
+  "7813185313845b74e2a37dfa4ec6bb109f32f0eb": [
+    "dsc\\lnxUserResource.md"
+  ],
+  "97ffa20191016584fc2fba459c457787365d11ee": [
+    "dsc\\logResource.md"
+  ],
+  "1ecef855e4bfc0ee0e5109fd0ecfb9ca395854d5": [
+    "dsc\\metaConfig.md"
+  ],
+  "b699b737e0be2bc485a36644c40b4087dac28414": [
+    "dsc\\metaConfig.md"
+  ],
+  "25195166f4d9dd668427d6bb5d748ef61273cdee": [
+    "dsc\\metaConfig4.md"
+  ],
+  "1a796658eb30bdf5c37ea3677f94767260a34b45": [
+    "dsc\\overview.md"
+  ],
+  "bcaf82cbafe67cc309765e16b3c9cd6eff0a982a": [
+    "dsc\\packageResource.md"
+  ],
+  "85d81ef4f82ef10c0f838601a9adb79d2fba65e7": [
+    "dsc\\partialConfigs.md"
+  ],
+  "6a5acd3ead098b79c6a85c7dcf618190b526ccb3": [
+    "dsc\\partialConfigs.md"
+  ],
+  "77448cde004f357cfd64dd84337205197d904615": [
+    "dsc\\partialConfigs.md"
+  ],
+  "95f49fecdf13a54049caf27345d2a48c98b8f09b": [
+    "dsc\\pullClient.md"
+  ],
+  "f6569220fbafdba49bac9ac9dca3e6036a7aad08": [
+    "dsc\\pullClientConfigID.md"
+  ],
+  "f53571fddcce612b5e12398766b82e5ede98e046": [
+    "dsc\\pullClientConfigID.md"
+  ],
+  "730f2f26e2811996e79cf0073a4ef65cad390687": [
+    "dsc\\pullClientConfigID4.md"
+  ],
+  "32ff157c7c8366cf0c9847dec4815d2d4b9cc5fa": [
+    "dsc\\pullClientConfigNames.md"
+  ],
+  "ec569fbde815fc286e1d5b2368c937585948ce06": [
+    "dsc\\pullServer.md"
+  ],
+  "4327f7428aa839fd7bb1788b203d72c838814aa9": [
+    "dsc\\pullServer.md"
+  ],
+  "02bb8458796d60991a05a8250f3bf8f3261ffce1": [
+    "dsc\\queryServerNodes.md"
+  ],
+  "15e346ecd630a1256477d375bc1373f376e76f64": [
+    "dsc\\registryResource.md"
+  ],
+  "d541f37723d77cf0b52012bae143dc7d64efd65d": [
+    "dsc\\reportServer.md"
+  ],
+  "086626b02afed0288472bdec4b95e409b47d35d5": [
+    "dsc\\reportServer.md"
+  ],
+  "0a27a40b995393c41f0496a5f7fa3f56fbd865dd": [
+    "dsc\\resources.md"
+  ],
+  "801a0491746c17061d14d6d4938e7182650f6ff3": [
+    "dsc\\scriptResource.md"
+  ],
+  "792135742e34239f6866945e300b9277289e2062": [
+    "dsc\\secureMOF.md"
+  ],
+  "94944d7bd265aa788b77359ad44721f79870bfa0": [
+    "dsc\\secureServer.md"
+  ],
+  "ce8d6c1c9e8005c5c4792ae0fa4c5030bb9a92ed": [
+    "dsc\\serviceResource.md"
+  ],
+  "2ec3eca1fb7ce214b2b860ad763da69210f4ca37": [
+    "dsc\\TOC.md"
+  ],
+  "95e75bd95552a9bcfa41adee74ef5ceacb3ea33b": [
+    "dsc\\troubleshooting.md"
+  ],
+  "5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c": [
+    "dsc\\userResource.md"
+  ],
+  "522dbea958a60f76e98abe32e11e6491ea6d457c": [
+    "dsc\\windowsfeatureResource.md"
+  ],
+  "d7bd873cde4a4bda12490d69acdd5e2b0ba8cdec": [
+    "dsc\\windowsProcessResource.md"
+  ],
+  "bd6af2cbf746e71aa59f509eae14664e647a1b05": [
+    "dsc\\resourceAuthoringChecklist.md"
+  ],
+  "2160a4b932075c98df6806c61d263d30f650b9f4": [
+    "wmf\\audit_cms.md"
+  ],
+  "94d24bd3b67d1eceb71af4ffe704f2e03bf0806c": [
+    "wmf\\audit_overview.md"
+  ],
+  "654c0d5e83b9832524298b5c96eae094f371330f": [
+    "wmf\\audit_script.md"
+  ],
+  "61364255f33378d71724705658d9924a7730b74e": [
+    "wmf\\audit_transcript.md"
+  ],
+  "6968ca2fb27c1f300b7b5e5730e358d81fc4c400": [
+    "wmf\\class_base.md"
+  ],
+  "a70d965afdb4edd71fa5dfd42d4c0f7ae7d65f29": [
+    "wmf\\class_baseconstructor.md"
+  ],
+  "09ff4761ecdcf1d4433c4f40701cb7af3be44c8f": [
+    "wmf\\class_basemethod.md"
+  ],
+  "31b64b6845c8d6ece8628bd565662525a65353d9": [
+    "wmf\\class_interface.md"
+  ],
+  "b91e3bbb40b2b5eddd1e43be568773c850a9b8e0": [
+    "wmf\\class_newtype.md"
+  ],
+  "3010b1ce497d8a5e45ada003587d9e104eddd8b1": [
+    "wmf\\class_overview.md"
+  ],
+  "0660867e6e7c7a93a8ca80d76f22db7fd86f8826": [
+    "wmf\\debug_overview.md"
+  ],
+  "b1cdc60338b2c130dad7d917c8fcec543aafe467": [
+    "wmf\\dsc_authoring.md"
+  ],
+  "7e25c8195c153a2fda21fac320c2750d51678b6a": [
+    "wmf\\dsc_classbasedresource.md"
+  ],
+  "0c31a5571d8262c81e748f1a3368361ea4e9a700": [
+    "wmf\\dsc_confighelp.md"
+  ],
+  "dff9d6cfd92efac3f7a5f68b4ebe37719dbce111": [
+    "wmf\\dsc_directaccess.md"
+  ],
+  "20dee3be52962c04f04666893eed4a5ea1c27d0a": [
+    "wmf\\dsc_encryptedmof.md"
+  ],
+  "34a0df793382c9bc882bcd94f8fdd1b426814fd4": [
+    "wmf\\dsc_freqnomultiple.md"
+  ],
+  "290c205d4e88b23974b126ea8157442e6cbf740f": [
+    "wmf\\dsc_getconfigurationstatus.md"
+  ],
+  "1061cbea8e00cb3417e72977cde32e077235a477": [
+    "wmf\\dsc_identicalduplicate.md"
+  ],
+  "cde72b65d75ded4968090264dd536874b4d2ac70": [
+    "wmf\\dsc_importdscresource.md"
+  ],
+  "336c6bc43b482eda6524ebed0381240868261f64": [
+    "wmf\\dsc_improvements.md"
+  ],
+  "648c2106d29749858161b78fb879c514078705d1": [
+    "wmf\\dsc_lcmstate.md"
+  ],
+  "5e3adc41e37f7089d8393789464c4b1b70da7148": [
+    "wmf\\dsc_metaconfiguration.md"
+  ],
+  "34c29d88f0676e51c1b8af9d9e65b151eb8a4272": [
+    "wmf\\dsc_newresources.md"
+  ],
+  "517c1d3654cd87b2356abadabf474c76580767f4": [
+    "wmf\\dsc_nodeid.md"
+  ],
+  "c0a49b1266b01f7333cee2b39349f220c924d16d": [
+    "wmf\\dsc_partialconfig.md"
+  ],
+  "90da8345a6741a152aeb87fb3ce4706af8b5ec75": [
+    "wmf\\dsc_partialconfig_mixedmode.md"
+  ],
+  "3a7709855bdf46120e2f2115ac1635dc58c905a7": [
+    "wmf\\dsc_publishconfig.md"
+  ],
+  "5bf341e02933b3c6cb49d6dac20ded189f0d889c": [
+    "wmf\\dsc_refreshmode.md"
+  ],
+  "02a9740760bba423c617993ddcb15a2260b576db": [
+    "wmf\\dsc_removeconfigdoc.md"
+  ],
+  "3f286a0cdcff33aa396c745a661d52d07f25817d": [
+    "wmf\\dsc_reporting.md"
+  ],
+  "85b3c01a3bd6830be929734084abad14f0d3c971": [
+    "wmf\\dsc_repository.md"
+  ],
+  "68949a10a4e8b6cac5a2d596567e7c0e680db8a2": [
+    "wmf\\dsc_resourcedebugging.md"
+  ],
+  "d4919d80c1b1f8509b4e581768dd6f74e9d01f0d": [
+    "wmf\\dsc_runas.md"
+  ],
+  "6ab763e1969aa55b7f85b51b7115d065830c5458": [
+    "wmf\\dsc_setdsclcm.md"
+  ],
+  "98a8a8f27661042bef27d0edceccf9a67c9153d1": [
+    "wmf\\dsc_statestatus.md"
+  ],
+  "a7c6fb818477522ebd7be025f154c1b2eea0e518": [
+    "wmf\\dsc_sxsresource.md"
+  ],
+  "df6b5db79c8c165e7fb3c1570838ac7a696b5a55": [
+    "wmf\\dsc_testconfiguration.md"
+  ],
+  "64101be0217053e685f39cd6aebf4447df700c7f": [
+    "wmf\\dsc_updateconfig.md"
+  ],
+  "24a680a5f41f6b6cb150226f347e90a2c5eafb25": [
+    "wmf\\dsc_waitfor.md"
+  ],
+  "59206d28411ca6d4591cff5b3f158f4f5b78cc6a": [
+    "wmf\\dsc_wow64.md"
+  ],
+  "40b022f369f09df35a4e8b1e675d75410b69dde9": [
+    "wmf\\feedback.md"
+  ],
+  "e2d8147c6a85b59f5289f64e068c56593acc0cfc": [
+    "wmf\\feedback_archive.md"
+  ],
+  "51e7169b4b8a80bc5df81e4336171eb9cb2ab8e4": [
+    "wmf\\feedback_clipboard.md"
+  ],
+  "2e8c46c95663135229a189f4d9c07da362aec299": [
+    "wmf\\feedback_cmdlets.md"
+  ],
+  "09741289743ef276e3e94753dcce136193304c65": [
+    "wmf\\feedback_convertfromString.md"
+  ],
+  "71e9f46958b59abce912278677217cd632629439": [
+    "wmf\\feedback_convertstring.md"
+  ],
+  "aa0991efc9ca39cc0aae39516d4b6cac03c4501a": [
+    "wmf\\feedback_fileinfo.md"
+  ],
+  "81803dcb8d5f0fac392cf13883b9240da3321f53": [
+    "wmf\\feedback_formathex.md"
+  ],
+  "c3f3f9a8b16731dd1483eb65386ba0422b04370c": [
+    "wmf\\feedback_getchilditem.md"
+  ],
+  "f2f968b1cd304009b3b29cdc793b61461e605812": [
+    "wmf\\feedback_moduleversionranges.md"
+  ],
+  "5de946e13169ba772ae445fe9d0b73d213fff397": [
+    "wmf\\feedback_newguid.md"
+  ],
+  "24969d20cd4500db4e8dc27c16cac84c0f3dc696": [
+    "wmf\\feedback_nonewline.md"
+  ],
+  "fcafa99f4a7b9cefcb98a7e159a5adf03e7ac17f": [
+    "wmf\\feedback_symbolic.md"
+  ],
+  "2741204c16027d7e8e8f785b90b9cc301880a262": [
+    "wmf\\feedback_tempfile.md"
+  ],
+  "20254315c2503d46e6160593fb822391c5db2dd4": [
+    "wmf\\informationstream_overview.md"
+  ],
+  "91d23a0045c6d7a1200caae6df64368dd8f3ecee": [
+    "wmf\\install.md"
+  ],
+  "061fb3a39191f7aaf3f5e51b12f56cac84031f49": [
+    "wmf\\jea_endpoint.md"
+  ],
+  "811596d4ad7994a12987ff172e626eac534bdf4d": [
+    "wmf\\jea_overview.md"
+  ],
+  "a91b675a4f19306481bb87dc3f3b8cb32ab07e8c": [
+    "wmf\\jea_report.md"
+  ],
+  "fe1c40cbfd2c76f45d170b82d8a099e860b15db8": [
+    "wmf\\limitation_dsc.md"
+  ],
+  "35cdbfab22a0fa00480012fed0a2cf32ffa11f8d": [
+    "wmf\\limitation_overview.md"
+  ],
+  "9a9e69d384ffd92e0c26904a176f9954c5815f9a": [
+    "wmf\\networkswitch_overview.md"
+  ],
+  "8849fb46853f12318dd34781d07085419737d196": [
+    "wmf\\odata_overview.md"
+  ],
+  "75b6354fb83002602ec3d6276246cfa00ce0746a": [
+    "wmf\\oneget_cmdlets.md"
+  ],
+  "967366156ab58d16b085a97f9a08169d3bff75c2": [
+    "wmf\\oneget_overview.md"
+  ],
+  "8020d52c0ce9638d26137f8568690c8e65a77878": [
+    "wmf\\productincompat.md"
+  ],
+  "cad255b9c3c919b10769cf7bd658dc344d3d29a7": [
+    "wmf\\productincompat.md"
+  ],
+  "7cf46669ea41d4e9929d162df31f646e12a5a06a": [
+    "wmf\\productincompat.md"
+  ],
+  "4dfab3c01259382cb4a7ecfb9954d2fa7eb07aed": [
+    "wmf\\psget_module_overview.md"
+  ],
+  "809547e4b84077de47f8e9cb8d252b37a26a35e2": [
+    "wmf\\psget_modulecmdlets.md"
+  ],
+  "f723a03aa04ea613f28d31c019b0c4d7e8af7f00": [
+    "wmf\\psget_moduledependency.md"
+  ],
+  "644781a07bed2df5464d8090155522ae7477a11e": [
+    "wmf\\psget_modulesxsinstall.md"
+  ],
+  "972f011c3c9f98b54fb5cc270281cd146eb9ac71": [
+    "wmf\\psget_psrepository.md"
+  ],
+  "0569c3ce579db17c228c3410ca6db8a668919b19": [
+    "wmf\\psget_script_overview.md"
+  ],
+  "91a4ed1e8912f77e274d64db7873ad56edbbd17b": [
+    "wmf\\psget_scriptcmdlets.md"
+  ],
+  "37ba02e8b09b56312fbcf8b031b9ef49a53e5436": [
+    "wmf\\releasenotes.md"
+  ],
+  "02ce3d08b01e58d6d9506f90142f92cc16304e64": [
+    "wmf\\requirements.md"
+  ],
+  "edc1a0383cebfbe89b18b0238a13bb28e4d25c5a": [
+    "wmf\\sil_overview.md"
+  ],
+  "af8aee96244140094066b8e2df65fdb525a94811": [
+    "wmf\\TOC.md"
+  ],
+  "ab0af09d1888be43952868d9a8f16902fa28c1e1": [
+    "wmf\\TOC.md"
+  ],
+  "f97722883acccd0addb49cc473fc1cce5300c184": [
+    "wmf\\uninstall.md"
+  ],
+  "35ac9b38086b12fb48844c56a488854f63529e21": [
+    "dsc\\pullServerSMB.md"
+  ],
+  "dbe2c1ca2fb7dd65b49876f3bee6752ec9a24d6b": [
+    "dsc\\runAsUser.md"
+  ],
+  "4b1e8a6d3fb4feca426a9d7861c40d194e612c22": [
+    "dsc\\singleInstance.md"
+  ],
+  "0de7828832edd3e4c1d073dc62c3866e10c13e88": [
+    "scripting\\TOC.md"
+  ],
+  "b990fb5c6855aaffeb241e9596c333014050e059": [
+    "scripting\\getting-started\\fundamental\\About-Windows-PowerShell.md"
+  ],
+  "38a6cb1b0402825b307652e6747ea65baafd1d8b": [
+    "scripting\\getting-started\\cookbooks\\Appendix-1---Compatibility-Aliases.md"
+  ],
+  "24e9b67cf51b99156db3f0bdfb446996b9d3df76": [
+    "scripting\\getting-started\\cookbooks\\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md"
+  ],
+  "13b1fd65b9dddf2570e7ab9c5420c0a6d18ce35e": [
+    "scripting\\getting-started\\cookbooks\\Changing-Computer-State.md"
+  ],
+  "d45fbf8a7ddaf7c1176dc09386f96b4f0c0da8f6": [
+    "scripting\\getting-started\\cookbooks\\Collecting-Information-About-Computers.md"
+  ],
+  "e986e85a5d7416d8deaec06c0784263ee09fc9ff": [
+    "scripting\\getting-started\\cookbooks\\Creating-.NET-and-COM-Objects--New-Object-.md"
+  ],
+  "628062cfadcadcec3311dcb8bfdd6bd3b9a9e567": [
+    "scripting\\getting-started\\cookbooks\\Creating-a-Custom-Input-Box.md"
+  ],
+  "f359254900dce0ef0a28af3e16b8ef4095e85309": [
+    "scripting\\getting-started\\cookbooks\\Creating-a-Graphical-Date-Picker.md"
+  ],
+  "a19601bd785ab91f5d8175acd081113e87a62a57": [
+    "scripting\\getting-started\\fundamental\\Getting-Information-About-Commands.md"
+  ],
+  "2e6f58860c7aebcf60d8df562f009fce0db3c955": [
+    "scripting\\getting-started\\cookbooks\\Getting-WMI-Objects--Get-WmiObject-.md"
+  ],
+  "bc504fbde14d0ba743accf644ee5114810afb609": [
+    "scripting\\getting-started\\fundamental\\Learning-Windows-PowerShell-Names.md"
+  ],
+  "104d2d1a9a36033387a11ec8678efe921bc5cd5e": [
+    "scripting\\getting-started\\cookbooks\\Managing-Current-Location.md"
+  ],
+  "23d4f8d23170c4992092a2070baaedf4375be0d8": [
+    "scripting\\getting-started\\cookbooks\\Managing-Windows-PowerShell-Drives.md"
+  ],
+  "b7e752a1615da4540106ec32754f873c5d7aa5d9": [
+    "scripting\\getting-started\\cookbooks\\Manipulating-Items-Directly.md"
+  ],
+  "84030be8564e10ce33e15c21f41bda79ea8fad7d": [
+    "scripting\\getting-started\\cookbooks\\Multiple-selection-List-Boxes.md"
+  ],
+  "56aa32d40d8e5e61f5328d5a373ca5a1bd7ca6e3": [
+    "scripting\\getting-started\\fundamental\\Object-Pipeline.md"
+  ],
+  "6d878b89a4cd49948cb465525e74e92db819c192": [
+    "scripting\\getting-started\\cookbooks\\Performing-Networking-Tasks.md"
+  ],
+  "955d00f61a8222ff83797fbc923357c6d85cad7a": [
+    "scripting\\getting-started\\cookbooks\\Redirecting-Data-with-Out---Cmdlets.md"
+  ],
+  "0c5e2b60d96a6c64aedfa9522cbdc0ce5d4aa6b0": [
+    "scripting\\getting-started\\cookbooks\\Removing-Objects-from-the-Pipeline--Where-Object-.md"
+  ],
+  "8a8ebbaecde15efa15aa7a23a4c31db5e808d454": [
+    "scripting\\getting-started\\cookbooks\\Repeating-a-Task-for-Multiple-Objects--ForEach-Object-.md"
+  ],
+  "c5ec8b902096f85e4d5f5575587434f2adf7c6a1": [
+    "scripting\\getting-started\\cookbooks\\Selecting-Parts-of-Objects--Select-Object-.md"
+  ],
+  "72d0c66e8fe1c87561af89821e16032f25c3b1b5": [
+    "scripting\\getting-started\\cookbooks\\Sorting-Objects.md"
+  ],
+  "db5f410c8f84949c969f21ed59ac48a4e31e91fd": [
+    "scripting\\getting-started\\fundamental\\Understanding-Important-Windows-PowerShell-Concepts.md"
+  ],
+  "233ec6fafbf1e770190601750be3bdcef2337b7f": [
+    "scripting\\getting-started\\fundamental\\Understanding-the-Windows-PowerShell-Pipeline.md"
+  ],
+  "2cbc7e5481ecfb21b2f6088191e2e34cf2631992": [
+    "scripting\\getting-started\\fundamental\\Using-Familiar-Command-Names.md"
+  ],
+  "411923bac650f0f4a11808a86acaca1de7e1c076": [
+    "scripting\\getting-started\\cookbooks\\Using-Format-Commands-to-Change-Output-View.md"
+  ],
+  "50ebc8a737b50aba5a5af49716b59905da74669a": [
+    "scripting\\getting-started\\cookbooks\\Using-Static-Classes-and-Methods.md"
+  ],
+  "644dbbb51e98efda9735f0ff23489e936f6b28a2": [
+    "scripting\\core-powershell\\console\\Using-Tab-Expansion.md"
+  ],
+  "c3bcf9dc6f70383e971d9c1ae75ec78860111de9": [
+    "scripting\\getting-started\\fundamental\\Using-Variables-to-Store-Objects.md"
+  ],
+  "f6d5477c32f8f254ab7280945847509588002e83": [
+    "scripting\\getting-started\\fundamental\\Using-Windows-PowerShell-for-Administration.md"
+  ],
+  "8cd074bc4314aeb8d50fa31d74d9a1b2d2a37469": [
+    "scripting\\getting-started\\cookbooks\\Viewing-Object-Structure--Get-Member-.md"
+  ],
+  "8d4a801c534075db568cb38eb51cb11db40cce15": [
+    "scripting\\getting-started\\fundamental\\Windows-PowerShell-Basics.md"
+  ],
+  "c2d203fee4e1595498c666d4060e7a1060b2aa4d": [
+    "scripting\\getting-started\\cookbooks\\Working-With-Files-Folders-and-Registry-Keys.md"
+  ],
+  "c9bc3460e25063347de3c594ef5ce437b0f8961d": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Files-and-Folders.md"
+  ],
+  "a25734261fdcf657d0b97b1f037580f89b04881d": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Objects.md"
+  ],
+  "27d3d11b71b95cd79817449cf8bdb1a0a26936bd": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Printers.md"
+  ],
+  "d7fb731bc2527e324271bc75f00112a67a1147e3": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Registry-Entries.md"
+  ],
+  "b979750580ea5c7171569f8982d6aeca883c33ab": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Registry-Keys.md"
+  ],
+  "9f60be9bebe9dfaa98f495c8e9a9c0d8c2fa5cc2": [
+    "scripting\\getting-started\\cookbooks\\Working-with-Software-Installations.md"
+  ],
+  "434ebc17f2bc7b7ee868788e87dc5b34cef61529": [
+    "dsc\\whitepapers.md"
+  ],
+  "1c514b101f708f11f095e1c95e12d7eff403e3bb": [
+    "scripting\\getting-started\\fundamental\\Getting-Detailed-Help-Information.md"
+  ],
+  "6857cf5e73252f646e563fa12a8252b4bdc2e1e5": [
+    "scripting\\getting-started\\cookbooks\\Managing-Processes-with-Process-Cmdlets.md"
+  ],
+  "a9d6ece1df3b66090b2abf9d85019fee4db946b5": [
+    "scripting\\getting-started\\cookbooks\\Managing-Services.md"
+  ],
+  "75d41569b18e61342809eebcc76b7899ec6363fa": [
+    "scripting\\core-powershell\\Running-Remote-Commands.md"
+  ],
+  "b68341b6e94bb02882dad27a4acb1627b197674c": [
+    "scripting\\core-powershell\\Running-Remote-Commands.md"
+  ],
+  "7fe92c1266593dd98ab6933fb408558effda5ccb": [
+    "dsc\\msft-dsclocalconfigurationmanager.md"
+  ],
+  "6be9940608483a3fdb31216b69845e4751006167": [
+    "dsc\\msft-dsclocalconfigurationmanager.md"
+  ],
+  "6f9c6a8851732574ac72bc4f3a3db1a73fbbecf2": [
+    "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
+  ],
+  "7a40dd0eac55352c504a76c2ea7aaafabcf07721": [
+    "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
+  ],
+  "97ad8a5711d469a80a7a61056d71b7e2b69cfd27": [
+    "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
+  ],
+  "231933c8622c1e4442634af8812fa588817bcf7c": [
+    "dsc\\msft-dsclocalconfigurationmanager-disabledebugconfiguration.md"
+  ],
+  "f74e9941180c00a1aae1bd1d7b48fa4de0c8790d": [
+    "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
+  ],
+  "2ccfde4fd3ef3baf5d74b36c32d208ad85e6f3fc": [
+    "dsc\\msft-dsclocalconfigurationmanager-enabledebugconfiguration.md"
+  ],
+  "19d4790f22491e0bb11de1e315d1ee3b07929d55": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
+  ],
+  "930783086a20c22a9c9d22ae2072b25b9c299199": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfiguration.md"
+  ],
+  "8f13964dfbbe1cd827c58232a35d1cbacddeed1b": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationresultoutput.md"
+  ],
+  "b430e98c7ec287c0efcf2c2e2736253797242904": [
+    "dsc\\msft-dsclocalconfigurationmanager-getconfigurationstatus.md"
+  ],
+  "4662bfed62fce47be7d42a083ad5a7be801e6ff1": [
+    "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
+  ],
+  "d2a330c688517950c2810bf2bfa208ac669af282": [
+    "dsc\\msft-dsclocalconfigurationmanager-getmetaconfiguration.md"
+  ],
+  "f9eb975845f6ccabcac80e2591fd987f80f81331": [
+    "dsc\\msft-dsclocalconfigurationmanager-performrequiredconfigurationchecks.md"
+  ],
+  "4f3d74949d98e3ab3f5136303e229c23ed903c5d": [
+    "dsc\\msft-dsclocalconfigurationmanager-removeconfiguration.md"
+  ],
+  "1666b85402f17230090f7290c8cb400dd9fbf0a6": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourceget.md"
+  ],
+  "cbc499f293aad941d40fcb720ef53e832c3b1ea8": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourceset.md"
+  ],
+  "4129c83dd0b72159cbf1d47c037b9d462ca45f0e": [
+    "dsc\\msft-dsclocalconfigurationmanager-resourcetest.md"
+  ],
+  "771a9c7b50aba26f89dbf6b24eb3df67bafeac0a": [
+    "dsc\\msft-dsclocalconfigurationmanager-rollback.md"
+  ],
+  "95b141472d9428cee71b6970fc1f496704211c0b": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfiguration.md"
+  ],
+  "701063dfa37fe4ba8b014cadadd10339b7fd1bf7": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapply.md"
+  ],
+  "41177f2eb2bbcf2dddaf232141fb483efaaeeea5": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendconfigurationapplyasync.md"
+  ],
+  "a81b41f66883b3cf0931905d24c8ff92ef55b6c7": [
+    "dsc\\msft-dsclocalconfigurationmanager-sendmetaconfigurationapply.md"
+  ],
+  "9721486cca6f94d6b156c6ee1992eced6652c123": [
+    "dsc\\msft-dsclocalconfigurationmanager-stopconfiguration.md"
+  ],
+  "0777467d37e2f5588f9c0ef368148e3bea963a5b": [
+    "dsc\\msft-dsclocalconfigurationmanager-testconfiguration.md"
+  ],
+  "12ec3c770e592b1c1f43a9150eaaa1964f427363": [
+    "dsc\\crossNodeDependencies.md"
+  ],
+  "1fe624c2532e44ed675762f3c141934fb4f0b60d": [
+    "dsc\\directCallResource.md"
+  ],
+  "e8d591c59eb1052184fd8e828780612d6ca32d93": [
+    "dsc\\sxsResource.md"
+  ],
+  "e1827e102a9b35ea214f89395f7ff3c5e0a58506": [
+    "scripting\\setup\\WinRMSecurity.md"
+  ],
+  "962941ba946a67256baf141bd195361c94a68f90": [
+    "dsc\\nanoDsc.md"
+  ],
+  "725945ae906c66c09d0399e37bf781cdb627a1f2": [
+    "dsc\\configHelp.md"
+  ],
+  "a53a9457712973b4ff43c226b247214d24406592": [
+    "scripting\\core-powershell\\console\\PowerShell.exe-Command-Line-Help.md"
+  ],
+  "a7e4230252572a1eedad96492c087cb75250259c": [
+    "scripting\\core-powershell\\console\\PowerShell.exe-Command-Line-Help.md"
+  ],
+  "074f3570e9354f2186be8690744640ea4739ef6e": [
+    "scripting\\core-powershell\\console-guide.md"
+  ],
+  "2bb5a27df9dcd3a9b7fc414f7ac140169f67af93": [
+    "scripting\\core-powershell\\console-guide.md"
+  ],
+  "d891d849156b990c600672341ad18ffeebdd9bf8": [
+    "scripting\\core-powershell\\core-modules.md"
+  ],
+  "50d1d59551974f0be5af55a682d405e6f6f78fec": [
+    "scripting\\core-powershell\\core-modules.md"
+  ],
+  "249a0ece77a11fd9aa54a6ff4170e44f42b377c9": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Archive-Module.md"
+  ],
+  "3e4a6faac99e6c4cf556b2d002d99f8d20d9c779": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Archive-Module.md"
+  ],
+  "da1ec55f88ece496b8a55d1c1d0ad9bf0052c8fa": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Core-Module.md"
+  ],
+  "261b70433a3cddb7d309a3bbe1bfcf5eb85b0f7a": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Core-Module.md"
+  ],
+  "15ffabd2e8c9385990e08ac7311449f000b1302e": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Diagnostics-Module.md"
+  ],
+  "eaab3d4e848e14818260981d9e07043c52eda3e8": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Diagnostics-Module.md"
+  ],
+  "10dff4577e717b2c74604515f7fa696dc7fb996b": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Host-Module.md"
+  ],
+  "8c8923d99fda92682ddd2e4f863a727313e5ec98": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Host-Module.md"
+  ],
+  "d62bf183f2b80c8ff7bc279124dc10ef72fdf5ff": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Management-Module.md"
+  ],
+  "174962762f3da17e6cf53c1749d5f2f0ff09c751": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Management-Module.md"
+  ],
+  "ad4433d14277a6e10906ee74a765504cede12587": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.ODataUtils-Module.md"
+  ],
+  "ceb3d2c2bedd520e593737660fd9e04971515b8c": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.ODataUtils-Module.md"
+  ],
+  "215d1e2d0eb17967552143635a5413681907fc50": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Utility-Module.md"
+  ],
+  "aba1e0b27cdc70c52f3da2ac3454999196bbff73": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.PowerShell.Utility-Module.md"
+  ],
+  "49a97d15fdef0d7fa60e94636fc200e8f70943f7": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.WSMan.Management-Module.md"
+  ],
+  "65b8de683fb965c9c80015741347c7e0293bcf32": [
+    "scripting\\core-powershell\\core-modules\\Microsoft.WSMan.Management-Module.md"
+  ],
+  "dfca9909da78dc45cd72cbfaff5ab4c441762c60": [
+    "scripting\\core-powershell\\core-modules\\PackageManagement-Module.md"
+  ],
+  "95abca8390c8ca67f13cab9c196b60fb1bdb7084": [
+    "scripting\\core-powershell\\core-modules\\PackageManagement-Module.md"
+  ],
+  "130368e634668b7229f1c1423c946ae4b0a65466": [
+    "scripting\\core-powershell\\core-modules\\PSLocalAccount5-Module.md"
+  ],
+  "1be2a9dced188e46e4b94fb82be8b4cba0894259": [
+    "scripting\\core-powershell\\core-modules\\PSLocalAccount5-Module.md"
+  ],
+  "7f9bcbbf683e0cda8ec9dbb87f28fa46a7473ca1": [
+    "scripting\\core-powershell\\core-modules\\PSReadline-Module.md"
+  ],
+  "e914d44e089a38dae613d59ccd1284dcb3c79cbf": [
+    "scripting\\core-powershell\\core-modules\\PSReadline-Module.md"
+  ],
+  "1583fba47d9a709500e3cd678e2e0c27b2777a7d": [
+    "scripting\\core-powershell\\core-modules\\PSScheduledJob-Module.md"
+  ],
+  "fb03defeef6c7c47afbd58b10947e919c715b8e0": [
+    "scripting\\core-powershell\\core-modules\\PSScheduledJob-Module.md"
+  ],
+  "3e9ba43162afb7b689bf92883f2347c2c8551ea2": [
+    "scripting\\core-powershell\\core-modules\\PSScriptAnalyzer-Module.md"
+  ],
+  "7a968f0d0095ad22a2a350191c5a2d39f936709f": [
+    "scripting\\core-powershell\\core-modules\\PSScriptAnalyzer-Module.md"
+  ],
+  "8adf724740b2f09bff6d5cafb822566f4747780c": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-5.0.md"
+  ],
+  "cea337708917af9ef1b8d8fdb58be3d9712939b4": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-5.0.md"
+  ],
+  "cc44c1deb8c3162b0d2188c2af313bf064290267": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-Core-About-Topics.md"
+  ],
+  "1bdf2709c27c727e944be999c4eaa62f7bdd4454": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-Core-About-Topics.md"
+  ],
+  "f6b1ca1a3253c941c76826c6644079a14f19ddcf": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-Core-Providers.md"
+  ],
+  "0c5cac4d8a8e9cea6aa6e94cce2aa29c4d13b126": [
+    "scripting\\core-powershell\\core-modules\\Windows-PowerShell-Core-Providers.md"
+  ],
+  "897702d56a14657881121890f2283f50bdc2d517": [
+    "scripting\\core-powershell\\core-powershell.md"
+  ],
+  "65eaf56239163e2061dd65e0887d71ac0d481b82": [
+    "scripting\\core-powershell\\core-powershell.md"
+  ],
+  "8af4de973a95352fd41d2bb2823b9382899ef5bf": [
+    "scripting\\core-powershell\\ise\\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md"
+  ],
+  "94362dd7ce17c02f9f8706a9e8d111712ed21810": [
+    "scripting\\core-powershell\\ise\\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md"
+  ],
+  "c6d79fc7ef5a896bb3b686468adb540d4327605e": [
+    "scripting\\core-powershell\\ise\\How-to-Debug-Scripts-in-Windows-PowerShell-ISE.md"
+  ],
+  "76f463179fadbb914d0335cafadb3300bdc6d6b7": [
+    "scripting\\core-powershell\\ise\\How-to-Debug-Scripts-in-Windows-PowerShell-ISE.md"
+  ],
+  "a8b729612c54e5f0f95497a71a192f16e2a9d32a": [
+    "scripting\\core-powershell\\ise\\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md"
+  ],
+  "a5e42c88339c678f057f7cbf1b316790d9abac67": [
+    "scripting\\core-powershell\\ise\\How-to-Use-Profiles-in-Windows-PowerShell-ISE.md"
+  ],
+  "07f7fb6b4e5d94de31551566ca8faff263817383": [
+    "scripting\\core-powershell\\ise\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md"
+  ],
+  "29e73b1bfd8efea2b53299c52bf65117f7c535f5": [
+    "scripting\\core-powershell\\ise\\How-to-Use-the-Console-Pane-in-the-Windows-PowerShell-ISE.md"
+  ],
+  "43c545247a7b03002c0f4c5094eb1580288053bb": [
+    "scripting\\core-powershell\\ise\\How-to-Use-the-Console-Pane-in-the-Windows-PowerShell-ISE.md"
+  ],
+  "1c1534bc37d0a53262caffdfa60400e1ff8d98e7": [
+    "scripting\\core-powershell\\ise\\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md"
+  ],
+  "fc7248f77d491758ba16c2b244554f4fa954eb89": [
+    "scripting\\core-powershell\\ise\\How-to-Write-and-Run-Scripts-in-the-Windows-PowerShell-ISE.md"
+  ],
+  "64afa8599f29279798445a5694fe467143d29bec": [
+    "scripting\\core-powershell\\ise\\Introducing-the-Windows-PowerShell-ISE.md"
+  ],
+  "ab6031661fb71e27a09fbf5edae5e72c71e67389": [
+    "scripting\\core-powershell\\ise\\Introducing-the-Windows-PowerShell-ISE.md"
+  ],
+  "750253273ca2b97085fef1de695d6011057d6846": [
+    "scripting\\core-powershell\\ise\\ISE-Module.md"
+  ],
+  "d71c7f9cc4b8675f263761726a1df0bcedeaebdd": [
+    "scripting\\core-powershell\\ise\\ISE-Module.md"
+  ],
+  "df4fc6e4a501bc7cbeae83b6bf90f05544c6a6ac": [
+    "scripting\\core-powershell\\ise\\Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md"
+  ],
+  "de9d86314ca576f0a9a4fcd465c916b5310be4e6": [
+    "scripting\\core-powershell\\ise\\Keyboard-Shortcuts-for-the-Windows-PowerShell-ISE.md"
+  ],
+  "41c508e7aebc3501f29be7246ca817f95180ef2f": [
+    "scripting\\core-powershell\\ise\\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md"
+  ],
+  "c68258884f29b4fa5014e8b912e2df8cc517d174": [
+    "scripting\\core-powershell\\ise\\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md"
+  ],
+  "811cdcc3466d366f89fe43b90f928019d7405039": [
+    "scripting\\core-powershell\\ise\\The-ISEAddOnToolCollection-Object.md"
+  ],
+  "928372a2780612ff3fe67d72b470d5f0c2c68159": [
+    "scripting\\core-powershell\\ise\\The-ISEAddOnToolCollection-Object.md"
+  ],
+  "44b218200e4207fba059ce63adabec924fe6eb1d": [
+    "scripting\\core-powershell\\ise\\The-ISEAddOnTool-Object.md"
+  ],
+  "3bddc2c5e6e45f880adfbffdfd29d3db861f6188": [
+    "scripting\\core-powershell\\ise\\The-ISEAddOnTool-Object.md"
+  ],
+  "4812092dea24fa61245af7e06d1c5924ec812218": [
+    "scripting\\core-powershell\\ise\\The-ISEEditor-Object.md"
+  ],
+  "6492bfc588249a5b2d3b8d14cd197ed1caafd1b2": [
+    "scripting\\core-powershell\\ise\\The-ISEEditor-Object.md"
+  ],
+  "c334a38d6686be45101f4569f38411e9703c8fea": [
+    "scripting\\core-powershell\\ise\\The-ISEFileCollection-Object.md"
+  ],
+  "430bf6919022d9293bf289aefa89c9b9b042cab3": [
+    "scripting\\core-powershell\\ise\\The-ISEFileCollection-Object.md"
+  ],
+  "ce9364e8fb73a2d31b728430c590fef4175ebe26": [
+    "scripting\\core-powershell\\ise\\The-ISEFile-Object.md"
+  ],
+  "e9cc9589916594b5af781df16d77d45a7dfdbb94": [
+    "scripting\\core-powershell\\ise\\The-ISEFile-Object.md"
+  ],
+  "c54c51ab8f5a5a5542ca4b78ea1100d5a4344d26": [
+    "scripting\\core-powershell\\ise\\The-ISEMenuItemCollection-Object.md"
+  ],
+  "349468885c66b3d4621f4e656d4d944d0284d653": [
+    "scripting\\core-powershell\\ise\\The-ISEMenuItemCollection-Object.md"
+  ],
+  "8b8c960604457fd41f5f7fefe0035003b675e13a": [
+    "scripting\\core-powershell\\ise\\The-ISEMenuItem-Object.md"
+  ],
+  "dd68586f0742e706faebddfe2e546f82292d838b": [
+    "scripting\\core-powershell\\ise\\The-ISEMenuItem-Object.md"
+  ],
+  "77f368782a4adb395dc3446e140e4d0ab6c21f18": [
+    "scripting\\core-powershell\\ise\\The-ISE-Object-Model-Hierarchy.md"
+  ],
+  "6bb1b23b2195aa64ea623125d83b34db378b803e": [
+    "scripting\\core-powershell\\ise\\The-ISE-Object-Model-Hierarchy.md"
+  ],
+  "272749d487a59ccf5eb30352dc902591228746f3": [
+    "scripting\\core-powershell\\ise\\The-ISEOptions-Object.md"
+  ],
+  "63934e7c215939d55afddabfb993a48494df045c": [
+    "scripting\\core-powershell\\ise\\The-ISEOptions-Object.md"
+  ],
+  "1d899709f3a0caa2c957fc8b84f00eeb597a47fa": [
+    "scripting\\core-powershell\\ise\\The-ISESnippetCollection-Object.md"
+  ],
+  "0287c679870ad394eaaf5b0fd8d8405c70e8c3ef": [
+    "scripting\\core-powershell\\ise\\The-ISESnippetCollection-Object.md"
+  ],
+  "faddc7b48d03bc374a2ec8d4220f3e0a8f38d69e": [
+    "scripting\\core-powershell\\ise\\The-ISESnippetObject.md"
+  ],
+  "f8e6c40d390227b9b4bd201896acdc79df3fa69c": [
+    "scripting\\core-powershell\\ise\\The-ISESnippetObject.md"
+  ],
+  "01b67073be64bac6e993cf0f4a5f07ce7a8c6f0d": [
+    "scripting\\core-powershell\\ise\\The-ObjectModelRoot-Object.md"
+  ],
+  "36f992bb670db3cac0c82e9a6c3c1ec9ffe76262": [
+    "scripting\\core-powershell\\ise\\The-ObjectModelRoot-Object.md"
+  ],
+  "4456b1e165130fd52249ffdbd7c22ff591061a8e": [
+    "scripting\\core-powershell\\ise\\The-PowerShellTabCollection-Object.md"
+  ],
+  "fb016ce7c11ba982b9f8cd68f92b8d3466f376f6": [
+    "scripting\\core-powershell\\ise\\The-PowerShellTabCollection-Object.md"
+  ],
+  "cad77145053b9f13f482f860310891da9366e53b": [
+    "scripting\\core-powershell\\ise\\The-PowerShellTab-Object.md"
+  ],
+  "13cd877befc0b4e865d1dc6ad42cd68ee34b5315": [
+    "scripting\\core-powershell\\ise\\The-PowerShellTab-Object.md"
+  ],
+  "e1c4da3865f8c9dd7d2f73b243ac0b0216bd9631": [
+    "scripting\\core-powershell\\ise\\The-Windows-PowerShell-ISE-Scripting-Object-Model.md"
+  ],
+  "ef3dca71be2ae8284912c3f0ebd283b3ec660f83": [
+    "scripting\\core-powershell\\ise\\The-Windows-PowerShell-ISE-Scripting-Object-Model.md"
+  ],
+  "117a7a3e031ffde70ebcbcb5d180c2d7b822ac76": [
+    "scripting\\core-powershell\\ise\\Using-the-Windows-PowerShell-ISE.md"
+  ],
+  "f93caadda26a75e107fa0e5eb04de33a3010f5f3": [
+    "scripting\\core-powershell\\ise\\Using-the-Windows-PowerShell-ISE.md"
+  ],
+  "9bfb74ba438dd27fc2799263fc12a20edd2bb8cb": [
+    "scripting\\core-powershell\\ise\\Windows-PowerShell-ISE-Object-Model-Reference.md"
+  ],
+  "d48c69fb3ebb60f69b846f640ca29a0aa791d477": [
+    "scripting\\core-powershell\\ise\\Windows-PowerShell-ISE-Object-Model-Reference.md"
+  ],
+  "053a4fd734b1e86c5f8ca22c8197ce4e80b6fce6": [
+    "scripting\\core-powershell\\ise-guide.md"
+  ],
+  "afc6f1aeff3e98c5e9b5c06f1d5533f4f9ed331a": [
+    "scripting\\core-powershell\\ise-guide.md"
+  ],
+  "9c1136db524ba52d47db94c68571c6892bdfdbe9": [
+    "scripting\\core-powershell\\language-guide.md"
+  ],
+  "4f3869bea3831a5162f4872498fe05fa9afeef6b": [
+    "scripting\\core-powershell\\language-guide.md"
+  ],
+  "d90e1aea0bc395320669bb58bb2e5b58708126d3": [
+    "scripting\\core-powershell\\scripting-guide.md"
+  ],
+  "55ed894e4b9ed28561112f595ff31c8321acf276": [
+    "scripting\\core-powershell\\scripting-guide.md"
+  ],
+  "bdd57c989f4787e402b0334782db3ab9f5b42161": [
+    "scripting\\core-powershell\\web-access.md"
+  ],
+  "26ca54f759d2ed59e89115e4547e6369dc9d2395": [
+    "scripting\\core-powershell\\web-access.md"
+  ],
+  "ed586e55f4533ce5be7c68564e5cc537fed05016": [
+    "scripting\\core-powershell\\web-access\\authorization-rules-and-security-features-of-windows-powershell-web-access.md"
+  ],
+  "aa7280313d0f08abaa9ea02f3b2ce15c3ff88fc8": [
+    "scripting\\core-powershell\\web-access\\authorization-rules-and-security-features-of-windows-powershell-web-access.md"
+  ],
+  "d2f78148402f06992f5f58cd40e8c4f624b5e4b5": [
+    "scripting\\core-powershell\\web-access\\install-and-use-windows-powershell-web-access.md"
+  ],
+  "188b557f523ce9ce37c6ae3a7f544ec10c3bc885": [
+    "scripting\\core-powershell\\web-access\\install-and-use-windows-powershell-web-access.md"
+  ],
+  "6366ec9c49f721b758b6a520f68cf2b3c5ee0caf": [
+    "scripting\\core-powershell\\web-access\\troubleshooting-access-problems-in-windows-powershell-web-access.md"
+  ],
+  "85b0f9fa8ef53c680cf8c1467afabdfbefa0ee44": [
+    "scripting\\core-powershell\\web-access\\troubleshooting-access-problems-in-windows-powershell-web-access.md"
+  ],
+  "ee5e88ece27add955fcef3a9df0a441a08251e77": [
+    "scripting\\core-powershell\\web-access\\uninstall-windows-powershell-web-access.md"
+  ],
+  "7c24785e10036057ab3fffe4cc15f73a2d55b011": [
+    "scripting\\core-powershell\\web-access\\uninstall-windows-powershell-web-access.md"
+  ],
+  "02964dd763ccccbf27a963c0f8eef20aa23cc117": [
+    "scripting\\core-powershell\\web-access\\use-the-web-based-windows-powershell-console.md"
+  ],
+  "352af7fafc5c103d170501e3be57e630bbcd439b": [
+    "scripting\\core-powershell\\web-access\\use-the-web-based-windows-powershell-console.md"
+  ],
+  "9de4d91359cf3c52d804749027f8d05cbffce743": [
+    "scripting\\core-powershell\\workflows\\PSWorkflow-Module.md"
+  ],
+  "1ccebcfb7d9f632b078ca2284aa3c1a8a173325a": [
+    "scripting\\core-powershell\\workflows\\PSWorkflow-Module.md"
+  ],
+  "62cb6e90637373791e66ad1f94af085de00e4666": [
+    "scripting\\core-powershell\\workflows\\PSWorkflowUtility-Module.md"
+  ],
+  "d29e27f8950786180d96273eee6f88ea5bf05efa": [
+    "scripting\\core-powershell\\workflows\\PSWorkflowUtility-Module.md"
+  ],
+  "8c3f76e53465b9d4eb90355cb6200abd871fa7b3": [
+    "scripting\\core-powershell\\workflows-guide.md"
+  ],
+  "bc46e8165d32305a1dab60f74b55d040e937867e": [
+    "scripting\\core-powershell\\workflows-guide.md"
+  ],
+  "e1c94c281a39b3ae026bbeea9811ecc71b9cdb1c": [
+    "scripting\\getting-started\\basic-cookbooks.md"
+  ],
+  "5bbe4c40aa8c83c7d22524aae7738005c781401a": [
+    "scripting\\getting-started\\basic-cookbooks.md"
+  ],
+  "a5bfad60f1cb254f1899723c40751cd8b96ef54e": [
+    "scripting\\getting-started\\cookbooks\\basic-cookbooks-reference.md"
+  ],
+  "01227a4e77fc5cab0f881ed5502644dba572ff4f": [
+    "scripting\\getting-started\\cookbooks\\basic-cookbooks-reference.md"
+  ],
+  "9f97cc71d42200fef268e344c9e20c5967b376f2": [
+    "scripting\\getting-started\\cookbooks\\Other-Useful-Scripting-Objects.md"
+  ],
+  "f459cf1527669d723bb69b6fe65be837d34459e1": [
+    "scripting\\getting-started\\cookbooks\\Other-Useful-Scripting-Objects.md"
+  ],
+  "3093c4c307ff61151946c417d18cde8fe56278bc": [
+    "scripting\\getting-started\\cookbooks\\PowerShellGet-Module.md"
+  ],
+  "a5e32b92c19d63275211a9af03c7a33305187f4c": [
+    "scripting\\getting-started\\cookbooks\\PowerShellGet-Module.md"
+  ],
+  "7e8fd05cfedd500c51f2d7e4f6adbb7d1f27cb00": [
+    "scripting\\getting-started\\cookbooks\\Selecting-Items-from-a-List-Box.md"
+  ],
+  "daeb4385e0ff4a3491e1c36e256ea3a0d4bd3064": [
+    "scripting\\getting-started\\cookbooks\\Selecting-Items-from-a-List-Box.md"
+  ],
+  "642bc1ba2e6d63de2ef692a1e2c547fb3f1a5946": [
+    "scripting\\getting-started\\fundamental\\Exploring-the-Windows-PowerShell-ISE.md"
+  ],
+  "1644d635776b84c5059bb6ea10be9afaa45e0030": [
+    "scripting\\getting-started\\fundamental\\Exploring-the-Windows-PowerShell-ISE.md"
+  ],
   "0148f4631e34e65a4336c5d1d50e313fb6639748": [
     "scripting\\getting-started\\fundamental\\Scripting-with-Windows-PowerShell.md"
   ],
   "69092d982610584c5c1a0851187cbcef9c9e0139": [
     "scripting\\getting-started\\fundamental\\Scripting-with-Windows-PowerShell.md"
+  ],
+  "1d00a67656fc6682675a934645bddcb300a48808": [
+    "scripting\\getting-started\\fundamental\\Using-Windows-PowerShell.md"
+  ],
+  "23becb58b9cfe4236c006d562abee93d265edb4e": [
+    "scripting\\getting-started\\fundamental\\Using-Windows-PowerShell.md"
+  ],
+  "fcb516c5d7bdc14c2e23bdb9d96e8e19c383eda5": [
+    "scripting\\getting-started\\fundamental\\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md"
+  ],
+  "fd325f8f4bc0ad8bf7616a536b836b0a4b375e05": [
+    "scripting\\getting-started\\fundamental\\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md"
+  ],
+  "b3b97b9dcf01094fe1fadbac355c92df35feaee2": [
+    "scripting\\getting-started\\fundamental-concepts.md"
+  ],
+  "305b348a25efb88770eff99e366d6b9f2339ebac": [
+    "scripting\\getting-started\\fundamental-concepts.md"
+  ],
+  "fdf7b47e2222ec94783fc17aba839dcc3e78ab53": [
+    "scripting\\getting-started\\Getting-Ready-to-Use-Windows-PowerShell.md"
+  ],
+  "712f569902888ec0d9ab7e5645ab374dcda0651d": [
+    "scripting\\getting-started\\Getting-Ready-to-Use-Windows-PowerShell.md"
+  ],
+  "bee671bf537a100bd8ad407f34ccd5fe63c7f9a8": [
+    "scripting\\getting-started\\Getting-Started-with-Windows-PowerShell.md"
+  ],
+  "05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2": [
+    "scripting\\getting-started\\more-powershell-learning.md"
+  ],
+  "c85a8b3968289e3094793bcdbf62afc666172d57": [
+    "scripting\\getting-started\\more-powershell-learning.md"
+  ],
+  "0888b7db506881c4f97d9398b838a617e62c7c4a": [
+    "scripting\\getting-started\\understanding-concepts-reference.md"
+  ],
+  "61629128c1b047e2df989716f3fe5e7322e4363c": [
+    "scripting\\getting-started\\understanding-concepts-reference.md"
   ],
   "5398df704bc69fc4f333e23b5d9f21efc0859dff": [
     "scripting\\PowerShell-Scripting.md"
@@ -11,10 +1118,103 @@
   "fa3aff30e20da1489864e981a67ff7000630d1c3": [
     "scripting\\PowerShell-Scripting.md"
   ],
+  "a6581fe76bf29a0090f9dfa5ad41ec4fc7572998": [
+    "scripting\\setup\\Accessibility-in-Windows-PowerShell-ISE.md"
+  ],
+  "faabfc44164dc22fcc8c4cd75d4cccd1ea810edf": [
+    "scripting\\setup\\Accessibility-in-Windows-PowerShell-ISE.md"
+  ],
+  "8a61e974e7f7ea479ecc447c2db91c677cd8931f": [
+    "scripting\\setup\\Installing-the-Windows-PowerShell-2.0-Engine.md"
+  ],
+  "7ba1c767a5cfe20f808dad8d413db7ec92c5f95c": [
+    "scripting\\setup\\Installing-the-Windows-PowerShell-2.0-Engine.md"
+  ],
   "9ba9ef3efe6a8ae85d96b59db53ad3a16bf57699": [
     "scripting\\setup\\Installing-the-Windows-PowerShell-SDK.md"
   ],
   "d269f8d5436baee48cff4c2c8d0f4d6ae620d670": [
     "scripting\\setup\\Installing-the-Windows-PowerShell-SDK.md"
+  ],
+  "ce32a9cfd2f0b80ae9697ad4f75695a4aacfabee": [
+    "scripting\\setup\\Installing-Windows-PowerShell.md"
+  ],
+  "c1cedec3c86996751b4f40cb8f564e000b40d133": [
+    "scripting\\setup\\Installing-Windows-PowerShell.md"
+  ],
+  "6bdf3f658ed75b48be6df217b6a0b4ad5951c935": [
+    "scripting\\setup\\security.md"
+  ],
+  "3091a02424b23db71efe2f1aa66f4f18e254e2d8": [
+    "scripting\\setup\\security.md"
+  ],
+  "63f7597ba91fb839252de451c6c9380b5b19c0ec": [
+    "scripting\\setup\\setup-reference.md"
+  ],
+  "c9b8c6b05e09bc1d9275fffa9967332ce5120a82": [
+    "scripting\\setup\\setup-reference.md"
+  ],
+  "651e1ecc7d4d6b26ffb93d1b5d808b47df47b290": [
+    "scripting\\setup\\Starting-the-32-Bit-Version-of-Windows-PowerShell.md"
+  ],
+  "60b8eee2e95ec274c4dd950ab860c0f7b1ffbe77": [
+    "scripting\\setup\\Starting-the-32-Bit-Version-of-Windows-PowerShell.md"
+  ],
+  "45102cbc730d8eaac9ebdcb73456b1d1e149c6f2": [
+    "scripting\\setup\\Starting-the-Windows-PowerShell-2.0-Engine.md"
+  ],
+  "8041ac65f898a33ee3d4f7ca6f03aac7d26f9396": [
+    "scripting\\setup\\Starting-the-Windows-PowerShell-2.0-Engine.md"
+  ],
+  "f8406a2066ef54ea0fdaaff6e612bb0d43b12ab6": [
+    "scripting\\setup\\Starting-Windows-PowerShell.md"
+  ],
+  "973543505b67941d05ecf6d80477025119cdfa73": [
+    "scripting\\setup\\Starting-Windows-PowerShell.md"
+  ],
+  "1fe8c9e872b1646746ad2e3426bc816393e68fe8": [
+    "scripting\\setup\\Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md"
+  ],
+  "9dc8d1c3fec315608c1cc1772d01d898cada2087": [
+    "scripting\\setup\\Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md"
+  ],
+  "e2e129c1c90ab7561861a7d9c71fb654569d5712": [
+    "scripting\\setup\\Windows-PowerShell-System-Requirements.md"
+  ],
+  "c87643a766a4030af10935ad1d3f5ec51009f7fa": [
+    "scripting\\setup\\Windows-PowerShell-System-Requirements.md"
+  ],
+  "8c5092005bf812d3fb5aadd02caed97d7074ccdc": [
+    "scripting\\setup\\Windows-PowerShell-System-Requirements.md"
+  ],
+  "7be11016317a65565dd9af2a3f65e8f00b3818f3": [
+    "scripting\\whats-new\\What-s-New-in-the-PowerShell-50-ISE.md"
+  ],
+  "ecd54fd1b79b3e7b1411f37aa74f003f6f838b67": [
+    "scripting\\whats-new\\What-s-New-in-the-PowerShell-50-ISE.md"
+  ],
+  "87e4a23f93d19219a8d00671f319ef93a96fbbf6": [
+    "scripting\\whats-new\\What-s-New-in-Windows-PowerShell-50.md"
+  ],
+  "84cafb3d71bc55063de7faae555762318768d061": [
+    "scripting\\whats-new\\What-s-New-in-Windows-PowerShell-50.md"
+  ],
+  "3965fb8636d61c09e2e211375610219d42da6ca1": [
+    "scripting\\whats-new\\What-s-New-in-Windows-PowerShell-50.md"
+  ],
+  "abb8a868b735a2eb39a2276da6ece611d5423a16": [
+    "scripting\\whats-new\\What-s-New-With-PowerShell.md"
+  ],
+  "7c494765f0808808e60ca8c166e707ed43d1caee": [
+    "scripting\\whats-new\\What-s-New-With-PowerShell.md"
+  ],
+  "0cd377653a3ca82052b1b88f00bfe92830f2020f": [
+    "scripting\\Windows-PowerShell-Glossary.md"
+  ],
+  "17ff65a686c4d386f7a1a4cb5947d7e24627c745": [
+    "scripting\\Windows-PowerShell-Glossary.md"
+  ],
+  "207792452c563ec6cca5c17fbcd122372442d8ac": [
+    "scripting\\topic\\WinRMSecurity.md"
   ]
 }
