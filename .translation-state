@@ -19518,9 +19518,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\Scripting-with-Windows-PowerShell.2db569b949f9f41122774e4819582e471a7b8657.es-es.xlf",
+      "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
+      "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
       "ArchiveException": null
     },
     "db5f410c8f84949c969f21ed59ac48a4e31e91fd": {
@@ -19938,9 +19938,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\PowerShell-Scripting.8f5d79e74e333fb9812de946411a1b4ef2060582.es-es.xlf",
+      "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
+      "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
       "ArchiveException": null
     },
     "a6581fe76bf29a0090f9dfa5ad41ec4fc7572998": {
@@ -20028,9 +20028,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\Installing-the-Windows-PowerShell-SDK.bfd31a5fc654dd34236aff66cf62844476672b64.es-es.xlf",
+      "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
+      "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
       "ArchiveException": null
     },
     "ce32a9cfd2f0b80ae9697ad4f75695a4aacfabee": {
@@ -23958,9 +23958,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\reportServer.53df4bc8b7b80c0a19c11434bdf5f4304e8248f7.es-es.xlf",
+      "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
+      "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
       "ArchiveException": null
     },
     "75d41569b18e61342809eebcc76b7899ec6363fa": {
@@ -23988,9 +23988,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\Running-Remote-Commands.625cb4f9a4da4433a285f1820cb5aa2ba4546438.es-es.xlf",
+      "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
+      "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
       "ArchiveException": null
     },
     "7bbfc31fdebdde83ac1784373b51af40b1dc9492": {
@@ -24018,9 +24018,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\pullServer.4b925b277da29998394af746bdbdd508fda48909.es-es.xlf",
+      "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
+      "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
       "ArchiveException": null
     },
     "bc379559eff2640a3ae01cc2220c7aaefe8d4e44": {
@@ -24078,9 +24078,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\productincompat.62bb00299c0283b5297001553476a745e28a49cb.es-es.xlf",
+      "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
+      "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
       "ArchiveException": null
     },
     "9e3052353dd54568eb2dfaf5af5efde7faafd03a": {
@@ -24108,9 +24108,9 @@
       "HandbackException": null,
       "HandbackFailureTimes": 0,
       "UpdatedDateTime": "0001-01-01T00:00:00",
-      "ArchiveFilePath": null,
-      "ArchiveFileCommit": null,
-      "ArchiveFileDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\partialConfigs.f483ab7fa1511b557780a02b5b807245f730c1b6.es-es.xlf",
+      "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
+      "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
       "ArchiveException": null
     }
   }
