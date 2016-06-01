@@ -22,7 +22,7 @@
             }
         }, 
         {
-            "docset_name": "PowerShell_PowerShell-docs_dsc",
+            "docset_name": "PowerShell_PowerShell-docs_scripting",
             "build_output_subfolder": "scripting",
             "locale": "es-es",
             "version": 0,
