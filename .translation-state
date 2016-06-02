@@ -1,5 +1,5 @@
 {
-  "LastProcessedCommit": "000aa6caeca6d9f292b35886b42e9b308b808391",
+  "LastProcessedCommit": "36a362a6656936f94d3454413ac585e1faf03999",
   "LastTranslatedCommit": "c1998cf728e874b035446dd4223f7108ddd34532",
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
@@ -24111,6 +24111,36 @@
       "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\partialConfigs.f483ab7fa1511b557780a02b5b807245f730c1b6.es-es.xlf",
       "ArchiveFileCommit": "356f0644fd225f1daec443c52a64a07a0c8ab933",
       "ArchiveFileDateTime": "2016-05-31T13:21:38.7498167Z",
+      "ArchiveException": null
+    },
+    "2bf3293026c3df211073cfcf67ba5c4a1a61bd0f": {
+      "FileHash": "2bf3293026c3df211073cfcf67ba5c4a1a61bd0f",
+      "SourceFileCommit": "d11efe21af38a9544ea350936c92d667322af1b3",
+      "SourceFilePath": "jea\\index.md",
+      "HandoffReason": 1,
+      "DependencyFrom": null,
+      "TokenReference": null,
+      "FilePathList": [
+        "jea\\index.md"
+      ],
+      "HasMetadata": true,
+      "HandoffFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\index.9e63af59180db0ca954982ba5c3d1e4a7e40c6bc.es-es.xlf",
+      "HandoffFileCommit": "9ee5762b3d8a0156822748a6e29c549d501eeae1",
+      "HandoffDateTime": "2016-06-02T22:13:20.9089456Z",
+      "HandoffPriority": "",
+      "HandoffException": null,
+      "HandoffFailureTimes": 0,
+      "TargetFileCommit": null,
+      "TargetFilePath": null,
+      "HandbackFilePath": null,
+      "HandbackFileCommit": null,
+      "HandbackDateTime": "0001-01-01T00:00:00",
+      "HandbackException": null,
+      "HandbackFailureTimes": 0,
+      "UpdatedDateTime": "0001-01-01T00:00:00",
+      "ArchiveFilePath": null,
+      "ArchiveFileCommit": null,
+      "ArchiveFileDateTime": "0001-01-01T00:00:00",
       "ArchiveException": null
     }
   }
