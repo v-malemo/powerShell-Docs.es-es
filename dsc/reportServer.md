@@ -156,7 +156,7 @@ AdditionalData       : {}
 De forma predeterminada, los informes se ordenan por **JobID**. Para obtener el informe más reciente, los informes se pueden ordenar en orden descendente por la propiedad **StartTime** y, luego, obtener el primer elemento de la matriz:
 
 ```powershell
-$reportsByStartTime = $reports | Sort-Object -Property StartTime -Descending
+$reportsByStartTime = $reports | Sort-Object {$_."StartTime" -as [DateTime] } -Descending
 $reportMostRecent = $reportsByStartTime[0]
 ```
 
@@ -225,6 +225,6 @@ Tenga en cuenta que estos ejemplos están diseñados para ofrecerle una idea de 
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=May16_HO4-->
 
 
