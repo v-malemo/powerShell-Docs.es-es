@@ -98,6 +98,9 @@
   "97ffa20191016584fc2fba459c457787365d11ee": [
     "dsc\\logResource.md"
   ],
+  "a451e4b8c4483d9099fa69a553162bd0632ef59a": [
+    "dsc\\metaConfig.md"
+  ],
   "1ecef855e4bfc0ee0e5109fd0ecfb9ca395854d5": [
     "dsc\\metaConfig.md"
   ],
@@ -1177,5 +1180,11 @@
   ],
   "2bf3293026c3df211073cfcf67ba5c4a1a61bd0f": [
     "jea\\index.md"
+  ],
+  "b1bf871729b206fa95349c60a27787452f26e220": [
+    "jea\\JEA Guide.md"
+  ],
+  "5599e35b31b57d68c81e6ba1499486bc5561b4f4": [
+    "jea\\README.md"
   ]
 }
