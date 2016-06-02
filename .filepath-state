@@ -1040,9 +1040,6 @@
   "0148f4631e34e65a4336c5d1d50e313fb6639748": [
     "scripting\\getting-started\\fundamental\\Scripting-with-Windows-PowerShell.md"
   ],
-  "69092d982610584c5c1a0851187cbcef9c9e0139": [
-    "scripting\\getting-started\\fundamental\\Scripting-with-Windows-PowerShell.md"
-  ],
   "1d00a67656fc6682675a934645bddcb300a48808": [
     "scripting\\getting-started\\fundamental\\Using-Windows-PowerShell.md"
   ],
@@ -1085,9 +1082,6 @@
   "5398df704bc69fc4f333e23b5d9f21efc0859dff": [
     "scripting\\PowerShell-Scripting.md"
   ],
-  "fa3aff30e20da1489864e981a67ff7000630d1c3": [
-    "scripting\\PowerShell-Scripting.md"
-  ],
   "a6581fe76bf29a0090f9dfa5ad41ec4fc7572998": [
     "scripting\\setup\\Accessibility-in-Windows-PowerShell-ISE.md"
   ],
@@ -1101,9 +1095,6 @@
     "scripting\\setup\\Installing-the-Windows-PowerShell-2.0-Engine.md"
   ],
   "9ba9ef3efe6a8ae85d96b59db53ad3a16bf57699": [
-    "scripting\\setup\\Installing-the-Windows-PowerShell-SDK.md"
-  ],
-  "d269f8d5436baee48cff4c2c8d0f4d6ae620d670": [
     "scripting\\setup\\Installing-the-Windows-PowerShell-SDK.md"
   ],
   "ce32a9cfd2f0b80ae9697ad4f75695a4aacfabee": [
