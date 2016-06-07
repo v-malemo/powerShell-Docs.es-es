@@ -8,6 +8,9 @@
   "553ef07e42a4c41e5f0dc9e80c54f828d9c625c3": [
     "dsc\\authoringResourceClass.md"
   ],
+  "6631d60d7d82e71c315c26a0196aa3e4c1b60b15": [
+    "dsc\\authoringResourceComposite.md"
+  ],
   "9f14d23cf19e14113b5ae433e6025802487b55fb": [
     "dsc\\authoringResourceComposite.md"
   ],
@@ -16,6 +19,9 @@
   ],
   "d40f9f30e4d01e5eb41c3f7bdb492d6ce38106ed": [
     "dsc\\authoringResourceMOF.md"
+  ],
+  "991a324945289b2eff0b706d093b2d345352fb15": [
+    "dsc\\authoringResourceMofCS.md"
   ],
   "91d35f9209f8ac3132c3715795661c33e376dfff": [
     "dsc\\authoringResourceMofCS.md"
@@ -148,6 +154,9 @@
   ],
   "801a0491746c17061d14d6d4938e7182650f6ff3": [
     "dsc\\scriptResource.md"
+  ],
+  "f0aed5bb627825b74fe4df29cbe2f0bc53f90c23": [
+    "dsc\\secureMOF.md"
   ],
   "792135742e34239f6866945e300b9277289e2062": [
     "dsc\\secureMOF.md"
@@ -1163,11 +1172,11 @@
   "207792452c563ec6cca5c17fbcd122372442d8ac": [
     "scripting\\topic\\WinRMSecurity.md"
   ],
-  "2bf3293026c3df211073cfcf67ba5c4a1a61bd0f": [
-    "jea\\index.md"
-  ],
   "b1bf871729b206fa95349c60a27787452f26e220": [
-    "jea\\JEA Guide.md"
+    "jea\\jea-guide.md"
+  ],
+  "f2c72fc2a66f59d78da643da9febb9e09ce7989e": [
+    "jea\\README.md"
   ],
   "5599e35b31b57d68c81e6ba1499486bc5561b4f4": [
     "jea\\README.md"
