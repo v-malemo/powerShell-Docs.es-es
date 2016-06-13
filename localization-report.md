@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 1
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 89
-[ In Sync Handback Files ](#insync-handback-success-list)| 215
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 87
+[ In Sync Handback Files ](#insync-handback-success-list)| 217
 [ Ignored Files ](#ignored-list)| 16
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -55,7 +55,6 @@
  [scripting\core-powershell\core-modules\PSScheduledJob-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/PSScheduledJob-Module.md) | OutofSyncHandedBackSuccess | [Details](#1583fba47d9a709500e3cd678e2e0c27b2777a7d116)
  [scripting\core-powershell\core-modules\PSScriptAnalyzer-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/PSScriptAnalyzer-Module.md) | OutofSyncHandedBackSuccess | [Details](#3e9ba43162afb7b689bf92883f2347c2c8551ea2117)
  [scripting\core-powershell\core-modules\Windows-PowerShell-5.0.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-5.0.md) | OutofSyncHandedBackSuccess | [Details](#8adf724740b2f09bff6d5cafb822566f4747780c118)
- [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md) | OutofSyncHandedBackSuccess | [Details](#cc44c1deb8c3162b0d2188c2af313bf064290267119)
  [scripting\core-powershell\core-modules\Windows-PowerShell-Core-Providers.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-Core-Providers.md) | OutofSyncHandedBackSuccess | [Details](#f6b1ca1a3253c941c76826c6644079a14f19ddcf120)
  [scripting\core-powershell\core-powershell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-powershell.md) | OutofSyncHandedBackSuccess | [Details](#897702d56a14657881121890f2283f50bdc2d517121)
  [scripting\core-powershell\ise\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md) | OutofSyncHandedBackSuccess | [Details](#8af4de973a95352fd41d2bb2823b9382899ef5bf123)
@@ -91,7 +90,6 @@
  [scripting\core-powershell\web-access\authorization-rules-and-security-features-of-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/authorization-rules-and-security-features-of-windows-powershell-web-access.md) | OutofSyncHandedBackSuccess | [Details](#ed586e55f4533ce5be7c68564e5cc537fed05016154)
  [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md) | OutofSyncHandedBackSuccess | [Details](#d2f78148402f06992f5f58cd40e8c4f624b5e4b5155)
  [scripting\core-powershell\web-access\troubleshooting-access-problems-in-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md) | OutofSyncHandedBackSuccess | [Details](#6366ec9c49f721b758b6a520f68cf2b3c5ee0caf156)
- [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md) | OutofSyncHandedBackSuccess | [Details](#ee5e88ece27add955fcef3a9df0a441a08251e77157)
  [scripting\core-powershell\web-access\use-the-web-based-windows-powershell-console.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/use-the-web-based-windows-powershell-console.md) | OutofSyncHandedBackSuccess | [Details](#02964dd763ccccbf27a963c0f8eef20aa23cc117158)
  [scripting\core-powershell\workflows\PSWorkflow-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/workflows/PSWorkflow-Module.md) | OutofSyncHandedBackSuccess | [Details](#9de4d91359cf3c52d804749027f8d05cbffce743160)
  [scripting\core-powershell\workflows\PSWorkflowUtility-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/workflows/PSWorkflowUtility-Module.md) | OutofSyncHandedBackSuccess | [Details](#62cb6e90637373791e66ad1f94af085de00e4666161)
@@ -207,8 +205,10 @@
  [dsc\windowsfeatureResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/windowsfeatureResource.md) | InSyncHandedBackSuccess | [Details](#522dbea958a60f76e98abe32e11e6491ea6d457c94)
  [dsc\windowsProcessResource.md](https://github.com/PowerShell/powerShell-Docs/blob/6477ae8575c83fc24150f9502515ff5b82bc8198/dsc/windowsProcessResource.md) | InSyncHandedBackSuccess | [Details](#d7bd873cde4a4bda12490d69acdd5e2b0ba8cdec95)
  [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/console/Using-Tab-Expansion.md) | InSyncHandedBackSuccess | [Details](#644dbbb51e98efda9735f0ff23489e936f6b28a2103)
+ [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md) | InSyncHandedBackSuccess | [Details](#cc44c1deb8c3162b0d2188c2af313bf064290267119)
  [scripting\core-powershell\ise\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md) | InSyncHandedBackSuccess | [Details](#07f7fb6b4e5d94de31551566ca8faff263817383126)
  [scripting\core-powershell\Running-Remote-Commands.md](https://github.com/PowerShell/powerShell-Docs/blob/593f0c2ca72e00f19c395c1dae31798d5a5f652d/scripting/core-powershell/Running-Remote-Commands.md) | InSyncHandedBackSuccess | [Details](#75d41569b18e61342809eebcc76b7899ec6363fa151)
+ [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md) | InSyncHandedBackSuccess | [Details](#ee5e88ece27add955fcef3a9df0a441a08251e77157)
  [scripting\getting-started\cookbooks\Appendix-1---Compatibility-Aliases.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Appendix-1---Compatibility-Aliases.md) | InSyncHandedBackSuccess | [Details](#38a6cb1b0402825b307652e6747ea65baafd1d8b164)
  [scripting\getting-started\cookbooks\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md) | InSyncHandedBackSuccess | [Details](#24e9b67cf51b99156db3f0bdfb446996b9d3df76165)
  [scripting\getting-started\cookbooks\Changing-Computer-State.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Changing-Computer-State.md) | InSyncHandedBackSuccess | [Details](#13b1fd65b9dddf2570e7ab9c5420c0a6d18ce35e167)
@@ -1863,18 +1863,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='cc44c1deb8c3162b0d2188c2af313bf064290267119'></a> Source: [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/6b2f43583fbdf1fe4e29e21e10cba12f57f96af3/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md)
 * Handoff File: [Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/a8fa16a8541f4da6429e34855421bf0f8db28058/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md)
-* Current Handback File: [Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6a2f2cba65fac572b0d3cdda3a34a4ca1d29a4ef/ol-handback/PowerShell/powerShell-Docs.es-es/live/Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf)
-* Current Handback Datetime: 2016-06-03 10:12:22
+* Handback File: [Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b7ab8f621a2629ea0221c01b5758012241eae4e5/ol-handback/PowerShell/powerShell-Docs.es-es/live/Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf)
+* Handback Datetime: 2016-06-13 15:48:17
 * [Back to Top](#report-top)
 
 ##### <a name='f6b1ca1a3253c941c76826c6644079a14f19ddcf120'></a> Source: [scripting\core-powershell\core-modules\Windows-PowerShell-Core-Providers.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-Core-Providers.md)
@@ -2427,18 +2424,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='ee5e88ece27add955fcef3a9df0a441a08251e77157'></a> Source: [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/6b2f43583fbdf1fe4e29e21e10cba12f57f96af3/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md)
 * Handoff File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/a8fa16a8541f4da6429e34855421bf0f8db28058/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md)
-* Current Handback File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6a2f2cba65fac572b0d3cdda3a34a4ca1d29a4ef/ol-handback/PowerShell/powerShell-Docs.es-es/live/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf)
-* Current Handback Datetime: 2016-06-03 10:12:22
+* Handback File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b7ab8f621a2629ea0221c01b5758012241eae4e5/ol-handback/PowerShell/powerShell-Docs.es-es/live/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf)
+* Handback Datetime: 2016-06-13 15:48:17
 * [Back to Top](#report-top)
 
 ##### <a name='02964dd763ccccbf27a963c0f8eef20aa23cc117158'></a> Source: [scripting\core-powershell\web-access\use-the-web-based-windows-powershell-console.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/use-the-web-based-windows-powershell-console.md)
