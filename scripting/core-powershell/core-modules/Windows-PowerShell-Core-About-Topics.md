@@ -1,12 +1,15 @@
 ---
-title: Acerca de temas principales de Windows PowerShell
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 8b950138-9782-4dfe-bd5f-6bdcea7060da
+title:  Acerca de temas principales de Windows PowerShell
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  8b950138-9782-4dfe-bd5f-6bdcea7060da
 ---
+
 # Acerca de temas principales de Windows PowerShell
 Esta sección contiene los temas de Ayuda conceptual ("About") que se aplican a todos los módulos de Windows PowerShell. Para consultar los temas "About" de otros módulos, vea los temas de Ayuda del módulo en particular.
 
@@ -22,7 +25,7 @@ Esta sección contiene los temas de Ayuda conceptual ("About") que se aplican a 
 |[about_Command_Precedence [v4]](https://technet.microsoft.com/en-us/library/fb14a05e-d461-432d-a253-e9371b54bd2e)|Describe cómo Windows PowerShell determina qué comando ejecutar.|
 |[about_Command_Syntax [v4]](https://technet.microsoft.com/en-us/library/f39782e8-fe76-46ea-b8b5-b50bbee8da4b)|Explica el formato del comando en Windows PowerShell.|
 |[about_Comment_Based_Help [v4]](https://technet.microsoft.com/en-us/library/c270e198-6da2-4825-b6eb-35d5c8a5cf3d)|Explica cómo escribir temas de ayuda basados en comentarios para funciones y scripts.|
-|[about_CommonParameters [v4]](https://technet.microsoft.com/en-us/library/c3f5e229-8bfb-498e-bb84-b84444a323c4)|Describe los parámetros que se pueden utilizar con cualquier cmdlet.|
+|[about_CommonParameters [v4]](https://technet.microsoft.com/en-us/library/c3f5e229-8bfb-498e-bb84-b84444a323c4)|Describe los parámetros que se pueden usar con cualquier cmdlet.|
 |[about_Comparison_Operators [v4]](https://technet.microsoft.com/en-us/library/007cf70d-f090-4720-a282-77c6ecbfa711)|Describe los operadores que comparan valores en Windows PowerShell.|
 |[about_Continue [v4]](https://technet.microsoft.com/en-us/library/a7d1e707-f9c7-4a15-9f92-bc530a40a91a)|Describe la instrucción **Continue**, que regresa inmediatamente al principio de un bucle de programa.|
 |[about_Core_Commands [v4]](https://technet.microsoft.com/en-us/library/25929be4-0b95-4ef5-beab-4bd37f3ba59b)|Muestra los cmdlets diseñados para su uso con proveedores de Windows PowerShell.|
@@ -39,7 +42,7 @@ Esta sección contiene los temas de Ayuda conceptual ("About") que se aplican a 
 |[about_Format.ps1xml [v4]](https://technet.microsoft.com/en-us/library/be0f25ff-0a2a-49d8-b0d4-c035b9434ea8)|Describe los archivos Format.ps1xml que definen la visualización predeterminada de los objetos en la consola.|
 |[about_Functions [v4]](https://technet.microsoft.com/en-us/library/b29b6f17-2469-4047-a875-ce0e79c30ab2)|Explica cómo crear y usar funciones en Windows PowerShell.|
 |[about_Functions_Advanced [v4]](https://technet.microsoft.com/en-us/library/95513aa6-a8e9-48a5-aa8a-677ad6fc5762)|Introducción a las funciones avanzadas, que actúan como cmdlets.|
-|[about_Functions_Advanced_Methods [v4]](https://technet.microsoft.com/en-us/library/1982e85f-1132-4390-b899-b3dcc9456f84)|Explica cómo utilizar los métodos y las propiedades que están disponibles para los cmdlets en las funciones avanzadas.|
+|[about_Functions_Advanced_Methods [v4]](https://technet.microsoft.com/en-us/library/1982e85f-1132-4390-b899-b3dcc9456f84)|Explica cómo usar los métodos y las propiedades que están disponibles para los cmdlets en las funciones avanzadas.|
 |[about_Functions_Advanced_Parameters [v4]](https://technet.microsoft.com/en-us/library/2efa1fb8-5218-4e85-9086-2496220b5ede)|Muestra cómo declarar los parámetros para las funciones avanzadas.|
 |[about_Functions_CmdletBindingAttribute [v4]](https://technet.microsoft.com/en-us/library/a7c70343-cc8e-4556-8a28-2e61e85c2801)|Describe el atributo **CmdletBinding**, que identifica una función que funciona como un cmdlet.|
 |[about_Functions_OutputTypeAttribute](https://technet.microsoft.com/en-us/library/200b76bc-f1b6-4900-b2b8-c7617bacdb23)|Describe un atributo que indica el tipo de objeto que devuelve la función.|
@@ -56,7 +59,7 @@ Esta sección contiene los temas de Ayuda conceptual ("About") que se aplican a 
 |[about_Locations [v4]](https://technet.microsoft.com/en-us/library/239655e4-3c12-46c0-8c16-5c3170e156ba)|Explica cómo usar la ubicación en funcionamiento en Windows PowerShell.|
 |[about_Logical_Operators [v4]](https://technet.microsoft.com/en-us/library/28c27500-e65d-4ff7-9655-cc27c31722a5)|Describe los operadores que conectan las instrucciones en Windows PowerShell.|
 |[about_Methods [v4]](https://technet.microsoft.com/en-us/library/b51480f1-5365-4e27-9cbc-4ca27697bd4b)|Explica cómo usar métodos para realizar acciones con los objetos en Windows PowerShell.|
-|[about_Modules [v4]](https://technet.microsoft.com/en-us/library/94f57429-a539-4aee-bb0d-205cd7e801f9)|Explica cómo instalar, importar y utilizar módulos de Windows PowerShell.|
+|[about_Modules [v4]](https://technet.microsoft.com/en-us/library/94f57429-a539-4aee-bb0d-205cd7e801f9)|Explica cómo instalar, importar y usar módulos de Windows PowerShell.|
 |[about_Objects [v4]](https://technet.microsoft.com/en-us/library/9b8efc90-9b83-4acf-ae57-69002afb1a0a)|Explica cómo trabajar con objetos en Windows PowerShell.|
 |[about_Object_Creation](https://technet.microsoft.com/en-us/library/49a94a5d-f22d-4e9a-9ce8-cc15f726bb6b)|Explica cómo crear objetos en Windows PowerShell.|
 |[about_Operators [v4]](https://technet.microsoft.com/en-us/library/0b0c09a4-76e1-4951-9158-d973b48a1d7b)|Introducción que describe los operadores de Windows PowerShell. Contiene temas sobre cada tipo de operador.|
@@ -78,7 +81,7 @@ Esta sección contiene los temas de Ayuda conceptual ("About") que se aplican a 
 |[about_PSSnapins [v4]](https://technet.microsoft.com/en-us/library/87afc358-9075-4264-a94e-3edf39eb52aa)|Describe los complementos de Windows PowerShell y explica cómo usarlos para ampliar Windows PowerShell.|
 |[about_Quoting_Rules [v4]](https://technet.microsoft.com/en-us/library/295e444a-4219-40c6-b16f-3685c7c7bc52)|Explica las reglas de uso de las comillas simples y dobles en Windows PowerShell, incluidas las here-strings.|
 |[about_Redirection [v4]](https://technet.microsoft.com/en-us/library/328167e4-1247-4f7e-a179-b5bb15cf617c)|Explica cómo redirigir los resultados a las variables y los archivos de texto. Incluye operadores de redirección.|
-|[about_Ref [v4]](https://technet.microsoft.com/en-us/library/2e015309-2833-48f9-b9cd-bc176317de22)|Explica cómo crear y utilizar un tipo de variable de referencia.|
+|[about_Ref [v4]](https://technet.microsoft.com/en-us/library/2e015309-2833-48f9-b9cd-bc176317de22)|Explica cómo crear y usar un tipo de variable de referencia.|
 |[about_Regular_Expressions [v4]](https://technet.microsoft.com/en-us/library/b8dfae27-fb64-4d24-b065-fbc9bee88ae3)|Explica cómo usar expresiones regulares en Windows PowerShell.|
 |[about_Remote [v4]](https://technet.microsoft.com/en-us/library/ef0d14ce-0263-4458-a987-c89e47784d27)|Cómo ejecutar comandos remotos en Windows PowerShell.|
 |[about_Remote_Disconnected_Sessions](https://technet.microsoft.com/en-us/library/adc4b4b4-3d51-4e01-9be2-5a74f530e3f3)|Explica cómo desconectarse y volver a conectarse a una PSSession.|
@@ -87,11 +90,11 @@ Esta sección contiene los temas de Ayuda conceptual ("About") que se aplican a 
 |[about_Remote_Output [v4]](https://technet.microsoft.com/en-us/library/e2ff1468-fc6d-4913-9188-8a9bac0f3185)|Interpretar y aplicar formato a los resultados de los comandos remotos.|
 |[about_Remote_Requirements [v4]](https://technet.microsoft.com/en-us/library/e4642458-4ac7-4643-af1b-78d3e7594c42)|Requisitos del sistema y requisitos de configuración para ejecutar comandos remotos en Windows PowerShell.|
 |[about_Remote_Troubleshooting [v4]](https://technet.microsoft.com/en-us/library/81b8bd3d-73f6-4e1b-a6a0-d03cd575029b)|Solución de problemas de operaciones remotas en Windows PowerShell.|
-|[about_Remote_Variables](https://technet.microsoft.com/en-us/library/a31e2e7f-7c66-492c-86ef-d588912feb7d)|Explica cómo utilizar las variables locales y remotas en comandos remotos.|
+|[about_Remote_Variables](https://technet.microsoft.com/en-us/library/a31e2e7f-7c66-492c-86ef-d588912feb7d)|Explica cómo usar las variables locales y remotas en comandos remotos.|
 |[about_Requires [v4]](https://technet.microsoft.com/en-us/library/0f9a5a00-f64c-4305-b2e7-076aab68ca6f)|Describe la instrucción **Requires**, que impide que un script se ejecute sin las versiones y los complementos necesarios.|
 |[about_Reserved_Words [v4]](https://technet.microsoft.com/en-us/library/f3dc2da5-d6c3-4a28-8a13-51fbc61c4e51)|Muestra las palabras que están reservadas para Windows PowerShell.|
 |[about_Return [v4]](https://technet.microsoft.com/en-us/library/5c4e116d-a8be-4e13-906c-c4f74bb06f46)|Sale del ámbito actual, que puede ser una función, un script o un bloque de script.|
-|[about_Run_With_PowerShell](https://technet.microsoft.com/en-us/library/c9d9ca5f-eff9-4409-be9d-e43b5b4087eb)|Explica cómo utilizar la característica "Ejecutar con PowerShell" para ejecutar un script haciendo clic con el botón secundario en su entrada en el Explorador de archivos.|
+|[about_Run_With_PowerShell](https://technet.microsoft.com/en-us/library/c9d9ca5f-eff9-4409-be9d-e43b5b4087eb)|Explica cómo usar la característica "Ejecutar con PowerShell" para ejecutar un script haciendo clic con el botón secundario en su entrada en el Explorador de archivos.|
 |[about_Scheduled_Jobs](https://technet.microsoft.com/en-us/library/3b546629-703c-4939-b44f-52dd567bce92)|Describe los trabajos programados y explica cómo usarlos y administrarlos en Windows PowerShell y en el Programador de tareas.|
 |[about_Scheduled_Jobs_Basics](https://technet.microsoft.com/en-us/library/859d8bfd-e655-4dc3-ab65-19813301eb57)|Explica cómo crear y administrar los trabajos programados.|
 |[about_Scheduled_Jobs_Advanced](https://technet.microsoft.com/en-us/library/6aea5423-fb96-461c-a1cb-1fb705930eee)|Explica los temas avanzados sobre los trabajos programados, incluida la estructura de archivos subyacente a los trabajos programados.|
@@ -101,12 +104,12 @@ Esta sección contiene los temas de Ayuda conceptual ("About") que se aplican a 
 |[about_Script_Internationalization [v4]](https://technet.microsoft.com/en-us/library/df55f2dc-7baa-4f8a-ae5c-edd8471ff473)|Describe las características que facilitan a los scripts mostrar mensajes del usuario en el idioma seleccionado para Windows.|
 |[about_Scripts [v4]](https://technet.microsoft.com/en-us/library/762aab81-5bf7-4df0-84d6-2fefed0cb178)|Explica cómo escribir y ejecutar scripts en Windows PowerShell.|
 |[about_Session_Configurations [v4]](https://technet.microsoft.com/en-us/library/a2fbe12a-350c-4d04-be50-24102824e3ab)|Describe las configuraciones de sesión, que determinan los usuarios que pueden conectarse remotamente al equipo y los comandos que pueden ejecutar.|
-|[about_Session_Configuration_Files](https://technet.microsoft.com/en-us/library/c7217447-1ebf-477b-a8ef-4dbe9a1473b8)|Describe los archivos de configuración de sesión, que definen el entorno de las sesiones que utilizan la configuración de sesión.|
+|[about_Session_Configuration_Files](https://technet.microsoft.com/en-us/library/c7217447-1ebf-477b-a8ef-4dbe9a1473b8)|Describe los archivos de configuración de sesión, que definen el entorno de las sesiones que usan la configuración de sesión.|
 |[about_Signing [v4]](https://technet.microsoft.com/en-us/library/fcbdd3b9-0b9f-4734-b5c7-e0dcc304fa1d)|Describe las directivas de ejecución de Windows PowerShell, explica cómo administrarlas y explica cómo firmar scripts de modo que cumplan las directivas de ejecución.|
 |[about_Special_Characters [v4]](https://technet.microsoft.com/en-us/library/6eeb395a-cdab-4323-9466-537254a64fb8)|Describe los caracteres especiales en Windows PowerShell.|
 |[about_Splatting](https://technet.microsoft.com/en-us/library/94639e7b-25ee-424b-9a51-bda2891d8882)|Explica cómo usar la expansión para pasar parámetros a comandos en Windows PowerShell.|
 |[about_Split [v4]](https://technet.microsoft.com/en-us/library/9deec016-d841-4758-acf1-82b1652cd61b)|Describe el operador **Split**, que divide las cadenas en subcadenas.|
-|[about_Switch [v4]](https://technet.microsoft.com/en-us/library/4b8e3dde-4fb7-4903-a8d3-e09d23edc7d2)|Explica cómo utilizar una instrucción switch para reemplazar varias instrucciones **If**.|
+|[about_Switch [v4]](https://technet.microsoft.com/en-us/library/4b8e3dde-4fb7-4903-a8d3-e09d23edc7d2)|Explica cómo usar una instrucción switch para reemplazar varias instrucciones **If**.|
 |[about_Throw [v4]](https://technet.microsoft.com/en-us/library/68594cdb-67cd-4f8d-bd15-a0bd20a6ba7f)|Describe la palabra clave **Throw**, que genera un error de terminación.|
 |[about_Transactions [v4]](https://technet.microsoft.com/en-us/library/e6902e15-3a8c-4fd2-818a-d662de083deb)|Explica cómo administrar las operaciones de transacción en Windows PowerShell.|
 |[about_Trap [v4]](https://technet.microsoft.com/en-us/library/2d154e86-ee6e-46c3-8f82-511743c605e6)|Describe la palabra clave **Trap**, que controla un error de terminación.|
@@ -124,10 +127,10 @@ Esta sección contiene los temas de Ayuda conceptual ("About") que se aplican a 
 |[about_WMI](https://technet.microsoft.com/en-us/library/32da7221-c213-48ad-8466-fad82285e4e8)|Describe el Instrumental de administración de Windows (WMI), que es la implementación de Microsoft del estándar de la industria Web-Based Enterprise Management (WBEM).|
 |[about_WMI_Cmdlets [v3]](https://technet.microsoft.com/en-us/library/9c56b172-3b25-47b2-b6e0-86db649b1c45)|Proporciona información adicional sobre Instrumental de administración de Windows (WMI) y Windows PowerShell.|
 |[about_WQL](https://technet.microsoft.com/en-us/library/820b2d23-3473-46f5-a188-5910704c7905)|Describe el lenguaje de consulta de WMI (WQL), que puede usarse para obtener objetos WMI en Windows PowerShell.|
-|[about_WS-Management_Cmdlets [v3]](https://technet.microsoft.com/en-us/library/22738d36-4d49-472c-ae51-9365b9bbd7c2)|Describe los cmdlets del módulo Microsoft.WsMan.Management. Explica cómo utilizarlos juntos para administrar las características de WS-Management, incluida la unidad del proveedor WSMan.|
+|[about_WS-Management_Cmdlets [v3]](https://technet.microsoft.com/en-us/library/22738d36-4d49-472c-ae51-9365b9bbd7c2)|Describe los cmdlets del módulo Microsoft.WsMan.Management. Explica cómo usarlos juntos para administrar las características de WS-Management, incluida la unidad del proveedor WSMan.|
 
 ## Consulte también
-[Scripting con Windows PowerShell](../../getting-started/fundamental/Scripting-with-Windows-PowerShell.md)
+[Scripting con Windows PowerShell](../../getting-started/fundamental/Scripting-with-Windows-PowerShell.md)
 [Conceptos básicos de Windows PowerShell](https://technet.microsoft.com/en-us/library/4b75f1e4-f327-48f3-92ab-bf5435094d41)
 [Windows PowerShell 5.0](Windows-PowerShell-5.0.md)
 [about_Scheduled_Jobs](https://technet.microsoft.com/en-us/library/3b546629-703c-4939-b44f-52dd567bce92)

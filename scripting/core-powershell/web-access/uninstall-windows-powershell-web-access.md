@@ -1,3 +1,14 @@
+---
+title:  desinstalación de Windows PowerShell Web Access
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+---
+
 #  Desinstalar Windows PowerShell Web Access
 
 Actualizado: 24 de junio de 2013
@@ -10,7 +21,7 @@ Siga los pasos facilitados en este tema para eliminar el sitio web y la aplicaci
 
 ------------------------------------------------------------------------
 
-Antes de desinstalar Windows PowerShell Web Access del servidor de puerta de enlace, ejecute el cmdlet <span class="code">Uninstall-PswaWebApplication</span> para quitar el sitio web y las aplicaciones web de Windows PowerShell Web Access, o bien use el procedimiento del Administrador de IIS, [para eliminar el sitio web y las aplicaciones web de Windows PowerShell Web Access mediante el Administrador de IIS](#BKMK_delsite)..
+Antes de desinstalar Windows PowerShell Web Access del servidor de puerta de enlace, ejecute el cmdlet <span class="code">Uninstall-PswaWebApplication</span> para quitar el sitio web y las aplicaciones web de Windows PowerShell Web Access, o bien use el procedimiento del Administrador de IIS, [para eliminar el sitio web y las aplicaciones web de Windows PowerShell Web Access mediante el Administrador de IIS](#BKMK_delsite).
 
 Al desinstalar Windows PowerShell Web Access, no se desinstalan IIS ni las demás características que se instalaron automáticamente porque eran necesarias para la ejecución de Windows PowerShell Web Access. El proceso de desinstalación deja instaladas las características de las cuales dependía Windows PowerShell Web Access. Si necesita desinstalarlas, puede hacerlo de manera individual.
 
@@ -35,9 +46,9 @@ Si ha especificado su propio nombre de sitio web personalizado, agregue el pará
 
     -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas.
 
-    -   En la pantalla **Inicio** de Windows, haga clic en **Windows PowerShell**..
+    -   En la pantalla **Inicio** de Windows, haga clic en **Windows PowerShell**.
 
-2.  Escriba **Uninstall-PswaWebApplication** y luego presione **Entrar**..
+2.  Escriba **Uninstall-PswaWebApplication** y después haga clic en **Entrar**.
 
 3.  Si usa un certificado de prueba, agregue el parámetro <span class="code">DeleteTestCertificate</span> al cmdlet, como se muestra en el siguiente ejemplo.
 
@@ -47,7 +58,7 @@ Si ha especificado su propio nombre de sitio web personalizado, agregue el pará
 
 ###
 
-<a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Paso 2: Desinstalar Windows PowerShell Web Access</span></a>
+<a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Paso 2: Desinstalar Windows PowerShell Web Access</span></a>
 
 ------------------------------------------------------------------------
 
@@ -55,9 +66,9 @@ Si ha especificado su propio nombre de sitio web personalizado, agregue el pará
 
 1.  Realice una de las siguientes acciones para abrir una sesión de Windows PowerShell con derechos de usuario elevados. Si ya se ha abierto una sesión, vaya al siguiente paso.
 
-    -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas y luego haga clic en **Ejecutar como administrador**..
+    -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas y luego haga clic en **Ejecutar como administrador**.
 
-    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y luego haga clic en **Ejecutar como administrador**..
+    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y luego haga clic en **Ejecutar como administrador**.
 
 2.  Escriba lo siguiente y luego presione **Entrar**, donde *computer_name* representa un servidor remoto del cual desea quitar Windows PowerShell Web Access. El parámetro <span class="code">–Restart</span> reinicia automáticamente los servidores de destino, si es necesario para la eliminación.
 
@@ -90,15 +101,15 @@ Los procedimientos de esta sección le ayudarán a desinstalar tanto la aplicaci
 
 1.  Abra la consola del Administrador de IIS mediante uno de los siguientes procedimientos. Si ya se ha abierto, vaya al siguiente paso.
 
-    -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor. En el menú **Herramientas** del Administrador del servidor, haga clic en **Administrador de Internet Information Services (IIS)**..
+    -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor. En el menú **Herramientas** del Administrador del servidor, haga clic en **Administrador de Internet Information Services (IIS)**.
 
     -   En la pantalla **Inicio** de Windows, escriba cualquier parte del nombre **Administrador de Internet Information Services (IIS)**. Haga clic en el acceso directo cuando se muestre en los resultados de **Aplicaciones**.
 
 2.  En el panel del árbol del Administrador de IIS, seleccione el sitio web que ejecuta la aplicación web de Windows PowerShell Web Access.
 
-3.  En el panel **Acciones**, en **Administrar sitio web**, haga clic en **Detener**..
+3.  En el panel **Acciones**, en **Administrar sitio web**, haga clic en **Detener**.
 
-4.  En el panel del árbol, haga clic con el botón derecho en la aplicación web del sitio web que ejecuta la aplicación web de Windows PowerShell Web Access y luego haga clic en **Quitar**..
+4.  En el panel del árbol, haga clic con el botón derecho en la aplicación web del sitio web que ejecuta la aplicación web de Windows PowerShell Web Access y, luego, haga clic en **Quitar**.
 
 5.  En el panel del árbol, seleccione **Grupos de aplicaciones**, seleccione la carpeta del grupo de aplicaciones de Windows PowerShell Web Access, haga clic en **Detener** en el panel **Acciones** y luego haga clic en **Quitar** en el panel de contenido.
 
@@ -122,7 +133,7 @@ Los procedimientos de esta sección le ayudarán a desinstalar tanto la aplicaci
 
 ###
 
-<a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Paso 2: Desinstalar Windows PowerShell Web Access</span></a>
+<a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Paso 2: Desinstalar Windows PowerShell Web Access</span></a>
 
 ------------------------------------------------------------------------
 
@@ -132,17 +143,17 @@ Los procedimientos de esta sección le ayudarán a desinstalar tanto la aplicaci
 
     -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor.
 
-    -   En la pantalla **Inicio** de Windows, haga clic en **Administrador del servidor**..
+    -   En la pantalla **Inicio** de Windows, haga clic en **Administrador del servidor**.
 
-2.  En el menú **Administrar**, haga clic en **Quitar roles y funciones**..
+2.  En el menú **Administrar**, haga clic en **Quitar roles y funciones**.
 
-3.  En la página **Seleccionar servidor de destino**, seleccione el servidor o VHD sin conexión del cual desea quitar la característica. Para seleccionar un VHD sin conexión, primero seleccione el servidor en el que montará el VHD y, a continuación, seleccione el archivo VHD. Una vez seleccionado el servidor de destino, haga clic en **Siguiente**..
+3.  En la página **Seleccionar servidor de destino**, seleccione el servidor o VHD sin conexión del cual desea quitar la característica. Para seleccionar un VHD sin conexión, primero seleccione el servidor en el que montará el VHD y después seleccione el archivo VHD. Una vez seleccionado el servidor de destino, haga clic en **Siguiente**.
 
 4.  Vuelva a hacer clic en **Siguiente** para ir directamente a la página **Quitar características**.
 
-5.  Desactive la casilla **Windows PowerShell Web Access** y luego haga clic en **Siguiente**..
+5.  Desactive la casilla **Windows PowerShell Web Access** y luego haga clic en **Siguiente**.
 
-6.  En la página **Confirmar selecciones de eliminación**, haga clic en **Quitar**..
+6.  En la página **Confirmar selecciones de eliminación**, haga clic en **Quitar**.
 
 <a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Consulte también</span></a>
 <a href="/en-us/library/dn282396(v=ws.11).aspx#Anchor_3" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"></a>
@@ -155,14 +166,11 @@ Los procedimientos de esta sección le ayudarán a desinstalar tanto la aplicaci
 <span>Mostrar:</span> heredado protegido
 
 <span class="stdr-votetitle">¿Le resultó útil esta página?</span>
-Sí
-No
+Sí No
 
 ¿Algún otro comentario?
 
-<span class="stdr-count"><span class="stdr-charcnt">1500</span> caracteres restantes</span>
-Enviar
-Omitir esto
+<span class="stdr-count"><span class="stdr-charcnt">1500</span> caracteres restantes</span> Enviar Omitir esto
 
 <span class="stdr-thankyou">Gracias.</span> <span class="stdr-appreciate">Apreciamos sus comentarios.</span>
 
@@ -170,8 +178,7 @@ Omitir esto
 
 |
 
-<a href="javascript:void(0)" id="SiteFeedbackLinkOpener"><span id="FeedbackButton" class="FeedbackButton clip20x21"> <img src="https://i-technet.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=635975720914499532" alt="Site Feedback" id="feedBackImg" class="cl_footer_feedback_icon" /> </span> Comentarios del sitio</a>
-Comentarios del sitio
+<a href="javascript:void(0)" id="SiteFeedbackLinkOpener"><span id="FeedbackButton" class="FeedbackButton clip20x21"> <img src="https://i-technet.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=635975720914499532" alt="Site Feedback" id="feedBackImg" class="cl_footer_feedback_icon" /> </span> Comentarios del sitio</a> Comentarios del sitio
 
 <a href="javascript:void(0)" id="SiteFeedbackLinkCloser">x</a>
 
@@ -204,6 +211,7 @@ Más información
 
 Los scripts y el código de terceros vinculados a este sitio web o a los que este hace referencia se le ofrecen a usted bajo licencia de las partes propietarias de dicho código, no de Microsoft. Consulte los términos de uso de Ajax CDN para ASP.NET en http://www.asp.net/ajaxlibrary/CDN.ashx.
 <img src="https://m.webtrends.com/dcsjwb9vb00000c932fd0rjc7_5p3t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No" alt="DCSIMG" id="Img1" width="1" height="1" />
+
 
 
 <!--HONumber=May16_HO2-->
