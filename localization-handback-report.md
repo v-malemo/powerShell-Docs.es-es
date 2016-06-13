@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md) | InSyncHandedBackSuccess | [Details](#cc44c1deb8c3162b0d2188c2af313bf064290267119)
- [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md) | InSyncHandedBackSuccess | [Details](#ee5e88ece27add955fcef3a9df0a441a08251e77157)
 
 ## Item Details
-##### <a name='cc44c1deb8c3162b0d2188c2af313bf064290267119'></a> Source: [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/6b2f43583fbdf1fe4e29e21e10cba12f57f96af3/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md)
-* Handoff File: [Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf)
-* Handoff Datetime: 2016-05-12 23:23:04
-* Handoff Reason: Include
-* Archive File: [Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf)
-* Archive Datetime: 2016-05-17 13:26:24
-* Handback File: [Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b7ab8f621a2629ea0221c01b5758012241eae4e5/ol-handback/PowerShell/powerShell-Docs.es-es/live/Windows-PowerShell-Core-About-Topics.2a5d5e1d8931655ca501f33cf2e7cce9dd120e9d.es-es.xlf)
-* Handback Datetime: 2016-06-13 15:48:17
-* [Back to Top](#report-top)
-
-##### <a name='ee5e88ece27add955fcef3a9df0a441a08251e77157'></a> Source: [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/6b2f43583fbdf1fe4e29e21e10cba12f57f96af3/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md)
-* Handoff File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf)
-* Handoff Datetime: 2016-05-12 23:23:04
-* Handoff Reason: Include
-* Archive File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf)
-* Archive Datetime: 2016-05-17 13:26:24
-* Handback File: [uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/b7ab8f621a2629ea0221c01b5758012241eae4e5/ol-handback/PowerShell/powerShell-Docs.es-es/live/uninstall-windows-powershell-web-access.95bac7bf293e2b8b9e3aecf2e955c5e893499e71.es-es.xlf)
-* Handback Datetime: 2016-06-13 15:48:17
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
