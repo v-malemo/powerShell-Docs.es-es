@@ -1,39 +1,11 @@
 # <a name='report-top'></a> Localization Handback Report
 
 ## Summary
- Total Files | 2
+ Total Files | 0
 
 ## File List
- Source File | Status | Details 
- ----------- | ------ | ------- 
- [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md) | InSyncHandedBackSuccess | [Details](#6631d60d7d82e71c315c26a0196aa3e4c1b60b158)
- [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/0dc83a1b69f26a25874c819a2f3a027ed7966895/dsc/secureMOF.md) | InSyncHandedBackSuccess | [Details](#f0aed5bb627825b74fe4df29cbe2f0bc53f90c2385)
 
 ## Item Details
-##### <a name='6631d60d7d82e71c315c26a0196aa3e4c1b60b158'></a> Source: [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs/blob/48cfed9e0c31e24c441eafb388a799bd7fc7415f/dsc/authoringResourceComposite.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [dsc\authoringResourceComposite.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/9e2f2e0837bbe1f120071c57f4b23b5b8e5a0343/dsc/authoringResourceComposite.md)
-* Handoff File: [authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8e1f594a931c7b14a58a2b555c9810cfdf4a8cda/ol-handoff/PowerShell/powerShell-Docs.es-es/live/authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf)
-* Handoff Datetime: 2016-06-07 18:32:51
-* Handoff Reason: Include
-* Archive File: [authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/74812821498765b301fc685da50e2f66b288f38b/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf)
-* Archive Datetime: 2016-06-14 13:17:20
-* Handback File: [authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/61e2f63ecca26d74d36545890fad0c57f02951ff/ol-handback/PowerShell/powerShell-Docs.es-es/live/authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf)
-* Handback Datetime: 2016-06-14 19:38:38
-* [Back to Top](#report-top)
-
-##### <a name='f0aed5bb627825b74fe4df29cbe2f0bc53f90c2385'></a> Source: [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs/blob/0dc83a1b69f26a25874c819a2f3a027ed7966895/dsc/secureMOF.md)
-* Status: InSyncHandedBackSuccess
-* Target File: [dsc\secureMOF.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/9e2f2e0837bbe1f120071c57f4b23b5b8e5a0343/dsc/secureMOF.md)
-* Handoff File: [secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/8e1f594a931c7b14a58a2b555c9810cfdf4a8cda/ol-handoff/PowerShell/powerShell-Docs.es-es/live/secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf)
-* Handoff Datetime: 2016-06-07 18:32:51
-* Handoff Reason: Include
-* Archive File: [secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/74812821498765b301fc685da50e2f66b288f38b/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf)
-* Archive Datetime: 2016-06-14 13:17:20
-* Handback File: [secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/61e2f63ecca26d74d36545890fad0c57f02951ff/ol-handback/PowerShell/powerShell-Docs.es-es/live/secureMOF.84bae90620632fc30568f4afa595e2b86e8aa6d1.es-es.xlf)
-* Handback Datetime: 2016-06-14 19:38:38
-* [Back to Top](#report-top)
-
 
 ## Error Details
 
