@@ -42,7 +42,7 @@ configuration LCMConfig
 } 
 ```
 
-Debe llamar y ejecutar la configuración para crear el MOF de configuración, tal y como lo haría con una configuración normal (para obtener información sobre la creación del MOF de configuración, consulte [Compilación de la configuración](configurations#compiling-the-configuration)). A diferencia de las configuraciones normales, no aplique una configuración LCM con una llamada al cmdlet [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx). En su lugar, llame al cmdlet [Set-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621.aspx) y proporcione la ruta de acceso al MOF de configuración como un parámetro. Después de establecer la configuración, podrá ver las propiedades del LCM con una llamada al cmdlet [Get-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx).
+Debe llamar y ejecutar la configuración para crear el MOF de configuración, tal y como lo haría con una configuración normal (para obtener información sobre la creación del MOF de configuración, consulte [Compilación de la configuración](configurations.md#compiling-the-configuration)). A diferencia de las configuraciones normales, no aplique una configuración LCM con una llamada al cmdlet [Start-DscConfiguration](https://technet.microsoft.com/en-us/library/dn521623.aspx). En su lugar, llame al cmdlet [Set-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn521621.aspx) y proporcione la ruta de acceso al MOF de configuración como un parámetro. Después de establecer la configuración, podrá ver las propiedades del LCM con una llamada al cmdlet [Get-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx).
 
 Una configuración de LCM puede contener bloques solo para un conjunto limitado de recursos. En el ejemplo anterior, el único recurso al que se llama es **Settings**. El resto de recursos disponibles son:
 
@@ -162,6 +162,6 @@ Para definir una configuración parcial, cree un bloque **PartialConfiguration**
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO1-->
 
 
