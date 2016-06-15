@@ -9,8 +9,8 @@
 [ Archive Failed Files ](#archive-failed-list)| 0
 [ Archive Success Files ](#archive-success-list)| 0
 [ Handback Failed Files ](#handback-failed-list)| 0
-[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 85
-[ In Sync Handback Files ](#insync-handback-success-list)| 221
+[ Out Of Sync Handback Files ](#outofsync-handback-success-list)| 78
+[ In Sync Handback Files ](#insync-handback-success-list)| 228
 [ Ignored Files ](#ignored-list)| 16
 
 ## <a name='handoff-failed-list'></a> Handoff Failed File List
@@ -60,7 +60,6 @@
  [scripting\core-powershell\ise\Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/Purpose-of-the-Windows-PowerShell-ISE-Scripting-Object-Model.md) | OutofSyncHandedBackSuccess | [Details](#41c508e7aebc3501f29be7246ca817f95180ef2f132)
  [scripting\core-powershell\ise\The-ISEAddOnToolCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEAddOnToolCollection-Object.md) | OutofSyncHandedBackSuccess | [Details](#811cdcc3466d366f89fe43b90f928019d7405039135)
  [scripting\core-powershell\ise\The-ISEAddOnTool-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEAddOnTool-Object.md) | OutofSyncHandedBackSuccess | [Details](#44b218200e4207fba059ce63adabec924fe6eb1d134)
- [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEEditor-Object.md) | OutofSyncHandedBackSuccess | [Details](#4812092dea24fa61245af7e06d1c5924ec812218136)
  [scripting\core-powershell\ise\The-ISEFileCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEFileCollection-Object.md) | OutofSyncHandedBackSuccess | [Details](#c334a38d6686be45101f4569f38411e9703c8fea138)
  [scripting\core-powershell\ise\The-ISEFile-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEFile-Object.md) | OutofSyncHandedBackSuccess | [Details](#ce9364e8fb73a2d31b728430c590fef4175ebe26137)
  [scripting\core-powershell\ise\The-ISEMenuItemCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEMenuItemCollection-Object.md) | OutofSyncHandedBackSuccess | [Details](#c54c51ab8f5a5a5542ca4b78ea1100d5a4344d26140)
@@ -80,8 +79,6 @@
  [scripting\core-powershell\scripting-guide.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/scripting-guide.md) | OutofSyncHandedBackSuccess | [Details](#d90e1aea0bc395320669bb58bb2e5b58708126d3152)
  [scripting\core-powershell\web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access.md) | OutofSyncHandedBackSuccess | [Details](#bdd57c989f4787e402b0334782db3ab9f5b42161153)
  [scripting\core-powershell\web-access\authorization-rules-and-security-features-of-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/authorization-rules-and-security-features-of-windows-powershell-web-access.md) | OutofSyncHandedBackSuccess | [Details](#ed586e55f4533ce5be7c68564e5cc537fed05016154)
- [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md) | OutofSyncHandedBackSuccess | [Details](#d2f78148402f06992f5f58cd40e8c4f624b5e4b5155)
- [scripting\core-powershell\web-access\troubleshooting-access-problems-in-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md) | OutofSyncHandedBackSuccess | [Details](#6366ec9c49f721b758b6a520f68cf2b3c5ee0caf156)
  [scripting\core-powershell\web-access\use-the-web-based-windows-powershell-console.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/use-the-web-based-windows-powershell-console.md) | OutofSyncHandedBackSuccess | [Details](#02964dd763ccccbf27a963c0f8eef20aa23cc117158)
  [scripting\core-powershell\workflows\PSWorkflow-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/workflows/PSWorkflow-Module.md) | OutofSyncHandedBackSuccess | [Details](#9de4d91359cf3c52d804749027f8d05cbffce743160)
  [scripting\core-powershell\workflows\PSWorkflowUtility-Module.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/workflows/PSWorkflowUtility-Module.md) | OutofSyncHandedBackSuccess | [Details](#62cb6e90637373791e66ad1f94af085de00e4666161)
@@ -96,7 +93,6 @@
  [scripting\getting-started\fundamental\Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/fundamental/Windows-PowerShell-Integrated-Scripting-Environment--ISE-.md) | OutofSyncHandedBackSuccess | [Details](#fcb516c5d7bdc14c2e23bdb9d96e8e19c383eda5213)
  [scripting\getting-started\fundamental-concepts.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/fundamental-concepts.md) | OutofSyncHandedBackSuccess | [Details](#b3b97b9dcf01094fe1fadbac355c92df35feaee2198)
  [scripting\getting-started\Getting-Ready-to-Use-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/Getting-Ready-to-Use-Windows-PowerShell.md) | OutofSyncHandedBackSuccess | [Details](#fdf7b47e2222ec94783fc17aba839dcc3e78ab53214)
- [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/more-powershell-learning.md) | OutofSyncHandedBackSuccess | [Details](#05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2216)
  [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/understanding-concepts-reference.md) | OutofSyncHandedBackSuccess | [Details](#0888b7db506881c4f97d9398b838a617e62c7c4a217)
  [scripting\setup\Accessibility-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/Accessibility-in-Windows-PowerShell-ISE.md) | OutofSyncHandedBackSuccess | [Details](#a6581fe76bf29a0090f9dfa5ad41ec4fc7572998220)
  [scripting\setup\Installing-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/Installing-the-Windows-PowerShell-2.0-Engine.md) | OutofSyncHandedBackSuccess | [Details](#8a61e974e7f7ea479ecc447c2db91c677cd8931f221)
@@ -107,9 +103,6 @@
  [scripting\setup\Starting-the-Windows-PowerShell-2.0-Engine.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/Starting-the-Windows-PowerShell-2.0-Engine.md) | OutofSyncHandedBackSuccess | [Details](#45102cbc730d8eaac9ebdcb73456b1d1e149c6f2227)
  [scripting\setup\Starting-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/Starting-Windows-PowerShell.md) | OutofSyncHandedBackSuccess | [Details](#f8406a2066ef54ea0fdaaff6e612bb0d43b12ab6229)
  [scripting\setup\Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/Starting-Windows-PowerShell-on-Earlier-Versions-of-Windows.md) | OutofSyncHandedBackSuccess | [Details](#1fe8c9e872b1646746ad2e3426bc816393e68fe8228)
- [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/1ae9150b226147c039acf0738690de4da8686a71/scripting/setup/Windows-PowerShell-System-Requirements.md) | OutofSyncHandedBackSuccess | [Details](#e2e129c1c90ab7561861a7d9c71fb654569d5712230)
- [scripting\whats-new\What-s-New-in-the-PowerShell-50-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/whats-new/What-s-New-in-the-PowerShell-50-ISE.md) | OutofSyncHandedBackSuccess | [Details](#7be11016317a65565dd9af2a3f65e8f00b3818f3234)
- [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/whats-new/What-s-New-With-PowerShell.md) | OutofSyncHandedBackSuccess | [Details](#abb8a868b735a2eb39a2276da6ece611d5423a16236)
  [scripting\Windows-PowerShell-Glossary.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/Windows-PowerShell-Glossary.md) | OutofSyncHandedBackSuccess | [Details](#0cd377653a3ca82052b1b88f00bfe92830f2020f237)
 
 ## <a name='insync-handback-success-list'></a> In Sync Handback File Success List
@@ -203,7 +196,10 @@
  [scripting\core-powershell\console\Using-Tab-Expansion.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/console/Using-Tab-Expansion.md) | InSyncHandedBackSuccess | [Details](#644dbbb51e98efda9735f0ff23489e936f6b28a2103)
  [scripting\core-powershell\core-modules\Windows-PowerShell-Core-About-Topics.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/core-modules/Windows-PowerShell-Core-About-Topics.md) | InSyncHandedBackSuccess | [Details](#cc44c1deb8c3162b0d2188c2af313bf064290267119)
  [scripting\core-powershell\ise\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.md) | InSyncHandedBackSuccess | [Details](#07f7fb6b4e5d94de31551566ca8faff263817383126)
+ [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEEditor-Object.md) | InSyncHandedBackSuccess | [Details](#4812092dea24fa61245af7e06d1c5924ec812218136)
  [scripting\core-powershell\Running-Remote-Commands.md](https://github.com/PowerShell/powerShell-Docs/blob/593f0c2ca72e00f19c395c1dae31798d5a5f652d/scripting/core-powershell/Running-Remote-Commands.md) | InSyncHandedBackSuccess | [Details](#75d41569b18e61342809eebcc76b7899ec6363fa151)
+ [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md) | InSyncHandedBackSuccess | [Details](#d2f78148402f06992f5f58cd40e8c4f624b5e4b5155)
+ [scripting\core-powershell\web-access\troubleshooting-access-problems-in-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md) | InSyncHandedBackSuccess | [Details](#6366ec9c49f721b758b6a520f68cf2b3c5ee0caf156)
  [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md) | InSyncHandedBackSuccess | [Details](#ee5e88ece27add955fcef3a9df0a441a08251e77157)
  [scripting\getting-started\cookbooks\Appendix-1---Compatibility-Aliases.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Appendix-1---Compatibility-Aliases.md) | InSyncHandedBackSuccess | [Details](#38a6cb1b0402825b307652e6747ea65baafd1d8b164)
  [scripting\getting-started\cookbooks\Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Appendix-2---Creating-a-Custom-PowerShell-Shortcut.md) | InSyncHandedBackSuccess | [Details](#24e9b67cf51b99156db3f0bdfb446996b9d3df76165)
@@ -248,12 +244,16 @@
  [scripting\getting-started\fundamental\Using-Windows-PowerShell-for-Administration.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/fundamental/Using-Windows-PowerShell-for-Administration.md) | InSyncHandedBackSuccess | [Details](#f6d5477c32f8f254ab7280945847509588002e83210)
  [scripting\getting-started\fundamental\Windows-PowerShell-Basics.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/fundamental/Windows-PowerShell-Basics.md) | InSyncHandedBackSuccess | [Details](#8d4a801c534075db568cb38eb51cb11db40cce15212)
  [scripting\getting-started\Getting-Started-with-Windows-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/Getting-Started-with-Windows-PowerShell.md) | InSyncHandedBackSuccess | [Details](#bee671bf537a100bd8ad407f34ccd5fe63c7f9a8215)
+ [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/more-powershell-learning.md) | InSyncHandedBackSuccess | [Details](#05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2216)
  [scripting\PowerShell-Scripting.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/PowerShell-Scripting.md) | InSyncHandedBackSuccess | [Details](#5398df704bc69fc4f333e23b5d9f21efc0859dff219)
  [scripting\setup\Installing-the-Windows-PowerShell-SDK.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/setup/Installing-the-Windows-PowerShell-SDK.md) | InSyncHandedBackSuccess | [Details](#9ba9ef3efe6a8ae85d96b59db53ad3a16bf57699222)
+ [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/1ae9150b226147c039acf0738690de4da8686a71/scripting/setup/Windows-PowerShell-System-Requirements.md) | InSyncHandedBackSuccess | [Details](#e2e129c1c90ab7561861a7d9c71fb654569d5712230)
  [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/7facb78962411d7b96ef6741e3ffa153d5537a0d/scripting/setup/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#e1827e102a9b35ea214f89395f7ff3c5e0a58506231)
  [scripting\TOC.md](https://github.com/PowerShell/powerShell-Docs/blob/624c61cd1931edf934de2b69d4737c1380c85b21/scripting/TOC.md) | InSyncHandedBackSuccess | [Details](#0de7828832edd3e4c1d073dc62c3866e10c13e88232)
  [scripting\topic\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/afa259b8611f995bbf5b824179a12e3d8f15df86/scripting/topic/WinRMSecurity.md) | InSyncHandedBackSuccess | [Details](#207792452c563ec6cca5c17fbcd122372442d8ac233)
+ [scripting\whats-new\What-s-New-in-the-PowerShell-50-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/whats-new/What-s-New-in-the-PowerShell-50-ISE.md) | InSyncHandedBackSuccess | [Details](#7be11016317a65565dd9af2a3f65e8f00b3818f3234)
  [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/ca7ab17f7ba2615c7a39d1e3dd944501bab4e72c/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md) | InSyncHandedBackSuccess | [Details](#87e4a23f93d19219a8d00671f319ef93a96fbbf6235)
+ [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/whats-new/What-s-New-With-PowerShell.md) | InSyncHandedBackSuccess | [Details](#abb8a868b735a2eb39a2276da6ece611d5423a16236)
  [wmf\audit_cms.md](https://github.com/PowerShell/powerShell-Docs/blob/743c597c721d4abe67d657eaabd03ecc5cf19690/wmf/audit_cms.md) | InSyncHandedBackSuccess | [Details](#2160a4b932075c98df6806c61d263d30f650b9f4238)
  [wmf\audit_overview.md](https://github.com/PowerShell/powerShell-Docs/blob/743c597c721d4abe67d657eaabd03ecc5cf19690/wmf/audit_overview.md) | InSyncHandedBackSuccess | [Details](#94d24bd3b67d1eceb71af4ffe704f2e03bf0806c239)
  [wmf\audit_script.md](https://github.com/PowerShell/powerShell-Docs/blob/743c597c721d4abe67d657eaabd03ecc5cf19690/wmf/audit_script.md) | InSyncHandedBackSuccess | [Details](#654c0d5e83b9832524298b5c96eae094f371330f240)
@@ -2072,18 +2072,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='4812092dea24fa61245af7e06d1c5924ec812218136'></a> Source: [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEEditor-Object.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/1c8a059e4499402c9c908668c4318a9f5e40cdbc/scripting/core-powershell/ise/The-ISEEditor-Object.md)
 * Handoff File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\ise\The-ISEEditor-Object.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/000eb4090f55d3fd2828f065e4875cc03a139eaa/scripting/core-powershell/ise/The-ISEEditor-Object.md)
-* Current Handback File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f3a9acf5f2bd63f276796729599165da8084d691/ol-handback/PowerShell/powerShell-Docs.es-es/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.es-es.xlf)
-* Current Handback Datetime: 2016-05-22 01:05:21
+* Handback File: [The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3e58682593f41a89fbce18b99cdffa8f71df472b/ol-handback/PowerShell/powerShell-Docs.es-es/live/The-ISEEditor-Object.723c3ba4fe972736507c0e35656406bb8dd96b01.es-es.xlf)
+* Handback Datetime: 2016-06-15 11:43:37
 * [Back to Top](#report-top)
 
 ##### <a name='c334a38d6686be45101f4569f38411e9703c8fea138'></a> Source: [scripting\core-powershell\ise\The-ISEFileCollection-Object.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/The-ISEFileCollection-Object.md)
@@ -2384,33 +2381,27 @@
 * [Back to Top](#report-top)
 
 ##### <a name='d2f78148402f06992f5f58cd40e8c4f624b5e4b5155'></a> Source: [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/1c8a059e4499402c9c908668c4318a9f5e40cdbc/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md)
 * Handoff File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\web-access\install-and-use-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/000eb4090f55d3fd2828f065e4875cc03a139eaa/scripting/core-powershell/web-access/install-and-use-windows-powershell-web-access.md)
-* Current Handback File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f3a9acf5f2bd63f276796729599165da8084d691/ol-handback/PowerShell/powerShell-Docs.es-es/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.es-es.xlf)
-* Current Handback Datetime: 2016-05-22 01:05:21
+* Handback File: [install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3e58682593f41a89fbce18b99cdffa8f71df472b/ol-handback/PowerShell/powerShell-Docs.es-es/live/install-and-use-windows-powershell-web-access.b0ab653c895ebd67ec078d852bf20804e9c72a1c.es-es.xlf)
+* Handback Datetime: 2016-06-15 11:43:37
 * [Back to Top](#report-top)
 
 ##### <a name='6366ec9c49f721b758b6a520f68cf2b3c5ee0caf156'></a> Source: [scripting\core-powershell\web-access\troubleshooting-access-problems-in-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\core-powershell\web-access\troubleshooting-access-problems-in-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/1c8a059e4499402c9c908668c4318a9f5e40cdbc/scripting/core-powershell/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md)
 * Handoff File: [troubleshooting-access-problems-in-windows-powershell-web-access.1c7875e668a4ef265134d93052c69465d51413d7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/troubleshooting-access-problems-in-windows-powershell-web-access.1c7875e668a4ef265134d93052c69465d51413d7.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [troubleshooting-access-problems-in-windows-powershell-web-access.1c7875e668a4ef265134d93052c69465d51413d7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/troubleshooting-access-problems-in-windows-powershell-web-access.1c7875e668a4ef265134d93052c69465d51413d7.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\core-powershell\web-access\troubleshooting-access-problems-in-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/000eb4090f55d3fd2828f065e4875cc03a139eaa/scripting/core-powershell/web-access/troubleshooting-access-problems-in-windows-powershell-web-access.md)
-* Current Handback File: [troubleshooting-access-problems-in-windows-powershell-web-access.1c7875e668a4ef265134d93052c69465d51413d7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f3a9acf5f2bd63f276796729599165da8084d691/ol-handback/PowerShell/powerShell-Docs.es-es/live/troubleshooting-access-problems-in-windows-powershell-web-access.1c7875e668a4ef265134d93052c69465d51413d7.es-es.xlf)
-* Current Handback Datetime: 2016-05-22 01:05:21
+* Handback File: [troubleshooting-access-problems-in-windows-powershell-web-access.1c7875e668a4ef265134d93052c69465d51413d7.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3e58682593f41a89fbce18b99cdffa8f71df472b/ol-handback/PowerShell/powerShell-Docs.es-es/live/troubleshooting-access-problems-in-windows-powershell-web-access.1c7875e668a4ef265134d93052c69465d51413d7.es-es.xlf)
+* Handback Datetime: 2016-06-15 11:43:37
 * [Back to Top](#report-top)
 
 ##### <a name='ee5e88ece27add955fcef3a9df0a441a08251e77157'></a> Source: [scripting\core-powershell\web-access\uninstall-windows-powershell-web-access.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/web-access/uninstall-windows-powershell-web-access.md)
@@ -3164,18 +3155,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2216'></a> Source: [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/more-powershell-learning.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/1c8a059e4499402c9c908668c4318a9f5e40cdbc/scripting/getting-started/more-powershell-learning.md)
 * Handoff File: [more-powershell-learning.00ec2b0492cda79380c66d0136e44b73cc496123.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/more-powershell-learning.00ec2b0492cda79380c66d0136e44b73cc496123.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [more-powershell-learning.00ec2b0492cda79380c66d0136e44b73cc496123.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/more-powershell-learning.00ec2b0492cda79380c66d0136e44b73cc496123.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\getting-started\more-powershell-learning.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/000eb4090f55d3fd2828f065e4875cc03a139eaa/scripting/getting-started/more-powershell-learning.md)
-* Current Handback File: [more-powershell-learning.00ec2b0492cda79380c66d0136e44b73cc496123.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f3a9acf5f2bd63f276796729599165da8084d691/ol-handback/PowerShell/powerShell-Docs.es-es/live/more-powershell-learning.00ec2b0492cda79380c66d0136e44b73cc496123.es-es.xlf)
-* Current Handback Datetime: 2016-05-22 01:05:21
+* Handback File: [more-powershell-learning.00ec2b0492cda79380c66d0136e44b73cc496123.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3e58682593f41a89fbce18b99cdffa8f71df472b/ol-handback/PowerShell/powerShell-Docs.es-es/live/more-powershell-learning.00ec2b0492cda79380c66d0136e44b73cc496123.es-es.xlf)
+* Handback Datetime: 2016-06-15 11:43:37
 * [Back to Top](#report-top)
 
 ##### <a name='0888b7db506881c4f97d9398b838a617e62c7c4a217'></a> Source: [scripting\getting-started\understanding-concepts-reference.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/understanding-concepts-reference.md)
@@ -3365,18 +3353,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='e2e129c1c90ab7561861a7d9c71fb654569d5712230'></a> Source: [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs/blob/1ae9150b226147c039acf0738690de4da8686a71/scripting/setup/Windows-PowerShell-System-Requirements.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/1c8a059e4499402c9c908668c4318a9f5e40cdbc/scripting/setup/Windows-PowerShell-System-Requirements.md)
 * Handoff File: [Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\setup\Windows-PowerShell-System-Requirements.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/4c0d0205495109d9b99ab99513bf424bb6ea20b8/scripting/setup/Windows-PowerShell-System-Requirements.md)
-* Current Handback File: [Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/5a524130beda66087110e271a48fa52b0726f52d/ol-handback/PowerShell/powerShell-Docs.es-es/live/Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf)
-* Current Handback Datetime: 2016-05-24 23:36:20
+* Handback File: [Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3e58682593f41a89fbce18b99cdffa8f71df472b/ol-handback/PowerShell/powerShell-Docs.es-es/live/Windows-PowerShell-System-Requirements.90a72e00f7c321f4c9ff85e3a9ac215639266c9c.es-es.xlf)
+* Handback Datetime: 2016-06-15 11:43:37
 * [Back to Top](#report-top)
 
 ##### <a name='e1827e102a9b35ea214f89395f7ff3c5e0a58506231'></a> Source: [scripting\setup\WinRMSecurity.md](https://github.com/PowerShell/powerShell-Docs/blob/7facb78962411d7b96ef6741e3ffa153d5537a0d/scripting/setup/WinRMSecurity.md)
@@ -3416,18 +3401,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='7be11016317a65565dd9af2a3f65e8f00b3818f3234'></a> Source: [scripting\whats-new\What-s-New-in-the-PowerShell-50-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/whats-new/What-s-New-in-the-PowerShell-50-ISE.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\whats-new\What-s-New-in-the-PowerShell-50-ISE.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/1c8a059e4499402c9c908668c4318a9f5e40cdbc/scripting/whats-new/What-s-New-in-the-PowerShell-50-ISE.md)
 * Handoff File: [What-s-New-in-the-PowerShell-50-ISE.bd27df5ede4241a8e6b57d0582112056984b68c8.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/What-s-New-in-the-PowerShell-50-ISE.bd27df5ede4241a8e6b57d0582112056984b68c8.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [What-s-New-in-the-PowerShell-50-ISE.bd27df5ede4241a8e6b57d0582112056984b68c8.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/What-s-New-in-the-PowerShell-50-ISE.bd27df5ede4241a8e6b57d0582112056984b68c8.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\whats-new\What-s-New-in-the-PowerShell-50-ISE.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/000eb4090f55d3fd2828f065e4875cc03a139eaa/scripting/whats-new/What-s-New-in-the-PowerShell-50-ISE.md)
-* Current Handback File: [What-s-New-in-the-PowerShell-50-ISE.bd27df5ede4241a8e6b57d0582112056984b68c8.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f3a9acf5f2bd63f276796729599165da8084d691/ol-handback/PowerShell/powerShell-Docs.es-es/live/What-s-New-in-the-PowerShell-50-ISE.bd27df5ede4241a8e6b57d0582112056984b68c8.es-es.xlf)
-* Current Handback Datetime: 2016-05-22 01:05:21
+* Handback File: [What-s-New-in-the-PowerShell-50-ISE.bd27df5ede4241a8e6b57d0582112056984b68c8.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3e58682593f41a89fbce18b99cdffa8f71df472b/ol-handback/PowerShell/powerShell-Docs.es-es/live/What-s-New-in-the-PowerShell-50-ISE.bd27df5ede4241a8e6b57d0582112056984b68c8.es-es.xlf)
+* Handback Datetime: 2016-06-15 11:43:37
 * [Back to Top](#report-top)
 
 ##### <a name='87e4a23f93d19219a8d00671f319ef93a96fbbf6235'></a> Source: [scripting\whats-new\What-s-New-in-Windows-PowerShell-50.md](https://github.com/PowerShell/powerShell-Docs/blob/ca7ab17f7ba2615c7a39d1e3dd944501bab4e72c/scripting/whats-new/What-s-New-in-Windows-PowerShell-50.md)
@@ -3443,18 +3425,15 @@
 * [Back to Top](#report-top)
 
 ##### <a name='abb8a868b735a2eb39a2276da6ece611d5423a16236'></a> Source: [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/whats-new/What-s-New-With-PowerShell.md)
-* Status: OutofSyncHandedBackSuccess
-* Target File: 
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/1c8a059e4499402c9c908668c4318a9f5e40cdbc/scripting/whats-new/What-s-New-With-PowerShell.md)
 * Handoff File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/c313970609495a9d6eaed96dddc3d7f3a1e72ce0/ol-handoff/PowerShell/powerShell-Docs.es-es/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.es-es.xlf)
 * Handoff Datetime: 2016-05-12 23:23:04
 * Handoff Reason: Include
 * Archive File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/da5d01362c31ad66de46ca1010ddaf98001208ca/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.es-es.xlf)
 * Archive Datetime: 2016-05-17 13:26:24
-* Handback File: 
-* Handback Datetime: 0001-01-01 00:00:00
-* Current Target File: [scripting\whats-new\What-s-New-With-PowerShell.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/000eb4090f55d3fd2828f065e4875cc03a139eaa/scripting/whats-new/What-s-New-With-PowerShell.md)
-* Current Handback File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/f3a9acf5f2bd63f276796729599165da8084d691/ol-handback/PowerShell/powerShell-Docs.es-es/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.es-es.xlf)
-* Current Handback Datetime: 2016-05-22 01:05:21
+* Handback File: [What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/3e58682593f41a89fbce18b99cdffa8f71df472b/ol-handback/PowerShell/powerShell-Docs.es-es/live/What-s-New-With-PowerShell.8b0e86271984e828077d39559df46f794de87d12.es-es.xlf)
+* Handback Datetime: 2016-06-15 11:43:37
 * [Back to Top](#report-top)
 
 ##### <a name='0cd377653a3ca82052b1b88f00bfe92830f2020f237'></a> Source: [scripting\Windows-PowerShell-Glossary.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/Windows-PowerShell-Glossary.md)
