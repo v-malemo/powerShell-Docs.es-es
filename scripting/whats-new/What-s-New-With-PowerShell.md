@@ -1,3 +1,14 @@
+---
+title:  Novedades de PowerShell
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+---
+
 # Novedades de PowerShell
 Windows PowerShell® 5.0 incluye nuevas características importantes que amplían y mejoran su uso, y permiten controlar y administrar entornos basados en Windows de forma más sencilla y completa.
 
@@ -16,6 +27,7 @@ Windows PowerShell 5.0 está instalado de manera predeterminada en Windows Serve
 
 -   New features in Windows PowerShell 3.0
 -->
+
 
 
 <!--HONumber=May16_HO2-->

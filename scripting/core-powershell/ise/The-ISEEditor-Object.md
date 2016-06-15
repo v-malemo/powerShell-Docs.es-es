@@ -1,14 +1,17 @@
 ---
-title: El objeto ISEEditor
-ms.custom: na
-ms.reviewer: na
-ms.suite: na
-ms.tgt_pltfrm: na
-ms.topic: article
-ms.assetid: 0101daf8-4e31-4e4c-ab89-01d95dcb8f46
+title:  El objeto ISEEditor
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+ms.assetid:  0101daf8-4e31-4e4c-ab89-01d95dcb8f46
 ---
+
 # El objeto ISEEditor
-  Un objeto **ISEEditor** es una instancia de la clase Microsoft.PowerShell.Host.ISE.ISEEditor.  El panel de consola es un objeto **ISEEditor**. Cada objeto [ISEFile](The-ISEFile-Object.md) tiene asociado un objeto **ISEEditor**. En las secciones siguientes se enumeran los métodos y las propiedades de un objeto **ISEEditor**.
+  Un objeto **ISEEditor** es una instancia de la clase Microsoft.PowerShell.Host.ISE.ISEEditor. El panel de consola es un objeto **ISEEditor**. Cada objeto [ISEFile](The-ISEFile-Object.md) tiene asociado un objeto **ISEEditor**. En las secciones siguientes se enumeran los métodos y las propiedades de un objeto **ISEEditor**.
 
 ## Métodos
 
@@ -29,7 +32,7 @@ $psIse.CurrentPowerShellTab.ConsolePane.Clear()
  Desplaza el editor de modo que la línea que corresponde al valor del parámetro **lineNumber** especificado está visible. Produce una excepción si el número de línea especificado está fuera del intervalo de 1, último número de línea, que define los números de línea válidos.
 
  **lineNumber**
- Número de la línea que se debe hacer visible.
+: número de la línea que se debe hacer visible.
 
 ```
 # Scrolls the text in the Script pane so that the fifth line is in view. 
@@ -53,10 +56,10 @@ $psISE.CurrentPowerShellTab.ConsolePane.Focus()
  Obtiene la longitud de línea como un entero de la línea especificada por el número de línea.
 
  **lineNumber**
- Número de la línea de la que se obtendrá la longitud.
+: número de la línea de la que se obtendrá la longitud.
 
- **Devuelve**
- Longitud de línea de la línea que corresponde al número de línea especificado.
+ **Returns**
+: longitud de la línea que corresponde al número de línea especificado.
 
 ```
 # Gets the length of the first line in the text of the Command pane. 
@@ -66,7 +69,7 @@ $psIse.CurrentPowerShellTab.ConsolePane.GetLineLength(1)
 ### GoToMatch()
   Se admite en Windows PowerShell ISE 3.0 y versiones posteriores y no está presente en las versiones anteriores. 
 
- Mueve el símbolo de intercalación al carácter coincidente si la propiedad **CanGoToMatch** del objeto del editor es **$true**, lo que ocurre cuando el símbolo de intercalación está inmediatamente antes de "(", "[" o "{" (paréntesis, corchete o llave de apertura) o inmediatamente después de ")", "]" o "}" (paréntesis, corchete o llave de cierre).  El símbolo de intercalación se coloca delante de un carácter de apertura o después de un carácter de cierre. Si la propiedad **CanGoToMatch** es **$false**, el método no hace nada. Consulte [CanGoToMatch](#cangotomatch)..
+ Mueve el símbolo de intercalación al carácter coincidente si la propiedad **CanGoToMatch** del objeto del editor es **$true**, lo que ocurre cuando el símbolo de intercalación está inmediatamente antes de "(", "[" o "{" (paréntesis, corchete o llave de apertura) o inmediatamente después de ")", "]" o "}" (paréntesis, corchete o llave de cierre).  El símbolo de intercalación se coloca delante de un carácter de apertura o después de un carácter de cierre. Si la propiedad **CanGoToMatch** es **$false**, el método no hace nada. Consulte [CanGoToMatch](#cangotomatch).
 
 ```
 # Test to see if the caret is next to a parenthesis, bracket, or brace.
@@ -77,8 +80,7 @@ $psIse.CurrentPowerShellTab.ConsolePane.GetLineLength(1)
 
  Reemplaza la selección por texto o inserta texto en la posición del símbolo de intercalación actual.
 
- **text**: cadena
- Texto que se insertará.
+ Cadena **text** \-: texto que se insertará.
 
  Vea [Ejemplo de scripting](#example) más adelante en este tema.
 
@@ -87,17 +89,13 @@ $psIse.CurrentPowerShellTab.ConsolePane.GetLineLength(1)
 
  Selecciona el texto de los parámetros **startLine**, **startColumn**, **endLine** y **endColumn**.
 
- **startLine**: entero
- Línea donde comienza la selección.
+ Entero **startLine** \-: línea donde comienza la selección.
 
- **startColumn**: entero
- Columna que está dentro de la línea de inicio donde comienza la selección.
+ Entero **startColumn** \-: columna de la línea de inicio donde comienza la selección.
 
- **endLine**: entero
- Línea donde acaba la selección.
+ Entero **endLine** \-: línea donde acaba la selección.
 
- **endColumn**: entero
- Columna que está dentro de la línea de finalización donde acaba la selección.
+ Entero **endColumn** \-: columna de la línea de fin donde acaba la selección.
 
  Vea [Ejemplo de scripting](#example) más adelante en este tema.
 
@@ -119,11 +117,9 @@ $psIse.CurrentFile.Editor.SelectCaretLine()
 
  Establece la posición del símbolo de intercalación en el número de línea y el número de columna. Produce una excepción si el número de línea del símbolo de intercalación o el número de columna del símbolo de intercalación están fuera de sus  intervalos válidos respectivos.
 
- **lineNumber**: entero
- Número de línea del símbolo de intercalación.
+ Entero **lineNumber** \-: número de línea del símbolo de intercalación.
 
- **columnNumber**: entero
- Número de columna del símbolo de intercalación.
+ Entero **columnNumber** \-: número de columna del símbolo de intercalación.
 
 ```
 # Set the CaretPosition.
@@ -146,7 +142,7 @@ $psIse.CurrentFile.Editor.ToggleOutliningExpansion()
 ###  <a name="CanGoToMatch"></a> CanGoToMatch
   Se admite en Windows PowerShell ISE 3.0 y versiones posteriores y no está presente en las versiones anteriores. 
 
- Propiedad booleana de solo lectura que indica si el símbolo de intercalación está al lado de "()", "[]" o "{}" (paréntesis, corchete o llave). Si el símbolo de intercalación está inmediatamente antes del carácter de apertura o inmediatamente después del carácter de cierre de un par, el valor de esta propiedad es **$true**. Si no, es **$false**..
+ Propiedad booleana de solo lectura que indica si el símbolo de intercalación está al lado de "()", "[]" o "{}" (paréntesis, corchete o llave). Si el símbolo de intercalación está inmediatamente antes del carácter de apertura o inmediatamente después del carácter de cierre de un par, el valor de esta propiedad es **$true**. Si no, es **$false**.
 
 ```
 # Test to see if the caret is next to a parenthesis, bracket, or brace
@@ -243,10 +239,10 @@ $myEditor.InsertText($selection.ToLower())
 ```
 
 ## Consulte también
- [El objeto ISEFile](The-ISEFile-Object.md) 
- [El objeto PowerShellTab](The-PowerShellTab-Object.md) 
- [El modelo de objetos de scripting de ISE de Windows PowerShell](The-Windows-PowerShell-ISE-Scripting-Object-Model.md) 
- [Referencia del modelo de objetos de ISE de Windows PowerShell](Windows-PowerShell-ISE-Object-Model-Reference.md) 
+ [The ISEFile Object (El objeto ISEFile)](The-ISEFile-Object.md) 
+ [The PowerShellTab Object (El objeto PowerShellTab)](The-PowerShellTab-Object.md) 
+ [The Windows PowerShell ISE Scripting Object Model (El modelo de objetos de scripting de Windows PowerShell ISE)](The-Windows-PowerShell-ISE-Scripting-Object-Model.md) 
+ [Windows PowerShell ISE Object Model Reference (Referencia del modelo de objetos de Windows PowerShell ISE)](Windows-PowerShell-ISE-Object-Model-Reference.md) 
  [La jerarquía del modelo de objetos de ISE](The-ISE-Object-Model-Hierarchy.md)
 
   

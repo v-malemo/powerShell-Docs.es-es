@@ -1,3 +1,14 @@
+---
+title:  Instalación y uso de Windows PowerShell Web Access
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+---
+
 #  Instalación y uso de Windows PowerShell Web Access
 
 Actualizado: 5 de noviembre de 2013
@@ -128,9 +139,9 @@ Puede instalar la puerta de enlace de Windows PowerShell Web Access en un servid
 
 1.  Realice una de las siguientes acciones para abrir una sesión de Windows PowerShell con derechos de usuario elevados.
 
-    -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas y luego haga clic en **Ejecutar como administrador**..
+    -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell**, en la barra de tareas y, luego,en **Ejecutar como administrador**.
 
-    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y luego haga clic en **Ejecutar como administrador**..
+    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y, luego, en **Ejecutar como administrador**.
 
     <table>
     <colgroup>
@@ -217,9 +228,9 @@ Puede completar la configuración de la aplicación web Windows PowerShell Web A
 
     -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas.
 
-    -   En la pantalla **Inicio** de Windows, haga clic en **Windows PowerShell**..
+    -   En la pantalla **Inicio** de Windows, haga clic en **Windows PowerShell**.
 
-2.  Escriba lo siguiente y, a continuación, presione **Entrar**..
+2.  Escriba lo siguiente y, después, presione **Entrar**.
 
     **Install-PswaWebApplication -UseTestCertificate**
 
@@ -266,7 +277,7 @@ Puede completar la configuración de la aplicación web Windows PowerShell Web A
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>No podrá iniciar sesión hasta que se haya concedido a los usuarios acceso al sitio web mediante la adición de reglas de autorización. Para más información, consulte <a href="#BKMK_step3">Paso 3: Configurar una regla de autorización restrictiva</a> y <a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx">Reglas de autorización y características de seguridad de Windows PowerShell Web Access</a>.</p></td>
+    <td><p>No podrá iniciar sesión hasta que se haya concedido a los usuarios acceso al sitio web mediante la adición de reglas de autorización. Para obtener más información, consulte <a href="#BKMK_step3">Paso 3: Configurar una regla de autorización restrictiva</a> y <a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx">Reglas de autorización y características de seguridad de Windows PowerShell Web Access</a>.</p></td>
     </tr>
     </tbody>
     </table>
@@ -277,9 +288,9 @@ Puede completar la configuración de la aplicación web Windows PowerShell Web A
 
     -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas.
 
-    -   En la pantalla **Inicio** de Windows, haga clic en **Windows PowerShell**..
+    -   En la pantalla **Inicio** de Windows, haga clic en **Windows PowerShell**.
 
-2.  Escriba lo siguiente y, a continuación, presione **Entrar**..
+2.  Escriba lo siguiente y, después, presione **Entrar**.
 
     **Install-PswaWebApplication**
 
@@ -295,9 +306,9 @@ Puede completar la configuración de la aplicación web Windows PowerShell Web A
 
 3.  Abra la consola del Administrador de IIS mediante uno de los siguientes procedimientos.
 
-    -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor. En el menú **Herramientas** del Administrador del servidor, haga clic en **Administrador de Internet Information Services (IIS)**..
+    -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor. En el menú **Herramientas** del Administrador del servidor, haga clic en **Administrador de Internet Information Services (IIS)**.
 
-    -   En la pantalla **Inicio** de Windows, haga clic en **Administrador del servidor**..
+    -   En la pantalla **Inicio** de Windows, haga clic en **Administrador del servidor**.
 
 4.  En el panel del árbol del Administrador de IIS, expanda el nodo del servidor en el que está instalado Windows PowerShell Web Access hasta que aparezca la carpeta **Sitios**. Expanda la carpeta **Sitios**.
 
@@ -322,7 +333,7 @@ Puede completar la configuración de la aplicación web Windows PowerShell Web A
     </thead>
     <tbody>
     <tr class="odd">
-    <td><p>No podrá iniciar sesión hasta que se haya concedido a los usuarios acceso al sitio web mediante la adición de reglas de autorización. Para más información, consulte <a href="#BKMK_step3">Paso 3: Configurar una regla de autorización restrictiva</a> y <a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx">Reglas de autorización y características de seguridad de Windows PowerShell Web Access</a>.</p></td>
+    <td><p>No podrá iniciar sesión hasta que se haya concedido a los usuarios acceso al sitio web mediante la adición de reglas de autorización. Para obtener más información, consulte <a href="#BKMK_step3">Paso 3: Configurar una regla de autorización restrictiva</a> y <a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx">Reglas de autorización y características de seguridad de Windows PowerShell Web Access</a>.</p></td>
     </tr>
     </tbody>
     </table>
@@ -334,27 +345,27 @@ Puede completar la configuración de la aplicación web Windows PowerShell Web A
 
 ------------------------------------------------------------------------
 
-Una vez instalado Windows PowerShell Web Access y configurada la puerta de enlace, los usuarios podrán abrir la página de inicio de sesión en un explorador, pero no podrán iniciar sesión hasta que el administrador de Windows PowerShell Web Access les conceda acceso de manera explícita. El control de acceso de Windows PowerShell Web Access se administra mediante el conjunto de cmdlets de Windows PowerShell descrito en la siguiente tabla. No existe una GUI comparable para agregar o administrar reglas de autorización. Para más información sobre los cmdlets de Windows PowerShell Web Access, consulte los temas de referencia de cmdlet, [Cmdlets de Windows PowerShell Web Access](https://technet.microsoft.com/library/hh918342.aspx).
+Una vez instalado Windows PowerShell Web Access y configurada la puerta de enlace, los usuarios podrán abrir la página de inicio de sesión en un explorador, pero no podrán iniciar sesión hasta que el administrador de Windows PowerShell Web Access les conceda acceso de manera explícita. El control de acceso de Windows PowerShell Web Access se administra mediante el conjunto de cmdlets de Windows PowerShell descrito en la siguiente tabla. No existe una GUI comparable para agregar o administrar reglas de autorización. Para obtener más información sobre los cmdlets de Windows PowerShell Web Access, consulte los temas de referencia de cmdlet, [Windows PowerShell Web Access Cmdlets](https://technet.microsoft.com/library/hh918342.aspx) (Cmdlets de Windows PowerShell Web Access).
 
-Para más información sobre la seguridad y las reglas de autorización de Windows PowerShell Web Access, consulte [Reglas de autorización y características de seguridad de Windows PowerShell Web Access](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx).
+Para obtener más información sobre la seguridad y las reglas de autorización de Windows PowerShell Web Access, consulte [Reglas de autorización y características de seguridad de Windows PowerShell Web Access](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx).
 
 #### Para agregar una regla de autorización restrictiva
 
 1.  Realice una de las siguientes acciones para abrir una sesión de Windows PowerShell con derechos de usuario elevados.
 
-    -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas y luego haga clic en **Ejecutar como administrador**..
+    -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell**, en la barra de tareas y, luego,en **Ejecutar como administrador**.
 
-    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y luego haga clic en **Ejecutar como administrador**..
+    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y, luego, en **Ejecutar como administrador**.
 
 2.  <span class="label">Paso opcional para restringir el acceso del usuario mediante configuraciones de sesión:</span> Compruebe que las configuraciones de sesión que quiere usar en las reglas ya existen. Si aún no se han creado, use las instrucciones para crear configuraciones de sesión proporcionadas en [about\_Session\_Configuration\_Files](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx) (Acerca de los archivos de configuración de sesión) en MSDN.
 
-3.  Escriba lo siguiente y, a continuación, presione **Entrar**..
+3.  Escriba lo siguiente y, después, presione **Entrar**.
 
     [Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_f9e7959b-75d0-4d63-8f8e-02334a8dd09d'); "Copy to clipboard.")
 
         Add-PswaAuthorizationRule –UserName <domain\user | computer\user> -ComputerName <computer_name> -ConfigurationName <session_configuration_name>
 
-    Esta regla de autorización concede a un usuario específico acceso a un equipo de la red al que tiene acceso normalmente, con acceso a una configuración de sesión determinada en el ámbito de las necesidades de cmdlet y scripting típicas del usuario. En el siguiente ejemplo, se concede acceso a un usuario llamado <span class="code">JSmith</span> en el dominio <span class="code">Contoso</span> para administrar el equipo <span class="code">Contoso\_214</span> y usar una configuración de sesión llamada <span class="code">NewAdminsOnly.</span>.
+    Esta regla de autorización concede a un usuario específico acceso a un equipo de la red al que tiene acceso normalmente, con acceso a una configuración de sesión determinada en el ámbito de las necesidades de cmdlet y scripting típicas del usuario. En el siguiente ejemplo, se concede acceso a un usuario llamado <span class="code">JSmith</span> en el dominio <span class="code">Contoso</span> para administrar el equipo <span class="code">Contoso\_214</span> y usar una configuración de sesión llamada <span class="code">NewAdminsOnly</span>.
 
     [Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_ebd5bc5e-ec5d-4955-a86a-63843e480e37'); "Copy to clipboard.")
 
@@ -386,15 +397,15 @@ Puede instalar la puerta de enlace de Windows PowerShell Web Access en un servid
 
     -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor.
 
-    -   En la pantalla **Inicio** de Windows, haga clic en **Administrador del servidor**..
+    -   En la pantalla **Inicio** de Windows, haga clic en **Administrador del servidor**.
 
 2.  En el menú **Administrar**, haga clic en **Agregar roles y características**.
 
-3.  En la página **Seleccionar tipo de instalación**, seleccione **Instalación basada en características o en roles**. Haga clic en **Siguiente**..
+3.  En la página **Seleccionar tipo de instalación**, seleccione **Instalación basada en características o en roles**. Haga clic en **Siguiente**.
 
-4.  En la página **Seleccionar servidor de destino**, seleccione un servidor del grupo de servidores o un VHD sin conexión. Para seleccionar un VHD sin conexión como servidor de destino, primero seleccione el servidor en el que montará el VHD y, a continuación, seleccione el archivo VHD. Para obtener información sobre cómo agregar servidores al grupo de servidores, consulte la Ayuda del Administrador del servidor. Una vez seleccionado el servidor de destino, haga clic en **Siguiente**..
+4.  En la página **Seleccionar servidor de destino**, seleccione un servidor del grupo de servidores o un VHD sin conexión. Para seleccionar un VHD sin conexión como servidor de destino, primero seleccione el servidor en el que montará el VHD y, a continuación, seleccione el archivo VHD. Para obtener información sobre cómo agregar servidores al grupo de servidores, consulte la Ayuda del Administrador del servidor. Una vez seleccionado el servidor de destino, haga clic en **Siguiente**.
 
-5.  En la página **Seleccionar características** del asistente, expanda **Windows PowerShell** y, a continuación, seleccione **Windows PowerShell Web Access**..
+5.  En la página **Seleccionar características** del asistente, expanda **Windows PowerShell** y seleccione **Windows PowerShell Web Access**.
 
 6.  Se le pedirá que agregue las características necesarias, como .NET Framework 4.5 y los servicios de rol de Servidor web (IIS). Agregue las características necesarias y continúe.
 
@@ -436,23 +447,23 @@ Las instrucciones de esta sección explican cómo instalar la aplicación web Wi
 
 1.  Abra la consola del Administrador de IIS mediante uno de los siguientes procedimientos.
 
-    -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor. En el menú **Herramientas** del Administrador del servidor, haga clic en **Administrador de Internet Information Services (IIS)**..
+    -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor. En el menú **Herramientas** del Administrador del servidor, haga clic en **Administrador de Internet Information Services (IIS)**.
 
     -   En la pantalla **Inicio** de Windows, escriba cualquier parte del nombre **Administrador de Internet Information Services (IIS)**. Haga clic en el acceso directo cuando se muestre en los resultados de **Aplicaciones**.
 
 2.  Cree un nuevo grupo de aplicaciones para Windows PowerShell Web Access. Expanda el nodo del servidor de puerta de enlace en el panel del árbol del Administrador de IIS, seleccione **Grupos de aplicaciones** y haga clic en **Agregar grupo de aplicaciones** en el panel **Acciones**.
 
-3.  Agregue un nuevo grupo de aplicaciones con el nombre **pswa\_pool** o proporcione otro nombre. Haga clic en **Aceptar**..
+3.  Agregue un nuevo grupo de aplicaciones con el nombre **pswa\_pool** o proporcione otro nombre. Haga clic en **Aceptar**.
 
 4.  En el panel del árbol del Administrador de IIS, expanda el nodo del servidor en el que está instalado Windows PowerShell Web Access hasta que aparezca la carpeta **Sitios**. Seleccione la carpeta **Sitios**.
 
-5.  Haga clic con el botón derecho en el sitio web (por ejemplo, **Sitio web predeterminado**) en el que desea agregar el sitio web de Windows PowerShell Web Access y, a continuación, haga clic en **Agregar aplicación**.
+5.  Haga clic con el botón derecho en el sitio web (por ejemplo, **Sitio web predeterminado**) en el que quiere agregar el sitio web de Windows PowerShell Web Access y, después, haga clic en **Agregar aplicación**.
 
 6.  En el campo **Alias**, escriba pswa o proporcione un alias diferente. El alias se convierte en el nombre de directorio virtual. Por ejemplo, **pswa** en la siguiente dirección URL representa el alias especificado en este paso: https://&lt;server\_name&gt;/pswa.
 
 7.  En el campo **Grupo de aplicaciones**, seleccione el grupo de aplicaciones creado en el paso 3.
 
-8.  En el campo **Ruta de acceso física**, busque la ubicación de la aplicación. Puede usar la ubicación predeterminada %windir%/Web/PowerShellWebAccess/wwwroot. Haga clic en **Aceptar**..
+8.  En el campo **Ruta de acceso física**, busque la ubicación de la aplicación. Puede usar la ubicación predeterminada %windir%/Web/PowerShellWebAccess/wwwroot. Haga clic en **Aceptar**.
 
 9.  Siga los pasos del procedimiento [Para configurar un certificado SSL en el Administrador de IIS](#BKMK_cert) en este tema.
 
@@ -498,7 +509,7 @@ Las instrucciones de esta sección explican cómo instalar la aplicación web Wi
 
 1.  Abra la consola del Administrador de IIS mediante uno de los siguientes procedimientos.
 
-    -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor. En el menú **Herramientas** del Administrador del servidor, haga clic en **Administrador de Internet Information Services (IIS)**..
+    -   En el escritorio de Windows, haga clic en **Administrador del servidor** en la barra de tareas de Windows para iniciar el Administrador del servidor. En el menú **Herramientas** del Administrador del servidor, haga clic en **Administrador de Internet Information Services (IIS)**.
 
     -   En la pantalla **Inicio** de Windows, escriba cualquier parte del nombre **Administrador de Internet Information Services (IIS)**. Haga clic en el acceso directo cuando se muestre en los resultados de **Aplicaciones**.
 
@@ -508,7 +519,7 @@ Las instrucciones de esta sección explican cómo instalar la aplicación web Wi
 
 4.  Escriba un nombre para el sitio web, como **Windows PowerShell Web Access**.
 
-5.  Se creará automáticamente un grupo de aplicaciones para el nuevo sitio web. Para usar un grupo de aplicaciones diferente, haga clic en **Seleccionar** para seleccionar un grupo de aplicaciones a fin de asociarlo con el nuevo sitio web. Seleccione el grupo de aplicaciones alternativo en el cuadro de diálogo **Seleccionar grupo de aplicaciones** y, a continuación, haga clic en **Aceptar**.
+5.  Se creará automáticamente un grupo de aplicaciones para el nuevo sitio web. Para usar un grupo de aplicaciones diferente, haga clic en **Seleccionar** para seleccionar un grupo de aplicaciones a fin de asociarlo con el nuevo sitio web. Seleccione el grupo de aplicaciones alternativo en el cuadro de diálogo **Seleccionar grupo de aplicaciones** y, después, haga clic en **Aceptar**.
 
 6.  En el cuadro de texto **Ruta de acceso física**, vaya a %*windir*%/Web/PowerShellWebAccess/wwwroot.
 
@@ -518,7 +529,7 @@ Las instrucciones de esta sección explican cómo instalar la aplicación web Wi
 
     Cambie el puerto predeterminado si otro sitio web ya está usando el 443 o por algún otro motivo de seguridad. Si otro sitio web que se ejecuta en el servidor de puerta de enlace está usando el puerto seleccionado, se mostrará una advertencia cuando haga clic en **Aceptar** en el cuadro de diálogo **Agregar sitio web**. Debe usar un puerto que no esté en uso para ejecutar Windows PowerShell Web Access.
 
-9.  De forma opcional, si es necesario en su organización, especifique un nombre de host que tenga sentido para la organización y los usuarios, como **www.contoso.com**. Haga clic en **Aceptar**..
+9.  De forma opcional, si es necesario en su organización, especifique un nombre de host que tenga sentido para la organización y los usuarios, como **www.contoso.com**. Haga clic en **Aceptar**.
 
 10. En un entorno de producción más seguro, se recomienda encarecidamente proporcionar un certificado válido firmado por una CA. Debe proporcionar un certificado SSL, porque los usuarios solo se pueden conectar a Windows PowerShell Web Access a través de un sitio web HTTPS. Consulte [Para configurar un certificado SSL en el Administrador de IIS](#BKMK_cert) en este tema para obtener más información sobre cómo obtener un certificado.
 
@@ -568,27 +579,27 @@ Las instrucciones de esta sección explican cómo instalar la aplicación web Wi
 
 ------------------------------------------------------------------------
 
-Una vez instalado Windows PowerShell Web Access y configurada la puerta de enlace, los usuarios podrán abrir la página de inicio de sesión en un explorador, pero no podrán iniciar sesión hasta que el administrador de Windows PowerShell Web Access les conceda acceso de manera explícita. El control de acceso de Windows PowerShell Web Access se administra mediante el conjunto de cmdlets de Windows PowerShell descrito en la siguiente tabla. No existe una GUI comparable para agregar o administrar reglas de autorización. Para más información sobre los cmdlets de Windows PowerShell Web Access, consulte los temas de referencia de cmdlet, [Cmdlets de Windows PowerShell Web Access](https://technet.microsoft.com/library/hh918342.aspx).
+Una vez instalado Windows PowerShell Web Access y configurada la puerta de enlace, los usuarios podrán abrir la página de inicio de sesión en un explorador, pero no podrán iniciar sesión hasta que el administrador de Windows PowerShell Web Access les conceda acceso de manera explícita. El control de acceso de Windows PowerShell Web Access se administra mediante el conjunto de cmdlets de Windows PowerShell descrito en la siguiente tabla. No existe una GUI comparable para agregar o administrar reglas de autorización. Para obtener más información sobre los cmdlets de Windows PowerShell Web Access, consulte los temas de referencia de cmdlet, [Windows PowerShell Web Access Cmdlets](https://technet.microsoft.com/library/hh918342.aspx) (Cmdlets de Windows PowerShell Web Access).
 
-Para más información sobre la seguridad y las reglas de autorización de Windows PowerShell Web Access, consulte [Reglas de autorización y características de seguridad de Windows PowerShell Web Access](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx).
+Para obtener más información sobre la seguridad y las reglas de autorización de Windows PowerShell Web Access, consulte [Reglas de autorización y características de seguridad de Windows PowerShell Web Access](https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx).
 
 #### Para agregar una regla de autorización restrictiva
 
 1.  Realice una de las siguientes acciones para abrir una sesión de Windows PowerShell con derechos de usuario elevados.
 
-    -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas y luego haga clic en **Ejecutar como administrador**..
+    -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell**, en la barra de tareas y, luego,en **Ejecutar como administrador**.
 
-    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y luego haga clic en **Ejecutar como administrador**..
+    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y, luego, en **Ejecutar como administrador**.
 
 2.  <span class="label">Paso opcional para restringir el acceso del usuario mediante configuraciones de sesión:</span> Compruebe que las configuraciones de sesión que quiere usar en las reglas ya existen. Si aún no se han creado, use las instrucciones para crear configuraciones de sesión proporcionadas en [about\_Session\_Configuration\_Files](https://msdn.microsoft.com/library/windows/desktop/hh847838.aspx) (Acerca de los archivos de configuración de sesión) en MSDN.
 
-3.  Escriba lo siguiente y, a continuación, presione **Entrar**..
+3.  Escriba lo siguiente y, después, presione **Entrar**.
 
     [Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_4df22c91-f56f-4bb5-91e7-99f9b365ed5d'); "Copy to clipboard.")
 
         Add-PswaAuthorizationRule –UserName <domain\user | computer\user> -ComputerName <computer_name> -ConfigurationName <session_configuration_name>
 
-    Esta regla de autorización concede a un usuario específico acceso a un equipo de la red al que tiene acceso normalmente, con acceso a una configuración de sesión determinada en el ámbito de las necesidades de cmdlet y scripting típicas del usuario. En el siguiente ejemplo, se concede acceso a un usuario llamado <span class="code">JSmith</span> en el dominio <span class="code">Contoso</span> para administrar el equipo <span class="code">Contoso\_214</span> y usar una configuración de sesión llamada <span class="code">NewAdminsOnly.</span>.
+    Esta regla de autorización concede a un usuario específico acceso a un equipo de la red al que tiene acceso normalmente, con acceso a una configuración de sesión determinada en el ámbito de las necesidades de cmdlet y scripting típicas del usuario. En el siguiente ejemplo, se concede acceso a un usuario llamado <span class="code">JSmith</span> en el dominio <span class="code">Contoso</span> para administrar el equipo <span class="code">Contoso\_214</span> y usar una configuración de sesión llamada <span class="code">NewAdminsOnly</span>.
 
     [Copy](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_efc3999a-2905-453f-86cd-014b41658ffc'); "Copy to clipboard.")
 
@@ -613,7 +624,7 @@ Para un entorno de producción seguro, se recomienda usar un certificado SSL vá
 
 2.  En el panel de contenido, haga doble clic en **Certificados de servidor**.
 
-3.  En el panel **Acciones**, realice una de las acciones siguientes. Para más información sobre la configuración de certificados de servidor en IIS, consulte [Configuración de certificados de servidor en IIS 7](https://technet.microsoft.com/library/cc732230.aspx).
+3.  En el panel **Acciones**, realice una de las acciones siguientes. Para obtener más información sobre la configuración de certificados de servidor en IIS, consulte [Configurar certificados de servidor en IIS 7](https://technet.microsoft.com/library/cc732230.aspx).
 
     -   Haga clic en **Importar** para importar un certificado válido existente desde una ubicación de la red.
 
@@ -625,7 +636,7 @@ Para un entorno de producción seguro, se recomienda usar un certificado SSL vá
 
 5.  En el cuadro de diálogo **Agregar enlace de sitio**, agregue un enlace **https** para el sitio, si aún no se muestra ninguno. Si no usa un certificado autofirmado, especifique el nombre de host del paso 3 de este procedimiento. Si usa un certificado autofirmado, este paso no es necesario.
 
-6.  Seleccione el certificado obtenido o creado en el paso 3 de este procedimiento y, a continuación, haga clic en **Aceptar**.
+6.  Seleccione el certificado obtenido o creado en el paso 3 de este procedimiento y, después, haga clic en **Aceptar**.
 
 <a href="" id="BKMK_using"></a>
 
@@ -634,7 +645,7 @@ Para un entorno de producción seguro, se recomienda usar un certificado SSL vá
 
 ------------------------------------------------------------------------
 
-Una vez instalado Windows PowerShell Web Access y configurada la puerta de enlace como se describe en este tema, la consola de Windows PowerShell basada en web estará lista para usarse. Para más información sobre la introducción a la consola basada en web, consulte [Uso de la consola de Windows PowerShell basada en web](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx).
+Una vez instalado Windows PowerShell Web Access y configurada la puerta de enlace como se describe en este tema, la consola de Windows PowerShell basada en web estará lista para usarse. Para obtener más información sobre la introducción a la consola basada en web, consulte [Uso de la consola de Windows PowerShell basada en web](https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx).
 
 <a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Collapse"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Consulte también</span></a>
 <a href="/en-us/library/hh831611(v=ws.11).aspx#Anchor_6" class="LW_CollapsibleArea_Anchor_Img" title="Right-click to copy and share the link for this section"></a>
@@ -643,20 +654,17 @@ Una vez instalado Windows PowerShell Web Access y configurada la puerta de enlac
 
 [Documentación de Internet Information Services (IIS) 7.0](https://technet.microsoft.com/library/cc753433.aspx)
 [Ayuda del Administrador de IIS 7.0](https://technet.microsoft.com/library/cc732664.aspx)
-[Configurar la seguridad de Servidor web (IIS 7)](https://technet.microsoft.com/library/cc731278.aspx)
+[Configurar la seguridad de los servidores web (IIS 7)](https://technet.microsoft.com/library/cc731278.aspx)
 [Recursos de implementación de IPsec](https://technet.microsoft.com/network/bb531150)
 
 <span>Mostrar:</span> heredado protegido
 
 <span class="stdr-votetitle">¿Le resultó útil esta página?</span>
-Sí
-No
+Sí No
 
 ¿Algún otro comentario?
 
-<span class="stdr-count"><span class="stdr-charcnt">1500</span> caracteres restantes</span>
-Enviar
-Omitir esto
+<span class="stdr-count"><span class="stdr-charcnt">1500</span> caracteres restantes</span> Enviar Omitir esto
 
 <span class="stdr-thankyou">Gracias.</span> <span class="stdr-appreciate">Apreciamos sus comentarios.</span>
 
@@ -664,8 +672,7 @@ Omitir esto
 
 |
 
-<a href="javascript:void(0)" id="SiteFeedbackLinkOpener"><span id="FeedbackButton" class="FeedbackButton clip20x21"> <img src="https://i-technet.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=635975720914499532" alt="Site Feedback" id="feedBackImg" class="cl_footer_feedback_icon" /> </span> Comentarios del sitio</a>
-Comentarios del sitio
+<a href="javascript:void(0)" id="SiteFeedbackLinkOpener"><span id="FeedbackButton" class="FeedbackButton clip20x21"> <img src="https://i-technet.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=635975720914499532" alt="Site Feedback" id="feedBackImg" class="cl_footer_feedback_icon" /> </span> Comentarios del sitio</a> Comentarios del sitio
 
 <a href="javascript:void(0)" id="SiteFeedbackLinkCloser">x</a>
 
@@ -698,6 +705,7 @@ Más información
 
 Los scripts y el código de terceros vinculados a este sitio web o a los que este hace referencia se le ofrecen a usted bajo licencia de las partes propietarias de dicho código, no de Microsoft. Consulte los términos de uso de Ajax CDN para ASP.NET en http://www.asp.net/ajaxlibrary/CDN.ashx.
 <img src="https://m.webtrends.com/dcsjwb9vb00000c932fd0rjc7_5p3t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No" alt="DCSIMG" id="Img1" width="1" height="1" />
+
 
 
 <!--HONumber=May16_HO2-->

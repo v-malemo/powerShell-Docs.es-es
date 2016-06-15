@@ -1,3 +1,14 @@
+---
+title:  Solución de problemas de acceso en Windows PowerShell Web Access
+ms.date:  2016-05-11
+keywords:  powershell,cmdlet
+description:  
+ms.topic:  article
+author:  jpjofre
+manager:  dongill
+ms.prod:  powershell
+---
+
 #  Solución de problemas de acceso en Windows PowerShell Web Access
 
 Actualizado: 24 de junio de 2013
@@ -27,7 +38,7 @@ En la siguiente tabla, se identifican algunos problemas comunes que pueden exper
 <td><p>El error puede producirse por uno de los siguientes motivos.</p>
 <ul>
 <li><p>Una regla de autorización que concede al usuario acceso al equipo, o a una configuración de sesión específica en un equipo remoto, no existe. La seguridad de Windows PowerShell Web Access es restrictiva. Se debe conceder a los usuarios acceso a los equipos remotos de manera explícita mediante reglas de autorización. Para más información sobre la creación de reglas de autorización, consulte <a href="https://technet.microsoft.com/en-us/library/dn282394(v=ws.11).aspx">Authorization Rules and Security Features of Windows PowerShell Web Access</a> (Reglas de autorización y características de seguridad de Windows PowerShell Web Access) en esta guía.</p></li>
-<li><p>El usuario no tiene acceso autorizado al equipo de destino. Este se determina mediante listas de control de acceso (ACL). Para más información, consulte “Signing in to Windows PowerShell Web Access” (Inicio de sesión en Windows PowerShell Web Access) en <a href="https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx">Use the Web-based Windows PowerShell Console</a> (Uso de la consola de Windows PowerShell basada en web) o visite el <a href="https://msdn.microsoft.com/library/windows/desktop/ee706585.aspx">blog del equipo de Windows PowerShell.</a>.</p>
+<li><p>El usuario no tiene acceso autorizado al equipo de destino. Este se determina mediante listas de control de acceso (ACL). Para obtener más información, consulte Inicio de sesión en Windows PowerShell Web Access en <a href="https://technet.microsoft.com/en-us/library/hh831417(v=ws.11).aspx">Uso de la consola de Windows PowerShell basada en web</a> o visite el <a href="https://msdn.microsoft.com/library/windows/desktop/ee706585.aspx">blog del equipo de Windows PowerShell</a>.</p>
 <ul>
 <li><p>Es posible que la administración remota de Windows PowerShell no esté habilitada en el equipo de destino. Compruebe que esté habilitada en el equipo al que intenta conectarse el usuario. Para más información, consulte "Cómo configurar el equipo para la comunicación remota" en <a href="https://technet.microsoft.com/library/dd315349.aspx">about_Remote_Requirements</a> en los temas de Ayuda conceptual de Windows PowerShell.</p></li>
 </ul></li>
@@ -37,17 +48,17 @@ En la siguiente tabla, se identifican algunos problemas comunes que pueden exper
 <td><p>Cuando los usuarios intentan iniciar sesión en Windows PowerShell Web Access en una ventana de Internet Explorer, aparecerá la página <strong>Error interno del servidor</strong>, o bien Internet Explorer dejará de responder. Este problema es específico de Internet Explorer.</p></td>
 <td><p>Esto puede ocurrir si el usuario ha iniciado sesión con un nombre de dominio que contiene caracteres en chino o si el nombre del servidor de puerta de enlace contiene uno o más caracteres en este idioma. Para solucionar este problema, el usuario debe <a href="http://ie.microsoft.com/testdrive/info/downloads/Default.html">instalar y ejecutar Internet Explorer 10</a> y luego llevar a cabo los siguientes pasos.</p>
 <ol>
-<li><p>Cambie la configuración <strong>Modo de documento de Internet Explorer</strong> a <strong>Estándar de IE10.</strong>.</p>
+<li><p>Cambie la configuración <strong>Modo de documento</strong> de Internet Explorer a <strong>Estándar de IE10</strong>.</p>
 <ol>
 <li><p>Presione <strong>F12</strong> para abrir la consola Herramientas de desarrollo.</p></li>
-<li><p>En Internet Explorer 10, haga clic en <strong>Modo de explorador</strong> y luego seleccione <strong>Internet Explorer 10.</strong>.</p></li>
-<li><p>Haga clic en <strong>Modo de documento</strong> y luego en <strong>Estándar de IE10.</strong>.</p></li>
+<li><p>En Internet Explorer 10, haga clic en <strong>Modo de explorador</strong> y, luego, seleccione <strong>Internet Explorer 10</strong>.</p></li>
+<li><p>Haga clic en <strong>Modo de documento</strong> y, luego, en <strong>Estándar de IE10</strong>.</p></li>
 <li><p>Vuelva a presionar <strong>F12</strong> para cerrar la consola Herramientas de desarrollo.</p></li>
 </ol></li>
 <li><p>Deshabilite la configuración automática de servidor proxy.</p>
 <ol>
-<li><p>En Internet Explorer 10, haga clic en <strong>Herramientas</strong> y luego en <strong>Opciones de Internet.</strong>.</p></li>
-<li><p>En el cuadro de diálogo <strong>Opciones de Internet</strong>, en la pestaña <strong>Conexiones</strong>, haga clic en <strong>Configuración de LAN.</strong>.</p></li>
+<li><p>En Internet Explorer 10, haga clic en <strong>Herramientas</strong> y, luego, en <strong>Opciones de Internet</strong>.</p></li>
+<li><p>En el cuadro de diálogo <strong>Opciones de Internet</strong>, en la pestaña <strong>Conexiones</strong>, haga clic en <strong>Configuración de LAN</strong>.</p></li>
 <li><p>Desactive la casilla <strong>Detectar la configuración automáticamente</strong>. Haga clic en<strong>Aceptar</strong> y, de nuevo, en <strong>Aceptar</strong> para cerrar el cuadro de diálogo <strong>Opciones de Internet</strong>.</p></li>
 </ol></li>
 </ol></td>
@@ -107,7 +118,7 @@ En la siguiente tabla, se identifican algunos problemas comunes que pueden exper
 <ul>
 <li><p><em>Nombre_servidor</em>\<em>nombre_usuario</em></p></li>
 <li><p>Localhost\<em>nombre_usuario</em></p></li>
-<li><p>.\<em>nombre_de_usuario</em></p></li>
+<li><p>.\<em>nombre_usuario</em></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -116,7 +127,7 @@ En la siguiente tabla, se identifican algunos problemas comunes que pueden exper
 </tr>
 <tr class="even">
 <td><p>No puede iniciar sesión en un equipo de destino que se ha especificado en las reglas de autorización como una dirección IPv6 con un dominio.</p></td>
-<td><p>Las reglas de autorización no admiten direcciones IPv6 en forma de nombre de dominio. Para especificar un equipo de destino mediante una dirección IPv6, use la dirección IPv6 original (que contiene caracteres de dos puntos) en la regla de autorización. Tanto las direcciones IPv6 de dominio como las numéricas (con caracteres de dos puntos) se admiten como nombre del equipo de destino en la página de inicio de sesión de Windows PowerShell Web Access, pero no en las reglas de autorización. Para más información sobre las direcciones IPv6, consulte <a href="https://technet.microsoft.com/library/cc781672.aspx">How IPv6 Works (Cómo funciona IPv6).</a>.</p></td>
+<td><p>Las reglas de autorización no admiten direcciones IPv6 en forma de nombre de dominio. Para especificar un equipo de destino mediante una dirección IPv6, use la dirección IPv6 original (que contiene caracteres de dos puntos) en la regla de autorización. Tanto las direcciones IPv6 de dominio como las numéricas (con caracteres de dos puntos) se admiten como nombre del equipo de destino en la página de inicio de sesión de Windows PowerShell Web Access, pero no en las reglas de autorización. Para obtener más información sobre las direcciones IPv6, consulte <a href="https://technet.microsoft.com/library/cc781672.aspx">How IPv6 Works</a> (Funcionamiento de IPv6).</p></td>
 </tr>
 </tbody>
 </table>
@@ -133,14 +144,11 @@ En la siguiente tabla, se identifican algunos problemas comunes que pueden exper
 <span>Mostrar:</span> heredado protegido
 
 <span class="stdr-votetitle">¿Le resultó útil esta página?</span>
-Sí
-No
+Sí No
 
 ¿Algún otro comentario?
 
-<span class="stdr-count"><span class="stdr-charcnt">1500</span> caracteres restantes</span>
-Enviar
-Omitir esto
+<span class="stdr-count"><span class="stdr-charcnt">1500</span> caracteres restantes</span> Enviar Omitir esto
 
 <span class="stdr-thankyou">Gracias.</span> <span class="stdr-appreciate">Apreciamos sus comentarios.</span>
 
@@ -148,8 +156,7 @@ Omitir esto
 
 |
 
-<a href="javascript:void(0)" id="SiteFeedbackLinkOpener"><span id="FeedbackButton" class="FeedbackButton clip20x21"> <img src="https://i-technet.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=635975720914499532" alt="Site Feedback" id="feedBackImg" class="cl_footer_feedback_icon" /> </span> Comentarios del sitio</a>
-Comentarios del sitio
+<a href="javascript:void(0)" id="SiteFeedbackLinkOpener"><span id="FeedbackButton" class="FeedbackButton clip20x21"> <img src="https://i-technet.sec.s-msft.com/Areas/Epx/Content/Images/ImageSprite.png?v=635975720914499532" alt="Site Feedback" id="feedBackImg" class="cl_footer_feedback_icon" /> </span> Comentarios del sitio</a> Comentarios del sitio
 
 <a href="javascript:void(0)" id="SiteFeedbackLinkCloser">x</a>
 
@@ -182,6 +189,7 @@ Más información
 
 Los scripts y el código de terceros vinculados a este sitio web o a los que este hace referencia se le ofrecen a usted bajo licencia de las partes propietarias de dicho código, no de Microsoft. Consulte los términos de uso de Ajax CDN para ASP.NET en http://www.asp.net/ajaxlibrary/CDN.ashx.
 <img src="https://m.webtrends.com/dcsjwb9vb00000c932fd0rjc7_5p3t/njs.gif?dcsuri=/nojavascript&amp;WT.js=No" alt="DCSIMG" id="Img1" width="1" height="1" />
+
 
 
 <!--HONumber=May16_HO2-->
