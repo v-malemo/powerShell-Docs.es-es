@@ -32,6 +32,9 @@
   "ea312b4e773cd8b0eceeca123e616957728eb1c6": [
     "dsc\\builtInResource.md"
   ],
+  "8a3ae5fdf5d70de999ca6b992efb14533408c305": [
+    "dsc\\configData.md"
+  ],
   "036c8fff9af66b677fb6750699f1bf9e679de517": [
     "dsc\\configData.md"
   ],
@@ -101,6 +104,9 @@
   "97ffa20191016584fc2fba459c457787365d11ee": [
     "dsc\\logResource.md"
   ],
+  "c66b8d6abf4886143f71c0de823cbfde86d875ba": [
+    "dsc\\metaConfig.md"
+  ],
   "a451e4b8c4483d9099fa69a553162bd0632ef59a": [
     "dsc\\metaConfig.md"
   ],
@@ -157,6 +163,9 @@
   ],
   "ce8d6c1c9e8005c5c4792ae0fa4c5030bb9a92ed": [
     "dsc\\serviceResource.md"
+  ],
+  "924d5878a6d93e846adbd9cb4c69bea79e104bcd": [
+    "dsc\\TOC.md"
   ],
   "2ec3eca1fb7ce214b2b860ad763da69210f4ca37": [
     "dsc\\TOC.md"
@@ -355,6 +364,9 @@
   ],
   "a91b675a4f19306481bb87dc3f3b8cb32ab07e8c": [
     "wmf\\jea_report.md"
+  ],
+  "ad262a8f38b79f748757c1503a5e7173a1010923": [
+    "wmf\\limitation_dsc.md"
   ],
   "fe1c40cbfd2c76f45d170b82d8a099e860b15db8": [
     "wmf\\limitation_dsc.md"
@@ -557,6 +569,9 @@
   "75d41569b18e61342809eebcc76b7899ec6363fa": [
     "scripting\\core-powershell\\Running-Remote-Commands.md"
   ],
+  "b9cb89bb120151df69e3cb26b50c3a0d15c23711": [
+    "dsc\\msft-dsclocalconfigurationmanager.md"
+  ],
   "7fe92c1266593dd98ab6933fb408558effda5ccb": [
     "dsc\\msft-dsclocalconfigurationmanager.md"
   ],
@@ -617,11 +632,17 @@
   "0777467d37e2f5588f9c0ef368148e3bea963a5b": [
     "dsc\\msft-dsclocalconfigurationmanager-testconfiguration.md"
   ],
+  "f4c64d3603fd01f29a63f8b180057714bf3d1197": [
+    "dsc\\crossNodeDependencies.md"
+  ],
   "12ec3c770e592b1c1f43a9150eaaa1964f427363": [
     "dsc\\crossNodeDependencies.md"
   ],
   "1fe624c2532e44ed675762f3c141934fb4f0b60d": [
     "dsc\\directCallResource.md"
+  ],
+  "716ecd9b14976dd70b69a740850ab53670387956": [
+    "dsc\\sxsResource.md"
   ],
   "e8d591c59eb1052184fd8e828780612d6ca32d93": [
     "dsc\\sxsResource.md"
@@ -631,6 +652,9 @@
   ],
   "962941ba946a67256baf141bd195361c94a68f90": [
     "dsc\\nanoDsc.md"
+  ],
+  "becacd2dcbc6fd0edd9154a45342edc5c536935b": [
+    "dsc\\configHelp.md"
   ],
   "725945ae906c66c09d0399e37bf781cdb627a1f2": [
     "dsc\\configHelp.md"
@@ -1064,6 +1088,9 @@
   "9ba9ef3efe6a8ae85d96b59db53ad3a16bf57699": [
     "scripting\\setup\\Installing-the-Windows-PowerShell-SDK.md"
   ],
+  "415e68b372c831ed8dd4535c2968e5a36b5cb65d": [
+    "scripting\\setup\\Installing-Windows-PowerShell.md"
+  ],
   "ce32a9cfd2f0b80ae9697ad4f75695a4aacfabee": [
     "scripting\\setup\\Installing-Windows-PowerShell.md"
   ],
@@ -1081,6 +1108,9 @@
   ],
   "c9b8c6b05e09bc1d9275fffa9967332ce5120a82": [
     "scripting\\setup\\setup-reference.md"
+  ],
+  "41bbdd302aa3aa0d253bc4c820fdbbeb1b827ccc": [
+    "scripting\\setup\\Starting-the-32-Bit-Version-of-Windows-PowerShell.md"
   ],
   "651e1ecc7d4d6b26ffb93d1b5d808b47df47b290": [
     "scripting\\setup\\Starting-the-32-Bit-Version-of-Windows-PowerShell.md"
@@ -1129,6 +1159,9 @@
   ],
   "b1bf871729b206fa95349c60a27787452f26e220": [
     "jea\\jea-guide.md"
+  ],
+  "08b317533a7180e111746334e5d9228caa8a09e7": [
+    "jea\\README.md"
   ],
   "f2c72fc2a66f59d78da643da9febb9e09ce7989e": [
     "jea\\README.md"
