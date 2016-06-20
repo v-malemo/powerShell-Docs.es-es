@@ -55,13 +55,13 @@ Las cuentas virtuales pertenecen de forma predeterminada al grupo de seguridad l
 
 ### Explorar la guía de la experiencia
 ¿Está listo para crear su primer punto de conexión de JEA?
-Consulte la [guía de la experiencia de JEA](./JEA Guide.md) para aprender a crear, implementar y usar su propio punto de conexión de JEA.
+Consulte la [guía de la experiencia de JEA](jea-uide.md) para aprender a crear, implementar y usar su propio punto de conexión de JEA.
 La guía incluye una rápida introducción con un punto de conexión de JEA predefinido para que se haga una idea de cómo es la experiencia del usuario final y, después, describe el proceso de crear el punto de conexión desde cero para explicar las configuraciones de sesión y las funcionalidades de rol.
 
 ### Empiece a crear sus propios puntos de conexión de JEA
 Es fácil crear un punto de conexión de JEA: lo único que necesita es un sistema habilitado para JEA y un editor de texto (como PowerShell ISE).
 Se recomienda que, para empezar, cree archivos esqueleto mediante `New-PSRoleCapabilityFile -Path <path>` y `New-PSSessionCapabilityFile -Path <Path>` sin ningún otro argumento.
-Estos archivos esqueleto contienen todos los campos de configuración aplicables, junto con comentarios útiles que explican para qué puede usarse cada campo. 
+Estos archivos esqueleto contienen todos los campos de configuración aplicables, junto con comentarios útiles que explican para qué puede usarse cada campo.
 
 Para facilitar la creación de puntos de conexión de JEA, consulte el [JEA Toolkit Helper](http://blogs.technet.com/b/privatecloud/archive/2015/12/20/introducing-the-updated-jea-helper-tool.aspx) (Asistente para el kit de herramientas de JEA), que proporciona una GUI con la que puede crear archivos de configuración de sesión y funcionalidad de rol.
 Incluso permite generar funcionalidades de rol basadas en los registros de PowerShell para que tome como punto de partida los comandos que los usuarios ejecutan habitualmente para realizar su trabajo.
