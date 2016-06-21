@@ -26,7 +26,7 @@ Para especificar la parte del entorno de la configuración, DSC utiliza el pará
 ```powershell
 $MyData = 
 @{
-    AllNodes = @();
+    AllNodes = @()
     NonNodeData = ""   
 }
 ```
@@ -65,19 +65,19 @@ $MyData =
     AllNodes = 
     @(
         @{
-            NodeName = "VM-1";
+            NodeName = "VM-1"
             Role     = "WebServer"
         },
 
  
         @{
-            NodeName = "VM-2";
+            NodeName = "VM-2"
             Role     = "SQLServer"
         },
 
  
         @{
-            NodeName = "VM-3";
+            NodeName = "VM-3"
             Role     = "WebServer"
         }
     );
@@ -131,7 +131,7 @@ $MyData =
 
  
         @{
-            NodeName = "VM-1";
+            NodeName = "VM-1"
             Role     = "WebServer"
             SiteContents = "C:\Site1"
             SiteName = "Website1"
@@ -139,14 +139,14 @@ $MyData =
 
  
         @{
-            NodeName = "VM-2";
+            NodeName = "VM-2"
             Role     = "SQLServer"
         },
 
  
         @{
-            NodeName = "VM-3";
-            Role     = "WebServer";
+            NodeName = "VM-3"
+            Role     = "WebServer"
             SiteContents = "C:\Site2"
             SiteName = "Website3"
         }
@@ -168,7 +168,7 @@ $MyData =
 
  
         @{
-            NodeName = "VM-1";
+            NodeName = "VM-1"
             Role     = "WebServer"
             SiteContents = "C:\Site1"
             SiteName = "Website1"
@@ -176,14 +176,14 @@ $MyData =
 
  
         @{
-            NodeName = "VM-2";
+            NodeName = "VM-2"
             Role     = "SQLServer"
         },
  
 
         @{
-            NodeName = "VM-3";
-            Role     = "WebServer";
+            NodeName = "VM-3"
+            Role     = "WebServer"
             SiteContents = "C:\Site2"
             SiteName = "Website3"
         }
@@ -221,6 +221,6 @@ Puede encontrar un ejemplo completo incluido en el [módulo xWebAdministration](
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO3-->
 
 

@@ -30,10 +30,10 @@
 #### [Recurso basado en MOF de C#](authoringResourceMofCS.md)
 ### [Recursos personalizados basados en clases](authoringResourceClass.md)
 ### [Recursos compuestos](authoringResourceComposite.md)
-### [Depuración de recursos de DSC](debugResource.md)
-### [Llamada directa a los métodos de recursos de DSC](directCallResource.md)
 ### [Escribir un recurso de DSC de instancia única (procedimiento recomendado)](singleInstance.md)
 ### [Lista de comprobación de creación de recursos](resourceAuthoringChecklist.md)
+## [Depuración de recursos de DSC](debugResource.md)
+## [Llamada directa a los métodos de recursos de DSC](directCallResource.md)
 
 # [Configuración del administrador de configuración local (LCM)](metaConfig.md)
 ## [Configuración del LCM en PowerShell 4.0](metaConfig4.md)
@@ -91,6 +91,6 @@
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO3-->
 
 
