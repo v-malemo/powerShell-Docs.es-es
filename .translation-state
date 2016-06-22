@@ -27861,9 +27861,9 @@
       "ArchiveFileCommit": "b008660f6240b9e29843fc2b90fc28a662235627",
       "ArchiveFileDateTime": "2016-06-21T13:13:32.1264592Z",
       "ArchiveException": null,
-      "BilingualFilePath": null,
-      "BilingualFileCommit": null,
-      "BilingualDateTime": "0001-01-01T00:00:00",
+      "BilingualFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\Starting-the-32-Bit-Version-of-Windows-PowerShell.4a4eaf664caff353459bbcc3d81a3756ede97b7f.es-es.xlf",
+      "BilingualFileCommit": "31dcea128aa24ce70d4c213cde61f07a90184ec2",
+      "BilingualDateTime": "2016-06-22T15:30:34.4864371Z",
       "BilingualException": null
     },
     "ad262a8f38b79f748757c1503a5e7173a1010923": {
