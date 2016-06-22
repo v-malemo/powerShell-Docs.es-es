@@ -98,9 +98,6 @@
   "c66b8d6abf4886143f71c0de823cbfde86d875ba": [
     "dsc\\metaConfig.md"
   ],
-  "a451e4b8c4483d9099fa69a553162bd0632ef59a": [
-    "dsc\\metaConfig.md"
-  ],
   "25195166f4d9dd668427d6bb5d748ef61273cdee": [
     "dsc\\metaConfig4.md"
   ],
@@ -356,9 +353,6 @@
   "ad262a8f38b79f748757c1503a5e7173a1010923": [
     "wmf\\limitation_dsc.md"
   ],
-  "fe1c40cbfd2c76f45d170b82d8a099e860b15db8": [
-    "wmf\\limitation_dsc.md"
-  ],
   "35cdbfab22a0fa00480012fed0a2cf32ffa11f8d": [
     "wmf\\limitation_overview.md"
   ],
@@ -560,9 +554,6 @@
   "b9cb89bb120151df69e3cb26b50c3a0d15c23711": [
     "dsc\\msft-dsclocalconfigurationmanager.md"
   ],
-  "7fe92c1266593dd98ab6933fb408558effda5ccb": [
-    "dsc\\msft-dsclocalconfigurationmanager.md"
-  ],
   "6f9c6a8851732574ac72bc4f3a3db1a73fbbecf2": [
     "dsc\\msft-dsclocalconfigurationmanager-applyconfiguration.md"
   ],
@@ -623,16 +614,10 @@
   "f4c64d3603fd01f29a63f8b180057714bf3d1197": [
     "dsc\\crossNodeDependencies.md"
   ],
-  "12ec3c770e592b1c1f43a9150eaaa1964f427363": [
-    "dsc\\crossNodeDependencies.md"
-  ],
   "1fe624c2532e44ed675762f3c141934fb4f0b60d": [
     "dsc\\directCallResource.md"
   ],
   "716ecd9b14976dd70b69a740850ab53670387956": [
-    "dsc\\sxsResource.md"
-  ],
-  "e8d591c59eb1052184fd8e828780612d6ca32d93": [
     "dsc\\sxsResource.md"
   ],
   "e1827e102a9b35ea214f89395f7ff3c5e0a58506": [
@@ -642,9 +627,6 @@
     "dsc\\nanoDsc.md"
   ],
   "becacd2dcbc6fd0edd9154a45342edc5c536935b": [
-    "dsc\\configHelp.md"
-  ],
-  "725945ae906c66c09d0399e37bf781cdb627a1f2": [
     "dsc\\configHelp.md"
   ],
   "a53a9457712973b4ff43c226b247214d24406592": [
@@ -1079,12 +1061,6 @@
   "415e68b372c831ed8dd4535c2968e5a36b5cb65d": [
     "scripting\\setup\\Installing-Windows-PowerShell.md"
   ],
-  "ce32a9cfd2f0b80ae9697ad4f75695a4aacfabee": [
-    "scripting\\setup\\Installing-Windows-PowerShell.md"
-  ],
-  "c1cedec3c86996751b4f40cb8f564e000b40d133": [
-    "scripting\\setup\\Installing-Windows-PowerShell.md"
-  ],
   "6bdf3f658ed75b48be6df217b6a0b4ad5951c935": [
     "scripting\\setup\\security.md"
   ],
@@ -1149,9 +1125,6 @@
     "jea\\jea-guide.md"
   ],
   "08b317533a7180e111746334e5d9228caa8a09e7": [
-    "jea\\README.md"
-  ],
-  "f2c72fc2a66f59d78da643da9febb9e09ce7989e": [
     "jea\\README.md"
   ]
 }
