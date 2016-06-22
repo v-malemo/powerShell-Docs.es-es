@@ -78,6 +78,6 @@ La clase **MSFT_DSCLocalConfigurationManager** tiene estos métodos.
 
 
 
-<!--HONumber=May16_HO3-->
+<!--HONumber=Jun16_HO3-->
 
 

@@ -191,8 +191,43 @@ At C:\Windows\system32\WindowsPowerShell\v1.0\Modules\PSDesiredStateConfiguratio
 Import-DscResource -ModuleName @{ModuleName='MyModuleName';RequiredVersion='1.2'}  
 ```  
 
+Algunos recursos de DSC, como el recurso de registro, pueden comenzar a tardar mucho tiempo en procesar la solicitud.
+--------------------------------------------------------------------------------------------------------------------------------
+
+**Resolución1:** cree una tarea de programación que limpie periódicamente la siguiente carpeta.
+``` PowerShell 
+$env:windir\system32\config\systemprofile\AppData\Local\Microsoft\Windows\PowerShell\CommandAnalysis 
+```
+
+**Resolución2:** cambie la configuración de DSC para limpiar la carpeta *CommandAnalysis* al final de la configuración.
+``` PowerShell
+Configuration $configName
+{
+
+   # User Data
+    Registry SetRegisteredOwner
+    {
+        Ensure = 'Present'
+        Force = $True
+        Key = $Node.RegisteredKey
+        ValueName = $Node.RegisteredOwnerValue
+        ValueType = 'String'
+        ValueData = $Node.RegisteredOwnerData
+    }
+    #
+    # Script to delete the config 
+    #
+    script DeleteCommandAnalysisCache
+    {
+        DependsOn="[Registry]SetRegisteredOwner"
+        getscript="@{}"
+        testscript = 'Remove-Item -Path $env:windir\system32\config\systemprofile\AppData\Local\Microsoft\Windows\PowerShell\CommandAnalysis -Force -Recurse -ErrorAction SilentlyContinue -ErrorVariable ev | out-null;$true'
+        setscript = '$true'
+    }
+}
+```
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO3-->
 
 

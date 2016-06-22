@@ -67,6 +67,6 @@ Para facilitar la creación de puntos de conexión de JEA, consulte el [JEA Tool
 Incluso permite generar funcionalidades de rol basadas en los registros de PowerShell para que tome como punto de partida los comandos que los usuarios ejecutan habitualmente para realizar su trabajo.
 
 
-<!--HONumber=Jun16_HO1-->
+<!--HONumber=Jun16_HO3-->
 
 
