@@ -452,6 +452,9 @@
   "bc504fbde14d0ba743accf644ee5114810afb609": [
     "scripting\\getting-started\\fundamental\\Learning-Windows-PowerShell-Names.md"
   ],
+  "22c5df4f62f21f690800eaffe47afee604cc61d3": [
+    "scripting\\getting-started\\cookbooks\\Managing-Current-Location.md"
+  ],
   "104d2d1a9a36033387a11ec8678efe921bc5cd5e": [
     "scripting\\getting-started\\cookbooks\\Managing-Current-Location.md"
   ],
@@ -1040,6 +1043,9 @@
   "61629128c1b047e2df989716f3fe5e7322e4363c": [
     "scripting\\getting-started\\understanding-concepts-reference.md"
   ],
+  "cf96a8f6fc0ce566e8d5bbb62e70c00f3095a2a4": [
+    "scripting\\PowerShell-Scripting.md"
+  ],
   "5398df704bc69fc4f333e23b5d9f21efc0859dff": [
     "scripting\\PowerShell-Scripting.md"
   ],
@@ -1115,10 +1121,49 @@
   "207792452c563ec6cca5c17fbcd122372442d8ac": [
     "scripting\\topic\\WinRMSecurity.md"
   ],
-  "b1bf871729b206fa95349c60a27787452f26e220": [
-    "jea\\jea-guide.md"
+  "1cecf1b6bf5a55ed785c8ff43bdd4a0a41e96cd0": [
+    "jea\\README.md"
   ],
   "08b317533a7180e111746334e5d9228caa8a09e7": [
     "jea\\README.md"
+  ],
+  "0e221c840f083ce0b8ecbcbb34c184bcdbc0c73e": [
+    "jea\\common-role-capability-pitfalls.md"
+  ],
+  "9f3f79a29e0fb7ec5a5111284bb7985548e17749": [
+    "jea\\considerations-when-limiting-commands.md"
+  ],
+  "12fc529cfb21db260c9d1a2af87e2c3825d2ec4e": [
+    "jea\\creating-a-domain-controller.md"
+  ],
+  "0a262e2c83174db7041d3cf35d97542b1cac4386": [
+    "jea\\end-to-end---active-directory.md"
+  ],
+  "46f4e5b231d09952f11387cec7c80fbfce9f9d4b": [
+    "jea\\introduction.md"
+  ],
+  "178fea44987b0c457b8e5d23fbe851ee12f03b31": [
+    "jea\\key-concepts-used-throughout-this-guide.md"
+  ],
+  "784806197a64eb30af1ecea4af55575434ce7b87": [
+    "jea\\multi-machine-deployment-and-maintenance.md"
+  ],
+  "8892e5e08a763fbc66d782bbc9252d1f3a7dcfcf": [
+    "jea\\on-blacklisting.md"
+  ],
+  "ac9231a475ba84e9051bbd06a65f3f20c9e49846": [
+    "jea\\prerequisites.md"
+  ],
+  "dabb5023012e90ace3fbc5f347c17821abd92595": [
+    "jea\\remake-the-demo-endpoint.md"
+  ],
+  "d867a6462e9fa8b6e16c8c2103899c72b380116c": [
+    "jea\\reporting-on-jea.md"
+  ],
+  "5b6dcb205d2c3cbb1a98c6465cb1002b9ed61459": [
+    "jea\\role-capabilities.md"
+  ],
+  "3bac5932c3ed57713bdb08e3a9ed435b228518bc": [
+    "jea\\using-jea.md"
   ]
 }
