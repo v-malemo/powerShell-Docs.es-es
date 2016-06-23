@@ -416,6 +416,9 @@
   "4b1e8a6d3fb4feca426a9d7861c40d194e612c22": [
     "dsc\\singleInstance.md"
   ],
+  "c3d86239550566a7704405930f72c598d140cdb8": [
+    "scripting\\TOC.md"
+  ],
   "0de7828832edd3e4c1d073dc62c3866e10c13e88": [
     "scripting\\TOC.md"
   ],
@@ -743,6 +746,9 @@
   "0c5cac4d8a8e9cea6aa6e94cce2aa29c4d13b126": [
     "scripting\\core-powershell\\core-modules\\Windows-PowerShell-Core-Providers.md"
   ],
+  "4c22e1a2543690a971836813cb32ace74ababb4a": [
+    "scripting\\core-powershell\\core-powershell.md"
+  ],
   "897702d56a14657881121890f2283f50bdc2d517": [
     "scripting\\core-powershell\\core-powershell.md"
   ],
@@ -911,18 +917,6 @@
   "afc6f1aeff3e98c5e9b5c06f1d5533f4f9ed331a": [
     "scripting\\core-powershell\\ise-guide.md"
   ],
-  "9c1136db524ba52d47db94c68571c6892bdfdbe9": [
-    "scripting\\core-powershell\\language-guide.md"
-  ],
-  "4f3869bea3831a5162f4872498fe05fa9afeef6b": [
-    "scripting\\core-powershell\\language-guide.md"
-  ],
-  "d90e1aea0bc395320669bb58bb2e5b58708126d3": [
-    "scripting\\core-powershell\\scripting-guide.md"
-  ],
-  "55ed894e4b9ed28561112f595ff31c8321acf276": [
-    "scripting\\core-powershell\\scripting-guide.md"
-  ],
   "bdd57c989f4787e402b0334782db3ab9f5b42161": [
     "scripting\\core-powershell\\web-access.md"
   ],
@@ -1042,6 +1036,9 @@
   ],
   "61629128c1b047e2df989716f3fe5e7322e4363c": [
     "scripting\\getting-started\\understanding-concepts-reference.md"
+  ],
+  "8ef9ea5b00c9c0ac0d14370a39d1ed7970e65cc3": [
+    "scripting\\PowerShell-Scripting.md"
   ],
   "cf96a8f6fc0ce566e8d5bbb62e70c00f3095a2a4": [
     "scripting\\PowerShell-Scripting.md"
