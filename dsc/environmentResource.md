@@ -1,12 +1,16 @@
 ---
-title:   Recursos de DSC Environment
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Recursos de DSC Environment
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 6477ae8575c83fc24150f9502515ff5b82bc8198
+ms.openlocfilehash: 20a7711604033b5ff1484dbb526df2642a9a1738
+
 ---
 
 # Recursos de DSC Environment
@@ -52,6 +56,7 @@ Environment EnvironmentExample
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

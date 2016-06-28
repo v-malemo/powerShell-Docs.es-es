@@ -8,4 +8,8 @@ Hemos realizado mejoras en la exposición de detalles sobre el estado de LCM. El
 * **PendingConfiguration**
 
 También hemos agregado una propiedad LCMStateDetail que contiene más información sobre el estado.
-<!--HONumber=Mar16_HO2-->
+
+
+<!--HONumber=Jun16_HO4-->
+
+
