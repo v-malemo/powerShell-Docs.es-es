@@ -3160,8 +3160,8 @@
       "ArchiveFileDateTime": "2016-06-28T13:29:50.1586865Z",
       "ArchiveException": null,
       "BilingualFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\dsc_lcmstate.21ea1c36f37c94e8e0363199fbd07bcced3aea40.es-es.xlf",
-      "BilingualFileCommit": "46705aa6a7d40de5f3f03502296f5c60fef984d5",
-      "BilingualDateTime": "2016-06-16T14:31:57.3050804Z",
+      "BilingualFileCommit": "72ab608de498d1c26dc37fbaaaa0689af5592a37",
+      "BilingualDateTime": "2016-06-28T14:48:59.4028829Z",
       "BilingualException": null
     },
     "5e3adc41e37f7089d8393789464c4b1b70da7148": {
@@ -3932,8 +3932,8 @@
       "ArchiveFileDateTime": "2016-06-28T13:29:50.1586865Z",
       "ArchiveException": null,
       "BilingualFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\feedback.3662230166299ef7c1fb7a7a7f5cdbd64b1d812a.es-es.xlf",
-      "BilingualFileCommit": "ddca60b8c01e91bee2c0dc990a9f733b68b39661",
-      "BilingualDateTime": "2016-06-16T14:31:57.3050804Z",
+      "BilingualFileCommit": "72ab608de498d1c26dc37fbaaaa0689af5592a37",
+      "BilingualDateTime": "2016-06-28T14:48:59.4028829Z",
       "BilingualException": null
     },
     "e2d8147c6a85b59f5289f64e068c56593acc0cfc": {
@@ -4422,8 +4422,8 @@
       "ArchiveFileDateTime": "2016-06-28T13:29:50.1586865Z",
       "ArchiveException": null,
       "BilingualFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\informationstream_overview.d2f238b2b4021ccdb7271cf89f53d58970d56cf5.es-es.xlf",
-      "BilingualFileCommit": "46705aa6a7d40de5f3f03502296f5c60fef984d5",
-      "BilingualDateTime": "2016-06-16T14:31:57.3050804Z",
+      "BilingualFileCommit": "72ab608de498d1c26dc37fbaaaa0689af5592a37",
+      "BilingualDateTime": "2016-06-28T14:48:59.4028829Z",
       "BilingualException": null
     },
     "91d23a0045c6d7a1200caae6df64368dd8f3ecee": {
@@ -19949,8 +19949,8 @@
       "ArchiveFileDateTime": "2016-06-28T13:29:50.1586865Z",
       "ArchiveException": null,
       "BilingualFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\How-to-Use-Tab-Completion-in-the-Script-Pane-and-Console-Pane.33735d08440a6ad0e66cf16476a6ff6987b8776d.es-es.xlf",
-      "BilingualFileCommit": "c86b4209dcf642a7824036e89264d504838fb0e2",
-      "BilingualDateTime": "2016-06-16T14:31:57.3050804Z",
+      "BilingualFileCommit": "72ab608de498d1c26dc37fbaaaa0689af5592a37",
+      "BilingualDateTime": "2016-06-28T14:48:59.4028829Z",
       "BilingualException": null
     },
     "29e73b1bfd8efea2b53299c52bf65117f7c535f5": {
@@ -24534,8 +24534,8 @@
       "ArchiveFileDateTime": "2016-06-28T13:29:50.1586865Z",
       "ArchiveException": null,
       "BilingualFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\environmentResource.eb91ffd4cd8bdb9476e5a83de1a20d3b7b502a56.es-es.xlf",
-      "BilingualFileCommit": "5e478195a0958b7b734a46ef71f3ee0e0c646451",
-      "BilingualDateTime": "2016-06-16T14:31:57.3050804Z",
+      "BilingualFileCommit": "72ab608de498d1c26dc37fbaaaa0689af5592a37",
+      "BilingualDateTime": "2016-06-28T14:48:59.4028829Z",
       "BilingualException": null
     },
     "535b25125a0c56feb10147f1872bdfdf3e3ef33a": {
