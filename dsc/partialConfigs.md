@@ -1,12 +1,16 @@
 ---
-title:   Configuraciones parciales de la configuración de estado deseado de PowerShell
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: "Configuraciones parciales de la configuración de estado deseado de PowerShell"
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: ede565ef23c36a195f137e9949b215c6632a7e26
+ms.openlocfilehash: 9e3052353dd54568eb2dfaf5af5efde7faafd03a
+
 ---
 
 # Configuraciones parciales de la configuración de estado deseado de PowerShell
@@ -325,6 +329,7 @@ SharePointConfig
 
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

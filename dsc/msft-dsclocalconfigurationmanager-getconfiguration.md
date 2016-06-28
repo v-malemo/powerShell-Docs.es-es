@@ -1,12 +1,16 @@
 ---
-title:  Método GetConfiguration de la clase MSFT_DSCLocalConfigurationManager
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: "Método GetConfiguration de la clase MSFT_DSCLocalConfigurationManager"
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 919438862ca9786447b690d2db10e905da0a7c42
+ms.openlocfilehash: 19d4790f22491e0bb11de1e315d1ee3b07929d55
+
 ---
 
 # Método GetConfiguration de la clase MSFT_DSCLocalConfigurationManager
@@ -60,6 +64,7 @@ Se trata de un método estático.
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

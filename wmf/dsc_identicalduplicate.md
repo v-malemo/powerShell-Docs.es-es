@@ -84,4 +84,8 @@ Configuration WebApplication
 }
 ```
 
-Esta configuración muy similar se podrá realizarse porque los recursos WindowsFeature FE_IIS y WindowsFeature Worker_IIS ya no son idénticos y, por tanto, están en conflicto.<!--HONumber=Mar16_HO2-->
+Esta configuración muy similar se podrá realizarse porque los recursos WindowsFeature FE_IIS y WindowsFeature Worker_IIS ya no son idénticos y, por tanto, están en conflicto.
+
+<!--HONumber=Jun16_HO4-->
+
+

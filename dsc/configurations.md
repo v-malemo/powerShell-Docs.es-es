@@ -1,20 +1,23 @@
 ---
-title:   Configuraciones DSC
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Configuraciones DSC
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 6477ae8575c83fc24150f9502515ff5b82bc8198
+ms.openlocfilehash: 29676d0bf51adf9176753d0056efe76687a40600
+
 ---
 
 # Configuraciones DSC
 
 >Se aplica a: Windows PowerShell 4.0, Windows PowerShell 5.0
 
-Las configuraciones DSC son scripts de PowerShell que definen un tipo especial de función. 
-Para definir una configuración, se utiliza la palabra clave de PowerShell __Configuration__.
+Las configuraciones DSC son scripts de PowerShell que definen un tipo especial de función. Para definir una configuración, se utiliza la palabra clave de PowerShell __Configuration__.
 
 ```powershell
 Configuration MyDscConfiguration {
@@ -121,8 +124,7 @@ Configuration DependsOnExample {
 
 ## Uso de nuevos recursos en la configuración
 Si ha ejecutado los ejemplos anteriores, habrá observado que se le mostró una advertencia respecto a que se estaba utilizando un recurso sin importarlo explícitamente.
-En la actualidad, DSC incluye 12 recursos como parte del módulo PSDesiredStateConfiguration. Otros recursos de los módulos externos deben colocarse en `$env:PSModulePath` para que el LCM los reconozca. Un cmdlet nuevo, [Get-DscResource](https://technet.microsoft.com/en-us/library/dn521625.aspx), puede utilizarse para determinar qué recursos están instalados en el sistema y están disponibles para que el LCM los use. 
-Cuando estos módulos se hayan colocado en `$env:PSModulePath` y [Get-DscResource](https://technet.microsoft.com/en-us/library/dn521625.aspx) los reconozca correctamente, es necesario que se carguen en la configuración. __Import-DscResource__ es una palabra clave dinámica que solo puede reconocerse dentro de un bloque __Configuration__ (es decir, no es un cmdlet). __Import-DscResource__ admite dos parámetros:
+En la actualidad, DSC incluye 12 recursos como parte del módulo PSDesiredStateConfiguration. Otros recursos de los módulos externos deben colocarse en `$env:PSModulePath` para que el LCM los reconozca. Un cmdlet nuevo, [Get-DscResource](https://technet.microsoft.com/en-us/library/dn521625.aspx), puede utilizarse para determinar qué recursos están instalados en el sistema y están disponibles para que el LCM los use. Cuando estos módulos se hayan colocado en `$env:PSModulePath` y [Get-DscResource](https://technet.microsoft.com/en-us/library/dn521625.aspx) los reconozca correctamente, es necesario que se carguen en la configuración. __Import-DscResource__ es una palabra clave dinámica que solo puede reconocerse dentro de un bloque __Configuration__ (es decir, no es un cmdlet). __Import-DscResource__ admite dos parámetros:
 * __ModuleName__ es la manera recomendada de usar __Import-DscResource__. Acepta el nombre del módulo que contiene los recursos que se importarán (así como una matriz de cadenas de nombres de módulo). 
 * __Name__ es el nombre del recurso que se importará. Este no es el nombre descriptivo que [Get-DscResource](https://technet.microsoft.com/en-us/library/dn521625.aspx) devuelve como "Name", sino el nombre de clase que se usa al definir el esquema del recurso (que [Get-DscResource](https://technet.microsoft.com/en-us/library/dn521625.aspx) devuelve como __ResourceType__). 
 
@@ -133,6 +135,7 @@ Cuando estos módulos se hayan colocado en `$env:PSModulePath` y [Get-DscResourc
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

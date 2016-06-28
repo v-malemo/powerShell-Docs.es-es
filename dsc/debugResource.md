@@ -1,12 +1,16 @@
 ---
-title:   Depuración de recursos de DSC
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: "Depuración de recursos de DSC"
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 6477ae8575c83fc24150f9502515ff5b82bc8198
+ms.openlocfilehash: f5290e085c8949f6b3cdf23f3244a7142da6248d
+
 ---
 
 # Depuración de recursos de DSC
@@ -18,8 +22,7 @@ En PowerShell 5.0, se introdujo una nueva característica en la configuración d
 ## Habilitar la depuración de DSC
 Antes de poder depurar un recurso, tendrá que habilitar la depuración mediante una llamada al cmdlet [Enable-DscDebug](https://technet.microsoft.com/en-us/library/mt517870.aspx). Este cmdlet toma un parámetro obligatorio, **BreakAll**. 
 
-Puede comprobar que se ha habilitado la depuración si examina el resultado de una llamada a [Get-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx). 
-En la siguiente salida de PowerShell se muestra el resultado de la habilitación de la depuración:
+Puede comprobar que se ha habilitado la depuración si examina el resultado de una llamada a [Get-DscLocalConfigurationManager](https://technet.microsoft.com/en-us/library/dn407378.aspx). En la siguiente salida de PowerShell se muestra el resultado de la habilitación de la depuración:
 
 
 ```powershell
@@ -106,6 +109,7 @@ Después de llamar a [Enable-DscDebug](https://technet.microsoft.com/en-us/libra
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

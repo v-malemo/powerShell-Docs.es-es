@@ -1,12 +1,16 @@
 ---
-title:   Recursos de DSC Registry
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Recursos de DSC Registry
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 6477ae8575c83fc24150f9502515ff5b82bc8198
+ms.openlocfilehash: 15e346ecd630a1256477d375bc1373f376e76f64
+
 ---
 
 # Recursos de DSC Registry
@@ -72,6 +76,7 @@ Registry RegistryExample
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

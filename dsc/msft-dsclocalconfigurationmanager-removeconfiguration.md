@@ -1,12 +1,16 @@
 ---
-title:  Método RemoveConfiguration de la clase MSFT_DSCLocalConfigurationManager
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: "Método RemoveConfiguration de la clase MSFT_DSCLocalConfigurationManager"
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: c915ebd021ed20209bc491505d45cff2ac89f21d
+ms.openlocfilehash: 4f3d74949d98e3ab3f5136303e229c23ed903c5d
+
 ---
 
 # Método RemoveConfiguration de la clase MSFT_DSCLocalConfigurationManager
@@ -68,6 +72,7 @@ Se trata de un método estático.
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -18,4 +18,8 @@ class MyComparableBar : bar, system.IComparable
         return 0;
     }
 }
-```<!--HONumber=Mar16_HO2-->
+```
+
+<!--HONumber=Jun16_HO4-->
+
+

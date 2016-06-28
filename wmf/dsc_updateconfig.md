@@ -2,6 +2,7 @@
 
 El nuevo cmdlet Update-DscConfiguration desencadena una extracción de los servidores de extracción definidos en la metaconfiguración. El comportamiento suele denominarse "extraer ahora". 
 
+
 Una vez desencadenada, la extracción se comporta exactamente igual que si se desencadenara durante la frecuencia regular:
 
 1. La suma de comprobación de la configuración actual se compara con la suma de comprobación de la configuración en el servidor de extracción. 
@@ -29,4 +30,8 @@ Update-DscConfiguration     -CimSession <CimSession[]>
                             [-WhatIf] 
                             [-Confirm] 
                             [<CommonParameters>]
-```<!--HONumber=Mar16_HO2-->
+```
+
+<!--HONumber=Jun16_HO4-->
+
+

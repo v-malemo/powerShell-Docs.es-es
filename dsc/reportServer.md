@@ -1,12 +1,16 @@
 ---
-title:   Uso de un servidor de informes de DSC
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Uso de un servidor de informes de DSC
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 59793e1701740dc783439cf1408c6efabd53cbcf
+ms.openlocfilehash: d541f37723d77cf0b52012bae143dc7d64efd65d
+
 ---
 
 # Uso de un servidor de informes de DSC
@@ -225,6 +229,7 @@ Tenga en cuenta que estos ejemplos están diseñados para ofrecerle una idea de 
 
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -191,4 +191,8 @@ _------ ---- ---------- -----------
 1.0 ContosoServer LocalRepo ContosoServer module
 1.5 ContosoServer LocalRepo ContosoServer module
 2.0 ContosoServer LocalRepo ContosoServer module
-```<!--HONumber=Mar16_HO2-->
+```
+
+<!--HONumber=Jun16_HO4-->
+
+

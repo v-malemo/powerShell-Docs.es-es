@@ -1,12 +1,16 @@
 ---
-title:   Proteger el archivo MOF
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Proteger el archivo MOF
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 0dc83a1b69f26a25874c819a2f3a027ed7966895
+ms.openlocfilehash: f0aed5bb627825b74fe4df29cbe2f0bc53f90c23
+
 ---
 
 # Proteger el archivo MOF
@@ -445,6 +449,7 @@ Start-CredentialEncryptionExample
 
 
 
-<!--HONumber=Jun16_HO1-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,12 +1,16 @@
 ---
-title: Clase MSFT_DSCLocalConfigurationManager 
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Clase MSFT_DSCLocalConfigurationManager
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 26db4a48af3aa3d6a9a2054fb85da8779626f284
+ms.openlocfilehash: b9cb89bb120151df69e3cb26b50c3a0d15c23711
+
 ---
 
 # Clase MSFT_DSCLocalConfigurationManager
@@ -78,6 +82,7 @@ La clase **MSFT_DSCLocalConfigurationManager** tiene estos métodos.
 
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

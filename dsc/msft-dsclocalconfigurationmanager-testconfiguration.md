@@ -1,12 +1,16 @@
 ---
-title:  Método TestConfiguration de la clase MSFT_DSCLocalConfigurationManager
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: "Método TestConfiguration de la clase MSFT_DSCLocalConfigurationManager"
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: c915ebd021ed20209bc491505d45cff2ac89f21d
+ms.openlocfilehash: 0777467d37e2f5588f9c0ef368148e3bea963a5b
+
 ---
 
 
@@ -71,6 +75,7 @@ Se trata de un método estático.
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

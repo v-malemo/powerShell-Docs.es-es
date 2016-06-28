@@ -31,4 +31,8 @@ Cmdlet          Restart-Service                                    3.0.0.0 Micro
 
 Para informar sobre las _acciones_ que los usuarios emprendieron durante una sesión de JEA, puede hacer lo siguiente:
 1. Habilitar las transcripciones de "consentimiento temporal" para ese punto de conexión de JEA y consulte el directorio de transcripción para obtener un registro completo de las acciones de cada usuario
-2. Active el registro del módulo de PowerShell e inspeccione los registros de eventos de PowerShell.<!--HONumber=Mar16_HO2-->
+2. Active el registro del módulo de PowerShell e inspeccione los registros de eventos de PowerShell.
+
+<!--HONumber=Jun16_HO4-->
+
+

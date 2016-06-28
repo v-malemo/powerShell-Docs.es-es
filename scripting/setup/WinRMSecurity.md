@@ -1,12 +1,16 @@
 ---
-title:  WinRMSecurity
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: WinRMSecurity
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 7facb78962411d7b96ef6741e3ffa153d5537a0d
+ms.openlocfilehash: e1827e102a9b35ea214f89395f7ff3c5e0a58506
+
 ---
 
 # Consideraciones de seguridad de comunicación remota de PowerShell
@@ -34,8 +38,7 @@ En redes privadas, la regla de Firewall de Windows predeterminada para la comuni
 
 ## Aislamiento de procesos
 
-La comunicación remota de PowerShell usa [Administración remota de Windows (WinRM)](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426) para la comunicación entre equipos. 
-WinRM se ejecuta como servicio en la cuenta servicio de red y genera procesos aislados que se ejecutan como cuentas de usuario para las instancias de host de PowerShell. Una instancia de PowerShell que se ejecuta como un usuario no tiene acceso a un proceso que ejecuta una instancia de PowerShell como otro usuario.
+La comunicación remota de PowerShell usa [Administración remota de Windows (WinRM)](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426) para la comunicación entre equipos. WinRM se ejecuta como servicio en la cuenta servicio de red y genera procesos aislados que se ejecutan como cuentas de usuario para las instancias de host de PowerShell. Una instancia de PowerShell que se ejecuta como un usuario no tiene acceso a un proceso que ejecuta una instancia de PowerShell como otro usuario.
 
 ## Registros de eventos generados por la comunicación remota de PowerShell
 
@@ -79,8 +82,7 @@ Una vez completada la autenticación inicial, el [Protocolo de comunicación rem
 ## Creación del segundo salto
 
 De forma predeterminada, la comunicación remota de PowerShell usa Kerberos (si está disponible) o NTLM para la autenticación. Ambos protocolos se autentican en el equipo remoto sin enviarle credenciales.
-Este es el modo más seguro de autenticación, pero dado que el equipo remoto no tiene las credenciales de usuario, no puede acceder a otros equipos o servicios en nombre del usuario. 
-Esto se conoce como el problema de "Salto doble".
+Este es el modo más seguro de autenticación, pero dado que el equipo remoto no tiene las credenciales de usuario, no puede acceder a otros equipos o servicios en nombre del usuario. Esto se conoce como el problema de "Salto doble".
 
 Hay varias formas de evitar este problema:
 
@@ -118,6 +120,7 @@ Para obtener más información acerca de los ataques de robo de credenciales, co
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,12 +1,16 @@
 ---
-title:   Recurso de DSC Service
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Recurso de DSC Service
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 6477ae8575c83fc24150f9502515ff5b82bc8198
+ms.openlocfilehash: ce8d6c1c9e8005c5c4792ae0fa4c5030bb9a92ed
+
 ---
 
 # Recurso de DSC Service
@@ -54,6 +58,7 @@ Service ServiceExample
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

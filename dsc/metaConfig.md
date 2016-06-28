@@ -1,12 +1,16 @@
 ---
-title:   Configuración del administrador de configuración local
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: "Configuración del administrador de configuración local"
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 901cf8190252ac344182bf49d550a8adade559a0
+ms.openlocfilehash: c66b8d6abf4886143f71c0de823cbfde86d875ba
+
 ---
 
 # Configuración del administrador de configuración local
@@ -162,6 +166,7 @@ Para definir una configuración parcial, cree un bloque **PartialConfiguration**
 
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

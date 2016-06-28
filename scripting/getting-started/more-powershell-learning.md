@@ -1,12 +1,16 @@
 ---
-title:  Más aprendizaje de PowerShell
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
+title: "Más aprendizaje de PowerShell"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: 05205ff8fcf0a3b23e66a6ac756be0d9a5055bd2
+
 ---
 
 #  Más aprendizaje de PowerShell
@@ -55,6 +59,7 @@ Los siguientes recursos sirven para ayudar a los desarrolladores a crear sus pro
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

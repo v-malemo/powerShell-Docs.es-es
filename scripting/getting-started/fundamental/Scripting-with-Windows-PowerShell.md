@@ -1,13 +1,17 @@
 ---
-title:  Scripting con Windows PowerShell
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  c425d27a-bb41-4947-8d73-ba5480bc8ee0
+title: "Scripting con Windows PowerShell"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: c425d27a-bb41-4947-8d73-ba5480bc8ee0
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: 0148f4631e34e65a4336c5d1d50e313fb6639748
+
 ---
 
 # Scripting con Windows PowerShell
@@ -27,6 +31,7 @@ Windows PowerShell incluye las siguientes características:
 
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 
