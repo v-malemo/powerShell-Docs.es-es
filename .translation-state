@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "3008988efe84065def22e0e1839f5ae362120d75",
-  "LastTranslatedCommit": "38e86fc2c23034609a80c3517e4e0af4a17eff18",
+  "LastTranslatedCommit": "a807ac99fad20ce5a5ed7a7204b451ec578cefd9",
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
       "FileHash": "81efeb79a70df604ef8c126c0ebd17b4f4711a44",
@@ -28201,7 +28201,7 @@
       "TargetFilePath": "dsc\\authoringResourceComposite.md",
       "HandbackFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf",
       "HandbackFileCommit": "61e2f63ecca26d74d36545890fad0c57f02951ff",
-      "HandbackDateTime": "2016-06-28T15:28:00.0053204Z",
+      "HandbackDateTime": "2016-06-28T15:46:47.6240075Z",
       "HandbackException": {
         "internal_error_code": "handback_transform_failed",
         "internal_error_message": "Handback file: C:\\ol\\master\\PSD.handback\\7f42c4\\ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf failed.",
@@ -28211,7 +28211,7 @@
         "stack_trace": "   at Microsoft.OpenLocalization.Transformer.TransformerClient.XliffToMarkdown(Stream xliffStream, Stream skeletonStream, Stream targetStream) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization.Transformer.Core\\TransformerClient.cs:line 119\r\n   at Microsoft.OpenLocalization.Helper.XliffTransformUtil.XliffToMarkdown(String skeletonFile, String xliffFile, String mdfile, Boolean useJavascriptTransformer) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Helper\\XliffTransformUtil.cs:line 92\r\n   at Microsoft.OpenLocalization.Localization.LocalizationCore.<>c__DisplayClass5_0.<GetHandbackFiles>b__0(String file) in C:\\Jenkins\\workspace\\OpenLocalization-Prod\\src\\OpenLocalization\\Localization\\HandbackCore.cs:line 413",
         "extended_information": null
       },
-      "HandbackFailureTimes": 1,
+      "HandbackFailureTimes": 2,
       "UpdatedDateTime": "2016-06-14T19:38:38.1921305Z",
       "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\authoringResourceComposite.6d5d1e53e83e25cfc63e26078da390a4fa6737f2.es-es.xlf",
       "ArchiveFileCommit": "a978b9751b05384f53515f1af28e62f8949cd3b8",
