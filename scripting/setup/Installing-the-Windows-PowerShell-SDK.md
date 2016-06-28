@@ -1,13 +1,17 @@
 ---
-title:  Instalar el SDK de Windows PowerShell
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  c3636b45-61aa-4720-85f0-58312c4fc8f9
+title: Instalar el SDK de Windows PowerShell
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: c3636b45-61aa-4720-85f0-58312c4fc8f9
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: 9ba9ef3efe6a8ae85d96b59db53ad3a16bf57699
+
 ---
 
 # Instalar el SDK de Windows PowerShell
@@ -275,6 +279,7 @@ ms.assetid:  c3636b45-61aa-4720-85f0-58312c4fc8f9
 
 
 
-<!--HONumber=May16_HO4-->
+
+<!--HONumber=Jun16_HO4-->
 
 

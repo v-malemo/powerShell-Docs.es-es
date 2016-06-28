@@ -1,12 +1,16 @@
 ---
-title:   Recurso de DSC Group
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Recurso de DSC Group
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: f6e33f82f495a89a4aa28c64b7974c170d50cfe1
+ms.openlocfilehash: 446c9036989c47c03664d978a1dea4e0234ada8d
+
 ---
 
 # Recurso de DSC Group
@@ -88,6 +92,7 @@ Group AddADUserToLocalAdminGroup
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

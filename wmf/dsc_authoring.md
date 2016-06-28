@@ -8,4 +8,8 @@ La creación de configuraciones de DSC en Windows PowerShell ISE es mucho más f
 - Mejor finalización con tabulación de los valores de propiedad de recurso.
 
 **Nota:** Debe tener una cadena vacía para los valores de propiedad de recurso para poder usar Ctrl+Space para mostrar las opciones. Presione **Tabulador** para recorrer las opciones.
-<!--HONumber=Mar16_HO2-->
+
+
+<!--HONumber=Jun16_HO4-->
+
+

@@ -28,4 +28,8 @@ $list = [MyIntList]::new()
 $list.Add(100)
 
 $list[0] # return 100
-```<!--HONumber=Mar16_HO2-->
+```
+
+<!--HONumber=Jun16_HO4-->
+
+

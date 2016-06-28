@@ -28,4 +28,8 @@ class C : B
 {
     C([int]$c) {}
 }
-```<!--HONumber=Mar16_HO2-->
+```
+
+<!--HONumber=Jun16_HO4-->
+
+

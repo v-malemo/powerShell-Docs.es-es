@@ -1,12 +1,16 @@
 ---
-title:   Especificación de dependencias entre nodos
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: "Especificación de dependencias entre nodos"
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 04aa6292dee991060669e1ac770cf98cbba41bfc
+ms.openlocfilehash: f4c64d3603fd01f29a63f8b180057714bf3d1197
+
 ---
 
 # Especificación de dependencias entre nodos
@@ -62,6 +66,7 @@ Configuration JoinDomain
 
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 
