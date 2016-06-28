@@ -15,4 +15,8 @@ El cmdlet **Expand-Archive** extrae los archivos de un archivo de almacenamiento
 Expand-Archive -LiteralPath <String> [-DestinationPath] <String>
 Expand-Archive [-Path] <String> [-DestinationPath] <String>
 ```
-<!--HONumber=Mar16_HO2-->
+
+
+<!--HONumber=Jun16_HO4-->
+
+

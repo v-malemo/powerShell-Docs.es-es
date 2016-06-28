@@ -1,13 +1,17 @@
 ---
-title:  WinRMSecurityRedirect
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: WinRMSecurityRedirect
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
 redirect_url: https://msdn.microsoft.com/powershell/scripting/setup/winrmsecurity
+translationtype: Human Translation
+ms.sourcegitcommit: afa259b8611f995bbf5b824179a12e3d8f15df86
+ms.openlocfilehash: 207792452c563ec6cca5c17fbcd122372442d8ac
+
 ---
 
 # Consideraciones de seguridad de comunicación remota de PowerShell
@@ -35,8 +39,7 @@ En redes privadas, la regla de Firewall de Windows predeterminada para la comuni
 
 ## Aislamiento de procesos
 
-La comunicación remota de PowerShell usa [Administración remota de Windows (WinRM)](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426) para la comunicación entre equipos. 
-WinRM se ejecuta como servicio en la cuenta servicio de red y genera procesos aislados que se ejecutan como cuentas de usuario para las instancias de host de PowerShell. Una instancia de PowerShell que se ejecuta como un usuario no tiene acceso a un proceso que ejecuta una instancia de PowerShell como otro usuario.
+La comunicación remota de PowerShell usa [Administración remota de Windows (WinRM)](https://msdn.microsoft.com/en-us/library/windows/desktop/aa384426) para la comunicación entre equipos. WinRM se ejecuta como servicio en la cuenta servicio de red y genera procesos aislados que se ejecutan como cuentas de usuario para las instancias de host de PowerShell. Una instancia de PowerShell que se ejecuta como un usuario no tiene acceso a un proceso que ejecuta una instancia de PowerShell como otro usuario.
 
 ## Registros de eventos generados por la comunicación remota de PowerShell
 
@@ -80,8 +83,7 @@ Una vez completada la autenticación inicial, el [Protocolo de comunicación rem
 ## Creación del segundo salto
 
 De forma predeterminada, la comunicación remota de PowerShell usa Kerberos (si está disponible) o NTLM para la autenticación. Ambos protocolos se autentican en el equipo remoto sin enviarle credenciales.
-Este es el modo más seguro de autenticación, pero dado que el equipo remoto no tiene las credenciales de usuario, no puede acceder a otros equipos o servicios en nombre del usuario. 
-Esto se conoce como el problema de "Salto doble".
+Este es el modo más seguro de autenticación, pero dado que el equipo remoto no tiene las credenciales de usuario, no puede acceder a otros equipos o servicios en nombre del usuario. Esto se conoce como el problema de "Salto doble".
 
 Hay varias formas de evitar este problema:
 
@@ -119,6 +121,7 @@ Para obtener más información acerca de los ataques de robo de credenciales, co
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

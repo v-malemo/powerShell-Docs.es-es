@@ -1,13 +1,17 @@
 ---
-title:  Instalar Windows PowerShell
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  6fbb0409-5a54-48ec-95e6-7f8b7d8c4969
+title: Instalar Windows PowerShell
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: 6fbb0409-5a54-48ec-95e6-7f8b7d8c4969
+translationtype: Human Translation
+ms.sourcegitcommit: f856f170c6e18be8758d52df9b50ac443531fdf2
+ms.openlocfilehash: 415e68b372c831ed8dd4535c2968e5a36b5cb65d
+
 ---
 
 # Instalación de Windows PowerShell
@@ -102,6 +106,7 @@ En los sistemas Windows Server 2008, Windows Management Framework (Windows Power
 [Iniciar Windows PowerShell [ps]](https://technet.microsoft.com/en-us/library/8ec8c2d7-8e7c-4722-a3d2-498fe5739a8e)
 
 
-<!--HONumber=Jun16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

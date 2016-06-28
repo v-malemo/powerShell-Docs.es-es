@@ -1,12 +1,16 @@
 ---
-title:  Recurso de DSC User
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Recurso de DSC User
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 6477ae8575c83fc24150f9502515ff5b82bc8198
+ms.openlocfilehash: 5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c
+
 ---
 
 #Recurso de DSC User#
@@ -64,6 +68,7 @@ User UserExample
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 

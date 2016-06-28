@@ -1,12 +1,16 @@
 ---
-title:   Establecer configuraciones
-ms.date:  2016-05-16
-keywords:  powershell,DSC
-description:  
-ms.topic:  article
-author:  eslesar
-manager:  dongill
-ms.prod:  powershell
+title: Establecer configuraciones
+ms.date: 2016-05-16
+keywords: powershell,DSC
+description: 
+ms.topic: article
+author: eslesar
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 6477ae8575c83fc24150f9502515ff5b82bc8198
+ms.openlocfilehash: 4c802002c6a03a27d02221dd713677911a77c30b
+
 ---
 
 # Establecer configuraciones
@@ -30,8 +34,7 @@ Después de crear y compilar una configuración, puede establecerla en el modo d
 
 ![Modo de extracción](images/Pull.png "How pull mode works")
 
-En el modo de extracción, los clientes de extracción se configuran para obtener sus configuraciones de estado deseado desde un servidor de extracción remoto. Del mismo modo, el servidor de extracción se ha configurado para hospedar el servicio de DSC y se ha aprovisionado con las configuraciones y los recursos que necesitan los clientes de extracción. Cada uno de los clientes de extracción tiene una tarea programada que realiza una comprobación periódica del cumplimiento de la configuración del nodo. Cuando el evento se desencadena por primera vez, provoca que el administrador de configuración local (LCM) del cliente de extracción valide la configuración. 
-Si el cliente de extracción se configura como se desea, no ocurre nada. De lo contrario, el LCM envía una solicitud al servidor de extracción para obtener una configuración determinada. Si dicha configuración existe en el servidor de extracción y pasa las comprobaciones de validación iniciales, la configuración se transmite al cliente de extracción, donde a continuación el LCM la ejecuta.
+En el modo de extracción, los clientes de extracción se configuran para obtener sus configuraciones de estado deseado desde un servidor de extracción remoto. Del mismo modo, el servidor de extracción se ha configurado para hospedar el servicio de DSC y se ha aprovisionado con las configuraciones y los recursos que necesitan los clientes de extracción. Cada uno de los clientes de extracción tiene una tarea programada que realiza una comprobación periódica del cumplimiento de la configuración del nodo. Cuando el evento se desencadena por primera vez, provoca que el administrador de configuración local (LCM) del cliente de extracción valide la configuración. Si el cliente de extracción se configura como se desea, no ocurre nada. De lo contrario, el LCM envía una solicitud al servidor de extracción para obtener una configuración determinada. Si dicha configuración existe en el servidor de extracción y pasa las comprobaciones de validación iniciales, la configuración se transmite al cliente de extracción, donde a continuación el LCM la ejecuta.
 
 Para más información sobre la implementación de un servidor de extracción de DSC local, consulte la Guía de planificación y configuración del servidor de extracción de DSC.
 
@@ -45,6 +48,7 @@ En los temas siguientes se explica cómo configurar los clientes y servidores de
 
 
 
-<!--HONumber=May16_HO3-->
+
+<!--HONumber=Jun16_HO4-->
 
 
