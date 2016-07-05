@@ -215,19 +215,10 @@
   "282dceabb24805173208860923cba4a96c9261ce": [
     "wmf\\dsc_classbasedresource.md"
   ],
-  "7e25c8195c153a2fda21fac320c2750d51678b6a": [
-    "wmf\\dsc_classbasedresource.md"
-  ],
   "00d17803fd93cd7492be149f8c6335c4a7e1d42b": [
     "wmf\\dsc_confighelp.md"
   ],
-  "0c31a5571d8262c81e748f1a3368361ea4e9a700": [
-    "wmf\\dsc_confighelp.md"
-  ],
   "cd9360babcd367c621455b0fce6316137fd83a3d": [
-    "wmf\\dsc_directaccess.md"
-  ],
-  "dff9d6cfd92efac3f7a5f68b4ebe37719dbce111": [
     "wmf\\dsc_directaccess.md"
   ],
   "20dee3be52962c04f04666893eed4a5ea1c27d0a": [
@@ -236,13 +227,7 @@
   "2c2aaa65ee09f0aade41fe0ca4088036c63dea2a": [
     "wmf\\dsc_freqnomultiple.md"
   ],
-  "34a0df793382c9bc882bcd94f8fdd1b426814fd4": [
-    "wmf\\dsc_freqnomultiple.md"
-  ],
   "3ff2fc261e539b230f30dc5776533ae09807f008": [
-    "wmf\\dsc_getconfigurationstatus.md"
-  ],
-  "290c205d4e88b23974b126ea8157442e6cbf740f": [
     "wmf\\dsc_getconfigurationstatus.md"
   ],
   "a257f792d39f360a2c9e638f42ffac5fed282b00": [
@@ -260,16 +245,10 @@
   "cd879af041642e96074706ff553af57d17b06802": [
     "wmf\\dsc_metaconfiguration.md"
   ],
-  "5e3adc41e37f7089d8393789464c4b1b70da7148": [
-    "wmf\\dsc_metaconfiguration.md"
-  ],
   "34c29d88f0676e51c1b8af9d9e65b151eb8a4272": [
     "wmf\\dsc_newresources.md"
   ],
   "81b391b6c1bc334cb88f9af00f31a99d95df8270": [
-    "wmf\\dsc_nodeid.md"
-  ],
-  "517c1d3654cd87b2356abadabf474c76580767f4": [
     "wmf\\dsc_nodeid.md"
   ],
   "73d6ffec22390fa09e258f283fab2cdca001de16": [
@@ -290,13 +269,7 @@
   "f68eb0016b45ea5a08ce99572cbec04ac96fbf46": [
     "wmf\\dsc_reporting.md"
   ],
-  "3f286a0cdcff33aa396c745a661d52d07f25817d": [
-    "wmf\\dsc_reporting.md"
-  ],
   "d9da7ea2674b0428118ec1585c705b90a886ca44": [
-    "wmf\\dsc_repository.md"
-  ],
-  "85b3c01a3bd6830be929734084abad14f0d3c971": [
     "wmf\\dsc_repository.md"
   ],
   "fa0f232c7ed02cb6358b1c181a40bab8a1e2e640": [
@@ -305,22 +278,13 @@
   "1c0bad4dab64c9fbd09be23df3d7b19913fa9511": [
     "wmf\\dsc_runas.md"
   ],
-  "d4919d80c1b1f8509b4e581768dd6f74e9d01f0d": [
-    "wmf\\dsc_runas.md"
-  ],
   "97cd3cb5658f3acabf4f980d1e3fa99fe84e0d04": [
-    "wmf\\dsc_setdsclcm.md"
-  ],
-  "6ab763e1969aa55b7f85b51b7115d065830c5458": [
     "wmf\\dsc_setdsclcm.md"
   ],
   "98a8a8f27661042bef27d0edceccf9a67c9153d1": [
     "wmf\\dsc_statestatus.md"
   ],
   "866429453239ceef799dff1acb99abd27e9b24c4": [
-    "wmf\\dsc_sxsresource.md"
-  ],
-  "a7c6fb818477522ebd7be025f154c1b2eea0e518": [
     "wmf\\dsc_sxsresource.md"
   ],
   "df6b5db79c8c165e7fb3c1570838ac7a696b5a55": [
@@ -330,9 +294,6 @@
     "wmf\\dsc_updateconfig.md"
   ],
   "e5017e8821d2cb11a270286e6896206805866300": [
-    "wmf\\dsc_waitfor.md"
-  ],
-  "24a680a5f41f6b6cb150226f347e90a2c5eafb25": [
     "wmf\\dsc_waitfor.md"
   ],
   "59206d28411ca6d4591cff5b3f158f4f5b78cc6a": [
@@ -1152,9 +1113,6 @@
     "scripting\\topic\\WinRMSecurity.md"
   ],
   "1cecf1b6bf5a55ed785c8ff43bdd4a0a41e96cd0": [
-    "jea\\README.md"
-  ],
-  "08b317533a7180e111746334e5d9228caa8a09e7": [
     "jea\\README.md"
   ],
   "0e221c840f083ce0b8ecbcbb34c184bcdbc0c73e": [
