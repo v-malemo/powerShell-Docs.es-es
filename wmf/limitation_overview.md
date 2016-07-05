@@ -39,8 +39,7 @@ Al instalar WMF 5.0 en un sistema Windows Server 2012 R2 que ya ejecuta SIL, la 
 Get-ChildItem no funciona si -LiteralPath y –Recurse se usan juntos.
 --------------------------------------------------------------------------
 
-Si un nombre de directorio contiene un carácter comodín no válido, Get-ChildItem no producirá los resultados esperados si
--LiteralPath y -Recurse se usan juntos.
+Si un nombre de directorio contiene un carácter comodín no válido, Get-ChildItem no producirá los resultados esperados si -LiteralPath y -Recurse se usan juntos.
 
 **Resolución:** no es lo ideal, pero la solución actual es implementar la recursividad en el script en lugar de depender del cmdlet.
 
@@ -100,6 +99,6 @@ Hay dos soluciones alternativas para este problema según la versión de Windows
 
 
 
-<!--HONumber=May16_HO1-->
+<!--HONumber=Jun16_HO4-->
 
 

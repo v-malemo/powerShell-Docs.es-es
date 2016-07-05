@@ -196,7 +196,7 @@ d----- 4/21/2015 5:40 PM RequiredModule3
 ## Cmdlet Update-ModuleManifest
 Este nuevo cmdlet se usa para ayudar a actualizar el archivo de manifiesto con los valores de propiedad de entrada. Toma todos los mismos parámetros que Test-ModuleManifest.
 
-Observamos que muchos autores del módulo desearían especificar "\*" en los valores exportados, como FunctionsToExport, CmdletsToExport, etc. Durante la publicación del módulo en la Galería de PowerShell, los comandos y las funciones que no estén especificados no se rellenarán correctamente en la Galería. Por lo tanto, se recomienda a los autores del módulo que actualicen sus manifiestos con los valores adecuados.
+Observamos que muchos autores del módulo desearían especificar “\*” en los valores exportados, como FunctionsToExport, CmdletsToExport, etc. Durante la publicación del módulo en la Galería de PowerShell, los comandos y las funciones que no estén especificados no se rellenarán correctamente en la Galería. Por lo tanto, se recomienda a los autores del módulo que actualicen sus manifiestos con los valores adecuados.
 
 Si tiene módulos que contienen propiedades exportadas, Update-ModuleManifest rellenará el archivo de manifiesto especificado con la información de las funciones exportadas, los cmdlets, las variables, etc.:
 ```powershell
@@ -277,4 +277,8 @@ PrivateData = @{
 } # End of PrivateData hashtable
 ```
 ***Nota:*** DscResourcesToExport solo se admite en la versión más reciente de PowerShell 5.0. No podremos actualizar el campo si está ejecutando la versión anterior de PowerShell.
-<!--HONumber=Mar16_HO2-->
+
+
+<!--HONumber=Jun16_HO4-->
+
+

@@ -5,11 +5,11 @@
 
     | Sistema operativo       | Ediciones         | Requisitos previos        |  Vínculos de paquete |
     |------------------------|--------------|------------------|----------------------| --------------|
-    | Windows Server 2012 R2 |  |  | [Win8.1AndW2K12R2-KB3134758-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717507) |
+    | Windows Server 2012 R2 |  |  | [Win8.1AndW2K12R2-KB3134758-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717507) |
     | Windows Server 2012    |  |  | [W2K12-KB3134759-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717506) |
-    | Windows Server 2008 R2 SP1 | Todos, excepto IA64 | [WMF 4.0](http://www.microsoft.com/en-us/download/details.aspx?id=40855) y [.NET Framework 4.5 o posterior](https://msdn.microsoft.com/en-us/library/5a4x27ek.aspx) están instalados | [Win7AndW2K8R2-KB3134760-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717504)|
-    | Windows 8.1 | Pro, Enterprise | | **x64:** [Win8.1AndW2K12R2-KB3134758-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717507) </br> **x86:**  [Win8.1-KB3134758-x86.msu](http://go.microsoft.com/fwlink/?LinkID=717963)|
-    | Windows 7 SP1 | Todos | [WMF 4.0](http://www.microsoft.com/en-us/download/details.aspx?id=40855) y [.NET Framework 4.5 o superior](https://msdn.microsoft.com/en-us/library/5a4x27ek.aspx) están instalados | **x64:**  [Win7AndW2K8R2-KB3134760-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717504)  </br> **x86:**  [Win7-KB3134760-x86.msu](http://go.microsoft.com/fwlink/?LinkID=717962)|
+    | Windows Server 2008 R2 SP1 | Todas, excepto IA64 | [WMF 4.0](http://www.microsoft.com/en-us/download/details.aspx?id=40855) y [.NET Framework 4.5 o superior](https://msdn.microsoft.com/en-us/library/5a4x27ek.aspx) están instalados.| [Win7AndW2K8R2-KB3134760-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717504)|
+    | Windows 8.1 | Pro, Enterprise | | **x64:**  [Win8.1AndW2K12R2-KB3134758-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717507) </br> **x86:**  [Win8.1-KB3134758-x86.msu](http://go.microsoft.com/fwlink/?LinkID=717963)|
+    | Windows 7 SP1 | Todos | [WMF 4.0](http://www.microsoft.com/en-us/download/details.aspx?id=40855) y [.NET Framework 4.5 o superior](https://msdn.microsoft.com/en-us/library/5a4x27ek.aspx) están instalados. | **x64:** [Win7AndW2K8R2-KB3134760-x64.msu](http://go.microsoft.com/fwlink/?LinkId=717504)  </br> **x86:**  [Win7-KB3134760-x86.msu](http://go.microsoft.com/fwlink/?LinkID=717962)|
 
 # Instrucciones de instalación
 
@@ -29,15 +29,15 @@
     - En los equipos que ejecuten Windows Server 2012 R2 o Windows 8.1 x64, ejecute **Win8.1AndW2K12R2-KB3134758-x64.msu /quiet**.
     - En los equipos que ejecuten Windows Server 2012, ejecute **W2K12-KB3134759-x64.msu /quiet**.
     - En los equipos que ejecuten Windows Server 2008 R2 SP1 o Windows 7 SP1 x64, ejecute **Win7AndW2K8R2-KB3134760-x64.msu /quiet**.
-    - En los equipos que ejecuten Windows 8.1 x86, ejecute **Win8.1-KB3134758-x86.msu /quiet**.
-    - En los equipos que ejecuten Windows 7 SP1 x86, ejecute **Win7-KB3134760-x86.msu /quiet**.
+    - En los equipos que ejecutan Windows 8.1 x86, ejecute **Win8.1-KB3134758-x86.msu /quiet**.
+    - En los equipos que ejecutan Windows 7 SP1 x86, ejecute **Win7-KB3134760-x86.msu /quiet**.
 
 ### Notas de instalación adicionales para Windows Server 2008 R2 SP1 y Windows 7 SP1:
 
 Asegúrese de que se cumplen los requisitos previos siguientes:
 - El Service Pack más reciente está instalado.
 - [WMF 4.0](http://www.microsoft.com/en-us/download/details.aspx?id=40855) está instalado.
-- [.NET Framework 4.5 o posterior](https://msdn.microsoft.com/en-us/library/5a4x27ek.aspx) está instalado.
+- [.NET Framework 4.5 o superior](https://msdn.microsoft.com/en-us/library/5a4x27ek.aspx) está instalado.
 
 **Dependencia de WMF 4.0**
 
@@ -78,15 +78,15 @@ wusa /uninstall /kb:3134760
 
 ### Uso del Panel de control
 
-1.  Abra el **Panel de control**.
+1.  Abra el **Panel de control.**
 
 2.  Abra **Programas** y, después, **Desinstalar un programa.**
 
-3.  Haga clic en **Ver actualizaciones instaladas**.
+3.  Haga clic en **Ver actualizaciones instaladas.**
 
 4.  Seleccione **Windows Management Framework 5.0** en la lista de actualizaciones instaladas. Corresponde a *KB3134758*, *KB3134759* o *KB3134760*. Haga clic en **Desinstalar.**
 
 
-<!--HONumber=Mar16_HO4-->
+<!--HONumber=Jun16_HO4-->
 
 

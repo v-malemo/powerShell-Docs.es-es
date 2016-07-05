@@ -56,5 +56,9 @@ PS> Get-Command *-NetworkSwitch*
 | Function    | Set-NetworkSwitchVlanProperty             | NetworkSwitch |
 ```
 
-Existe más información disponible en la entrada de blog del anuncio de WMF 5.0 Preview de Jeffrey Snover: <http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx>
-<!--HONumber=Mar16_HO2-->
+Existe más información disponible en el artículo de blog del anuncio de WMF 5.0 Preview de Jeffrey Snover: <http://blogs.technet.com/b/windowsserver/archive/2014/04/03/windows-management-framework-v5-preview.aspx>.
+
+
+<!--HONumber=Jun16_HO4-->
+
+

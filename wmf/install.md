@@ -38,8 +38,11 @@ Asegúrese de que se cumplen los requisitos previos siguientes:
 - El Service Pack más reciente está instalado.
 - [WMF 4.0](http://www.microsoft.com/en-us/download/details.aspx?id=40855) está instalado.
 
-*Dependencia de WinRM:*
-La configuración de estado deseado (DSC) de Windows PowerShell depende de WinRM. WinRM no está habilitado de forma predeterminada en Windows Server 2008 R2 y Windows 7. Para habilitar WinRM, en una sesión de Windows PowerShell con permisos elevados, ejecute **Set-WSManQuickConfig**.
+*Dependencia de WinRM:* la configuración de estado deseado (DSC) de Windows PowerShell depende de WinRM. WinRM no está habilitado de forma predeterminada en Windows Server 2008 R2 y Windows 7. Para habilitar WinRM, en una sesión de Windows PowerShell con permisos elevados, ejecute **Set-WSManQuickConfig**.
 
 
-<!--HONumber=Mar16_HO2-->
+
+
+<!--HONumber=Jun16_HO4-->
+
+

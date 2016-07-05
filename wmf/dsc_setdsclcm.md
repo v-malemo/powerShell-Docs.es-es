@@ -1,6 +1,6 @@
 # El cmdlet Set-DscLocalConfigurationManager admite el parámetro -force
 
-Agregamos compatibilidad del nuevo parámetro con el cmdlet Set-DscLocalConfigurationManager. Permitirá al usuario restablecer la metaconfiguración en la máquina de manera determinista cuando se están ejecutando otras operaciones, como la comprobación de coherencia, en segundo plano, ya que causará que todas las operaciones en ejecución se detengan.
+Hemos agregado compatibilidad para el nuevo parámetro con el cmdlet Set-DscLocalConfigurationManager. Permitirá al usuario restablecer la metaconfiguración en la máquina de manera determinista cuando se están ejecutando otras operaciones, como la comprobación de coherencia, en segundo plano, ya que causará que todas las operaciones en ejecución se detengan.
 
 La experiencia tiene el aspecto siguiente al intentar establecer la metaconfiguración sin el parámetro –Force.
 ```powershell
@@ -35,4 +35,8 @@ VERBOSE: \[DEV-10586-465\]: LCM: \[ End Set \]
 VERBOSE: \[DEV-10586-465\]: LCM: \[ End Set \] in 0.1410 seconds.
 VERBOSE: Operation 'Invoke CimMethod' complete.
 VERBOSE: Set-DscLocalConfigurationManager finished in 0.421 seconds.
-```<!--HONumber=Mar16_HO2-->
+```
+
+<!--HONumber=Jun16_HO4-->
+
+

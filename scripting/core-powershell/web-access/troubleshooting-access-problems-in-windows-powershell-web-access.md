@@ -1,12 +1,16 @@
 ---
-title:  Solución de problemas de acceso en Windows PowerShell Web Access
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
+title: "Solución de problemas de acceso en Windows PowerShell Web Access"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: 6366ec9c49f721b758b6a520f68cf2b3c5ee0caf
+
 ---
 
 #  Solución de problemas de acceso en Windows PowerShell Web Access
@@ -65,7 +69,7 @@ En la siguiente tabla, se identifican algunos problemas comunes que pueden exper
 </tr>
 <tr class="odd">
 <td><p>Error al conectarse a un equipo de grupo de trabajo remoto</p></td>
-<td><p>Si el equipo de destino es miembro de un grupo de trabajo, use la siguiente sintaxis para proporcionar su nombre de usuario e inicie sesión en el equipo: &lt;<em>nombre_grupo_de_trabajo</em>&gt;\&lt;<em>nombre_de_usuario.</em>&gt;</p></td>
+<td><p>Si el equipo de destino es miembro de un grupo de trabajo, use la siguiente sintaxis para especificar su nombre de usuario e iniciar sesión en el equipo: &lt;<em>NombreDeGrupoDeTrabajo</em>&gt;\&lt;<em>NombreDeUsuario</em>&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>No se encuentran las herramientas de administración de Servidor web (IIS) (aún cuando está instalado el rol)</p></td>
@@ -192,6 +196,7 @@ Los scripts y el código de terceros vinculados a este sitio web o a los que est
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

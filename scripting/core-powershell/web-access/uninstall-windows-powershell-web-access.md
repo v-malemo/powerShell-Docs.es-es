@@ -1,12 +1,16 @@
 ---
-title:  desinstalación de Windows PowerShell Web Access
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
+title: "desinstalación de Windows PowerShell Web Access"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: ee5e88ece27add955fcef3a9df0a441a08251e77
+
 ---
 
 #  Desinstalar Windows PowerShell Web Access
@@ -68,9 +72,9 @@ Si ha especificado su propio nombre de sitio web personalizado, agregue el pará
 
     -   En el escritorio de Windows, haga clic con el botón derecho en **Windows PowerShell** en la barra de tareas y luego haga clic en **Ejecutar como administrador**.
 
-    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y luego haga clic en **Ejecutar como administrador**.
+    -   En la pantalla **Inicio** de Windows, haga clic con el botón derecho en **Windows PowerShell** y, luego, en **Ejecutar como administrador**.
 
-2.  Escriba lo siguiente y luego presione **Entrar**, donde *computer_name* representa un servidor remoto del cual desea quitar Windows PowerShell Web Access. El parámetro <span class="code">–Restart</span> reinicia automáticamente los servidores de destino, si es necesario para la eliminación.
+2.  Escriba lo siguiente y presione **Entrar**, donde *computer\_name* representa un servidor remoto del que desea quitar Windows PowerShell Web Access. El parámetro <span class="code">–Restart</span> reinicia automáticamente los servidores de destino, si es necesario para la eliminación.
 
     [Copiar](javascript:if%20(window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_7b534520-f292-471f-89e3-a1079c03e369'); "Copiar al Portapapeles.")
 
@@ -214,6 +218,7 @@ Los scripts y el código de terceros vinculados a este sitio web o a los que est
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

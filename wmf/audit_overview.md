@@ -2,4 +2,8 @@
 
 [Opciones de transcripción mejoradas](audit_transcript.md)
 [Seguimiento y registro de scripts](audit_script.md)
-[Cmdlets de sintaxis de mensajes de cifrado (CMS)](audit_cms.md)<!--HONumber=Mar16_HO2-->
+[Cmdlets de sintaxis de mensajes de cifrado (CMS)](audit_cms.md)
+
+<!--HONumber=Jun16_HO4-->
+
+
