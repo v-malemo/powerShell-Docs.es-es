@@ -1,8 +1,20 @@
+---
+title: aspectos fundamentales de PowerShell
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.sourcegitcommit: cd6e130d9f6f70449084d25eb386a3c0a2b84737
+ms.openlocfilehash: 4c22e1a2543690a971836813cb32ace74ababb4a
+
+---
+
 #  Aspectos fundamentales de PowerShell
 Esta sección contiene todas las guías detalladas de PowerShell y material de referencia.  
 Encuentre en esta sección:
--  La [guía de scripting de PowerShell](scripting-guide.md)
--  La [guía del lenguaje de PowerShell](language-guide.md)
 -  La [guía de módulos principales de Windows PowerShell](core-modules.md)
 -  La [guía del Entorno de scripting integrado (ISE) de PowerShell](ise-guide.md)
 -  La [guía de la ventana de consola de PowerShell](console-guide.md)
@@ -12,6 +24,8 @@ Encuentre en esta sección:
 -  El [glosario de PowerShell](../Windows-PowerShell-Glossary.md)
 
 
-<!--HONumber=May16_HO2-->
+
+
+<!--HONumber=Jun16_HO4-->
 
 
