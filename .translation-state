@@ -1,6 +1,6 @@
 {
   "LastProcessedCommit": "d915872415e419a4c80c774af2bf6c28ac449213",
-  "LastTranslatedCommit": "52ac118b936285d5cb4cd9307903f32d41942594",
+  "LastTranslatedCommit": "c57787d7abbe554ad22acd5c0c99866b18437c24",
   "Items": {
     "81efeb79a70df604ef8c126c0ebd17b4f4711a44": {
       "FileHash": "81efeb79a70df604ef8c126c0ebd17b4f4711a44",
@@ -22141,14 +22141,14 @@
       "HandoffPriority": "",
       "HandoffException": null,
       "HandoffFailureTimes": 0,
-      "TargetFileCommit": "c495207867dee06c7f2bf8d6e955508ad0d5082c",
+      "TargetFileCommit": "c57787d7abbe554ad22acd5c0c99866b18437c24",
       "TargetFilePath": "scripting\\getting-started\\cookbooks\\Using-Static-Classes-and-Methods.md",
       "HandbackFilePath": "ol-handback\\PowerShell\\powerShell-Docs.es-es\\live\\Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf",
-      "HandbackFileCommit": "c86b4209dcf642a7824036e89264d504838fb0e2",
-      "HandbackDateTime": "2016-05-25T02:04:08.5396875Z",
+      "HandbackFileCommit": "0f4c438a60b67560b5d520449d973a40190a7b65",
+      "HandbackDateTime": "2016-07-06T10:31:58.0612503Z",
       "HandbackException": null,
       "HandbackFailureTimes": 0,
-      "UpdatedDateTime": "2016-05-25T02:04:08.5396875Z",
+      "UpdatedDateTime": "2016-07-06T10:31:58.0612503Z",
       "ArchiveFilePath": "ol-handoff\\PowerShell\\powerShell-Docs.es-es\\live\\archive\\Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf",
       "ArchiveFileCommit": "a978b9751b05384f53515f1af28e62f8949cd3b8",
       "ArchiveFileDateTime": "2016-06-28T13:29:50.1586865Z",
