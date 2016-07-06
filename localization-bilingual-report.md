@@ -1,11 +1,28 @@
 # <a name='report-top'></a> Localization Bilingual Report
 
 ## Summary
- Total Files | 0
+ Total Files | 1
 
 ## File List
+ Source File | Status | Details 
+ ----------- | ------ | ------- 
+ [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md) | InSyncHandedBackSuccess | [Details](#50ebc8a737b50aba5a5af49716b59905da74669a200)
 
 ## Item Details
+##### <a name='50ebc8a737b50aba5a5af49716b59905da74669a200'></a> Source: [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md)
+* Status: InSyncHandedBackSuccess
+* Target File: [scripting\getting-started\cookbooks\Using-Static-Classes-and-Methods.md](https://github.com/PowerShell/powerShell-Docs.es-es/blob/c57787d7abbe554ad22acd5c0c99866b18437c24/scripting/getting-started/cookbooks/Using-Static-Classes-and-Methods.md)
+* Handoff File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/105fef0ce9e1c940d116cc706472a520c91cc587/ol-handoff/PowerShell/powerShell-Docs.es-es/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf)
+* Handoff Datetime: 2016-06-27 20:20:02
+* Handoff Reason: Include
+* Archive File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handoff/blob/a978b9751b05384f53515f1af28e62f8949cd3b8/ol-handoff/PowerShell/powerShell-Docs.es-es/live/archive/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf)
+* Archive Datetime: 2016-06-28 13:29:50
+* Handback File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4c438a60b67560b5d520449d973a40190a7b65/ol-handback/PowerShell/powerShell-Docs.es-es/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf)
+* Handback Datetime: 2016-07-06 10:31:58
+* Bilingual File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4c438a60b67560b5d520449d973a40190a7b65/ol-handback/PowerShell/powerShell-Docs.es-es/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf)
+* Bilingual Datetime: 2016-07-06 10:32:39
+* [Back to Top](#report-top)
+
 
 ## Error Details
 

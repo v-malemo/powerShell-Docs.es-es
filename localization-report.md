@@ -3326,8 +3326,8 @@
 * Archive Datetime: 2016-06-28 13:29:50
 * Handback File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4c438a60b67560b5d520449d973a40190a7b65/ol-handback/PowerShell/powerShell-Docs.es-es/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf)
 * Handback Datetime: 2016-07-06 10:31:58
-* Bilingual File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/c86b4209dcf642a7824036e89264d504838fb0e2/ol-handback/PowerShell/powerShell-Docs.es-es/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf)
-* Bilingual Datetime: 2016-06-16 14:31:57
+* Bilingual File: [Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/0f4c438a60b67560b5d520449d973a40190a7b65/ol-handback/PowerShell/powerShell-Docs.es-es/live/Using-Static-Classes-and-Methods.040e055ba5ec9e3a6d642990063a18388cce271f.es-es.xlf)
+* Bilingual Datetime: 2016-07-06 10:32:39
 * [Back to Top](#report-top)
 
 ##### <a name='8cd074bc4314aeb8d50fa31d74d9a1b2d2a37469201'></a> Source: [scripting\getting-started\cookbooks\Viewing-Object-Structure--Get-Member-.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/getting-started/cookbooks/Viewing-Object-Structure--Get-Member-.md)
