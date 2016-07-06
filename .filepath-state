@@ -158,12 +158,6 @@
   "a09f228cf232ff9d7cf2ba20c73808fd92c9d560": [
     "dsc\\troubleshooting.md"
   ],
-  "c4ef56848e95dafe0addfdf29a51e5a795518eee": [
-    "dsc\\troubleshooting.md"
-  ],
-  "95e75bd95552a9bcfa41adee74ef5ceacb3ea33b": [
-    "dsc\\troubleshooting.md"
-  ],
   "5c7878bdfc8a3f118b569a9e43be6c7e4333ad2c": [
     "dsc\\userResource.md"
   ],
@@ -462,9 +456,6 @@
     "scripting\\getting-started\\fundamental\\Learning-Windows-PowerShell-Names.md"
   ],
   "22c5df4f62f21f690800eaffe47afee604cc61d3": [
-    "scripting\\getting-started\\cookbooks\\Managing-Current-Location.md"
-  ],
-  "104d2d1a9a36033387a11ec8678efe921bc5cd5e": [
     "scripting\\getting-started\\cookbooks\\Managing-Current-Location.md"
   ],
   "23d4f8d23170c4992092a2070baaedf4375be0d8": [
