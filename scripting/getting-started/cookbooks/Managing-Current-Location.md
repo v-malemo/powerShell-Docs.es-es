@@ -1,22 +1,25 @@
 ---
-title:  Administrar la ubicación actual
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  a9f9e7a7-3ea8-47d3-bbb4-6e437f6d4a4a
+title: "Administrar la ubicación actual"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: a9f9e7a7-3ea8-47d3-bbb4-6e437f6d4a4a
+ms.sourcegitcommit: ffd2151603eb87f007e6596624a126585840f8a4
+ms.openlocfilehash: 22c5df4f62f21f690800eaffe47afee604cc61d3
+
 ---
 
 # Administrar la ubicación actual
-Al navegar por los sistemas de carpetas en el Explorador de archivos, normalmente tiene una ubicación de trabajo específica; es decir, la carpeta abierta actual. Los elementos de la carpeta actual se pueden manipular fácilmente haciendo clic en ellos. En las interfaces de línea de comandos como Cmd.exe, si está en la misma carpeta que un archivo determinado, puede acceder a este especificando un nombre relativamente corto. No será necesario especificar la ruta de acceso completa al archivo. El directorio actual se conoce como el directorio de trabajo.
+Al navegar por los sistemas de carpetas en el Explorador de archivos, normalmente tiene una ubicación de trabajo específica; es decir, la carpeta abierta actual. Los elementos de la carpeta actual se pueden manipular fácilmente haciendo clic en ellos. En las interfaces de línea de comandos como Cmd.exe, si está en la misma carpeta que un archivo determinado, puede acceder a él especificando un nombre relativamente corto; no es necesario especificar la ruta de acceso completa al archivo. El directorio actual se conoce como el directorio de trabajo.
 
 Windows PowerShell usa el término **Location** para referirse al directorio de trabajo e implementa una familia de cmdlets para examinar y manipular la ubicación.
 
-### Obtener la ubicación actual (Get-Location)
-Para averiguar la ruta de acceso de su ubicación de directorio actual, escriba el comando **Get-Location**:
+### Obtención de la ubicación actual (Get\-Location)
+Para averiguar la ruta de acceso de su ubicación de directorio actual, escriba el comando **Get\-Location**:
 
 ```
 PS> Get-Location
@@ -26,16 +29,16 @@ C:\Documents and Settings\PowerUser
 ```
 
 > [!NOTE]
-> El cmdlet Get-Location es similar al comando **pwd** en el shell de BASH. El cmdlet Set-Location es similar al comando **cd** en Cmd.exe.
+> El cmdlet Get\-Location es similar al comando **pwd** en el shell de BASH. El cmdlet Set\-Location es similar al comando **cd** en Cmd.exe.
 
-### Configurar la ubicación actual (Set-Location)
-El comando **Get-Location** se usa con el comando **Set-Location**. El comando **Set-Location** permite especificar su ubicación de directorio actual.
+### Configuración de la ubicación actual (Set\-Location)
+El comando **Get\-Location** se usa con el comando **Set\-Location**. El comando **Set\-Location** permite especificar su ubicación de directorio actual.
 
 ```
 PS> Set-Location -Path C:\Windows
 ```
 
-Después de escribir el comando, observará que no recibe ningún tipo de información directa sobre el efecto del comando. Casi todos los comandos de Windows PowerShell que realizan una acción apenas si generan resultados, ya que no siempre son útiles. Para comprobar que se ha producido un cambio de directorio correcto al escribir el comando **Set-Location**, incluya el parámetro **-PassThru** cuando escriba el comando **Set-Location**:
+Después de escribir el comando, observará que no recibe ningún tipo de información directa sobre el efecto del comando. Casi todos los comandos de Windows PowerShell que realizan una acción apenas si generan resultados, ya que no siempre son útiles. Para comprobar que se ha producido un cambio de directorio correcto al escribir el comando**Set\-Location**, incluya el parámetro **\-PassThru** cuando escriba el comando **Set\-Location**:
 
 ```
 PS> Set-Location -Path C:\Windows -PassThru
@@ -44,15 +47,15 @@ Path
 C:\WINDOWS
 ```
 
-El parámetro **-PassThru** se puede usar con muchos comandos Set en Windows PowerShell para devolver información sobre el resultado en aquellos casos en que no haya ninguna salida predeterminada.
+El parámetro **\-PassThru** se puede usar con muchos comandos Set en Windows PowerShell para devolver información sobre el resultado en aquellos casos en que no haya ninguna salida predeterminada.
 
 Puede especificar rutas relativas a la ubicación actual de la misma manera en que lo haría en la mayoría de los shells de comandos de UNIX y Windows. En la notación estándar de las rutas de acceso relativas, un punto (**.**) representa la carpeta actual y dos puntos (**..**), el directorio principal de su ubicación actual.
 
-Así, si está en la carpeta **C:\Windows**, un punto (**.**) representa a **C:\Windows** y dos puntos (**..**), a **C:**. Puede cambiar su ubicación actual por la raíz de la unidad C:; para ello, escriba:
+Así, si está en la carpeta **C:\\Windows**, un punto (**.**) representa a **C:\\Windows** y dos puntos (**..**), a **C:**. Puede cambiar su ubicación actual por la raíz de la unidad C:; para ello, escriba:
 
 <pre>PS> Set-Location -Path .. -PassThru Path ---- C:\</pre>
 
-Esta misma técnica funciona en unidades de Windows PowerShell que no son unidades del sistema de archivos, como **HKLM:**. Puede establecer su ubicación en la clave HKLM\Software del Registro escribiendo lo siguiente:
+Esta misma técnica funciona en unidades de Windows PowerShell que no son unidades del sistema de archivos, como **HKLM:**. Puede establecer su ubicación en la clave HKLM\\Software del Registro escribiendo lo siguiente:
 
 ```
 PS> Set-Location -Path HKLM:\SOFTWARE -PassThru
@@ -72,20 +75,22 @@ Path
 HKLM:\
 ```
 
-Puede escribir Set-Location o usar cualquiera de los alias de Windows PowerShell integrados para Set-Location (cd, chdir, sl). Por ejemplo:
+Puede escribir Set\-Location o usar cualquiera de los alias de Windows PowerShell integrados para Set\-Location (cd, chdir, sl). Por ejemplo:
 
 ```
 cd -Path C:\Windows
 ```
 
-`chdir -Path .. -PassThru`
+```
+chdir -Path .. -PassThru
+```
 
 ```
 sl -Path HKLM:\SOFTWARE -PassThru
 ```
 
-### Guardar y recuperar ubicaciones recientes (Push-Location y Pop-Location)
-Al cambiar de ubicación, es útil realizar un seguimiento de dónde ha estado y poder volver a la ubicación anterior. El cmdlet **Push-Location** de Windows PowerShell crea un historial ordenado (una "pila") de las rutas de acceso de directorio donde ha estado, mientras que el cmdlet complementario **Pop-Location** sirve para ir hacia atrás en el historial de las rutas de acceso de directorio.
+### Almacenamiento y recuperación de ubicaciones recientes (Push\-Location y Pop\-Location)
+Al cambiar de ubicación, es útil realizar un seguimiento de dónde ha estado y poder volver a la ubicación anterior. El cmdlet **Push\-Location** de Windows PowerShell crea un historial ordenado (una "pila") de las rutas de acceso de directorio donde ha estado, mientras que el cmdlet complementario **Pop\-Location** sirve para ir hacia atrás en el historial de las rutas de acceso de directorio.
 
 Por ejemplo, Windows PowerShell suele iniciarse en el directorio principal del usuario.
 
@@ -112,7 +117,7 @@ Tras ello, puede escribir lo siguiente para insertar la ubicación de Configurac
 PS> Push-Location -Path Temp
 ```
 
-Si quiere confirmar que ha cambiado de directorio, escriba el comando **Get-Location**:
+Si quiere confirmar que ha cambiado de directorio, escriba el comando **Get\-Location**:
 
 ```
 PS> Get-Location
@@ -122,7 +127,7 @@ Path
 C:\Documents and Settings\PowerUser\Local Settings\Temp
 ```
 
-Tras ello, puede regresar al último directorio en el que ha estado escribiendo el comando **Pop-Location**, así como comprobar el cambio especificando el comando **Get-Location**:
+Tras ello, puede regresar al último directorio en el que ha estado escribiendo el comando **Pop\-Location**, así como comprobar el cambio especificando el comando **Get\-Location**:
 
 ```
 PS> Pop-Location
@@ -133,7 +138,7 @@ Path
 C:\Documents and Settings\me\Local Settings
 ```
 
-Al igual que con el cmdlet **Set-Location**, puede incluir el parámetro **-PassThru** cuando escriba el cmdlet **Pop-Location** para mostrar el directorio que ha especificado:
+Al igual que con el cmdlet **Set\-Location**, puede incluir el parámetro **\-PassThru** cuando escriba el cmdlet **Pop\-Location** para mostrar el directorio que ha especificado:
 
 ```
 PS> Pop-Location -PassThru
@@ -155,7 +160,7 @@ o
 Push-Location \\FS01\Public
 ```
 
-Puede usar los comandos **Push-Location** y **Set-Location** para cambiar la ubicación a cualquier unidad disponible. Por ejemplo, si tiene una unidad de CD-ROM local con la letra de unidad D que contiene un CD de datos, puede cambiar la ubicación a dicha unidad de CD escribiendo el comando **Set-Location D:**.
+Puede usar los comandos **Push\-Location** y **Set\-Location** para cambiar la ubicación a cualquier unidad disponible. Por ejemplo, si tiene una unidad de CD\-ROM local con la letra de unidad D que contiene un CD de datos, puede cambiar la ubicación a dicha unidad de CD escribiendo el comando **Set\-Location D:**.
 
 Si la unidad está vacía, obtendrá el siguiente mensaje de error:
 
@@ -164,10 +169,11 @@ PS> Set-Location D:
 Set-Location : Cannot find path 'D:\' because it does not exist.
 ```
 
-Cuando se usa una interfaz de línea de comandos, conviene no usar el Explorador de archivos para examinar las unidades de disco físicas disponibles. Además, el Explorador de archivos no le mostrará todas las unidades de disco de Windows PowerShell. Windows PowerShell proporciona un conjunto de comandos para manipular unidades de Windows PowerShell, aspecto que trataremos más adelante.
+Cuando se usa una interfaz de línea de comandos, no es conveniente usar el Explorador de archivos para examinar las unidades de disco físicas disponibles. Además, el Explorador de archivos no le mostrará todas las unidades de disco de Windows PowerShell. Windows PowerShell proporciona un conjunto de comandos para manipular unidades de Windows PowerShell, aspecto que trataremos más adelante.
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

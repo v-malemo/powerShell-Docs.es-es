@@ -1,13 +1,17 @@
 ---
-title:  Usar variables para almacenar objetos
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  b1688d73-c173-491e-9ba6-6d0c1cc852de
+title: Usar variables para almacenar objetos
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: b1688d73-c173-491e-9ba6-6d0c1cc852de
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: c3bcf9dc6f70383e971d9c1ae75ec78860111de9
+
 ---
 
 # Usar variables para almacenar objetos
@@ -39,7 +43,7 @@ Path
 C:\temp
 ```
 
-Puede usar **Get-Member** para mostrar información sobre el contenido de las variables. La canalización de $loc a Get-Member le mostrará que se trata de un objeto **PathInfo**, al igual que la salida de Get-Location:
+Puede usar **Get\-Member** para mostrar información sobre el contenido de las variables. La canalización de $loc a Get\-Member mostrará que se trata de un objeto **PathInfo**, al igual que la salida de Get\-Location:
 
 ```
 PS> $loc | Get-Member -MemberType Property
@@ -61,7 +65,7 @@ Windows PowerShell proporciona varios comandos para manipular variables. Para ve
 Get-Command -Noun Variable | Format-Table -Property Name,Definition -AutoSize -Wrap
 ```
 
-Además de las variables que crea en la sesión actual de Windows PowerShell, existen varias variables definidas por el sistema. Puede usar el cmdlet **Remove-Variable** para borrar todas las variables que no se controlan mediante Windows PowerShell. Escriba el siguiente comando para borrar todas las variables:
+Además de las variables que crea en la sesión actual de Windows PowerShell, existen varias variables definidas por el sistema. Puede usar el cmdlet **Remove\-Variable** para borrar todas las variables que no se controlen mediante Windows PowerShell. Escriba el siguiente comando para borrar todas las variables:
 
 ```
 Remove-Variable -Name * -Force -ErrorAction SilentlyContinue
@@ -77,7 +81,7 @@ Performing operation "Remove Variable" on Target "Name: Error".
 (default is "Y"):A
 ```
 
-Si ejecuta el cmdlet **Get-Variable**, verá las demás variables de Windows PowerShell. Puesto que también existe una unidad de Windows PowerShell variable, también puede mostrar todas las variables de Windows PowerShell. Para ello, escriba:
+Si ejecuta el cmdlet **Get\-Variable**, verá las demás variables de Windows PowerShell. Puesto que también existe una unidad de Windows PowerShell variable, también puede mostrar todas las variables de Windows PowerShell. Para ello, escriba:
 
 ```
 Get-ChildItem variable:
@@ -90,7 +94,7 @@ Aunque Windows PowerShell no es Cmd.exe, se ejecuta en un entorno de shell de co
 Get-ChildItem env:
 ```
 
-Aunque los cmdlets de variables estándar no están diseñados para trabajar con variables **env:**, puede seguir usándolos si especifica el prefijo **env:**. Por ejemplo, para ver el directorio raíz del sistema operativo, puede usar la variable **%SystemRoot%** del shell de comandos en Windows PowerShell. Para ello, escriba:
+Aunque los cmdlets de variables estándar no están diseñados para trabajar con variables **env:**, puede seguir usándolos si especifica el prefijo **env:**. Por ejemplo, para ver el directorio raíz del sistema operativo, puede usar la variable \-%SystemRoot%** del shell de comandos en Windows PowerShell. Para ello, escriba:
 
 ```
 PS> $env:SystemRoot
@@ -101,6 +105,7 @@ También puede crear y modificar variables de entorno desde Windows PowerShell. 
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

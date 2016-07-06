@@ -1,19 +1,23 @@
 ---
-title:  Ver la estructura del objeto (Get-Member) 
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  a1819ed2-2ef3-453a-b2b0-f3589c550481
+title: Ver la estructura del objeto (Get-Member)
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: a1819ed2-2ef3-453a-b2b0-f3589c550481
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: 8cd074bc4314aeb8d50fa31d74d9a1b2d2a37469
+
 ---
 
 # Ver la estructura del objeto (Get-Member)
-Dado que los objetos desempeñan una función esencial en Windows PowerShell, existen varios comandos nativos diseñados para trabajar con tipos de objetos arbitrarios. El más importante es el comando **Get-Member**.
+Dado que los objetos desempeñan una función esencial en Windows PowerShell, existen varios comandos nativos diseñados para trabajar con tipos de objetos arbitrarios. El más importante es el comando **Get\-Member**.
 
-Es la técnica más sencilla para analizar los objetos que devuelve un comando es canalizar la salida del comando al cmdlet **Get-Member**. El cmdlet **Get-Member** muestra el nombre formal del tipo de objeto y una lista completa de sus miembros. En ocasiones, el número de elementos devuelto puede ser excesivo. Por ejemplo, un objeto de proceso puede tener más de 100 miembros.
+La técnica más sencilla para analizar los objetos que devuelve un comando es canalizar la salida de dicho comando al cmdlet **Get\-Member**. El cmdlet **Get\-Member** muestra el nombre formal del tipo de objeto y una lista completa de sus miembros. En ocasiones, el número de elementos devuelto puede ser excesivo. Por ejemplo, un objeto de proceso puede tener más de 100 miembros.
 
 Para ver a todos los miembros de un objeto de proceso y paginar la salida para verla completamente, escriba:
 
@@ -38,7 +42,7 @@ add_Disposed                   Method         System.Void add_Disposed(Event...
 ...
 ```
 
-Podemos hacer que esta larga lista de información sea más fácil de usar mediante el filtrado de los elementos que quiere ver. El comando **Get-Member** permite mostrar solo los miembros que son propiedades. Existen varios formatos de propiedades. El cmdlet muestra las propiedades de cualquier tipo si se establece el parámetro **Get-MemberMemberType** en el valor **Properties**. La lista resultante todavía es muy larga, pero un poco más fácil de administrar:
+Podemos hacer que esta larga lista de información sea más fácil de usar mediante el filtrado de los elementos que quiere ver. El comando **Get\-Member** permite enumerar solo los miembros que son propiedades. Existen varios formatos de propiedades. El cmdlet muestra propiedades de cualquier tipo si en el parámetro **Get\-MemberMemberType** se selecciona el valor **Properties**. La lista resultante todavía es muy larga, pero un poco más fácil de administrar:
 
 ```
 PS> Get-Process | Get-Member -MemberType Properties
@@ -60,9 +64,10 @@ Path                       ScriptProperty System.Object Path {get=$this.Main...
 ...
 ```
 
-> [!NOTE] Los valores permitidos de MemberType son AliasProperty, CodeProperty, Property, NoteProperty, ScriptProperty, Properties, PropertySet, Method, CodeMethod, ScriptMethod, Methods, ParameterizedProperty, MemberSet y All.
+> [!NOTE]
+> Los valores permitidos de MemberType son AliasProperty, CodeProperty, Property, NoteProperty, ScriptProperty, Properties, PropertySet, Method, CodeMethod, ScriptMethod, Methods, ParameterizedProperty, MemberSet y All.
 
-Existen más de 60 propiedades para un proceso. La razón por la que Windows PowerShell suele mostrar solo un conjunto de propiedades para cualquier objeto conocido, es que en caso de mostrarlos todos se generaría una cantidad de información imposible de administrar.
+Existen más de 60 propiedades para un proceso. La razón por la que Windows PowerShell a menudo muestra solo unas pocas propiedades de cualquier objeto conocido es que si muestra todas ella se produciría una cantidad de información imposible de administrar.
 
 > [!NOTE]
 > Windows PowerShell determina cómo mostrar un tipo de objeto mediante la información almacenada en archivos XML cuyos nombres terminan con .format.ps1xml. Los datos de formato de objetos de proceso, que son objetos System.Diagnostics.Process de .NET, se almacenan en PowerShellCore.format.ps1xml.
@@ -71,6 +76,7 @@ Si necesita consultar propiedades distintas de las que Windows PowerShell muestr
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

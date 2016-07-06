@@ -1,19 +1,23 @@
 ---
-title:  Descripción de la canalización de Windows PowerShell
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  6be50926-7943-4ef7-9499-4490d72a63fb
+title: "Descripción de la canalización de Windows PowerShell"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: 6be50926-7943-4ef7-9499-4490d72a63fb
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: 233ec6fafbf1e770190601750be3bdcef2337b7f
+
 ---
 
 # Descripción de la canalización de Windows PowerShell
 La canalización funciona prácticamente en cualquier lugar en Windows PowerShell. Aunque se ve texto en la pantalla, Windows PowerShell no canaliza texto entre los comandos. En su lugar, canaliza objetos.
 
-La notación usada para las canalizaciones es similar a la que se usa en otros shells, por lo que, a primera vista, puede que no sea evidente que Windows PowerShell presenta algo nuevo. Por ejemplo, si usa el cmdlet **Out-Host** para forzar una presentación página por página de la salida de otro comando, la salida tiene el aspecto del texto normal que se muestra en la pantalla, dividida en páginas:
+La notación usada para las canalizaciones es similar a la que se usa en otros shells, por lo que, a primera vista, puede que no sea evidente que Windows PowerShell presenta algo nuevo. Por ejemplo, si se usa el cmdlet **Out\-Host** para forzar una visualización página\-a\-página de la salida de otro comando, la salida tiene el aspecto del texto normal que se muestra en la pantalla, dividida en páginas:
 
 ```
 PS> Get-ChildItem -Path C:\WINDOWS\System32 | Out-Host -Paging
@@ -39,9 +43,9 @@ Mode                LastWriteTime     Length Name
 ...
 ```
 
-El comando Out-Host -Paging es un elemento de la canalización útil siempre que tiene una salida larga que le gustaría mostrar lentamente. Es especialmente útil si la operación consume una gran cantidad de CPU. Dado que el procesamiento se transfiere al cmdlet Out-Host cuando tiene una página completa lista para mostrar, los cmdlets que lo preceden en la canalización detienen la operación hasta que la siguiente página de salida esté disponible. Puede verlo si usa el Administrador de tareas de Windows para supervisar el uso de la CPU y la memoria de Windows PowerShell.
+El comando Out\-Host\-Paging es un elemento de canalización útil cuando haya una salida larga que se desee mostrar lentamente. Es especialmente útil si la operación hace un uso muy intensivo de la CPU. Dado que el procesamiento se transfiere al cmdlet Out\-Host cuando tiene una página completa lista para mostrar, los cmdlets que lo preceden en la canalización detienen la operación hasta que esté disponible la siguiente página de salida. Puede verlo si usa el Administrador de tareas de Windows para supervisar el uso de la CPU y la memoria de Windows PowerShell.
 
-Ejecute el siguiente comando: **Get-ChildItem C:\Windows -Recurse**. Compare el uso de la CPU y la memoria con este comando: **Get-ChildItem C:\Windows -Recurse | Out-Host -Paging**. Lo que ve en la pantalla es texto, lo que se debe a la necesidad de representar objetos como texto en una ventana de la consola. Se trata simplemente de una representación de lo que sucede realmente en Windows PowerShell. Por ejemplo, considere el cmdlet Get-Location. Si escribe **Get-Location** mientras la ubicación actual es la raíz de la unidad C, verá la siguiente salida:
+Ejecute el siguiente comando: **Get\-ChildItem C:\\Windows \-Recurse**. Compare el uso de la CPU y la memoria con este comando: **Get\-ChildItem C:\\Windows \-Recurse | Out\-Host \-Paging**. Lo que ve en la pantalla es texto, lo que se debe a la necesidad de representar objetos como texto en una ventana de la consola. Se trata simplemente de una representación de lo que sucede realmente en Windows PowerShell. Por ejemplo, considere el cmdlet Get\-Location. Si escribe **Get\-Location** mientras la ubicación actual es el directorio raíz de la unidad C, verá la siguiente salida:
 
 ```
 PS> Get-Location
@@ -51,20 +55,21 @@ Path
 C:\
 ```
 
-Si Windows PowerShell canaliza texto, al emitir un comando como **Get-Location | Out-Host**, pasará de **Get-Location** a **Out-Host** un conjunto de caracteres en el orden en que se muestran en la pantalla. En otras palabras, si fuera a ignorar la información de encabezado, **Out-Host** recibiría primero el carácter '**C'**, luego el carácter '**:'** y, finalmente, el carácter '**\'**. El cmdlet **Out-Host** no pudo determinar el significado que debía asociarse a los caracteres emitidos por el cmdlet **Get-Location**.
+Si texto canalizado de Windows PowerShell, al emitir un comando como **Get\-Location | Out\-Host**, pasará de **Get\-Location** a **Out\-Host** un conjunto de caracteres en el orden en que se muestran en la pantalla. En otras palabras, si fuera a ignorar la información de encabezado, **Out\-Host** recibiría en primer lugar el carácter '**C'**, luego el carácter '**:'** y, finalmente, el carácter '**\\'**. El cmdlet **Out\-Host** no puede determinar que significado se asocia con los caracteres que genera el cmdlet **Get\-Location**.
 
 En lugar de utilizar texto para permitir que los comandos de una canalización se comuniquen, Windows PowerShell usa objetos. Desde el punto de vista de un usuario, los objetos empaquetan información relacionada en un formulario que facilita la manipulación de la información como una unidad y la extracción de los elementos específicos que necesita.
 
-El comando **Get-Location** no devuelve el texto que contenga la ruta de acceso actual. Devuelve un conjunto de información denominado objeto **PathInfo** que contiene la ruta de acceso actual junto con otra información. El cmdlet **Out-Host** envía luego este objeto **PathInfo** a la pantalla y Windows PowerShell decide qué información se mostrará y cómo se mostrará en función de sus reglas de formato.
+El comando **Get\-Location** no devuelve texto que contenga la ruta de acceso actual. Devuelve un conjunto de información denominado objeto **PathInfo** que contiene la ruta de acceso actual junto con otra información. Luego, el cmdlet **Out\-Host** envía este objeto **PathInfo** a la pantalla y Windows PowerShell decide qué información se mostrará y cómo se mostrará en función de sus reglas de formato.
 
-De hecho, la información de encabezado generada por el cmdlet **Get-Location** se agrega solo al final del proceso, como parte del proceso de formato de los datos para su presentación en pantalla. Lo que ve en la pantalla es un resumen de la información y no una representación completa del objeto de salida.
+De hecho, la información de encabezado generada por el cmdlet **Get\-Location** se agrega solo al final del proceso, como parte del proceso de formato de los datos para su presentación en pantalla. Lo que ve en la pantalla es un resumen de la información y no una representación completa del objeto de salida.
 
-Dado que puede haber más información devuelta por un comando de Windows PowerShell de la que vemos en la ventana de la consola, ¿cómo podemos recuperar los elementos no visibles? ¿Cómo se pueden ver los datos adicionales? ¿Qué ocurre si quiere ver los datos en un formato diferente al que suele usar Windows PowerShell?
+Dado que puede haber más información devuelta por un comando de Windows PowerShell de la que vemos en la ventana de la consola, ¿cómo se pueden recuperar los elementos no visibles? ¿Cómo se pueden ver los datos adicionales? ¿Qué ocurre si quiere ver los datos en un formato diferente al que suele usar Windows PowerShell?
 
 En lo que queda de este capítulo explicaremos cómo puede detectar la estructura de objetos específicos de Windows PowerShell, seleccionar elementos específicos y darles formato para mostrarlos más fácilmente, y cómo enviar esta información a ubicaciones de salida alternativas, como archivos e impresoras.
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

@@ -1,13 +1,17 @@
 ---
-title:  Canalización de objetos
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  523d8ae4-d743-47a4-b79a-806130ca688a
+title: "Canalización de objetos"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: 523d8ae4-d743-47a4-b79a-806130ca688a
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: 56aa32d40d8e5e61f5328d5a373ca5a1bd7ca6e3
+
 ---
 
 # Canalización de objetos
@@ -19,6 +23,7 @@ En este capítulo, se describe cómo la canalización de Windows PowerShell difi
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

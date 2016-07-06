@@ -1,13 +1,17 @@
 ---
-title:  Apéndice 2 Crear un acceso directo de PowerShell personalizado
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  5d4fd421-5d43-4ec7-86fd-acfe887b066e
+title: "Apéndice 2 Crear un acceso directo de PowerShell personalizado"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: 5d4fd421-5d43-4ec7-86fd-acfe887b066e
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: 24e9b67cf51b99156db3f0bdfb446996b9d3df76
+
 ---
 
 # Apéndice 2: Crear de un acceso directo de PowerShell personalizado
@@ -15,15 +19,15 @@ El siguiente procedimiento describe cómo crear un acceso directo a Windows Powe
 
 1.  Crear un acceso directo que apunte a Powershell.exe.
 
-2.  Haga clic con el botón derecho en el acceso directo y, después, haga clic en **Propiedades**.
+2.  Haga clic con el botón derecho en el acceso directo y, después, haga clic en \-Propiedades**.
 
 3.  Haga clic en la pestaña **Opciones**.
 
 4.  En la sección **Editar opciones**, active la casilla **Edición rápida**.
 
-    Esta configuración permite seleccionar texto en la ventana de la consola de Windows PowerShell arrastrando el botón izquierdo del mouse, así como copiar texto en el Portapapeles presionando ENTRAR o haciendo clic con el botón derecho.
+    Esta opción permite seleccionar texto en la ventana de la consola de Windows PowerShell arrastrando el botón izquierdo del ratón, así como copiar texto en el Portapapeles presionando ENTRAR o haciendo clic con el botón derecho.
 
-5.  En la sección **Editar opciones**, active la casilla **Modo de inserción**. Esta configuración permite hacer clic con el botón derecho en la ventana de la consola para pegar texto automáticamente desde el Portapapeles.
+5.  En la sección **Editar opciones**, active la casilla **Modo de inserción**. Esta opción permite hacer clic con el botón derecho en la ventana de la consola para pegar texto automáticamente desde el Portapapeles.
 
 6.  En la sección **Historial de comandos**, escriba o seleccione un número entre 1 y 999 en el cuadro **Tamaño del búfer**. Esta acción establece el número de comandos escritos que se mantendrán en el búfer de la consola.
 
@@ -41,6 +45,7 @@ El siguiente procedimiento describe cómo crear un acceso directo a Windows Powe
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 

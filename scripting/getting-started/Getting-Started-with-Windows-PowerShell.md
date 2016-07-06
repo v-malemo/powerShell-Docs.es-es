@@ -1,13 +1,17 @@
 ---
-title:  Introducción a Windows PowerShell
-ms.date:  2016-05-11
-keywords:  powershell,cmdlet
-description:  
-ms.topic:  article
-author:  jpjofre
-manager:  dongill
-ms.prod:  powershell
-ms.assetid:  b0e2ad92-875f-421d-b612-f624e644aa69
+title: "Introducción a Windows PowerShell"
+ms.date: 2016-05-11
+keywords: powershell,cmdlet
+description: 
+ms.topic: article
+author: jpjofre
+manager: dongill
+ms.prod: powershell
+ms.assetid: b0e2ad92-875f-421d-b612-f624e644aa69
+translationtype: Human Translation
+ms.sourcegitcommit: 03ac4b90d299b316194f1fa932e7dbf62d4b1c8e
+ms.openlocfilehash: bee671bf537a100bd8ad407f34ccd5fe63c7f9a8
+
 ---
 
 # Introducción a Windows PowerShell
@@ -15,7 +19,7 @@ Windows PowerShell es un nuevo shell de línea de comandos de Windows diseñado 
 
 A diferencia de la mayoría de los shells, que aceptan y devuelven texto, Windows PowerShell se basa en .NET Framework Common Language Runtime (CLR) y .NET Framework, y acepta y devuelve objetos de .NET Framework. Este cambio fundamental en el entorno aporta herramientas y métodos completamente nuevos para la administración y configuración de Windows.
 
-Windows PowerShell presenta el concepto de cmdlet (pronunciado "command-let"), una sencilla herramienta de línea de comandos de función única integrada en el shell. Puede usar cada cmdlet por separado, pero su eficacia se aprecia cuando estas sencillas herramientas se usan juntas para realizar tareas complejas. Windows PowerShell incluye más de cien cmdlets principales básicos. Además, puede escribir sus propios cmdlets y compartirlos con otros usuarios.
+Windows PowerShell presenta el concepto de cmdlet (pronunciado "command\-let"), una sencilla herramienta de línea de comandos de función única integrada en el shell. Puede usar cada cmdlet por separado, pero su eficacia se aprecia cuando estas sencillas herramientas se usan juntas para realizar tareas complejas. Windows PowerShell incluye más de cien cmdlets principales básicos. Además, puede escribir sus propios cmdlets y compartirlos con otros usuarios.
 
 Al igual que muchos de los shells, Windows PowerShell le proporciona acceso al sistema de archivos en el equipo. Además, los *proveedores* de Windows PowerShell permiten acceder a otros almacenes de datos, como el Registro y los almacenes de certificados de firma digital, tan fácilmente como se accede al sistema de archivos.
 
@@ -33,6 +37,7 @@ En este tema:
 
 
 
-<!--HONumber=May16_HO2-->
+
+<!--HONumber=Jun16_HO4-->
 
 
