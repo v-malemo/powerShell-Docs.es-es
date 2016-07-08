@@ -1,37 +1,55 @@
 {
-    "build_entry_point": "",
-    "docsets_to_publish": [
-        {
-            "docset_name": "PowerShell_PowerShell-docs_dsc",
-            "build_output_subfolder": "dsc",
-            "locale": "es-es",
-            "version": 0,
-            "open_to_public_contributors": "true",
-            "type_mapping": { 
-                "Conceptual": "Content"
-            } 
-        },
-        {
-            "docset_name": "PowerShell_PowerShell-docs_wmf",
-            "build_output_subfolder": "wmf",
-            "locale": "es-es",
-            "version": 0,
-            "open_to_public_contributors": "true",
-            "type_mapping": {
-                "Conceptual": "Content"
-            }
-        }, 
-        {
-            "docset_name": "PowerShell_PowerShell-docs_scripting",
-            "build_output_subfolder": "scripting",
-            "locale": "es-es",
-            "version": 0,
-            "open_to_public_contributors": "true",
-            "type_mapping": { 
-                "Conceptual": "Content"
-            } 
-        }
-    ],
-    "notification_subscribers": ["alsobole@microsoft.com"],
-    "branches_to_filter": ["master-oldev", "live-oldev"]
+  "build_entry_point": "",
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
+  "docsets_to_publish": [
+    {
+      "docset_name": "PowerShell_PowerShell-docs_dsc",
+      "build_output_subfolder": "dsc",
+      "locale": "es-es",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      }
+    },
+    {
+      "docset_name": "PowerShell_PowerShell-docs_wmf",
+      "build_output_subfolder": "wmf",
+      "locale": "es-es",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      }
+    },
+    {
+      "docset_name": "PowerShell_PowerShell-docs_scripting",
+      "build_output_subfolder": "scripting",
+      "locale": "es-es",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      }
+    },
+    {
+      "docset_name": "PowerShell_PowerShell-docs_jea",
+      "build_output_subfolder": "jea",
+      "locale": "es-es",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content"
+      }
+    }
+  ],
+  "notification_subscribers": [
+    "alsobole@microsoft.com"
+  ],
+  "branches_to_filter": [
+    "master-oldev",
+    "live-oldev"
+  ],
+  "skip_source_output_uploading": false
 }
