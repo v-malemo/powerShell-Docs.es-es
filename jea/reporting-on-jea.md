@@ -8,6 +8,7 @@ keywords: powershell,cmdlet,jea
 ms.date: 2016-06-22
 title: "Generación de informes en JEA"
 ms.technology: powershell
+translationtype: Human Translation
 ms.sourcegitcommit: 7504fe496a8913718847e45115d126caf4049bef
 ms.openlocfilehash: d867a6462e9fa8b6e16c8c2103899c72b380116c
 
@@ -61,6 +62,6 @@ Get-PSSessionCapability -Username 'CONTOSO\OperatorUser' -ConfigurationName JEAD
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 

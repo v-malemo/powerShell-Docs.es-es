@@ -8,6 +8,7 @@ keywords: powershell,cmdlet,jea
 ms.date: 2016-06-22
 title: requisitos previos
 ms.technology: powershell
+translationtype: Human Translation
 ms.sourcegitcommit: 7504fe496a8913718847e45115d126caf4049bef
 ms.openlocfilehash: ac9231a475ba84e9051bbd06a65f3f20c9e49846
 
@@ -128,6 +129,6 @@ Nota: También puede habilitar la transcripción de PowerShell de todo el sistem
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 

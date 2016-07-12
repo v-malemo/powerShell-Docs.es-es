@@ -8,6 +8,7 @@ keywords: powershell,cmdlet,jea
 ms.date: 2016-06-22
 title: consideraciones al limitar comandos
 ms.technology: powershell
+translationtype: Human Translation
 ms.sourcegitcommit: 7504fe496a8913718847e45115d126caf4049bef
 ms.openlocfilehash: 9f3f79a29e0fb7ec5a5111284bb7985548e17749
 
@@ -24,6 +25,6 @@ Es muy importante que tenga mucho cuidado al exponer comandos como `Copy-Item`.
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 

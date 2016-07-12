@@ -8,6 +8,7 @@ author: jpjofre
 manager: dongill
 ms.prod: powershell
 ms.assetid: a9f9e7a7-3ea8-47d3-bbb4-6e437f6d4a4a
+translationtype: Human Translation
 ms.sourcegitcommit: ffd2151603eb87f007e6596624a126585840f8a4
 ms.openlocfilehash: 22c5df4f62f21f690800eaffe47afee604cc61d3
 
@@ -174,6 +175,6 @@ Cuando se usa una interfaz de línea de comandos, no es conveniente usar el Expl
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 

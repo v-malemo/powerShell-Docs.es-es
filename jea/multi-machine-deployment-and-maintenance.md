@@ -8,6 +8,7 @@ keywords: powershell,cmdlet,jea
 ms.date: 2016-06-22
 title: "Implementación y mantenimiento de varias máquinas"
 ms.technology: powershell
+translationtype: Human Translation
 ms.sourcegitcommit: 7504fe496a8913718847e45115d126caf4049bef
 ms.openlocfilehash: 784806197a64eb30af1ecea4af55575434ce7b87
 
@@ -68,6 +69,6 @@ Unregister-PSSessionConfiguration -Name JEADemo
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 
