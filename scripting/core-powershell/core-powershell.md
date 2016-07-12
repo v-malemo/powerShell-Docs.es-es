@@ -7,6 +7,7 @@ ms.topic: article
 author: jpjofre
 manager: dongill
 ms.prod: powershell
+translationtype: Human Translation
 ms.sourcegitcommit: cd6e130d9f6f70449084d25eb386a3c0a2b84737
 ms.openlocfilehash: 4c22e1a2543690a971836813cb32ace74ababb4a
 
@@ -26,6 +27,6 @@ Encuentre en esta sección:
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 

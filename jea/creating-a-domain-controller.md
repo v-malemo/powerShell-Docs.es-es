@@ -8,8 +8,9 @@ keywords: powershell,cmdlet,jea
 ms.date: 2016-06-22
 title: "creación de un controlador de dominio"
 ms.technology: powershell
-ms.sourcegitcommit: 7504fe496a8913718847e45115d126caf4049bef
-ms.openlocfilehash: 12fc529cfb21db260c9d1a2af87e2c3825d2ec4e
+translationtype: Human Translation
+ms.sourcegitcommit: d4a72a7c5883b1d3ba8de3dbc9cfe016a6fb3498
+ms.openlocfilehash: 8473eb668e4da5bab01c2f2b7647cbced413bd22
 
 ---
 
@@ -123,10 +124,10 @@ $NonAdminHelpDeskGroup = New-ADGroup -Name "JEA_NonAdmin_HelpDesk" -GroupScope D
 $TestGroup = New-ADGroup -Name "Test_Group" -GroupScope DomainLocal -PassThru
 
 # Make Users
-$OperatorUser = New-ADUser -Name "OperatorUser" -AccountPassword (ConvertTo-SecureString "pa`$`$w0rd" -AsPlainText -Force) -PassThru
+$OperatorUser = New-ADUser -Name "OperatorUser" -AccountPassword (ConvertTo-SecureString 'pa$$w0rd' -AsPlainText -Force) -PassThru
 Enable-ADAccount -Identity $OperatorUser
 
-$HelpDeskUser = New-ADUser -name "HelpDeskUser" -AccountPassword (ConvertTo-SecureString "pa`$`$w0rd" -AsPlainText -Force) -PassThru
+$HelpDeskUser = New-ADUser -name "HelpDeskUser" -AccountPassword (ConvertTo-SecureString 'pa$$w0rd' -AsPlainText -Force) -PassThru
 Enable-ADAccount -Identity $HelpDeskUser
 
 # Add Users to Groups
@@ -137,6 +138,6 @@ Add-ADGroupMember -Identity $NonAdminHelpDeskGroup -Members $HelpDeskUser
 
 
 
-<!--HONumber=Jun16_HO4-->
+<!--HONumber=Jul16_HO1-->
 
 
