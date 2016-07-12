@@ -50,6 +50,9 @@
   "20a7711604033b5ff1484dbb526df2642a9a1738": [
     "dsc\\environmentResource.md"
   ],
+  "8c8fb7a40c066b048e1a54a741f4953e6b5a47b6": [
+    "dsc\\fileResource.md"
+  ],
   "535b25125a0c56feb10147f1872bdfdf3e3ef33a": [
     "dsc\\fileResource.md"
   ],
@@ -181,6 +184,9 @@
   ],
   "d7bd873cde4a4bda12490d69acdd5e2b0ba8cdec": [
     "dsc\\windowsProcessResource.md"
+  ],
+  "b2900987b1102cf41880e5af0a0cc44bc6499ef5": [
+    "dsc\\resourceAuthoringChecklist.md"
   ],
   "bd6af2cbf746e71aa59f509eae14664e647a1b05": [
     "dsc\\resourceAuthoringChecklist.md"
@@ -708,6 +714,9 @@
   "94362dd7ce17c02f9f8706a9e8d111712ed21810": [
     "scripting\\core-powershell\\ise\\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md"
   ],
+  "080cbfd63838472d9d5405e4b232cda1cc1d028a": [
+    "scripting\\core-powershell\\ise\\How-to-Debug-Scripts-in-Windows-PowerShell-ISE.md"
+  ],
   "c6d79fc7ef5a896bb3b686468adb540d4327605e": [
     "scripting\\core-powershell\\ise\\How-to-Debug-Scripts-in-Windows-PowerShell-ISE.md"
   ],
@@ -1056,6 +1065,9 @@
   "e2e129c1c90ab7561861a7d9c71fb654569d5712": [
     "scripting\\setup\\Windows-PowerShell-System-Requirements.md"
   ],
+  "ababa1b3ce913528a3ac7089d91ef74c5eb27737": [
+    "scripting\\whats-new\\What-s-New-in-the-PowerShell-50-ISE.md"
+  ],
   "7be11016317a65565dd9af2a3f65e8f00b3818f3": [
     "scripting\\whats-new\\What-s-New-in-the-PowerShell-50-ISE.md"
   ],
@@ -1248,6 +1260,9 @@
   "e2646a59c7a241491ef934c62fdfb6d649d16191": [
     "wmf\\5.1\\features-scenarios-cache\\oneget-improvement.md"
   ],
+  "f864850128f118704d7545b09110835ab1d51b8e": [
+    "wmf\\5.1\\features-scenarios-cache\\ps-engine-enhancements.md"
+  ],
   "90d8067c0d3eacf60260da654c2a8b8caeca20a2": [
     "wmf\\5.1\\features-scenarios-cache\\ps-engine-enhancements.md"
   ],
@@ -1256,6 +1271,9 @@
   ],
   "ec5a425d17b841f24e94167be946cf9e2daf3316": [
     "wmf\\5.1\\features-scenarios-cache\\using-module.md"
+  ],
+  "8a10903c421f62311a28c9f32e352bba75f21052": [
+    "wmf\\5.1\\install-configure.md"
   ],
   "5a7aa50eb4ad5ea2788dc2cbdd189d5632f5c15f": [
     "wmf\\5.1\\install-configure.md"
@@ -1266,13 +1284,22 @@
   "cfe0a6562743f1df81acb81e33c120cb67f9042c": [
     "wmf\\5.1\\known-issues-cache\\template.md"
   ],
+  "d25a22b0448e82a85e45c302a998abc35bd4c1b6": [
+    "wmf\\5.1\\release-notes.md"
+  ],
   "a4a59cefde5bac004dc07d7b5bfc6ad091eaf8ea": [
     "wmf\\5.1\\release-notes.md"
+  ],
+  "bc58ff634458e9c8d218d4ac44ee02e64b8a5dcf": [
+    "wmf\\5.1\\scenarios-features.md"
   ],
   "9341b7fc3feea20cc2434065c3e512d1a8dd2b54": [
     "wmf\\5.1\\scenarios-features.md"
   ],
   "a7ef0ddf4d093a89f32f3484dfbef78fb159f0c2": [
     "wmf\\README.md"
+  ],
+  "d4cd4b828089caf47b32a405a68a3f357958f37e": [
+    "wmf\\5.1\\features-scenarios-cache\\PesterUpdates.md"
   ]
 }
