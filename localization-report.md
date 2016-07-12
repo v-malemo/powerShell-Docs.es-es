@@ -1819,8 +1819,8 @@
 * Archive Datetime: 2016-07-12 13:13:40
 * Handback File: [common-role-capability-pitfalls.dfaa23ae81cb39f04c2fe16d9e7917452e8b7b3b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/common-role-capability-pitfalls.dfaa23ae81cb39f04c2fe16d9e7917452e8b7b3b.es-es.xlf)
 * Handback Datetime: 2016-07-12 18:24:39
-* Bilingual File: [common-role-capability-pitfalls.dfaa23ae81cb39f04c2fe16d9e7917452e8b7b3b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/e4170e4a5c5e1f9f3df50d8f37b9b6837035f1ef/ol-handback/PowerShell/powerShell-Docs.es-es/live/common-role-capability-pitfalls.dfaa23ae81cb39f04c2fe16d9e7917452e8b7b3b.es-es.xlf)
-* Bilingual Datetime: 2016-07-05 15:45:05
+* Bilingual File: [common-role-capability-pitfalls.dfaa23ae81cb39f04c2fe16d9e7917452e8b7b3b.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/common-role-capability-pitfalls.dfaa23ae81cb39f04c2fe16d9e7917452e8b7b3b.es-es.xlf)
+* Bilingual Datetime: 2016-07-12 18:26:26
 * [Back to Top](#report-top)
 
 ##### <a name='9f3f79a29e0fb7ec5a5111284bb7985548e17749103'></a> Source: [jea\considerations-when-limiting-commands.md](https://github.com/PowerShell/powerShell-Docs/blob/7504fe496a8913718847e45115d126caf4049bef/jea/considerations-when-limiting-commands.md)
@@ -1847,8 +1847,8 @@
 * Archive Datetime: 2016-07-12 13:13:40
 * Handback File: [creating-a-domain-controller.b6645bbc4de5b0de067c85719afba2a9b0dcc9fb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/creating-a-domain-controller.b6645bbc4de5b0de067c85719afba2a9b0dcc9fb.es-es.xlf)
 * Handback Datetime: 2016-07-12 18:24:39
-* Bilingual File: [creating-a-domain-controller.b6645bbc4de5b0de067c85719afba2a9b0dcc9fb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6853053180cb804b845e59e79161e22693fafaea/ol-handback/PowerShell/powerShell-Docs.es-es/live/creating-a-domain-controller.b6645bbc4de5b0de067c85719afba2a9b0dcc9fb.es-es.xlf)
-* Bilingual Datetime: 2016-07-05 15:28:29
+* Bilingual File: [creating-a-domain-controller.b6645bbc4de5b0de067c85719afba2a9b0dcc9fb.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/creating-a-domain-controller.b6645bbc4de5b0de067c85719afba2a9b0dcc9fb.es-es.xlf)
+* Bilingual Datetime: 2016-07-12 18:26:26
 * [Back to Top](#report-top)
 
 ##### <a name='fa5ac04e8f04a6f033fbb4726f384a693551251e105'></a> Source: [jea\docfx.json](https://github.com/PowerShell/powerShell-Docs/blob/c1bb25eeb1a4fbda5f2fc8f9ca29213f01487ccb/jea/docfx.json)
@@ -2415,8 +2415,8 @@
 * Archive Datetime: 2016-07-12 13:13:40
 * Handback File: [core-powershell.94ba5d1996717b25414c15a5364425d4d49e05f1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/core-powershell.94ba5d1996717b25414c15a5364425d4d49e05f1.es-es.xlf)
 * Handback Datetime: 2016-07-12 18:24:39
-* Bilingual File: [core-powershell.94ba5d1996717b25414c15a5364425d4d49e05f1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/6853053180cb804b845e59e79161e22693fafaea/ol-handback/PowerShell/powerShell-Docs.es-es/live/core-powershell.94ba5d1996717b25414c15a5364425d4d49e05f1.es-es.xlf)
-* Bilingual Datetime: 2016-07-05 15:28:29
+* Bilingual File: [core-powershell.94ba5d1996717b25414c15a5364425d4d49e05f1.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/core-powershell.94ba5d1996717b25414c15a5364425d4d49e05f1.es-es.xlf)
+* Bilingual Datetime: 2016-07-12 18:26:26
 * [Back to Top](#report-top)
 
 ##### <a name='8af4de973a95352fd41d2bb2823b9382899ef5bf142'></a> Source: [scripting\core-powershell\ise\How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md](https://github.com/PowerShell/powerShell-Docs/blob/03ac4b90d299b316194f1fa932e7dbf62d4b1c8e/scripting/core-powershell/ise/How-to-Create-a-PowerShell-Tab-in-Windows-PowerShell-ISE.md)
@@ -4399,6 +4399,8 @@
 * Archive Datetime: 2016-07-12 13:13:40
 * Handback File: [dsc_encryptedmof.ae98aa583f49a21a6d3fb46448195bcd56337fdc.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/dsc_encryptedmof.ae98aa583f49a21a6d3fb46448195bcd56337fdc.es-es.xlf)
 * Handback Datetime: 2016-07-12 18:24:39
+* Bilingual File: [dsc_encryptedmof.ae98aa583f49a21a6d3fb46448195bcd56337fdc.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/dsc_encryptedmof.ae98aa583f49a21a6d3fb46448195bcd56337fdc.es-es.xlf)
+* Bilingual Datetime: 2016-07-12 18:26:26
 * [Back to Top](#report-top)
 
 ##### <a name='c858f997c814483a10f5a9d59fb5352c99ac1093271'></a> Source: [wmf\5.0\dsc_freqnomultiple.md](https://github.com/PowerShell/powerShell-Docs/blob/4a8cf1a6fcdde0ceb1590914b1cd2c414a851e95/wmf/5.0/dsc_freqnomultiple.md)
@@ -4449,6 +4451,8 @@
 * Archive Datetime: 2016-07-12 13:13:40
 * Handback File: [dsc_importdscresource.6e807c405f17f191256af2d3a990bb08e143b60e.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/dsc_importdscresource.6e807c405f17f191256af2d3a990bb08e143b60e.es-es.xlf)
 * Handback Datetime: 2016-07-12 18:24:39
+* Bilingual File: [dsc_importdscresource.6e807c405f17f191256af2d3a990bb08e143b60e.es-es.xlf](https://github.com/PowerShell/powerShell-Docs.handback/blob/2475bcc79c43a1b2f1a310aef85d6745c6e93271/ol-handback/PowerShell/powerShell-Docs.es-es/live/dsc_importdscresource.6e807c405f17f191256af2d3a990bb08e143b60e.es-es.xlf)
+* Bilingual Datetime: 2016-07-12 18:26:26
 * [Back to Top](#report-top)
 
 ##### <a name='336c6bc43b482eda6524ebed0381240868261f64275'></a> Source: [wmf\5.0\dsc_improvements.md](https://github.com/PowerShell/powerShell-Docs/blob/b32cb86b7a18fee929cc81360d81f479571a74c2/wmf/5.0/dsc_improvements.md)
